@@ -1,0 +1,3 @@
+service: webhook
+runtime: python37
+
