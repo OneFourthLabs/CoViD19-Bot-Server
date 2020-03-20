@@ -4,6 +4,7 @@ import json
 
 app = Flask(__name__)
 
+covid_data = pd.read_json("CoViD_20Mar20.json")
 
 @app.route('/')
 def index():
@@ -11,13 +12,11 @@ def index():
 
 
 def find_intent_entity_match(intent, entities):
-    data = pd.read_json("CoViD_19Mar20.json")
-    data = data[data["Intent"] == intent]
+    data = covid_data[covid_data["Intent"] == intent]
     data["intent_match_count"] = data["Entities"].apply(
         lambda x: len(set(x) & set(entities)))
     answer = data.loc[data['intent_match_count'].idxmax()]
     return answer
-
 
 def results():
     req = request.get_json(force=True)
