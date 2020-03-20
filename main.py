@@ -1,11 +1,11 @@
 from flask import Flask, request, make_response, jsonify
-import pandas as pd 
+import pandas as pd
 import json
 
 app = Flask(__name__)
 
 @app.route('/')
-def index():    
+def index():
   return 'Hello World!'
 
 def find_intent_entity_match(intent,entities):
@@ -14,7 +14,7 @@ def find_intent_entity_match(intent,entities):
     data["intent_match_count"] = data["Entities"].apply(lambda x: len(set(x) & set(entities)))
     answer=data.loc[data['intent_match_count'].idxmax()]
     return answer
-    
+
 def results():
   req = request.get_json(force=True)
   params = req["queryResult"]["parameters"]
@@ -32,6 +32,13 @@ def results():
 def webhook():
   return make_response(jsonify(results()))
 
+# Example: https://webhook-dot-covid-bot.appspot.com/test/what-is/COVID-19,OK
+@app.route('/test/<path:query>', methods=['GET', 'POST'])
+def test(query):
+  intent, entities = query.split('/')
+  entities = entities.split(',')
+  response = find_intent_entity_match(intent, entities).to_json(indent=4)
+  return make_response(response)
 
 if __name__ == '__main__':
   app.run(port=8000,debug=True)
