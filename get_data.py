@@ -8,6 +8,7 @@ Original file is located at
 """
 
 import pandas as pd
+import datetime
 import os 
 
 # replace some names used in the file so that they confirm to ISO standards 
@@ -55,13 +56,12 @@ df_deaths = process_df('Deaths')
 
 ## merge the three files into one
 df = df_confirmed.merge(df_recovered, on=['Country', 'State', 'Date']).merge(df_deaths, on=['Country', 'State', 'Date'])
-
-print(df.head(3))
-
 ## convert the date string to datetime format
 df['Date'] = pd.to_datetime(df['Date'])
-
 df.sort_values(by=['Country', 'State', 'Date'], inplace=True)
+df[['Confirmed','Recovered','Deaths']] = df[['Confirmed','Recovered','Deaths']].diff()
+
+df = df[df['Date'] != datetime.datetime.strptime('2020-01-22', '%Y-%m-%d')]
 
 df.to_csv('coronabot_stats_data.csv', index=False)
 

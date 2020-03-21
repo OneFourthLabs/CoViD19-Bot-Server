@@ -26,8 +26,11 @@ corona_data['EntitiesStr'] = corona_data['Entities'].apply(entity_stringify)
 STATS_CSV = 'coronabot_stats_data.csv'
 stats_data = pd.read_csv(STATS_CSV)
 stats_data['Date'] = stats_data['Date'].apply(lambda x: x[0:10])
+stats_data['Date'] = pd.to_datetime(stats_data['Date'], infer_datetime_format=True)  
 
 failure_messages = ["Sorry I could not understand you", "I am sorry, I did not follow", "Can you please rephrase that"]
+
+stats_error_messages = ["I could not find the numbers for that query"]
 
 @app.route('/') 
 def index():
@@ -39,15 +42,22 @@ def get_stats(intent, entities):
   state = entities['geo-state'] if len(entities['geo-state']) > 0 else 'Total'
   case_type = entities['case_types'] if len(entities['case_types']) > 0 else 'Confirmed'
   yesterday = datetime.datetime.today() - datetime.timedelta(days=1)
-  date = entities['date-time'][0:10] if len(entities['date-time']) > 0 else yesterday.strftime("%Y-%m-%d")
+  date = datetime.datetime.strptime(entities['date-time'][0:10], '%Y-%m-%d') if len(entities['date-time']) > 0 else yesterday
 
 
   if not state == 'Total':
     stats_data_sel = stats_data[(stats_data['State'] == state) & (stats_data['Date'] == date)]
-    str_location = state + ', ' + stats_data_sel['Country']
+    str_location = state + ', ' + stats_data_sel.iloc[0]['Country']
   else:
     stats_data_sel = stats_data[(stats_data['Country'] == country) & (stats_data['State'] == state) & (stats_data['Date'] == date)]
     str_location = country
+
+  if stats_data_sel.empty:
+    response = {
+      "Response_Type": "Error:StatsNotFound",
+      "Answer": random.choice(stats_error_messages)
+    }
+    return response
 
   if case_type == 'deaths':
     case_type = 'Deaths'
@@ -55,12 +65,17 @@ def get_stats(intent, entities):
   elif case_type == 'recovered':
     case_type = 'Recovered'
     str_case_type = 'patients who were reported to be recovered'
+  else:
+    case_type = 'Confirmed'
+    str_case_type = 'total cases recorded'
 
-  ret_val = stats_data_sel.iloc[0][case_type]
+  ret_val = max(0, stats_data_sel.iloc[0][case_type])
+  date = date.strftime("%B %d")
   response = {
       "Response_Type": "Error:EntitiesNotFound",
-      "Answer": 'In ' + str_location + ' there were ' + str(ret_val) + ' ' + str_case_type + ' on ' + date
+      "Answer": 'In ' + str_location + ' there were ' + str(ret_val) + ' ' + str_case_type + ' till ' + date
   }
+  print(response["Answer"])
   return response
 
 def find_answer(intent, entities):
