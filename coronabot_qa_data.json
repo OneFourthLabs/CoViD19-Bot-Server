@@ -46,5 +46,29 @@
             "What is a pandemic"
         ]
         
+    },
+
+    {
+
+        "Intent": "what-is-scientific_term-or-disease",
+        "Entities": {
+                "scientific_term": "herd immunity"
+        },
+
+        "Sample_Question": "What is a herd immunity?",
+        "Answer_Title": "Herd immunity",
+        "Answer": "Herd immunity (also called herd effect, community immunity, population immunity, or social immunity) is a form of indirect protection from infectious disease that occurs when a large percentage of a population has become immune to an infection, whether through infection or vaccination, thereby providing a measure of protection for individuals who are not immune.In a population in which a large number of individuals are immune, chains of infection are likely to be disrupted, which stops or slows the spread of disease. The greater the proportion of individuals in a community who are immune, the smaller the probability that those who are not immune will come into contact with an infectious individual.",
+
+        "Source": "https://en.wikipedia.org/wiki/Herd_immunity",
+        "Reference": "https://www.youtube.com/watch?v=tC47JjakPSA",
+
+        "Image_URL": "",
+        "Response_Type": "Card",
+        "Audio_Link": "",
+
+        "Suggestions": [
+            "TODO"
+        ]
+        
     }
 ]
