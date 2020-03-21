@@ -1,0 +1,2075 @@
+[
+    {
+        "Question": "What is the difference between pandemic and epidemic",
+        "Intent": "difference-between",
+        "Answer": "According to the WHO, a pandemic is the worldwide spread of a new disease. \"A pandemic is when an epidemic spreads between countries”.\nThere are some other closely related terms that might be helpful :\n- Sporadic: When a disease occurs infrequently and irregularly.\n- Endemic: A constant presence and/or usual prevalence of a disease or infection within a geographic area. (Hyperendemic is a situation in which there are persistent, high levels of disease occurrence.)\n- Epidemic: A sudden increase in the number of cases of a disease—more than what's typically expected for the population in that area.\n- Pandemic: An epidemic that has spread over several countries or continents, affecting a large number of people.",
+        "Source": "https://www.health.com/condition/infectious-diseases/epidemic-vs-pandemic",
+        "Reference": "https://www.health.com/condition/infectious-diseases/epidemic-vs-pandemic",
+        "Image_URL": null,
+        "Question_Type": null,
+        "Audio_Link": null,
+        "Entities": [
+            "pandemic",
+            "epidemic"
+        ]
+    },
+    {
+        "Question": "What is the difference between virus and bacteria",
+        "Intent": "difference-between",
+        "Answer": "Bacteria\nBacteria are single-celled microorganisms that thrive in many different types of environments. Some varieties live in extremes of cold or heat. Others make their home in people's intestines, where they help digest food. Most bacteria cause no harm to people, but there are exceptions.\nInfections caused by bacteria include:\n- Strep throat\n- Tuberculosis\n- Urinary tract infections\nInappropriate use of antibiotics has helped create bacterial diseases that are resistant to treatment with different types of antibiotic medications.\n\nViruses\nViruses are even smaller than bacteria and require living hosts  such as people, plants or animals to multiply. Otherwise, they can't survive. When a virus enters your body, it invades some of your cells and takes over the cell machinery, redirecting it to produce the virus.\nDiseases caused by viruses include:\n- Chickenpox\n- AIDS\n- Common colds\nIn some cases, it may be difficult to determine whether a bacterium or a virus is causing your symptoms. Many ailments  such as pneumonia, meningitis and diarrhea can be caused by either bacteria or viruses.",
+        "Source": "https://www.mayoclinic.org/diseases-conditions/infectious-diseases/expert-answers/infectious-disease/faq-20058098",
+        "Reference": "https://www.cdc.gov/antibiotic-use/community/pdfs/Viruses-or-Bacteria-Factsheet-Eng.pdf",
+        "Image_URL": null,
+        "Question_Type": null,
+        "Audio_Link": null,
+        "Entities": [
+            "virus",
+            "bacteria"
+        ]
+    },
+    {
+        "Question": "Should I self-isolate or self-quarantine?",
+        "Intent": "difference-between",
+        "Answer": "if you are sick, you self-isolate. If you are at high risk of becoming sick because you were in direct contact with someone who is sick, you self-quarantine. Finally, if you attended an event where someone sitting at the other side of the room later became sick, you self-monitor.\n\nIf you are an asymptomatic carrier, you show no signs of illness, yet you can pass on the virus to others. This is to be distinguished from an incubatory carrier, who transmits pathogens immediately following infection but prior to developing symptoms.",
+        "Source": "https://www.weforum.org/agenda/2020/03/should-you-self-isolate-self-quarantine-or-self-monitor/",
+        "Reference": null,
+        "Image_URL": null,
+        "Question_Type": null,
+        "Audio_Link": null,
+        "Entities": [
+            "self-isolation",
+            "self-quarantine"
+        ]
+    },
+    {
+        "Question": "What is the difference between coronavirus and SARS",
+        "Intent": "difference-between",
+        "Answer": "Both COVID-19 and SARS belong to the corona group of viruses. SARS coronavirus (SARS-CoV) – virus was identified in 2003 and caused Severe Acute respiratory Syndrome. COVID-19 the disease is caused by the virus SARS-CoV-2. \nViruses, and the diseases they cause, often have different names.  For example, HIV is the virus that causes AIDS.  People often know the name of a disease, such as measles, but not the name of the virus that causes it (rubeola).\n\nThere are different processes, and purposes, for naming viruses and diseases.\n\nViruses are named based on their genetic structure to facilitate the development of diagnostic tests, vaccines and medicines. Virologists and the wider scientific community do this work, so viruses are named by the International Committee on Taxonomy of Viruses (ICTV).",
+        "Source": "https://www.who.int/ith/diseases/sars/en/",
+        "Reference": null,
+        "Image_URL": null,
+        "Question_Type": null,
+        "Audio_Link": null,
+        "Entities": [
+            "coronavirus",
+            "SARS"
+        ]
+    },
+    {
+        "Question": "Updates from WHO",
+        "Intent": "get-updates",
+        "Answer": "DYNAMIC_ANSWER",
+        "Source": null,
+        "Reference": null,
+        "Image_URL": null,
+        "Question_Type": null,
+        "Audio_Link": null,
+        "Entities": [
+            "who",
+            "cdc"
+        ]
+    },
+    {
+        "Question": "Updates from Indian govt",
+        "Intent": "get-updates",
+        "Answer": "DYNAMIC_ANSWER",
+        "Source": null,
+        "Reference": null,
+        "Image_URL": null,
+        "Question_Type": null,
+        "Audio_Link": null,
+        "Entities": [
+            "india",
+            "tamil-nadu"
+        ]
+    },
+    {
+        "Question": "What is the current travel advisory",
+        "Intent": "get-updates",
+        "Answer": "All existing visas (except diplomatic, official, UN/International Organizations, employment,\r\nproject visas) stand suspended till 15th April 2020. This will come into effect from 1200 GMT on\r\n13th March 2020 at the port of departure.\r\n2. Visa free travel facility granted to OCI card holders is kept in abeyance till 15th April 2020. This\r\nwill come into effect from 1200 GMT on 13th March 2020 at the port of departure.\r\n3. OCI card holders already in India can stay in India as long as they want.\r\n4. Visas of all foreigners already in India remain valid and they may contact the nearest FRRO/FRO\r\nthrough e-FRRO module for extension/conversion etc. of their visa or grant of any consular\r\nservice, if they choose to do so.\r\n5. Any foreign national who intends to travel to India for compelling reason may contact the nearest\r\nIndian Mission.\r\n6. In addition to Visa restrictions already in place, passengers traveling from /having visited Italy or\r\nRepublic of Korea and desirous of entering India will need certificate of having tested negative\r\nfor COVID-19 from the designated laboratories authorized by the health authorities of these\r\ncountries. This is in enforcement since 0000 hrs. of 10th March, 2020 and is a temporary measure\r\ntill cases of COVID-19 subside.\r\n7. All incoming travelers, including Indian nationals, arriving from or having visited China,\r\nItaly, Iran, Republic of Korea, France, Spain and Germany after 15th February, 2020 shall be\r\nquarantined for a minimum period of 14 days. This will come into effect from 1200 GMT on 13th\r\nMarch 2020 at the port of departure.\r\n8. Incoming travelers, including Indian nationals, are advised to avoid non-essential travel and\r\nare informed that they can be quarantined for a minimum of 14 days on their arrival in India.\r\nIndian nationals are further strongly advised to refrain from travelling to China, Italy, Iran, Republic of Korea, France, Spain and Germany. \r\n10. All incoming international passengers returning to India should self- monitor their health and follow required do’s and dont’s as detailed by the Government. \r\n11. International traffic through land borders will be restricted to designated check posts with robust screening facilities. These will be notified separately by M/o Home Affairs. \r\n12. All international Passengers entering into India are required to furnish duly filled self-declaration form in duplicate (including personal particulars i.e. phone no. and address in India) ( as annexed) to Health Officials and Immigration officials and undergo Universal Health Screening at the designated health counters at all Points of Entry. \r\n13. For any queries related to health, people may contact Ministry of Health & Family Welfare 24*7 helpline number (+91-11-23978046) or email at (ncov2019@gmail.com).",
+        "Source": "https://www.mohfw.gov.in/pdf/ConsolidatedTraveladvisoryUpdated11032020.pdf",
+        "Reference": "https://www.mohfw.gov.in/pdf/ConsolidatedTraveladvisoryUpdated11032020.pdf",
+        "Image_URL": null,
+        "Question_Type": null,
+        "Audio_Link": null,
+        "Entities": [
+            "travel-advisory"
+        ]
+    },
+    {
+        "Question": "How does COVID-19 spread?",
+        "Intent": "how",
+        "Answer": "COVID-19 is most likely to spread from person-to-person through:  \r\n- Direct close contact with a person while they are infectious or in the 24 hours before their symptoms appeared.  \r\n- Close contact with a person with a confirmed infection who coughs or sneezes.  \r\n- Touching objects or surfaces (such as door handles or tables) contaminated from a cough or sneeze from a person with a confirmed infection, and then touching your mouth or face.",
+        "Source": "https://www.cdc.gov/coronavirus/2019-ncov/prepare/transmission.html",
+        "Reference": "https://www.youtube.com/watch?v=8c_UJwLq8PI",
+        "Image_URL": null,
+        "Question_Type": null,
+        "Audio_Link": null,
+        "Entities": [
+            "spread"
+        ]
+    },
+    {
+        "Question": "How is someone tested for COVID-19?",
+        "Intent": "how",
+        "Answer": "A specialized test must be done to confirm that a person has been infected with the virus that causes COVID-19. Most often a clinician takes a swab of your nose (or both your nose and throat). The sample is delivered to labs that have been approved to perform the test. The number of tests and testing sites available are rapidly increasing. Still, it will take weeks before the test is available to everyone who may be infected. Meanwhile, clinicians will primarily test those with respiratory symptoms who have recently traveled to certain countries, live in a community with many infected people, or likely have been exposed to someone known to have COVID-19.\nCall the State Helpline Number or Ministry of Health & Family Welfare, Government of India's 24x7 helpline 011-2397 8046.\nIf one qualifies as a case for testing as per the protocol, they would be tested at a Government approved lab only.",
+        "Source": "https://www.mohfw.gov.in/",
+        "Reference": "https://www.icmr.nic.in/node/39071",
+        "Image_URL": null,
+        "Question_Type": null,
+        "Audio_Link": null,
+        "Entities": [
+            "tested"
+        ]
+    },
+    {
+        "Question": "How is someone treated for COVID-19?",
+        "Intent": "how",
+        "Answer": "To date, there is no specific medicine recommended to prevent or treat the new coronavirus (2019-nCoV).\r\nHowever, those infected with the virus should receive appropriate care to relieve and treat symptoms, and those with severe illness should receive optimized supportive care. Some specific treatments are under investigation, and will be tested through clinical trials. WHO is helping to accelerate research and development efforts with a range or partners.",
+        "Source": "https://www.who.int/emergencies/diseases/novel-coronavirus-2019/advice-for-public/myth-busters",
+        "Reference": "https://www.who.int/emergencies/diseases/novel-coronavirus-2019/advice-for-public/myth-busters",
+        "Image_URL": null,
+        "Question_Type": null,
+        "Audio_Link": null,
+        "Entities": [
+            "treated"
+        ]
+    },
+    {
+        "Question": "Is COVID-19 man made or engineered?",
+        "Intent": "how",
+        "Answer": "Scientists have come up with decent evidence that the novel coronavirus is not man made or engineered in a laboratory.\r\nBy comparing the available genome sequence data for known coronavirus strains, we can firmly determine that SARS-CoV-2 originated through natural processes, said Kristian Andersen, PhD, an associate professor of immunology and microbiology at Scripps Research.",
+        "Source": "https://www.scripps.edu/news-and-events/press-room/2020/20200317-andersen-covid-19-coronavirus.html",
+        "Reference": "https://www.biospace.com/article/stop-the-conspiracy-theories-novel-coronavirus-has-natural-origin",
+        "Image_URL": null,
+        "Question_Type": null,
+        "Audio_Link": null,
+        "Entities": [
+            "engineered",
+            "man-made"
+        ]
+    },
+    {
+        "Question": "How deadly is COVID-19?",
+        "Intent": "how",
+        "Answer": "Right now, it appears that COVID-19, the disease caused by the new coronavirus, causes more deaths than does the seasonal flu. It is difficult to calculate an accurate death rate for COVID-19 at present, since not all mild cases have been tested and identified. If, over time, more testing reveals more mild, non-fatal cases of COVID-19, the death rate will go down.",
+        "Source": "https://www.hopkinsmedicine.org/health/conditions-and-diseases/coronavirus/coronavirus-facts-infographic",
+        "Reference": "https://www.hopkinsmedicine.org/health/conditions-and-diseases/coronavirus/coronavirus-facts-infographic",
+        "Image_URL": null,
+        "Question_Type": null,
+        "Audio_Link": null,
+        "Entities": [
+            "deadly"
+        ]
+    },
+    {
+        "Question": "Can COVID-19 transmit in hot and humid areas?",
+        "Intent": "how-covid-tranmits",
+        "Answer": "As humidity increases, the viral droplet size is larger and settles out of the air rapidly.\nCOVID-19 is believed to be spread by viral droplets that are injected into the air when a person coughs or sneezes, and them land on someone nearby. “In contrast, in low humidity, there is rapid evaporation of respiratory droplets,”\nThey remain airborne for prolonged periods, increasing the time and distance over which transmission can occur.\nThus, transmission is highly efficient under drier and colder conditions,” but far less so in a humid environment.",
+        "Source": "https://www.kiro7.com/news/trending/coronavirus-does-warm-weather-slow-spread-virus-maybe/UZQ4XTXWMRHVTLGN5WN5O6OL4U/",
+        "Reference": null,
+        "Image_URL": null,
+        "Question_Type": null,
+        "Audio_Link": null,
+        "Entities": [
+            "hot-areas",
+            "humid-areas"
+        ]
+    },
+    {
+        "Question": "Can COVID-19 transmit in cold weather with snow?",
+        "Intent": "how-covid-tranmits",
+        "Answer": "The CDC and the WHO have said this from the start: the most effective way to protect yourself from COVID-19 is with frequent handwashing with soap and water, or using hand sanitizer with at least 60 percent alcohol. The WHO says there is “no reason to believe cold weather can kill the new coronavirus,” or other diseases, for that matter.",
+        "Source": "https://www.wwlp.com/weather/weather-news/cold-weather-kills-coronavirus-and-13-other-covid-19-myths-you-may-be-falling-for/",
+        "Reference": null,
+        "Image_URL": null,
+        "Question_Type": null,
+        "Audio_Link": null,
+        "Entities": [
+            "cold-weather",
+            "snow"
+        ]
+    },
+    {
+        "Question": "Can COVID-19 spread through mosquitoes?",
+        "Intent": "how-covid-tranmits",
+        "Answer": "The new coronavirus CANNOT be transmitted through mosquito bites.\r\nTo date there has been no information nor evidence to suggest that the new coronavirus could be transmitted by mosquitoes. The new coronavirus is a respiratory virus which spreads primarily through droplets generated when an infected person coughs or sneezes, or through droplets of saliva or discharge from the nose. To protect yourself, clean your hands frequently with an alcohol-based hand rub or wash them with soap and water. Also, avoid close contact with anyone who is coughing and sneezing",
+        "Source": "https://www.who.int/emergencies/diseases/novel-coronavirus-2019/advice-for-public/myth-busters",
+        "Reference": "https://www.who.int/emergencies/diseases/novel-coronavirus-2019/advice-for-public/myth-busters",
+        "Image_URL": null,
+        "Question_Type": null,
+        "Audio_Link": null,
+        "Entities": [
+            "mosquitoes"
+        ]
+    },
+    {
+        "Question": "Does COVID-19 spread through food?",
+        "Intent": "how-covid-tranmits",
+        "Answer": "- Coronaviruses are generally thought to be spread from person-to-person through respiratory droplets. Currently there is no evidence to support transmission of COVID-19 associated with food. Before preparing or eating food it is important to always wash your hands with soap and water for 20 seconds for general food safety.\n- It may be possible that a person can get COVID-19 by touching a surface or object that has the virus on it and then touching their own mouth, nose, or possibly their eyes, but this is not thought to be the main way the virus spreads.\n- In general, because of poor survivability of these coronaviruses on surfaces, there is likely very low risk of spread from food products or packaging that are shipped over a period of days or weeks at ambient, refrigerated, or frozen temperatures.",
+        "Source": "https://www.fsai.ie/faq/coronavirus.html",
+        "Reference": "https://www.fsai.ie/faq/coronavirus.html",
+        "Image_URL": null,
+        "Question_Type": null,
+        "Audio_Link": null,
+        "Entities": [
+            "food"
+        ]
+    },
+    {
+        "Question": "Does COVID-19 spread through water?",
+        "Intent": "how-covid-tranmits",
+        "Answer": "The COVID-19 virus has not been detected in drinking water. Conventional water treatment methods that use filtration and disinfection, such as those in most municipal drinking water systems, should remove or inactivate the virus that causes COVID-19.",
+        "Source": "https://www.cdc.gov/coronavirus/2019-ncov/php/water.html",
+        "Reference": "https://www.cdc.gov/coronavirus/2019-ncov/php/water.html",
+        "Image_URL": null,
+        "Question_Type": null,
+        "Audio_Link": null,
+        "Entities": [
+            "water"
+        ]
+    },
+    {
+        "Question": "Does COVID-19 spread through air?",
+        "Intent": "how-covid-tranmits",
+        "Answer": "A recent study found that the COVID-19 coronavirus can survive up to four hours on copper, up to 24 hours on cardboard, and up to two to three days on plastic and stainless steel. The researchers also found that this virus can hang out as droplets in the air for up to three hours before they fall. But most often they will fall more quickly. The results provide key information about the stability of SARS-CoV-2, which causes COVID-19 disease, and suggests that people may acquire the virus through the air and after touching contaminated objects.",
+        "Source": "https://www.health.harvard.edu/diseases-and-conditions/coronavirus-resource-center",
+        "Reference": null,
+        "Image_URL": null,
+        "Question_Type": null,
+        "Audio_Link": null,
+        "Entities": [
+            "air"
+        ]
+    },
+    {
+        "Question": "Can it spread from an asymptomatic person?",
+        "Intent": "how-covid-tranmits",
+        "Answer": "There is a strong evidence that it can be transmitted by people who are just mildly ill or even presymptomatic. That means COVID-19 will be much harder to contain than the Middle East respiratory syndrome or severe acute respiratory syndrome (SARS), which were spread much less efficiently and only by symptomatic people",
+        "Source": "https://edition.cnn.com/2020/03/14/health/coronavirus-asymptomatic-spread/index.html",
+        "Reference": null,
+        "Image_URL": null,
+        "Question_Type": null,
+        "Audio_Link": null,
+        "Entities": [
+            "asymptomatic-person"
+        ]
+    },
+    {
+        "Question": "Can humans become infected with COVID-19 from an animal source?",
+        "Intent": "how-covid-tranmits",
+        "Answer": "Some coronaviruses like Severe acute respiratory syndrome (SARS) and Middle East respiratory syndrome (MERS) that originate in and infect animals have become able to infect humans and then spread between people. This is what is suspected to have happened with the virus that caused the current outbreak of COVID-19. However, the exact source of this virus is still unknown though wide speculation suggests links to bats and snakes. Public health officials and partners are working hard to identify the source of COVID-19.",
+        "Source": "https://www.cdc.gov/coronavirus/2019-ncov/prepare/animals.html",
+        "Reference": null,
+        "Image_URL": null,
+        "Question_Type": null,
+        "Audio_Link": null,
+        "Entities": [
+            "animals"
+        ]
+    },
+    {
+        "Question": "Can the virus spread through paper? Is it safe to handle currency notes?",
+        "Intent": "how-covid-transmits",
+        "Answer": "People should stop using banknotes and make contactless payments instead to prevent the spread of the coronavirus, the World Health Organization has warned as the spread of the virus continues to escalate.\r\nThe international body had advised customers to wash their hands after handling cash because Covid-19 can remain on notes 'just like any other surface' for several days. But the health group has now advised against people using them in favour of digital transactions.",
+        "Source": "https://www.dailymail.co.uk/news/article-8088067/Coronavirus-spread-cash-warns-WHO.html",
+        "Reference": "https://www.businessinsider.in/science/news/coins-carry-viruses-better-than-paper-money-experts-say-as-china-begins-sterilizing-cash/articleshow/74567093.cms",
+        "Image_URL": null,
+        "Question_Type": null,
+        "Audio_Link": null,
+        "Entities": [
+            "paper"
+        ]
+    },
+    {
+        "Question": "How long is the incubation period for COVID-19?",
+        "Intent": "how-long",
+        "Answer": "ncubation period is the time elapsed between exposure to a pathogenic organism, a chemical, or radiation, and when symptoms and signs are first apparent.\nAs per a research, median incubation period for COVID-19 of approximately 5 days, whereas 97.5% of those who develop symptoms will do so within 11.5 days.",
+        "Source": "https://annals.org/aim/fullarticle/2762808/incubation-period-coronavirus-disease-2019-covid-19-from-publicly-reported",
+        "Reference": null,
+        "Image_URL": null,
+        "Question_Type": null,
+        "Audio_Link": null,
+        "Entities": [
+            "incubation-period"
+        ]
+    },
+    {
+        "Question": "How long does it take for someone to fully recover?",
+        "Intent": "how-long",
+        "Answer": "There is no definite time in which a patient recovers after contracting the infection. It could be as little as seven days but can go on for over a month, depending on how the disease progressed.",
+        "Source": "https://gulfnews.com/uae/coronavirus-how-long-does-it-take-to-recover-1.70470155",
+        "Reference": "https://www.businessinsider.in/science/news/people-who-fully-recover-from-the-coronavirus-can-be-left-with-20-to-30-less-lung-function-and-gasping-for-breath-when-they-walk-quickly-doctors-find/articleshow/74611651.cms",
+        "Image_URL": null,
+        "Question_Type": null,
+        "Audio_Link": null,
+        "Entities": [
+            "recover"
+        ]
+    },
+    {
+        "Question": "How long does the treatment take?",
+        "Intent": "how-long",
+        "Answer": "Currently there is no specific antiviral treatment for COVID-19. However, similar to treatment of any viral infection, these measures can help:\r\n- While you don't need to stay in bed, you should get plenty of rest.\r\n- Stay well hydrated.\r\n- Take acetaminophen, ibuprofen, or naproxen to reduce fever and ease aches and pains. Be sure to follow directions. If you are taking any combination cold or flu medicine, keep track of all the ingredients and the doses.",
+        "Source": "https://www.health.harvard.edu/diseases-and-conditions/coronavirus-resource-center#Sick",
+        "Reference": null,
+        "Image_URL": null,
+        "Question_Type": null,
+        "Audio_Link": null,
+        "Entities": [
+            "treatment"
+        ]
+    },
+    {
+        "Question": "How long does one need to be hospitalised?",
+        "Intent": "how-long",
+        "Answer": "It depends on your recovry process, When deciding on criteria for hospital discharge of COVID-19 patients, health authorities should take into\r\naccount several factors such as the existing capacity of the healthcare system, laboratory diagnostic resources,\r\nand the current epidemiological situation",
+        "Source": "https://www.ecdc.europa.eu/sites/default/files/documents/COVID-19-Discharge-criteria.pdf",
+        "Reference": null,
+        "Image_URL": null,
+        "Question_Type": null,
+        "Audio_Link": null,
+        "Entities": [
+            "hospitalisation"
+        ]
+    },
+    {
+        "Question": "How long does one need to stay in isolation after coming in contact with an infected patient",
+        "Intent": "how-long",
+        "Answer": "For COVID-19, the period of quarantine is 14 days from the last date of exposure, because 14 days is the longest incubation period seen for similar coronaviruses. Someone who has been released from COVID-19 quarantine is not considered a risk for spreading the virus to others because they have not developed illness during the incubation period.",
+        "Source": "https://www.cdc.gov/coronavirus/2019-ncov/faq.html",
+        "Reference": "https://www.youtube.com/watch?v=AQxpQ94Euic",
+        "Image_URL": null,
+        "Question_Type": null,
+        "Audio_Link": null,
+        "Entities": [
+            "isolation-",
+            "infected-patient"
+        ]
+    },
+    {
+        "Question": "How long does one need to stay in isolation after returning from an infected country",
+        "Intent": "how-long",
+        "Answer": "As per travil advisory by govt of India, All incoming international passengers returning to India should self-monitor\r\ntheir health and follow required Do’s and Dont’s as detailed by Government.",
+        "Source": "https://www.mohfw.gov.in/pdf/AdditionalTravelAdvisory1homeisolation.pdf",
+        "Reference": "https://www.mohfw.gov.in/pdf/Consolidated%20Travel%20advisory%20to%20travelers%20Updated%2002032020.pdf",
+        "Image_URL": null,
+        "Question_Type": null,
+        "Audio_Link": null,
+        "Entities": [
+            "isolation-",
+            "infected-country"
+        ]
+    },
+    {
+        "Question": "How long does it take for the symptoms to show up after infection",
+        "Intent": "how-long",
+        "Answer": "Because this coronavirus has just been discovered, the time from exposure to symptom onset (known as the incubation period) for most people has yet to be determined. Based on current information, symptoms could appear as soon as three days after exposure to as long as 13 days later. Recently published research found that on average, the incubation period is about five days.",
+        "Source": "https://www.health.harvard.edu/diseases-and-conditions/coronavirus-resource-center",
+        "Reference": "https://www.cdc.gov/coronavirus/2019-ncov/symptoms-testing/symptoms.html",
+        "Image_URL": null,
+        "Question_Type": null,
+        "Audio_Link": null,
+        "Entities": [
+            "symptoms",
+            "infection"
+        ]
+    },
+    {
+        "Question": "How long does one need to stay in isolation after being cured",
+        "Intent": "how-long",
+        "Answer": "The vast majority of people with coronavirus survive. But they might face a lengthy recovery.\r\n\r\n“It takes anything up to six weeks to recover from this disease,” said Dr. Michael Ryan of the World Health Organization. “People who suffer very severe illness can take months to recover from the illness.”\r\n\r\nRecovery is often marked by a patient no longer showing symptoms and having two consecutive negative tests at least one day apart, Ryan said. But there is no known cure for the novel coronavirus.",
+        "Source": "https://edition.cnn.com/interactive/2020/health/coronavirus-questions-answers/",
+        "Reference": null,
+        "Image_URL": null,
+        "Question_Type": null,
+        "Audio_Link": null,
+        "Entities": [
+            "isolation",
+            "cured"
+        ]
+    },
+    {
+        "Question": "How long does it take for the test results to come back",
+        "Intent": "how-long",
+        "Answer": "As of now, Indian Laboratories take upto 1 day for results of a test.\nCall the State Helpline Number or Ministry of Health & Family Welfare, Government of India's 24x7 helpline 011-2397 8046.\r\nIf one qualifies as a case for testing as per the protocol, they would be tested at a Government approved lab only.",
+        "Source": "https://www.mohfw.gov.in/",
+        "Reference": "https://www.icmr.nic.in/node/39071",
+        "Image_URL": null,
+        "Question_Type": null,
+        "Audio_Link": null,
+        "Entities": [
+            "test-results"
+        ]
+    },
+    {
+        "Question": "How soon after infection does a patient start to be contagious?",
+        "Intent": "how-long",
+        "Answer": "It varies. Decisions about when a person can be released from isolation are made on a case-by-case basis.\r\n\r\nThe Centers for Disease Control and Prevention issued guidelines for when it is OK to release someone from isolation. They include meeting all of these requirements:\r\n– The patient is free from fever without the use of fever-reducing medications.\r\n– The patient is no longer showing symptoms, including cough. – The patient has tested negative on at least two consecutive respiratory specimens collected at least 24 hours apart.\r\n\r\n“Someone who has been released from isolation is not considered to pose a risk of infection to others,” the CDC says.",
+        "Source": "https://edition.cnn.com/interactive/2020/health/coronavirus-questions-answers/",
+        "Reference": null,
+        "Image_URL": null,
+        "Question_Type": null,
+        "Audio_Link": null,
+        "Entities": [
+            "become-contagious",
+            "infection"
+        ]
+    },
+    {
+        "Question": "After infection for how long does a patient stay contagious?",
+        "Intent": "how-long",
+        "Answer": "People are thought to be most contagious early in the course of their illness, when they are beginning to experience symptoms. Researchers have detected viral genetic material in patients several weeks after they've recovered from COVID-19. Though the significance of these findings is not fully understood, it suggests the possibility that people may continue to be contagious for weeks after they are feeling better.",
+        "Source": "https://www.health.harvard.edu/diseases-and-conditions/coronavirus-resource-center#Prepare",
+        "Reference": null,
+        "Image_URL": null,
+        "Question_Type": null,
+        "Audio_Link": null,
+        "Entities": [
+            "remain-contagious",
+            "infection"
+        ]
+    },
+    {
+        "Question": "How long does the virus survive on different surfaces?",
+        "Intent": "how-long",
+        "Answer": "A recent study found that the COVID-19 coronavirus can survive up to four hours on copper, up to 24 hours on cardboard, and up to two to three days on plastic and stainless steel. The researchers also found that this virus can hang out as droplets in the air for up to three hours before they fall. But most often they will fall more quickly. The results provide key information about the stability of SARS-CoV-2, which causes COVID-19 disease, and suggests that people may acquire the virus through the air and after touching contaminated objects.",
+        "Source": "https://www.health.harvard.edu/diseases-and-conditions/coronavirus-resource-center",
+        "Reference": null,
+        "Image_URL": null,
+        "Question_Type": null,
+        "Audio_Link": null,
+        "Entities": [
+            "survive",
+            "surfaces"
+        ]
+    },
+    {
+        "Question": "How long does the virus survive on plastic surfaces?",
+        "Intent": "how-long",
+        "Answer": "A recent study found that the COVID-19 coronavirus can survive up to two to three days on plastic. The researchers also found that this virus can hang out as droplets in the air for up to three hours before they fall. But most often they will fall more quickly.\nThere's a lot we still don't know, such as how different conditions, such as exposure to sunlight, heat, or cold, can affect these survival times.",
+        "Source": "https://www.health.harvard.edu/diseases-and-conditions/coronavirus-resource-center",
+        "Reference": null,
+        "Image_URL": null,
+        "Question_Type": null,
+        "Audio_Link": null,
+        "Entities": [
+            "survive",
+            "plastic"
+        ]
+    },
+    {
+        "Question": "How long does the virus survive on metal surfaces?",
+        "Intent": "how-long",
+        "Answer": "A recent study found that the COVID-19 coronavirus can survive up to four hours on copper, and up to two to three days on stainless steel. The researchers also found that this virus can hang out as droplets in the air for up to three hours before they fall. But most often they will fall more quickly.\nThere's a lot we still don't know, such as how different conditions, such as exposure to sunlight, heat, or cold, can affect these survival times.",
+        "Source": "https://www.health.harvard.edu/diseases-and-conditions/coronavirus-resource-center",
+        "Reference": null,
+        "Image_URL": null,
+        "Question_Type": null,
+        "Audio_Link": null,
+        "Entities": [
+            "survive",
+            "steel"
+        ]
+    },
+    {
+        "Question": "How long does the virus survive on iron surfaces?",
+        "Intent": "how-long",
+        "Answer": "A recent study found that the COVID-19 coronavirus can survive up to four hours on copper, up to 24 hours on cardboard, and up to two to three days on plastic and stainless steel. The researchers also found that this virus can hang out as droplets in the air for up to three hours before they fall. But most often they will fall more quickly.\r\nThere's a lot we still don't know, such as how different conditions, such as exposure to sunlight, heat, or cold, can affect these survival times.",
+        "Source": "https://www.health.harvard.edu/diseases-and-conditions/coronavirus-resource-center",
+        "Reference": null,
+        "Image_URL": null,
+        "Question_Type": null,
+        "Audio_Link": null,
+        "Entities": [
+            "survive",
+            "iron"
+        ]
+    },
+    {
+        "Question": "How long does the virus survive on clothes?",
+        "Intent": "how-long",
+        "Answer": "A recent study found that the COVID-19 coronavirus can survive up to 8 hours on clothes. The researchers also found that this virus can hang out as droplets in the air for up to three hours before they fall. But most often they will fall more quickly.\nThere's a lot we still don't know, such as how different conditions, such as exposure to sunlight, heat, or cold, can affect these survival times.",
+        "Source": "\"\r\nhttps://www.health.harvard.edu/diseases-and-conditions/coronavirus-resource-center\r\"",
+        "Reference": null,
+        "Image_URL": null,
+        "Question_Type": null,
+        "Audio_Link": null,
+        "Entities": [
+            "survive",
+            "clothes"
+        ]
+    },
+    {
+        "Question": "How long does the virus survive on body?",
+        "Intent": "how-long",
+        "Answer": "Factors, such as the amount of virus deposited on a surface and the temperature and humidity of the environment, also determine how long cold and flu viruses stay active outside the body.\r\nIt's possible to catch the flu or a cold after handling an object an infected person sneezed or coughed on a few moments ago. But personal contact with an infected person — such as a handshake or breathing in droplets from a cough or sneeze — is the most common way these viruses spread.",
+        "Source": "https://www.mayoclinic.org/diseases-conditions/flu/expert-answers/infectious-disease/faq-20057907",
+        "Reference": null,
+        "Image_URL": null,
+        "Question_Type": null,
+        "Audio_Link": null,
+        "Entities": [
+            "survive",
+            "body"
+        ]
+    },
+    {
+        "Question": "How long does the virus survive on hands?",
+        "Intent": "how-long",
+        "Answer": "Factors, such as the amount of virus deposited on a surface and the temperature and humidity of the environment, also determine how long cold and flu viruses stay active outside the body.\r\nIt's possible to catch the flu or a cold after handling an object an infected person sneezed or coughed on a few moments ago. But personal contact with an infected person — such as a handshake or breathing in droplets from a cough or sneeze — is the most common way these viruses spread.",
+        "Source": "https://www.mayoclinic.org/diseases-conditions/flu/expert-answers/infectious-disease/faq-20057907",
+        "Reference": null,
+        "Image_URL": null,
+        "Question_Type": null,
+        "Audio_Link": null,
+        "Entities": [
+            "survive",
+            "hands"
+        ]
+    },
+    {
+        "Question": "How long would I be contagious?",
+        "Intent": "how-long",
+        "Answer": "People are thought to be most contagious early in the course of their illness, when they are beginning to experience symptoms. Researchers have detected viral genetic material in patients several weeks after they've recovered from COVID-19. Though the significance of these findings is not fully understood, it suggests the possibility that people may continue to be contagious for weeks after they are feeling better.",
+        "Source": "https://www.health.harvard.edu/diseases-and-conditions/coronavirus-resource-center#Prepare",
+        "Reference": null,
+        "Image_URL": null,
+        "Question_Type": null,
+        "Audio_Link": null,
+        "Entities": [
+            "contagious"
+        ]
+    },
+    {
+        "Question": "How long until I feel better?",
+        "Intent": "how-long",
+        "Answer": "There is no definite time in which a patient recovers after contracting the infection. It could be as little as seven days but can go on for over a month, depending on how the disease progressed.",
+        "Source": "https://gulfnews.com/uae/coronavirus-how-long-does-it-take-to-recover-1.70470155",
+        "Reference": "https://www.businessinsider.in/science/news/people-who-fully-recover-from-the-coronavirus-can-be-left-with-20-to-30-less-lung-function-and-gasping-for-breath-when-they-walk-quickly-doctors-find/articleshow/74611651.cms",
+        "Image_URL": null,
+        "Question_Type": null,
+        "Audio_Link": null,
+        "Entities": [
+            "get-cured"
+        ]
+    },
+    {
+        "Question": "How long before I can go back to work or other public places?",
+        "Intent": "how-long",
+        "Answer": "If you have symptoms of coronavirus, you'll need to stay at home for 7 days.\nAfter 7 days:\n- If you do not have a high temperature, you do not need to stay at home\n- If you still have a high temperature, stay at home until your temperature returns to normal\nYou do not need to stay at home if you just have a cough after 7 days. A cough can last for several weeks after the infection has gone.",
+        "Source": "https://www.nhs.uk/conditions/coronavirus-covid-19/self-isolation-advice/",
+        "Reference": null,
+        "Image_URL": null,
+        "Question_Type": null,
+        "Audio_Link": null,
+        "Entities": [
+            "start-working"
+        ]
+    },
+    {
+        "Question": "How many cases are there in locX on dateY.",
+        "Intent": "how-many",
+        "Answer": "DYNAMIC_ANSWER",
+        "Source": null,
+        "Reference": null,
+        "Image_URL": null,
+        "Question_Type": null,
+        "Audio_Link": null,
+        "Entities": [
+            "sys.loc",
+            "sys.date"
+        ]
+    },
+    {
+        "Question": "How fast are the cases increasing in locX",
+        "Intent": "how-many",
+        "Answer": "DYNAMIC_ANSWER",
+        "Source": null,
+        "Reference": null,
+        "Image_URL": null,
+        "Question_Type": null,
+        "Audio_Link": null,
+        "Entities": [
+            "sys.loc",
+            "fast"
+        ]
+    },
+    {
+        "Question": "How many cases of different types - recovered, quarantined, critical, dead",
+        "Intent": "how-many",
+        "Answer": "DYNAMIC_ANSWER",
+        "Source": null,
+        "Reference": null,
+        "Image_URL": null,
+        "Question_Type": null,
+        "Audio_Link": null,
+        "Entities": [
+            "recovered",
+            "quarantined",
+            "critical,-dead"
+        ]
+    },
+    {
+        "Question": "How many total number of patients do we expect to get infected?",
+        "Intent": "how-many",
+        "Answer": "DYNAMIC_ANSWER",
+        "Source": null,
+        "Reference": null,
+        "Image_URL": null,
+        "Question_Type": null,
+        "Audio_Link": null,
+        "Entities": [
+            "total",
+            "infected"
+        ]
+    },
+    {
+        "Question": "Where did it start?",
+        "Intent": "location-info",
+        "Answer": "COVID-19 or SARS or SARS-CoV-2 virus is a betacoronavirus was first identified in 2019 in Wuhan, China, and has since spread globally, resulting in the 2019–20 coronavirus pandemic. Early on, many of the patients at the epicenter of the outbreak in Wuhan, Hubei Province, China had some link to a large seafood and live animal market, suggesting animal-to-person spread. Later, a growing number of patients reportedly did not have exposure to animal markets, indicating person-to-person spread.",
+        "Source": "https://www.cdc.gov/coronavirus/2019-ncov/cases-updates/summary.html",
+        "Reference": null,
+        "Image_URL": null,
+        "Question_Type": null,
+        "Audio_Link": null,
+        "Entities": [
+            "start"
+        ]
+    },
+    {
+        "Question": "Which locations have the highest number of cases",
+        "Intent": "location-info",
+        "Answer": "DYNAMIC_ANSWER",
+        "Source": null,
+        "Reference": null,
+        "Image_URL": null,
+        "Question_Type": null,
+        "Audio_Link": null,
+        "Entities": [
+            "highest",
+            "number-of-cases"
+        ]
+    },
+    {
+        "Question": "Which locations have the highest number of deaths",
+        "Intent": "location-info",
+        "Answer": "DYNAMIC_ANSWER",
+        "Source": null,
+        "Reference": null,
+        "Image_URL": null,
+        "Question_Type": null,
+        "Audio_Link": null,
+        "Entities": [
+            "highest",
+            "number-of-deaths"
+        ]
+    },
+    {
+        "Question": "Which locations have the highest number of recoveries",
+        "Intent": "location-info",
+        "Answer": "DYNAMIC_ANSWER",
+        "Source": null,
+        "Reference": null,
+        "Image_URL": null,
+        "Question_Type": null,
+        "Audio_Link": null,
+        "Entities": [
+            "highest",
+            "number-of-recoveries"
+        ]
+    },
+    {
+        "Question": "Which locations have the highest risk",
+        "Intent": "location-info",
+        "Answer": null,
+        "Source": null,
+        "Reference": null,
+        "Image_URL": null,
+        "Question_Type": null,
+        "Audio_Link": null,
+        "Entities": [
+            "highest",
+            "risk"
+        ]
+    },
+    {
+        "Question": "Which locations have completely recovered from the pandemic",
+        "Intent": "location-info",
+        "Answer": "DYNAMIC_ANSWER",
+        "Source": null,
+        "Reference": null,
+        "Image_URL": null,
+        "Question_Type": null,
+        "Audio_Link": null,
+        "Entities": [
+            "complete-recovery"
+        ]
+    },
+    {
+        "Question": "Where is the nearest testing center?",
+        "Intent": "location-info",
+        "Answer": "DYNAMIC_ANSWER",
+        "Source": null,
+        "Reference": null,
+        "Image_URL": null,
+        "Question_Type": null,
+        "Audio_Link": null,
+        "Entities": [
+            "nearest",
+            "testing-center"
+        ]
+    },
+    {
+        "Question": "What is the situation in hospitals close to me?",
+        "Intent": "location-info",
+        "Answer": "DYNAMIC_ANSWER",
+        "Source": null,
+        "Reference": null,
+        "Image_URL": null,
+        "Question_Type": null,
+        "Audio_Link": null,
+        "Entities": [
+            "hospitals"
+        ]
+    },
+    {
+        "Question": "Are there any voluntary organisations around me?",
+        "Intent": "location-info",
+        "Answer": "DYNAMIC_ANSWER",
+        "Source": null,
+        "Reference": null,
+        "Image_URL": null,
+        "Question_Type": null,
+        "Audio_Link": null,
+        "Entities": [
+            "voluntary-organisations"
+        ]
+    },
+    {
+        "Question": "Are there online classes for children when they are stuck at home?",
+        "Intent": "misc-info",
+        "Answer": "Check this out : https://www.usatoday.com/story/tech/reviewedcom/2020/03/18/free-educational-classes-and-programs-kids-home/5064311002/",
+        "Source": "https://www.usatoday.com/story/tech/reviewedcom/2020/03/18/free-educational-classes-and-programs-kids-home/5064311002/",
+        "Reference": null,
+        "Image_URL": null,
+        "Question_Type": null,
+        "Audio_Link": null,
+        "Entities": [
+            "online-classes",
+            "children"
+        ]
+    },
+    {
+        "Question": "How much does it cost to get tested?",
+        "Intent": "misc-info",
+        "Answer": "All individuals requiring to be tested are being offered at no cost by the Government of India.",
+        "Source": "https://www.mohfw.gov.in/",
+        "Reference": null,
+        "Image_URL": null,
+        "Question_Type": null,
+        "Audio_Link": null,
+        "Entities": [
+            "cost",
+            "testing"
+        ]
+    },
+    {
+        "Question": "What treatments can I expect?",
+        "Intent": "misc-info",
+        "Answer": "To date, there is no specific medicine recommended to prevent or treat the new coronavirus (2019-nCoV).\r\nHowever, those infected with the virus should receive appropriate care to relieve and treat symptoms, and those with severe illness should receive optimized supportive care. Some specific treatments are under investigation, and will be tested through clinical trials. WHO is helping to accelerate research and development efforts with a range or partners.",
+        "Source": "https://www.who.int/emergencies/diseases/novel-coronavirus-2019/advice-for-public/myth-busters",
+        "Reference": null,
+        "Image_URL": null,
+        "Question_Type": null,
+        "Audio_Link": null,
+        "Entities": [
+            "treatment"
+        ]
+    },
+    {
+        "Question": "Can I infect my pet?",
+        "Intent": "misc-info",
+        "Answer": "There have not been any reports of companion animals becoming sick with COVID-19. Because this is a new virus, experts recommend good hygiene when handling or caring for your pets. Wash your hands before and after interacting with animals, and avoid kissing them or letting them lick you or share your food. People ill with COVID-19 should let someone else take care of their animals. If this isn’t possible, patients should wear a mask while looking after their pet.",
+        "Source": "https://www.hopkinsmedicine.org/health/conditions-and-diseases/coronavirus/coronavirus-frequently-asked-questions",
+        "Reference": null,
+        "Image_URL": null,
+        "Question_Type": null,
+        "Audio_Link": null,
+        "Entities": [
+            "infect",
+            "pet"
+        ]
+    },
+    {
+        "Question": "How did China manage to control the virus?",
+        "Intent": "misc-info",
+        "Answer": "Figures show that the virus spread exponentially within Hubei in China but following the lockdown in Wuhan and neighbouring cities, new cases plateaued and eventually tapered off in other chinese regions. Cases in all of these regions could have otherwise exploded exponentially.\r\nChinese government along with their Workers in Healthcare sector did some fabulous job to fight out COVID19 right from the ending of January.",
+        "Source": "https://www.nature.com/articles/d41586-020-00741-x",
+        "Reference": null,
+        "Image_URL": null,
+        "Question_Type": null,
+        "Audio_Link": null,
+        "Entities": [
+            "China",
+            "control"
+        ]
+    },
+    {
+        "Question": "Why is the virus spreading so much in Italy?",
+        "Intent": "misc-info",
+        "Answer": "Italy’s high average age could be a factor in this. The elderly are more likely to have pre-existing conditions, and almost a quarter (22.6 per cent) of Italy’s population is aged 65 or higher.\r\nItaly took the decision to only test people with symptoms, meaning that the official data only detects a fraction of the infected.",
+        "Source": "https://wired.co.uk/article/coronavirus-italy",
+        "Reference": null,
+        "Image_URL": null,
+        "Question_Type": null,
+        "Audio_Link": null,
+        "Entities": [
+            "Italy",
+            "spread"
+        ]
+    },
+    {
+        "Question": "Are private hospitals treating COVID-19?",
+        "Intent": "misc-info",
+        "Answer": "The government has sought the help of private players in treating patients as part of efforts to increase resources on tap. \r\nPrivate labs have been asked to collect samples from doorstep to avoid risk of infection. Besides, appropriate biosafety and biosecurity precautions are to be ensured while collecting samples.\r\nThough Private hospitals will also help you out if you caught the symptoms, the first priority is to call at the Govt of India helpline number : +91-11-2397 8046",
+        "Source": "https://economictimes.indiatimes.com/industry/healthcare/biotech/healthcare/cautious-govt-involves-private-sector/articleshow/74681205.cms",
+        "Reference": "https://timesofindia.indiatimes.com/india/centre-asks-private-hospitals-to-reserve-beds-for-isolation/articleshow/74681875.cms",
+        "Image_URL": null,
+        "Question_Type": null,
+        "Audio_Link": null,
+        "Entities": [
+            "private-hospital",
+            "treatment"
+        ]
+    },
+    {
+        "Question": "Is there a helpline number?",
+        "Intent": "misc-info",
+        "Answer": "If you think you or some of your close ones have similar symptoms, Call at Ministry of Health, Govt. of India’s 24X7 control room number +91-11-2397 8046",
+        "Source": "https://www.mohfw.gov.in/Poster_Corona_ad_Eng.pdf",
+        "Reference": null,
+        "Image_URL": null,
+        "Question_Type": null,
+        "Audio_Link": null,
+        "Entities": [
+            "helpline-number"
+        ]
+    },
+    {
+        "Question": "Is the government offering any financial help for infected people?",
+        "Intent": "misc-info",
+        "Answer": "DYNAMIC_ANSWER",
+        "Source": null,
+        "Reference": null,
+        "Image_URL": null,
+        "Question_Type": null,
+        "Audio_Link": null,
+        "Entities": [
+            "government",
+            "financial-help"
+        ]
+    },
+    {
+        "Question": "Are we prepared to handle the crisis?",
+        "Intent": "preparedness",
+        "Answer": "Despite being the world’s second most populous country, with more than 1.3 billion people, the nation has reported three deaths and around 150 cases, giving rise to questions about why the virus has not spread as rapidly as elsewhere.\r\n\r\nFor some, the answer is the fast action that India’s government took as the virus spread from China to many parts of the world. And if the relatively low number of cases continues, it could make the nation a blueprint for others seeking to limit the impact.",
+        "Source": "https://www.weforum.org/agenda/2020/03/quarantine-india-covid-19-coronavirus/",
+        "Reference": null,
+        "Image_URL": null,
+        "Question_Type": null,
+        "Audio_Link": null,
+        "Entities": [
+            "india"
+        ]
+    },
+    {
+        "Question": "What is the Indian government doing about this?",
+        "Intent": "preparedness",
+        "Answer": "On 13th March, 2020, Ministry of Consumer Affairs, Food & Public Distribution under which masks (2ply & 3ply surgical masks, N95 masks) & hand sanitizers have been declared as essential commodities under the Essential Commodities Act, 1955, to ensure prevention of hoarding, black marketing and profiteering of these items. Strong action under relevant laws/rules\r\nmay be taken in such instances under intimation to this office.",
+        "Source": "https://www.mohfw.gov.in/pdf/Orderdated1332020.pdf",
+        "Reference": null,
+        "Image_URL": null,
+        "Question_Type": null,
+        "Audio_Link": null,
+        "Entities": [
+            "india"
+        ]
+    },
+    {
+        "Question": "What are the measures taken by state x?",
+        "Intent": "preparedness",
+        "Answer": "DYNAMIC_ANSWER",
+        "Source": null,
+        "Reference": null,
+        "Image_URL": null,
+        "Question_Type": null,
+        "Audio_Link": null,
+        "Entities": [
+            "sys.state"
+        ]
+    },
+    {
+        "Question": "How to put on, use, take off, and dispose a mask?",
+        "Intent": "procedure",
+        "Answer": "-Before putting on a mask, clean hands with alcohol-based hand rub or soap and water.\r\n-Cover mouth and nose with mask and make sure there are no gaps between your face and the mask.\r\n-Avoid touching the mask while using it; if you do, clean your hands with alcohol-based hand rub or soap and water.\r\n-Replace the mask with a new one as soon as it is damp and do not reuse single-use masks.\r\n-To remove the mask: remove it from behind (do not touch the front of mask); discard immediately in a closed bin; clean hands with alcohol-based hand rub or soap and water.",
+        "Source": "https://www.who.int/emergencies/diseases/novel-coronavirus-2019/advice-for-public/when-and-how-to-use-masks",
+        "Reference": "https://www.youtube.com/watch?v=lrvFrH_npQI&feature=emb_logo",
+        "Image_URL": null,
+        "Question_Type": null,
+        "Audio_Link": null,
+        "Entities": [
+            "mask"
+        ]
+    },
+    {
+        "Question": "Are there any specific medicines?",
+        "Intent": "procedure",
+        "Answer": "Currently there is no specific antiviral treatment for COVID-19. However, similar to treatment of any viral infection, these measures can help:\r\nWhile you don't need to stay in bed, you should get plenty of rest.\r\nStay well hydrated.\r\nTake acetaminophen, ibuprofen, or naproxen to reduce fever and ease aches and pains. Be sure to follow directions. If you are taking any combination cold or flu medicine, keep track of all the ingredients and the doses.",
+        "Source": "https://www.health.harvard.edu/diseases-and-conditions/coronavirus-resource-center#Sick",
+        "Reference": null,
+        "Image_URL": null,
+        "Question_Type": null,
+        "Audio_Link": null,
+        "Entities": [
+            "medication"
+        ]
+    },
+    {
+        "Question": "How to wash hands?",
+        "Intent": "procedure",
+        "Answer": "Follow Five Steps to Wash Your Hands the Right Way\r\n\r\nWashing your hands is easy, and it’s one of the most effective ways to prevent the spread of germs. Clean hands can stop germs from spreading from one person to another and throughout an entire community—from your home and workplace to childcare facilities and hospitals.\r\n\r\nFollow these five steps every time.\r\n\r\n-Wet your hands with clean, running water (warm or cold), turn off the tap, and apply soap.\r\n-Lather your hands by rubbing them together with the soap. Lather the backs of your hands, between your fingers, and under your nails.\r\n-Scrub your hands for at least 20 seconds. Need a timer? Hum the “Happy Birthday” song from beginning to end twice.\r\n-Rinse your hands well under clean, running water.\r\n-Dry your hands using a clean towel or air dry them.",
+        "Source": "https://www.cdc.gov/handwashing/when-how-handwashing.html",
+        "Reference": "https://www.youtube.com/watch?v=IisgnbMfKvI",
+        "Image_URL": null,
+        "Question_Type": null,
+        "Audio_Link": null,
+        "Entities": [
+            "wash-hands"
+        ]
+    },
+    {
+        "Question": "How to disinfect my house?",
+        "Intent": "procedure",
+        "Answer": "Keeping your home clean and disinfected will prevent the spread of coronavirus, and any other virus for that matter. But if no one in your household is showing symptoms or has been diagnosed, then the chances of the virus living on a surface in your home are less likely.\r\nThe most important surfaces to clean regularly are the ones you touch most often, Fozzard explains. This will reduce the likelihood of the virus transferring from a surface to your hands.",
+        "Source": "https://patient.info/news-and-features/covid-19-do-you-need-to-disinfect-your-home",
+        "Reference": "https://patient.info/news-and-features/covid-19-do-you-need-to-disinfect-your-home",
+        "Image_URL": null,
+        "Question_Type": null,
+        "Audio_Link": null,
+        "Entities": [
+            "disinfect",
+            "home"
+        ]
+    },
+    {
+        "Question": "How to disinfect my gadgets?",
+        "Intent": "procedure",
+        "Answer": "COVID-19, meanwhile, can survive on surfaces for anywhere from a few hours to over a week, depending on conditions.\r\nIf you’re in the mood to kill those germs, some alcohol can’t hurt. At least, it can’t hurt now.\r\n“Using a 70% isopropyl alcohol wipe or Clorox Disinfecting Wipes, you may gently wipe the exterior surfaces of your phone,” Apple says on its updated support page. “Don’t use bleach. Avoid getting moisture in any openings, and don’t submerge your iPhone in any cleaning agents.”",
+        "Source": "https://time.com/5804610/phone-clean-wipes/",
+        "Reference": null,
+        "Image_URL": null,
+        "Question_Type": null,
+        "Audio_Link": null,
+        "Entities": [
+            "disinfect",
+            "gadgets"
+        ]
+    },
+    {
+        "Question": "How to disinfect my car?",
+        "Intent": "procedure",
+        "Answer": "- Use disinfectant wipes or regular soapy water to clean hard surfaces throughout the cabin.\n- Make sure to clean high-touch areas throughout the cabin.\n- When cleaning your car, don’t overlook soft surfaces, such as the carpet, seats, and the headliner. \n- If you have kids, pay attention to surfaces that your children handle regularly.\n- Keep yourself healthy and your car clean by carrying hand sanitizer and disinfecting wipes.\n- Disposable gloves can protect your hands against harsh cleaning chemicals, but when disinfecting your car, they can help prevent the spread of viruses",
+        "Source": "https://thenewswheel.com/tips-for-sanitizing-your-car-against-covid-19/",
+        "Reference": null,
+        "Image_URL": null,
+        "Question_Type": null,
+        "Audio_Link": null,
+        "Entities": [
+            "disinfect",
+            "car",
+            "vehicle"
+        ]
+    },
+    {
+        "Question": "How to stay calm? I am very anxious, what to do? I am stressed about coronavirus.",
+        "Intent": "procedure",
+        "Answer": "Regular meditation is very calming. Many apps teach simple forms of meditation, such as Headspace or Calm.\r\nNot a yoga person? No need to start now unless you'd like to try it. Sometimes trying new things and discovering new activities you can benefit from and enjoy can be a welcome, healthy distraction. Yoga Studio and Pocket Yoga are good apps to consider.",
+        "Source": "https://www.theweek.in/news/world/2020/03/16/harvard-medical-school-recommends-yoga-to-deal-with-covid-19-anxiety.html",
+        "Reference": "https://economictimes.indiatimes.com/magazines/panache/dont-let-coronavirus-anxiety-take-over-harvard-medical-school-recommends-yoga-meditation-to-relax/articleshow/74653730.cms",
+        "Image_URL": null,
+        "Question_Type": null,
+        "Audio_Link": null,
+        "Entities": [
+            "stress"
+        ]
+    },
+    {
+        "Question": "How to prepare for a prolonged quarantine? What to shop?",
+        "Intent": "procedure",
+        "Answer": "There is no need to bulk-buy products at supermarkets including toilet paper, paracetamol and canned food.\r\nHowever, It is prudent for households to have a small stock of non-perishable groceries to cover the event that in the coming months the household has been asked to self-isolate for 14 days. However, it’s important to note the role of family and friends in supporting those in isolation and also to note that online grocery delivery services are also available.",
+        "Source": "https://www.health.nsw.gov.au/Infectious/alerts/Pages/coronavirus-faqs.aspx#6-1",
+        "Reference": null,
+        "Image_URL": null,
+        "Question_Type": null,
+        "Audio_Link": null,
+        "Entities": [
+            "prepare-for-quarantine"
+        ]
+    },
+    {
+        "Question": "What to do when I am at home? I get bored.",
+        "Intent": "procedure",
+        "Answer": "It is better to learn a new skill, or strengthen what you already know.\r\nReading books, watching web shows or movies is also one of the best options out there.\r\nThe quarantine period can be taken of more as a much wanted break in your life, and take it like you deserved it.\r\nA new app called “Quarantine Chat” may help some people who are experiencing loneliness while in isolation during the COVID-19 outbreak.\r\nMental health experts say it’s important for people to stay connected during a quarantine, as well as talk to others who are in similar situations.",
+        "Source": "https://www.healthline.com/health-news/quarantine-chat-app-may-help-relieve-loneliness-during-covid-19-outbreak",
+        "Reference": null,
+        "Image_URL": null,
+        "Question_Type": "Social distancing\r\n",
+        "Audio_Link": null,
+        "Entities": [
+            "what-to-do-at-home"
+        ]
+    },
+    {
+        "Question": "How to effectively work from home?",
+        "Intent": "procedure",
+        "Answer": "- Make a schedule and stick to it\r\n- Focus on what you’ve accomplished at the end of each day to keep yourself motivated\r\n- Create a dedicated workspace and let your family know that you are unavailable during work hours",
+        "Source": "https://hbr.org/2014/10/5-ways-to-work-from-home-more-effectively",
+        "Reference": null,
+        "Image_URL": null,
+        "Question_Type": "Protect yourself and others\r\n",
+        "Audio_Link": null,
+        "Entities": [
+            "work-from-home"
+        ]
+    },
+    {
+        "Question": "How do I improve my immune system?",
+        "Intent": "procedure",
+        "Answer": "- Increase consumption of fruits and vegetables, including citrus fruits and leafy greens\r\n- Refrain from sugar-laden foods\r\n- Maintain daily exercise of 30-60 minutes\r\n- Minimize your stress level and get adequate sleep",
+        "Source": "https://www.mercurynews.com/2020/03/18/letter-boosting-your-immune-system-beneficial-with-covid-19-and-always/",
+        "Reference": "https://www.sciencedaily.com/releases/2020/03/200317103815.htm",
+        "Image_URL": null,
+        "Question_Type": "Action",
+        "Audio_Link": null,
+        "Entities": [
+            "immune-system"
+        ]
+    },
+    {
+        "Question": "What types of medications and health supplies do I need?",
+        "Intent": "procedure",
+        "Answer": "Medical and health supplies\n-prescription medications\n-prescribed medical supplies such as glucose and blood-pressure monitoring equipment\n-fever and pain medicine, such as acetaminophen or ibuprofen\n-cough and cold medicines\n-antidiarrheal medication\n-thermometer\n-fluids with electrolytes\n-soap and alcohol-based hand sanitizer\n-tissues, toilet paper, disposable diapers, tampons, sanitary napkins\n-garbage bags",
+        "Source": "https://www.health.harvard.edu/diseases-and-conditions/coronavirus-resource-center#Prepare",
+        "Reference": null,
+        "Image_URL": null,
+        "Question_Type": null,
+        "Audio_Link": null,
+        "Entities": [
+            "medication",
+            "health-supplies"
+        ]
+    },
+    {
+        "Question": "How to stay physically and mentally fit while at home?",
+        "Intent": "procedure",
+        "Answer": "Regular meditation is very calming. Many apps teach simple forms of meditation, such as Headspace or Calm.\r\n\nNot a yoga person? No need to start now unless you'd like to try it. Sometimes trying new things and discovering new activities you can benefit from and enjoy can be a welcome, healthy distraction. Yoga Studio and Pocket Yoga are good apps to consider.",
+        "Source": "https://www.theweek.in/news/world/2020/03/16/harvard-medical-school-recommends-yoga-to-deal-with-covid-19-anxiety.html",
+        "Reference": "https://economictimes.indiatimes.com/magazines/panache/dont-let-coronavirus-anxiety-take-over-harvard-medical-school-recommends-yoga-meditation-to-relax/articleshow/74653730.cms",
+        "Image_URL": null,
+        "Question_Type": "Action",
+        "Audio_Link": null,
+        "Entities": [
+            "stay-fit"
+        ]
+    },
+    {
+        "Question": "What types of medications and health supplies do I need?",
+        "Intent": "procedure",
+        "Answer": "Medical and health supplies\n-prescription medications\n-prescribed medical supplies such as glucose and blood-pressure monitoring equipment\n-fever and pain medicine, such as acetaminophen or ibuprofen\n-cough and cold medicines\n-antidiarrheal medication\n-thermometer\n-fluids with electrolytes\n-soap and alcohol-based hand sanitizer\n-tissues, toilet paper, disposable diapers, tampons, sanitary napkins\n-garbage bags",
+        "Source": "https://www.health.harvard.edu/diseases-and-conditions/coronavirus-resource-center#Prepare",
+        "Reference": null,
+        "Image_URL": null,
+        "Question_Type": null,
+        "Audio_Link": null,
+        "Entities": [
+            "health-supplies"
+        ]
+    },
+    {
+        "Question": "How do I regularly monitor my symptoms?",
+        "Intent": "procedure",
+        "Answer": "The most common symptoms of COVID-19 are fever, tiredness, difficulty in breathing and dry cough. \r\nSome patients may also have aches and pains, nasal congestion, runny nose, sore throat or diarrhea. These symptoms are usually mild and begin gradually. Some people become infected but don’t develop any symptoms and don't feel unwell. Most people (about 80%) recover from the disease without needing special treatment. Around 1 out of every 6 people who gets COVID-19 becomes seriously ill and develops difficulty breathing. Older people, and those with underlying medical problems like high blood pressure, heart problems or diabetes, are more likely to develop serious illness. People with fever, cough and difficulty breathing should seek medical attention.",
+        "Source": "https://www.who.int/news-room/q-a-detail/q-a-coronaviruses",
+        "Reference": "https://www.youtube.com/watch?v=oGruT7Fd54E",
+        "Image_URL": null,
+        "Question_Type": null,
+        "Audio_Link": null,
+        "Entities": [
+            "monitor",
+            "symptoms"
+        ]
+    },
+    {
+        "Question": "How can I protect myself when caring for someone who may have COVID-19?",
+        "Intent": "procedure",
+        "Answer": "You should take many of the same precautions as you would if you were caring for someone with the flu:\r\n\r\n-   Stay in another room or be separated from the person as much as possible. Use a separate bedroom and bathroom, if available.\r\n    \r\n-   Make sure that shared spaces in the home have good air flow. Turn on an air conditioner or open a window.\r\n    \r\n-   Wash your hands often with soap and water for at least 20 seconds or use an alcohol-based hand sanitizer that contains 60 to 95% alcohol, covering all surfaces of your hands and rubbing them together until they feel dry. Use soap and water if your hands are visibly dirty.\r\n    \r\n-   Avoid touching your eyes, nose, and mouth with unwashed hands.\r\n    \r\n-   You and the person should wear a face mask if you are in the same room.\r\n    \r\n-   Wear a disposable face mask and gloves when you touch or have contact with the person's blood, stool, or body fluids, such as saliva, sputum, nasal mucus, vomit, urine.\r\n    \r\n\r\n  - Throw out disposable face masks and gloves after using them. Do not reuse.\r\n    \r\n  -   First remove and throw away gloves. Then, immediately clean your hands with soap and water or alcohol-based hand sanitizer. Next, remove and throw away the face mask, and immediately clean your hands again with soap and water or alcohol-based hand sanitizer.\r\n    \r\n\r\n-   Do not share household items such as dishes, drinking glasses, cups, eating utensils, towels, bedding, or other items with the person who is sick. After the person uses these items, wash them thoroughly.\r\n    \r\n-   Clean all \"high-touch\" surfaces, such as counters, tabletops, doorknobs, bathroom fixtures, toilets, phones, keyboards, tablets, and bedside tables, every day. Also, clean any surfaces that may have blood, stool, or body fluids on them. Use a household cleaning spray or wipe.\r\n    \r\n-   Wash laundry thoroughly.\r\n    \r\n\r\n  -   Immediately remove and wash clothes or bedding that have blood, stool, or body fluids on them.\r\n    \r\n  -   Wear disposable gloves while handling soiled items and keep soiled items away from your body. Clean your hands immediately after removing your gloves.\r\n    \r\n\r\n-   Place all used disposable gloves, face masks, and other contaminated items in a lined container before disposing of them with other household waste. Clean your hands (with soap and water or an alcohol-based hand sanitizer) immediately after handling these items",
+        "Source": "https://www.health.harvard.edu/diseases-and-conditions/coronavirus-resource-center#Sick",
+        "Reference": null,
+        "Image_URL": null,
+        "Question_Type": "Action",
+        "Audio_Link": null,
+        "Entities": [
+            "protect",
+            "care-givers"
+        ]
+    },
+    {
+        "Question": "My parents live far away. How can I help?",
+        "Intent": "procedure",
+        "Answer": "Caring from a distance can be stressful. Start by talking to your parents about what they would need if they were to get sick. Put together a single list of emergency contacts for their (and your) reference, including doctors, family members, neighbors, and friends. Include contact information for their local public health department.\r\n\nYou can also help them to plan ahead. For example, ask your parents to give their neighbors or friends a set of house keys. \n\nHave them stock up on prescription and over-the counter medications, health and emergency medical supplies, and nonperishable food and household supplies. Check in regularly by phone, Skype, or however you like to stay in touch.",
+        "Source": "MISSING_LINK",
+        "Reference": null,
+        "Image_URL": null,
+        "Question_Type": "Action",
+        "Audio_Link": null,
+        "Entities": [
+            "protect",
+            "remote"
+        ]
+    },
+    {
+        "Question": "Should I wear a mask to protect myself?",
+        "Intent": "recommendation",
+        "Answer": "Medical masks should not be used by healthy persons who are not having any symptoms because it create a false sense of security that can lead to neglecting other essential measuressuch as washing of hands.\r\n\nFurther, there is no scientific evidence to show health benefit of using masks for non-sick persons in the community. In fact erroneous use of masks or continuous use of a disposable mask for longer than 6 hours or repeated use of same mask may actually increase risk of getting an infection. It also incurs unnecessary cost.",
+        "Source": "https://www.mohfw.gov.in/pdf/Useofmaskbypublic.pdf",
+        "Reference": null,
+        "Image_URL": null,
+        "Question_Type": "Protect yourself and others",
+        "Audio_Link": null,
+        "Entities": [
+            "mask"
+        ]
+    },
+    {
+        "Question": "Can I take antibiotics in preventing or treating COVID-19?",
+        "Intent": "recommendation",
+        "Answer": "No, antibiotics do not work against viruses, only bacteria.The new coronavirus (2019-nCoV) is a virus and, therefore, antibiotics should not be used as a means of prevention or treatment.\n\nHowever, if you are hospitalized for the 2019-nCoV, you may receive antibiotics because bacterial co-infection is possible.",
+        "Source": "https://www.who.int/emergencies/diseases/novel-coronavirus-2019/advice-for-public/myth-busters",
+        "Reference": null,
+        "Image_URL": null,
+        "Question_Type": "Understand",
+        "Audio_Link": null,
+        "Entities": [
+            "antibiotics"
+        ]
+    },
+    {
+        "Question": "What are the ways I can protect myself?",
+        "Intent": "recommendation",
+        "Answer": "We are dealing with a new virus against which humans have not yet developed immunity. That is why so many people are being infected and developing the disease, and why the spread of the new coronavirus must be delayed as far as possible.\r\nIn particular those at high risk of becoming seriously ill must be protected. These include people over the age of 65, and those with underlying health conditions (high blood pressure, diabetes, cardiovascular diseases, chronic respiratory diseases, cancer) and those with diseases or receiving treatments that weaken the immune system.\r\nIf we follow all of the rules, we can reduce the risk of exposing these people to the infection. That way we can also ensure that our health system is able to continue to provide good treatment to those who are seriously ill.",
+        "Source": "https://www.cdc.gov/coronavirus/2019-ncov/prepare/children-faq.html",
+        "Reference": null,
+        "Image_URL": null,
+        "Question_Type": null,
+        "Audio_Link": null,
+        "Entities": [
+            "protect"
+        ]
+    },
+    {
+        "Question": "What are the ways I can protect myself and prevent spread?",
+        "Intent": "recommendation",
+        "Answer": "Interrupt human-to-human transmission including reducing secondary infections among close contacts and health care workers, preventing transmission amplification events, and preventing further international spread; \r\n Identify, isolate and care for patients early, including providing optimized care for infected patients; \r\nIdentify and reduce transmission from the animal source; \r\nAddress crucial unknowns regarding clinical severity, extent of transmission and infection, treatment options, and accelerate the development of diagnostics, therapeutics and vaccines; \r\nCommunicate critical risk and event information to all communities and counter misinformation; \r\nMinimize social and economic impact through multisectoral partnerships.\r\nThis can be achieved through a combination of public health measures, such as rapid identification, diagnosis and management of the cases, identification and follow up of the contacts, infection prevention and control in health care settings, implementation of health measures for travelers, awareness-raising in the population and risk communication.",
+        "Source": "https://www.who.int/docs/default-source/coronaviruse/situation-reports/20200306-sitrep-46-covid-19.pdf?sfvrsn=96b04adf_2",
+        "Reference": null,
+        "Image_URL": null,
+        "Question_Type": null,
+        "Audio_Link": null,
+        "Entities": [
+            "prevent-spread"
+        ]
+    },
+    {
+        "Question": "Should I take a hot bath to prevent COVID-19?",
+        "Intent": "recommendation",
+        "Answer": "This myth has been stemming from the false idea that cold and hot temperatures can kill the virus. Just like the cold weather and hot and humid climate myths, this is not true. Your body temperature stays relatively stable even when you take an extremely hot bath. This just leaves you with a risk of a burn. Still, the best way to prevent getting COVID-19 is to wash your hands often. This prevents viruses on your hands from infecting you when you touch your face.",
+        "Source": "https://www.wwlp.com/weather/weather-news/cold-weather-kills-coronavirus-and-13-other-covid-19-myths-you-may-be-falling-for/",
+        "Reference": null,
+        "Image_URL": null,
+        "Question_Type": null,
+        "Audio_Link": null,
+        "Entities": [
+            "hot-bath"
+        ]
+    },
+    {
+        "Question": "Should I use hand dryers to protect myself?",
+        "Intent": "recommendation",
+        "Answer": "The heat from a hand dryer alone is not enough to kill the new coronavirus. However, in combination with washing your hands with soap and water for at least 20 seconds, this method is very effective. You can also dry your hands after using paper towels, or instead use an alcohol-based hand sanitizer.",
+        "Source": "https://www.wwlp.com/weather/weather-news/cold-weather-kills-coronavirus-and-13-other-covid-19-myths-you-may-be-falling-for/",
+        "Reference": null,
+        "Image_URL": null,
+        "Question_Type": null,
+        "Audio_Link": null,
+        "Entities": [
+            "hand-dryers"
+        ]
+    },
+    {
+        "Question": "Does spraying alcohol or chlorine on the body protect me?",
+        "Intent": "recommendation",
+        "Answer": "No. Spraying alcohol or chlorine all over your body will not kill viruses that have already entered your body. Spraying such substances can be harmful to clothes or mucous membranes (i.e. eyes, mouth). Be aware that both alcohol and chlorine can be useful to disinfect surfaces, but they need to be used under appropriate recommendations.",
+        "Source": "https://www.who.int/emergencies/diseases/novel-coronavirus-2019/advice-for-public/myth-busters",
+        "Reference": null,
+        "Image_URL": null,
+        "Question_Type": "Protect yourself and others",
+        "Audio_Link": null,
+        "Entities": [
+            "alcohol",
+            "chlorine"
+        ]
+    },
+    {
+        "Question": "Do pneumonia vaccines protect against COVID-19?",
+        "Intent": "recommendation",
+        "Answer": "No, Vaccines against pneumonia, such as pneumococcal vaccine and Haemophilus influenza type B (Hib) vaccine, do not protect against coronavirus, which is a newly discovered virus with no vaccine or cure to date.",
+        "Source": "https://www.foxnews.com/health/will-pneumonia-shots-protect-against-the-coronavirus",
+        "Reference": null,
+        "Image_URL": null,
+        "Question_Type": "Understand",
+        "Audio_Link": null,
+        "Entities": [
+            "penumonia-vaccine"
+        ]
+    },
+    {
+        "Question": "Does rinsing nose with saline help prevent infection?",
+        "Intent": "recommendation",
+        "Answer": "No. There is no evidence that regularly rinsing the nose with saline has protected people from infection with the new coronavirus. \r\n\r\nThere is some limited evidence that regularly rinsing nose with saline can help people recover more quickly from the common cold. However, regularly rinsing the nose has not been shown to prevent respiratory infections.",
+        "Source": "https://www.who.int/emergencies/diseases/novel-coronavirus-2019/advice-for-public/myth-busters",
+        "Reference": null,
+        "Image_URL": null,
+        "Question_Type": "Protect yourself and others",
+        "Audio_Link": null,
+        "Entities": [
+            "nose-with-saline"
+        ]
+    },
+    {
+        "Question": "Can eating garlic help prevent infection?",
+        "Intent": "recommendation",
+        "Answer": "Garlic is a healthy food that may have some antimicrobial properties. However, there is no evidence from the current outbreak that eating garlic has protected people from the new coronavirus.",
+        "Source": "https://www.who.int/emergencies/diseases/novel-coronavirus-2019/advice-for-public/myth-busters",
+        "Reference": null,
+        "Image_URL": null,
+        "Question_Type": "Understand",
+        "Audio_Link": null,
+        "Entities": [
+            "garlic"
+        ]
+    },
+    {
+        "Question": "Should I work from home?",
+        "Intent": "recommendation",
+        "Answer": "It is recommended by government authorities as well WHO to stay home as much as possible, so Working from home is a very good idea.",
+        "Source": "https://hbr.org/2014/10/5-ways-to-work-from-home-more-effectively",
+        "Reference": null,
+        "Image_URL": null,
+        "Question_Type": null,
+        "Audio_Link": null,
+        "Entities": [
+            "work-from-home"
+        ]
+    },
+    {
+        "Question": "Should I travel to x?",
+        "Intent": "recommendation",
+        "Answer": "DYNAMIC_ANSWER",
+        "Source": null,
+        "Reference": null,
+        "Image_URL": null,
+        "Question_Type": null,
+        "Audio_Link": null,
+        "Entities": [
+            "travel-",
+            "@sys.location"
+        ]
+    },
+    {
+        "Question": "Should I buy many masks?",
+        "Intent": "recommendation",
+        "Answer": "Now, worries about mask supplies are rising. As the virus’s global spread escalates, governments around the world are restricting exports of protective gear, which experts say could worsen the pandemic.\nIt is suggested to avoid buying and stocking masks if you are not ill, and leave them for the medical workers.",
+        "Source": "https://www.nytimes.com/2020/03/13/business/masks-china-coronavirus.html",
+        "Reference": null,
+        "Image_URL": null,
+        "Question_Type": null,
+        "Audio_Link": null,
+        "Entities": [
+            "mask",
+            "buy"
+        ]
+    },
+    {
+        "Question": "Should I buy groceries and food items?",
+        "Intent": "recommendation",
+        "Answer": "Medical and health supplies\n-prescription medications\n-prescribed medical supplies such as glucose and blood-pressure monitoring equipment\n-fever and pain medicine, such as acetaminophen or ibuprofen\n-cough and cold medicines\n-antidiarrheal medication\n-thermometer\n-fluids with electrolytes\n-soap and alcohol-based hand sanitizer\n-tissues, toilet paper, disposable diapers, tampons, sanitary napkins\n-garbage bags",
+        "Source": "https://www.health.harvard.edu/diseases-and-conditions/coronavirus-resource-center#Prepare",
+        "Reference": null,
+        "Image_URL": null,
+        "Question_Type": null,
+        "Audio_Link": null,
+        "Entities": [
+            "grocery",
+            "buy"
+        ]
+    },
+    {
+        "Question": "Do I need a hand sanitizer?",
+        "Intent": "recommendation",
+        "Answer": "Yes, using a sanitizer reinforces  the important role of hand hygiene for preventing the transmission of pathogens in healthcare settings for a wide range of pathogens. Hand washing mechanically removes pathogens, while laboratory data demonstrate that 60% ethanol and 70% isopropanol, the active ingredients in CDC-recommended alcohol-based hand sanitizers, inactivates viruses that are genetically related to, and with similar physical properties as, the 2019-nCoV.",
+        "Source": "https://www.cdc.gov/coronavirus/2019-ncov/infection-control/hcp-hand-sanitizer.html",
+        "Reference": null,
+        "Image_URL": null,
+        "Question_Type": "Action",
+        "Audio_Link": null,
+        "Entities": [
+            "hand-sanitizer"
+        ]
+    },
+    {
+        "Question": "What disinfectant to use?",
+        "Intent": "recommendation",
+        "Answer": "For disinfection, diluted household bleach solutions, alcohol solutions with at least 70 percent alcohol, and most common EPA-registered household disinfectants should be effective.",
+        "Source": "https://www.healthleadersmedia.com/nursing/covid-19-epa-releases-list-registered-disinfectants",
+        "Reference": null,
+        "Image_URL": null,
+        "Question_Type": "Protect yourself and others",
+        "Audio_Link": null,
+        "Entities": [
+            "disinfectant"
+        ]
+    },
+    {
+        "Question": "Should I get a flu shot?",
+        "Intent": "recommendation",
+        "Answer": "Experts say it's almost never too late to get the flu shot and, while it won't make you immune to the coronavirus, it may indirectly make you less susceptible and can help ease burdens on the healthcare system. And since you're still more likely to get the flu than the coronavirus, getting the vaccine is one of the best ways, along with good hygiene, you can stay healthy.",
+        "Source": "https://www.insider.com/when-is-too-late-to-get-flu-shot-coronavirus-2020-3",
+        "Reference": null,
+        "Image_URL": null,
+        "Question_Type": "Protecting yourself and others",
+        "Audio_Link": null,
+        "Entities": [
+            "flu-shot"
+        ]
+    },
+    {
+        "Question": "Is it safe to travel by air?",
+        "Intent": "recommendation",
+        "Answer": "If you do travel, take the following steps to help reduce your chances of getting sick:\r\n\r\n-   Avoid contact with sick people.\r\n    \r\n-   Avoid touching your eyes, nose, or mouth with unwashed hands.\r\n    \r\n-   Wash your hands often with soap and water for at least 20 seconds or using an alcohol-based hand sanitizer that contains at least 60% alcohol. Soap and water should be used if hands are visibly dirty.\r\n    \r\n\r\nIt is especially important to clean hands after going to the bathroom; before eating; and after coughing, sneezing or blowing your nose.",
+        "Source": "https://www.cdc.gov/coronavirus/2019-ncov/travelers/faqs.html",
+        "Reference": null,
+        "Image_URL": null,
+        "Question_Type": "Action",
+        "Audio_Link": null,
+        "Entities": [
+            "travel-by-air"
+        ]
+    },
+    {
+        "Question": "I am taking immunosuppressive drugs. Should I stop taking them?",
+        "Intent": "recommendation",
+        "Answer": "If you develop a fever, shortness of breath or a cough, particularly if you have travelled to areas with outbreaks or have been exposed to someone with COVID-19 infection, it is very important to communicate with your healthcare provider.\n\nCommunication is particularly essential for older patients, those who are pregnant, those with underlying lung or heart disease and those on immunosuppressive drugs. We don’t advise walk-in visits: Unless you need to get to an emergency room with a true emergency, it is recommended that you call ahead – call your doctor, or an urgent care center, or your hospital – so that you can be advised on what to do and whether you need to be seen in person or not.",
+        "Source": "https://www.hss.edu/conditions_rheumatic-disease-and-COVID-19-coronavirus.asp",
+        "Reference": null,
+        "Image_URL": null,
+        "Question_Type": "Protect yourself and others",
+        "Audio_Link": null,
+        "Entities": [
+            "immunosupressive-drugs"
+        ]
+    },
+    {
+        "Question": "Is it safe to order food from online food delivery services?",
+        "Intent": "recommendation",
+        "Answer": "Many Delivery partners are trying to make the delivery process as hygienic as possible, but at the same time we all should also follow some basic guidelines so that we don’t contract the virus.\r\nWash your hands after coming into contact with the delivery partner, make sure to maintain a distance from them if they have symptoms of cough etc.\r\nOnline deliveries are a boon for those who cannot leave their homes, as well as small restaurants who fear going out of business. But at the same time it comes with a risk to drivers and delivery workers who fear the loss of income if they get sick. At a minimum, everyone should generously tip their drivers for the service.",
+        "Source": "https://www.nytimes.com/interactive/2020/world/coronavirus-tips-advice.html?action=click&pgtype=Article&state=default&module=styln-coronavirus&variant=show&region=BELOW_MAIN_CONTENT&context=storyline_guide",
+        "Reference": null,
+        "Image_URL": null,
+        "Question_Type": null,
+        "Audio_Link": null,
+        "Entities": [
+            "order-food"
+        ]
+    },
+    {
+        "Question": "Can I invite friends home for dinner?",
+        "Intent": "recommendation",
+        "Answer": "As per government guidelines, we should avoid meetups and get to gathers, you can postpone it for later after this crisis.",
+        "Source": null,
+        "Reference": null,
+        "Image_URL": null,
+        "Question_Type": null,
+        "Audio_Link": null,
+        "Entities": [
+            "invite-friends"
+        ]
+    },
+    {
+        "Question": "Is turmeric / garlic / … good for building immunity?",
+        "Intent": "recommendation",
+        "Answer": "A healthy diet, adequate sleep and exercise are all factors that strengthen your immune system but there is something else you can do to prevent your immunity dropping below the recommended levels and giving it a boost. And it's sitting comfortably in your spice cabinet - Turmeric, a yellow coloured and warm spice that comes from the root of the Curcuma plant.\r\n\r\nAccording to a research published in the journal PLOS ONE (Public Library of Science), curcumin, a compound found in turmeric is known to have anti-inflammatory properties that helps boost immunity. While eating turmeric in its raw form is good, researchers explain how the body might not be absorbing the curcumin effectively.",
+        "Source": "https://food.ndtv.com/health/fight-infections-and-boost-your-immunity-with-turmeric-696445",
+        "Reference": "https://www.thehindu.com/sci-tech/health/immunity-boosters-you-can-make-at-home/article31083337.ece",
+        "Image_URL": null,
+        "Question_Type": null,
+        "Audio_Link": null,
+        "Entities": [
+            "turmeric"
+        ]
+    },
+    {
+        "Question": "Should I take multivitamins?",
+        "Intent": "recommendation",
+        "Answer": "Although vitamin C does have some small effect on the common cold, it’s unlikely that taking large amounts of vitamin C supplements will cure a COVID-19 infection – or have a large effect at all.",
+        "Source": "https://www.channelnewsasia.com/news/commentary/covid-19-coronavirus-cold-can-vitamin-c-help-with-really-12526902",
+        "Reference": null,
+        "Image_URL": null,
+        "Question_Type": "Action",
+        "Audio_Link": null,
+        "Entities": [
+            "multivitamins"
+        ]
+    },
+    {
+        "Question": "Should I not sit in an air-conditioned office?",
+        "Intent": "recommendation",
+        "Answer": "The CDC and the WHO have said this from the start: the most effective way to protect yourself from COVID-19 is with frequent handwashing with soap and water, or using hand sanitizer with at least 60 percent alcohol. The WHO says there is “no reason to believe cold weather can kill the new coronavirus,” or other diseases, for that matter.",
+        "Source": "https://www.wwlp.com/weather/weather-news/cold-weather-kills-coronavirus-and-13-other-covid-19-myths-you-may-be-falling-for/",
+        "Reference": null,
+        "Image_URL": null,
+        "Question_Type": null,
+        "Audio_Link": null,
+        "Entities": [
+            "air-conditioning",
+            "office"
+        ]
+    },
+    {
+        "Question": "Should I get tested?",
+        "Intent": "recommendation",
+        "Answer": "If you're showing the symptoms, please go here to check : https://www.projectbaseline.com/study/covid-19/",
+        "Source": "https://www.projectbaseline.com/study/covid-19/",
+        "Reference": null,
+        "Image_URL": null,
+        "Question_Type": null,
+        "Audio_Link": null,
+        "Entities": [
+            "testing"
+        ]
+    },
+    {
+        "Question": "Am I eligible to be tested?",
+        "Intent": "recommendation",
+        "Answer": "Please go through this : https://www.projectbaseline.com/study/covid-19/",
+        "Source": "https://www.projectbaseline.com/study/covid-19/",
+        "Reference": null,
+        "Image_URL": null,
+        "Question_Type": null,
+        "Audio_Link": null,
+        "Entities": [
+            "eligibility",
+            "testing"
+        ]
+    },
+    {
+        "Question": "Should I take ibuprofen?",
+        "Intent": "recommendation",
+        "Answer": "The World Health Organization (WHO) advises against using ibuprofen (Motrin, Advil, many generic versions) for COVID-19 symptoms based on reports of otherwise healthy people with confirmed COVID-19 who were taking an NSAID for symptom relief and developed a severe illness, especially pneumonia. While these are only observations and not based on scientific studies, it currently seems prudent to use acetaminophen to help reduce fever and ease aches and pains related to this coronavirus infection. No specific recommendation was made regarding naproxen (Aleve, Naprosyn). Given naproxen and ibuprofen have similar actions, it's best to avoid naproxen as well. For now, if you suspect or know you have COVID-19 and cannot take acetaminophen, or have taken the maximum dose and still need symptom relief, contact your doctor for advice.",
+        "Source": "https://www.health.harvard.edu/diseases-and-conditions/coronavirus-resource-center#Sick",
+        "Reference": null,
+        "Image_URL": null,
+        "Question_Type": "Action",
+        "Audio_Link": null,
+        "Entities": [
+            "ibuprofen"
+        ]
+    },
+    {
+        "Question": "Can I go for a walk?",
+        "Intent": "recommendation",
+        "Answer": "Yes! Getting exercise outside is a great alternative to going to the gym, where touching high-contact equipment can pose a risk (if your gym is even still open). A study last year found infectious germs on about a third of the surfaces at 16 different fitness facilities. \r\nExercise boosts our immune systems, and even a single workout can improve our ability to fight off germs, according to the latest research. Even if you just hang out in a park, rather than go for a jog or a walk, getting some fresh air, and hopefully sunshine, is a good idea.",
+        "Source": "https://www.nytimes.com/interactive/2020/world/coronavirus-tips-advice.html",
+        "Reference": "https://www.nytimes.com/2020/03/04/well/move/exercise-immunity-infection-coronavirus.html",
+        "Image_URL": null,
+        "Question_Type": "Action",
+        "Audio_Link": null,
+        "Entities": [
+            "walk"
+        ]
+    },
+    {
+        "Question": "I think I am sick ...",
+        "Intent": "report",
+        "Answer": "Everyone should be concerned about contracting the new coronavirus — if not for yourself, then to protect others who are at risk of becoming severely ill. As with the flu, the virus is more dangerous for people who are older than 60, people who have a weakened immune system, and people with an underlying condition, like diabetes, asthma or another chronic illness.",
+        "Source": "https://www.nytimes.com/interactive/2020/world/coronavirus-tips-advice.html?action=click&pgtype=Article&state=default&module=styln-coronavirus&variant=show&region=BELOW_MAIN_CONTENT&context=storyline_guide",
+        "Reference": null,
+        "Image_URL": null,
+        "Question_Type": null,
+        "Audio_Link": null,
+        "Entities": [
+            "sick"
+        ]
+    },
+    {
+        "Question": "I saw a malpractice …",
+        "Intent": "report",
+        "Answer": "If you have any complaints about a Doctor, Hospital or some medical service provider, you can lodge a complaint at National Accreditation Board for Hospitals & Healthcare Providers (NABH)",
+        "Source": "https://nabh.co/Complaint.aspx",
+        "Reference": null,
+        "Image_URL": null,
+        "Question_Type": null,
+        "Audio_Link": null,
+        "Entities": [
+            "malpractice"
+        ]
+    },
+    {
+        "Question": "I saw a problem at this hospital ...",
+        "Intent": "report",
+        "Answer": "If you have any complaints about a Doctor, Hospital or some medical service provider, you can lodge a complaint at National Accreditation Board for Hospitals & Healthcare Providers (NABH)",
+        "Source": "https://nabh.co/Complaint.aspx",
+        "Reference": null,
+        "Image_URL": null,
+        "Question_Type": null,
+        "Audio_Link": null,
+        "Entities": [
+            "problem",
+            "@sys.location"
+        ]
+    },
+    {
+        "Question": "i faced a difficulty in ",
+        "Intent": "report",
+        "Answer": "DYNAMIC_ANSWER",
+        "Source": null,
+        "Reference": null,
+        "Image_URL": null,
+        "Question_Type": null,
+        "Audio_Link": null,
+        "Entities": [
+            "problem",
+            "@sys.location"
+        ]
+    },
+    {
+        "Question": "i did not find masks in X shop",
+        "Intent": "report",
+        "Answer": "DYNAMIC_ANSWER",
+        "Source": null,
+        "Reference": null,
+        "Image_URL": null,
+        "Question_Type": null,
+        "Audio_Link": null,
+        "Entities": [
+            "problem",
+            "@sys.location"
+        ]
+    },
+    {
+        "Question": "Can I catch COVID-19 from my pet?",
+        "Intent": "safety",
+        "Answer": "There have not been any reports of companion animals becoming sick with COVID-19. Because this is a new virus, experts recommend good hygiene when handling or caring for your pets. Wash your hands before and after interacting with animals, and avoid kissing them or letting them lick you or share your food. People ill with COVID-19 should let someone else take care of their animals. If this isn’t possible, patients should wear a mask while looking after their pet",
+        "Source": "https://www.hopkinsmedicine.org/health/conditions-and-diseases/coronavirus/coronavirus-frequently-asked-questions",
+        "Reference": null,
+        "Image_URL": null,
+        "Question_Type": null,
+        "Audio_Link": null,
+        "Entities": [
+            "covid",
+            "pet"
+        ]
+    },
+    {
+        "Question": "Is it safe to receive a package from any area where COVID-19 has been reported?",
+        "Intent": "safety",
+        "Answer": "Yes. The likelihood of an infected person contaminating commercial goods is low and the risk of catching the virus that causes COVID-19 from a package that has been moved, travelled, and exposed to different conditions and temperature is also low.",
+        "Source": "https://www.who.int/news-room/q-a-detail/q-a-coronaviruses",
+        "Reference": null,
+        "Image_URL": null,
+        "Question_Type": null,
+        "Audio_Link": null,
+        "Entities": [
+            "package"
+        ]
+    },
+    {
+        "Question": "Why are scientists and doctors not able to find a treatment for coronavirus?",
+        "Intent": "treatment",
+        "Answer": "Some specific treatments are under investigation, and will be tested through clinical trials. WHO is helping to accelerate research and development efforts with a range or partners.To date, there is no specific medicine recommended to prevent or treat the new coronavirus (2019-nCoV).\nHowever, those infected with the virus should receive appropriate care to relieve and treat symptoms, and those with severe illness should receive optimized supportive care.",
+        "Source": "https://www.who.int/emergencies/diseases/novel-coronavirus-2019/advice-for-public/myth-busters",
+        "Reference": null,
+        "Image_URL": null,
+        "Question_Type": null,
+        "Audio_Link": null,
+        "Entities": [
+            "doctors",
+            "Scientists"
+        ]
+    },
+    {
+        "Question": "What can I do to help others?",
+        "Intent": "volunteer",
+        "Answer": "If you anyhow want to help someone who you think is affected, call the helpline number provided by government of India.\nPractising good hand and sneeze/cough hygiene and keeping your distance from others when you are sick is the best defence against most viruses. You should:  \nWash your hands frequently with soap and water, before and after eating, and after going to the toilet.  \nCover your cough and sneeze, dispose of tissues, and use alcohol-based hand sanitiser.  \nIf unwell, avoid contact with others (stay more than 1.5 metres from people).  \nExercise personal responsibility for social distancing measures.",
+        "Source": "https://www.cdc.gov/coronavirus/2019-ncov/prepare/prevention.html",
+        "Reference": null,
+        "Image_URL": null,
+        "Question_Type": null,
+        "Audio_Link": null,
+        "Entities": [
+            "help-others"
+        ]
+    },
+    {
+        "Question": "Everyone seems to be stressed. Is there anything I can do to help?",
+        "Intent": "volunteer",
+        "Answer": "Regular meditation is very calming. Many apps teach simple forms of meditation, such as Headspace or Calm.\r\nNot a yoga person? No need to start now unless you'd like to try it. Sometimes trying new things and discovering new activities you can benefit from and enjoy can be a welcome, healthy distraction. Yoga Studio and Pocket Yoga are good apps to consider.",
+        "Source": "https://www.theweek.in/news/world/2020/03/16/harvard-medical-school-recommends-yoga-to-deal-with-covid-19-anxiety.html",
+        "Reference": null,
+        "Image_URL": null,
+        "Question_Type": null,
+        "Audio_Link": null,
+        "Entities": [
+            "stress"
+        ]
+    },
+    {
+        "Question": "I am stuck at home. How can I help",
+        "Intent": "volunteer",
+        "Answer": "DYNAMIC_ANSWER",
+        "Source": null,
+        "Reference": null,
+        "Image_URL": null,
+        "Question_Type": null,
+        "Audio_Link": null,
+        "Entities": [
+            "from-home",
+            "@sys.location"
+        ]
+    },
+    {
+        "Question": "Can antibiotics help against coronavirsus?",
+        "Intent": "what-cures-covid",
+        "Answer": "No, antibiotics do not work against viruses, only bacteria.The new coronavirus (2019-nCoV) is a virus and, therefore, antibiotics should not be used as a means of prevention or treatment. However, if you are hospitalized for the 2019-nCoV, you may receive antibiotics because bacterial co-infection is possible.",
+        "Source": "https://www.who.int/emergencies/diseases/novel-coronavirus-2019/advice-for-public/myth-busters",
+        "Reference": null,
+        "Image_URL": null,
+        "Question_Type": null,
+        "Audio_Link": null,
+        "Entities": [
+            "antibiotics"
+        ]
+    },
+    {
+        "Question": "Can cow urine help against coronavirus?",
+        "Intent": "what-cures-covid",
+        "Answer": "Scientifically there is no basis to this particular myth. It hasn't been proven or determined yet that cow urine or cow dung used in any form either as a surface applicant or administered orally, kills the virus.",
+        "Source": "https://www.edexlive.com/news/2020/mar/18/can-cow-urine-cure-coronavirus-four-of-the-most-ridiculous-myths-about-covid-19-busted-10747.html",
+        "Reference": null,
+        "Image_URL": null,
+        "Question_Type": null,
+        "Audio_Link": null,
+        "Entities": [
+            "cow-urine"
+        ]
+    },
+    {
+        "Question": "Can HIV drugs help against coronavirus?",
+        "Intent": "what-cures-covid",
+        "Answer": "Results are encouraging, but public health experts caution that more testing is needed before concluding that the HIV drugs can effectively treat the coronavirus. There is also some evidence based on a 2004 study in which patients with severe acute respiratory syndrome (known as SARS), caused by a related coronavirus, showed some clinical benefit from the HIV drug combination.",
+        "Source": "https://www.amfar.org/corona/",
+        "Reference": null,
+        "Image_URL": null,
+        "Question_Type": null,
+        "Audio_Link": null,
+        "Entities": [
+            "HIV-drugs"
+        ]
+    },
+    {
+        "Question": "Can rinsing your mouth help prevent coronavirus?",
+        "Intent": "what-cures-covid",
+        "Answer": "Rinsing face helps as much as washing your hands do.\nBut gargling with warm salt water can't save you from coronavirus",
+        "Source": "https://www.indiatoday.in/fact-check/story/fact-check-no-gargling-with-warm-salt-water-can-t-save-you-from-coronavirus-1656600-2020-03-17",
+        "Reference": null,
+        "Image_URL": null,
+        "Question_Type": null,
+        "Audio_Link": null,
+        "Entities": [
+            "rinsing-mouth"
+        ]
+    },
+    {
+        "Question": "Can flu shot help to prevent coronavirus?",
+        "Intent": "what-cures-covid",
+        "Answer": "Vaccines against pneumonia, such as pneumococcal vaccine and Haemophilus influenza type B (Hib) vaccine, do not protect against coronavirus, which is a newly discovered virus with no vaccine or cure to date.",
+        "Source": "https://www.foxnews.com/health/will-pneumonia-shots-protect-against-the-coronavirus",
+        "Reference": null,
+        "Image_URL": null,
+        "Question_Type": null,
+        "Audio_Link": null,
+        "Entities": [
+            "flu-shot"
+        ]
+    },
+    {
+        "Question": "Is there a vaccine, drug, or treatment for COVID-19?",
+        "Intent": "what-cures-covid",
+        "Answer": "Currently there is no specific antiviral treatment for COVID-19. However, similar to treatment of any viral infection, these measures can help:\nWhile you don't need to stay in bed, you should get plenty of rest.\nStay well hydrated.\nTake acetaminophen, ibuprofen, or naproxen to reduce fever and ease aches and pains. Be sure to follow directions. If you are taking any combination cold or flu medicine, keep track of all the ingredients and the doses. \nEven vaccines against pneumonia, such as pneumococcal vaccine and Haemophilus influenza type B (Hib) vaccine, do not protect against coronavirus, which is a newly discovered virus with no vaccine or cure to date.",
+        "Source": "https://www.health.harvard.edu/diseases-and-conditions/coronavirus-resource-center#Sick",
+        "Reference": "https://www.foxnews.com/health/will-pneumonia-shots-protect-against-the-coronavirus",
+        "Image_URL": null,
+        "Question_Type": null,
+        "Audio_Link": null,
+        "Entities": [
+            "vaccine",
+            "drug-",
+            "treatment"
+        ]
+    },
+    {
+        "Question": "Are there any existing medicines or therapies that can prevent or cure COVID-19?",
+        "Intent": "what-cures-covid",
+        "Answer": "Currently there is no specific antiviral treatment for COVID-19. However, similar to treatment of any viral infection, these measures can help:\nWhile you don't need to stay in bed, you should get plenty of rest.\nStay well hydrated.\nTake acetaminophen, ibuprofen, or naproxen to reduce fever and ease aches and pains. Be sure to follow directions. If you are taking any combination cold or flu medicine, keep track of all the ingredients and the doses.",
+        "Source": "https://www.health.harvard.edu/diseases-and-conditions/coronavirus-resource-center#Sick",
+        "Reference": null,
+        "Image_URL": null,
+        "Question_Type": null,
+        "Audio_Link": null,
+        "Entities": [
+            "medicines",
+            "therapies"
+        ]
+    },
+    {
+        "Question": "Can a person who has COVID-19 get infected again?",
+        "Intent": "what-cures-covid",
+        "Answer": "The immune response to COVID-19 is not yet understood. Patients with MERS-CoV infection are unlikely to be re-infected shortly after they recover, but it is not yet known whether similar immune protection will be observed for patients with COVID-19.",
+        "Source": "https://www.mclaren.org/main/coronavirus-covid-19",
+        "Reference": "https://www.forbes.com/sites/brucelee/2020/03/15/can-you-get-infected-by-coronavirus-twice-how-does-covid-19-immunity-work/#4613b74a5c0f",
+        "Image_URL": null,
+        "Question_Type": null,
+        "Audio_Link": null,
+        "Entities": [
+            "cured",
+            "COVID-19",
+            "infect"
+        ]
+    },
+    {
+        "Question": "What is COVID-19?",
+        "Intent": "what-is",
+        "Answer": "Coronaviruses are named for the crown-like spikes on their surface. Coronaviruses are a large family of viruses which may cause illness in animals or humans.  In humans, several coronaviruses are known to cause respiratory infections ranging from the common cold to more severe diseases such as Middle East Respiratory Syndrome (MERS) and Severe Acute Respiratory Syndrome (SARS). The most recently discovered coronavirus causes coronavirus disease COVID-19.",
+        "Source": "https://www.who.int/news-room/q-a-detail/q-a-coronaviruses",
+        "Reference": "https://www.youtube.com/watch?v=sHP0UIdZyI3",
+        "Image_URL": null,
+        "Question_Type": null,
+        "Audio_Link": null,
+        "Entities": [
+            "COVID-19"
+        ]
+    },
+    {
+        "Question": "What is Coronavirus?",
+        "Intent": "what-is",
+        "Answer": "Coronaviruses are named for the crown-like spikes on their surface. Coronaviruses are a large family of viruses which may cause illness in animals or humans.  In humans, several coronaviruses are known to cause respiratory infections ranging from the common cold to more severe diseases such as Middle East Respiratory Syndrome (MERS) and Severe Acute Respiratory Syndrome (SARS). The most recently discovered coronavirus causes coronavirus disease COVID-19.",
+        "Source": "https://www.who.int/news-room/q-a-detail/q-a-coronaviruses",
+        "Reference": "https://www.youtube.com/watch?v=sHP0UIdZyI4",
+        "Image_URL": null,
+        "Question_Type": null,
+        "Audio_Link": null,
+        "Entities": [
+            "coronavirus"
+        ]
+    },
+    {
+        "Question": "What is social distancing?",
+        "Intent": "what-is",
+        "Answer": "Compared to other fatal viral diseases, the coronavirus causes milder symptoms and thus is a greater chance of the infected people being active and still spreading the virus.\nWith no active vaccine or specific treatment against the disease yet, containing its spread is vital.",
+        "Source": "https://www.conehealth.com/services/primary-care/social-distancing-faq-how-it-helps-prevent-covid-19-coronavirus-/",
+        "Reference": null,
+        "Image_URL": null,
+        "Question_Type": null,
+        "Audio_Link": null,
+        "Entities": [
+            "social-distancing"
+        ]
+    },
+    {
+        "Question": "What is herd immunity?",
+        "Intent": "what-is",
+        "Answer": "Herd immunity (also called herd effect, community immunity, population immunity, or social immunity) is a form of indirect protection from infectious disease that occurs when a large percentage of a population has become immune to an infection, whether through infection or vaccination, thereby providing a measure of protection for individuals who are not immune.In a population in which a large number of individuals are immune, chains of infection are likely to be disrupted, which stops or slows the spread of disease. The greater the proportion of individuals in a community who are immune, the smaller the probability that those who are not immune will come into contact with an infectious individual.",
+        "Source": "https://en.wikipedia.org/wiki/Herd_immunity",
+        "Reference": "https://www.youtube.com/watch?v=tC47JjakPSA",
+        "Image_URL": null,
+        "Question_Type": null,
+        "Audio_Link": null,
+        "Entities": [
+            "herd-immunity"
+        ]
+    },
+    {
+        "Question": "What do we mean by flattening the curve?",
+        "Intent": "what-is",
+        "Answer": "This specific curve refers to a graphs that show the number of COVID-19 cases over time in a desired population with or without epidemic control measures like social distancing and personal protection. The second curve, shows the expected number of infections if precautionary measures are taken: the number of cases is lower and is spread out over a longer period. Although, this method does not prevent but helps limit surge and gives hospitals time to prepare and manage.That flatter curve is the goal right now in many places that are already seeing a lot of cases of COVID-19.",
+        "Source": "https://www.npr.org/sections/goatsandsoda/2020/03/13/814602553/coronavirus-faqs-for-the-week-of-3-7-whats-flattening-the-curve-should-i-travel",
+        "Reference": "https://apps.npr.org/dailygraphics/graphics/covid-flattening-curve-20200313/",
+        "Image_URL": null,
+        "Question_Type": null,
+        "Audio_Link": null,
+        "Entities": [
+            "flattening-the-curve"
+        ]
+    },
+    {
+        "Question": "What is isolation?",
+        "Intent": "what-is",
+        "Answer": "Isolation: the separation of people with a contagious disease from people who are not sick",
+        "Source": "https://www.health.harvard.edu/diseases-and-conditions/coronavirus-resource-center#Questions",
+        "Reference": null,
+        "Image_URL": null,
+        "Question_Type": null,
+        "Audio_Link": null,
+        "Entities": [
+            "isolation"
+        ]
+    },
+    {
+        "Question": "What is quarantine?",
+        "Intent": "what-is",
+        "Answer": "Quarantine means separating a person or group of people who have been exposed to a contagious disease but have not developed illness (symptoms) from others who have not been exposed, in order to prevent the possible spread of that disease. Quarantine is usually established for the incubation period of the communicable disease, which is the span of time during which people have developed illness after exposure. For COVID-19, the period of quarantine is 14 days from the last date of exposure, because 14 days is the longest incubation period seen for similar coronaviruses. Someone who has been released from COVID-19 quarantine is not considered a risk for spreading the virus to others because they have not developed illness during the incubation period.",
+        "Source": "https://www.cdc.gov/coronavirus/2019-ncov/faq.html",
+        "Reference": "https://www.youtube.com/watch?v=AQxpQ94Euic",
+        "Image_URL": null,
+        "Question_Type": null,
+        "Audio_Link": null,
+        "Entities": [
+            "quarantine"
+        ]
+    },
+    {
+        "Question": "What does community spread mean?",
+        "Intent": "what-is",
+        "Answer": "community transmission is said to have occurred when people have been infected without any knowledge of contact with someone who has the same infection",
+        "Source": "https://www.health.harvard.edu/diseases-and-conditions/coronavirus-resource-center#Questions",
+        "Reference": null,
+        "Image_URL": null,
+        "Question_Type": null,
+        "Audio_Link": null,
+        "Entities": [
+            "community-spread"
+        ]
+    },
+    {
+        "Question": "What is contact tracing?",
+        "Intent": "what-is",
+        "Answer": "People in close contact with someone who is infected with a virus like COVID-19, are at higher risk of becoming infected themselves, and of potentially further infecting others.\n\nClosely watching these contacts after exposure to an infected person will help the contacts to get care and treatment, and will prevent further transmission of the virus.\n\nThis monitoring process is called contact tracing, which can be broken down into 3 basic steps:\n\nContact identification: Once someone is confirmed as infected with a virus, contacts are identified by asking about the person’s activities and the activities and roles of the people around them since onset of illness. Contacts can be anyone who has been in contact with an infected person: family members, work colleagues, friends, or health care providers.\n\nContact listing: All persons considered to have contact with the infected person should be listed as contacts. Efforts should be made to identify every listed contact and to inform them of their contact status, what it means, the actions that will follow, and the importance of receiving early care if they develop symptoms. Contacts should also be provided with information about prevention of the disease. In some cases, quarantine or isolation is required for high risk contacts, either at home, or in hospital.\n\nContact follow-up: Regular follow-up should be conducted with all contacts to monitor for symptoms and test for signs of infection.",
+        "Source": null,
+        "Reference": null,
+        "Image_URL": null,
+        "Question_Type": null,
+        "Audio_Link": null,
+        "Entities": [
+            "contact-tracing"
+        ]
+    },
+    {
+        "Question": "What is containment?",
+        "Intent": "what-is",
+        "Answer": "This refers to limiting the spread of an illness. Because no vaccines exist to prevent COVID-19 and no specific therapies exist to treat it, containment is done using public health interventions. These may include identifying and isolating those who are ill, and tracking down anyone they have had contact with and possibly placing them under quarantine.",
+        "Source": "https://www.who.int/features/qa/contact-tracing/en/",
+        "Reference": "https://www.youtube.com/watch?v=ez1poNReLLA",
+        "Image_URL": null,
+        "Question_Type": null,
+        "Audio_Link": null,
+        "Entities": [
+            "containment"
+        ]
+    },
+    {
+        "Question": "What is the incubation period?",
+        "Intent": "what-is",
+        "Answer": "Incubation period is the time elapsed between exposure to a pathogenic organism, a chemical, or radiation, and when symptoms and signs are first apparent.\nAs per a research, median incubation period for COVID-19 of approximately 5 days, whereas 97.5% of those who develop symptoms will do so within 11.5 days.",
+        "Source": "https://annals.org/aim/fullarticle/2762808/incubation-period-coronavirus-disease-2019-covid-19-from-publicly-reported",
+        "Reference": null,
+        "Image_URL": null,
+        "Question_Type": null,
+        "Audio_Link": null,
+        "Entities": [
+            "incubation-period"
+        ]
+    },
+    {
+        "Question": "What is a virus?",
+        "Intent": "what-is",
+        "Answer": "A virus is a biological agent that reproduces inside the cells of living hosts. When infected by a virus, a host cell is forced to produce thousands of identical copies of the original virus at an extraordinary rate.",
+        "Source": "https://en.wikipedia.org/wiki/Virus",
+        "Reference": null,
+        "Image_URL": null,
+        "Question_Type": null,
+        "Audio_Link": null,
+        "Entities": [
+            "virus"
+        ]
+    },
+    {
+        "Question": "What is shortness of breath?",
+        "Intent": "what-is",
+        "Answer": "Shortness of breath refers to unexpectedly feeling out of breath, or winded. But when should you worry about shortness of breath? There are many examples of temporary shortness of breath that are not worrisome. For example, if you feel very anxious, it's common to get short of breath and then it goes away when you calm down.\nHowever, if you find that you are ever breathing harder or having trouble getting air each time you exert yourself, you always need to call your doctor. That was true before we had the recent outbreak of COVID-19, and it will still be true after it is over.\nMeanwhile, it's important to remember that if shortness of breath is your only symptom, without a cough or fever, something other than COVID-19 is the likely problem.",
+        "Source": "https://www.health.harvard.edu/diseases-and-conditions/coronavirus-resource-center",
+        "Reference": null,
+        "Image_URL": null,
+        "Question_Type": null,
+        "Audio_Link": null,
+        "Entities": [
+            "shortness-of-breath"
+        ]
+    },
+    {
+        "Question": "What are the symptoms of COVID-19?",
+        "Intent": "what-is",
+        "Answer": "The most common symptoms of COVID-19 are fever, tiredness, difficulty in breathing and dry cough. \nSome patients may also have aches and pains, nasal congestion, runny nose, sore throat or diarrhea. These symptoms are usually mild and begin gradually. Some people become infected but don’t develop any symptoms and don't feel unwell. Most people (about 80%) recover from the disease without needing special treatment. Around 1 out of every 6 people who gets COVID-19 becomes seriously ill and develops difficulty breathing. Older people, and those with underlying medical problems like high blood pressure, heart problems or diabetes, are more likely to develop serious illness. People with fever, cough and difficulty breathing should seek medical attention.",
+        "Source": "https://www.who.int/news-room/q-a-detail/q-a-coronaviruses",
+        "Reference": "https://www.youtube.com/watch?v=oGruT7Fd54E",
+        "Image_URL": null,
+        "Question_Type": null,
+        "Audio_Link": null,
+        "Entities": [
+            "symptoms",
+            "COVID-19"
+        ]
+    },
+    {
+        "Question": "What is a pandemic?",
+        "Intent": "what-is",
+        "Answer": "- Epidemic refers to an increase, often sudden, in the number of cases of a disease above what is normally expected in that population in that area. Outbreak carries the same definition of epidemic, but is often used for a more limited geographic area. \n- Cluster refers to an aggregation of cases grouped in place and time that are suspected to be greater than the number expected, even though the expected number may not be known. \n- Pandemic refers to an epidemic that has spread over several countries or continents, usually affecting a large number of people.\nWHO recently declared the ongoing COVID-19 as a pandemic.",
+        "Source": "https://www.cdc.gov/csels/dsepd/ss1978/lesson1/section11.html",
+        "Reference": "https://www.youtube.com/watch?v=CUl87kYHT3I",
+        "Image_URL": null,
+        "Question_Type": null,
+        "Audio_Link": null,
+        "Entities": [
+            "pandemic"
+        ]
+    },
+    {
+        "Question": "What is an epidemic?",
+        "Intent": "what-is",
+        "Answer": "- Epidemic refers to an increase, often sudden, in the number of cases of a disease above what is normally expected in that population in that area. Outbreak carries the same definition of epidemic, but is often used for a more limited geographic area. \n- Cluster refers to an aggregation of cases grouped in place and time that are suspected to be greater than the number expected, even though the expected number may not be known. \n- Pandemic refers to an epidemic that has spread over several countries or continents, usually affecting a large number of people.\nWHO recently declared the ongoing COVID-19 as a pandemic.",
+        "Source": "https://www.cdc.gov/csels/dsepd/ss1978/lesson1/section11.html",
+        "Reference": "https://www.youtube.com/watch?v=CUl87kYHT3I",
+        "Image_URL": null,
+        "Question_Type": null,
+        "Audio_Link": null,
+        "Entities": [
+            "epidemic"
+        ]
+    },
+    {
+        "Question": "What is an exponential curve?",
+        "Intent": "what-is",
+        "Answer": "Exponential growth is a specific way that a quantity may increase over time. It occurs when the instantaneous rate of change of a quantity with respect to time is proportional to the quantity itself.",
+        "Source": "https://en.wikipedia.org/wiki/Exponential_growth",
+        "Reference": "https://www.forbes.com/sites/startswithabang/2020/03/17/why-exponential-growth-is-so-scary-for-the-covid-19-coronavirus/#60d3b2294e9b",
+        "Image_URL": null,
+        "Question_Type": null,
+        "Audio_Link": null,
+        "Entities": [
+            "exponential-curve"
+        ]
+    },
+    {
+        "Question": "When is the contagion maximum?",
+        "Intent": "when",
+        "Answer": "DYNAMIC_ANSWER",
+        "Source": null,
+        "Reference": null,
+        "Image_URL": null,
+        "Question_Type": null,
+        "Audio_Link": null,
+        "Entities": [
+            "contagious",
+            "maximum"
+        ]
+    },
+    {
+        "Question": "Why is everyone so worried about coronavirus?",
+        "Intent": "why",
+        "Answer": "Everyone should be concerned about contracting the new coronavirus — if not for yourself, then to protect others who are at risk of becoming severely ill. As with the flu, the virus is more dangerous for people who are older than 60, people who have a weakened immune system, and people with an underlying condition, like diabetes, asthma or another chronic illness.",
+        "Source": "https://www.nytimes.com/interactive/2020/world/coronavirus-tips-advice.html?action=click&pgtype=Article&state=default&module=styln-coronavirus&variant=show&region=BELOW_MAIN_CONTENT&context=storyline_guide",
+        "Reference": null,
+        "Image_URL": null,
+        "Question_Type": null,
+        "Audio_Link": null,
+        "Entities": [
+            "worried",
+            "coronavirus"
+        ]
+    },
+    {
+        "Question": "How can you help me?",
+        "Intent": "how",
+        "Answer": "I'm CovidBot, I'm here to help you with all your queries in regards to Coronavirus.\nI would be oblidged if you ask me something related to COVID19.",
+        "Source": null,
+        "Reference": null,
+        "Image_URL": null,
+        "Question_Type": null,
+        "Audio_Link": null,
+        "Entities": [
+            "help"
+        ]
+    },
+    {
+        "Question": "Who created you?",
+        "Intent": "who",
+        "Answer": "I am on a mission to help people in this pandemic.\nA team at One Fourth Labs has designed me for this.\nWould you like to test my knowledge?",
+        "Source": null,
+        "Reference": null,
+        "Image_URL": null,
+        "Question_Type": null,
+        "Audio_Link": null,
+        "Entities": [
+            "creator",
+            "admin",
+            "designer"
+        ]
+    },
+    {
+        "Question": "What are you good at?",
+        "Intent": "what",
+        "Answer": "I'm good at looking from answers from several sources over internet.\nOne of my primary mission is to help you with factual statements which are trustworthy.\nDo you have something to ask?",
+        "Source": null,
+        "Reference": null,
+        "Image_URL": null,
+        "Question_Type": null,
+        "Audio_Link": null,
+        "Entities": [
+            "help",
+            "good"
+        ]
+    },
+    {
+        "Question": "What are your sources?",
+        "Intent": "what",
+        "Answer": "Any information provided to you comes from authentic sources like WHO, CDC, ICMR etc. \nWould you like to check any ?",
+        "Source": null,
+        "Reference": null,
+        "Image_URL": null,
+        "Question_Type": null,
+        "Audio_Link": null,
+        "Entities": [
+            "sources",
+            "reference"
+        ]
+    }
+]

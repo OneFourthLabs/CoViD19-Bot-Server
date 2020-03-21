@@ -4,7 +4,8 @@ import json
 
 app = Flask(__name__)
 
-covid_data = pd.read_json("CoViD_20Mar20.json")
+COVID_JSON = 'CoViD_data.json'
+covid_data = pd.read_json(COVID_JSON)
 
 @app.route('/')
 def index():
