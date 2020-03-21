@@ -145,7 +145,7 @@
 
         "Intent": "what-is-scientific_term-or-disease",
         "Entities": {
-                "scientific_term": "stage 1"
+                "scientific_term": "imported"
         },
 
         "Sample_Question": "What is Stage 1 transmission?",
@@ -170,7 +170,7 @@
 
         "Intent": "what-is-scientific_term-or-disease",
         "Entities": {
-                "scientific_term": "stage 2"
+                "scientific_term": "local transmission"
         },
 
         "Sample_Question": "What is Stage 2 transmission?",
@@ -195,7 +195,7 @@
 
         "Intent": "what-is-scientific_term-or-disease",
         "Entities": {
-                "scientific_term": "stage 3"
+                "scientific_term": "community spread"
         },
 
         "Sample_Question": "What is Stage 3 transmission?",
@@ -339,7 +339,7 @@
 
         "Intent": "what-is-scientific_term-or-disease",
         "Entities": {
-                "scientific_term": "symptoms of COVID-19"
+                "scientific_term": "symptoms"
         },
 
         "Sample_Question": "What are the symptoms of COVID-19?",
@@ -385,7 +385,7 @@
 
         "Intent": "what-is-scientific_term-or-disease",
         "Entities": {
-                "disease": "coronavirus"
+                "disease": "Coronavirus"
         },
 
         "Sample_Question": "Can you help me understand about coronavirus?",
@@ -394,7 +394,7 @@
         "Source": "https://www.who.int/news-room/q-a-detail/q-a-coronaviruses",
         "Reference": "https://www.youtube.com/watch?v=sHP0UIdZyI4",
 
-        "Image_URL": "https://www.google.com/imgres?imgurl=https%3A%2F%2Fwww.cdc.gov%2Fcoronavirus%2F2019-ncov%2Fimages%2Fhome-banner.jpg&imgrefurl=https%3A%2F%2Fwww.cdc.gov%2Fcoronavirus%2F&tbnid=QbYCz-PObcfMcM&vet=12ahUKEwjJprb86avoAhU55jgGHdI5DmAQMygDegUIARDLAQ..i&docid=nHU5wd8MPctGcM&w=1330&h=370&q=coronavirus&ved=2ahUKEwjJprb86avoAhU55jgGHdI5DmAQMygDegUIARDLAQ",
+        "Image_URL": "https://www.cdc.gov/coronavirus/2019-ncov/images/home-banner.jpg",
         "Response_Type": "Card",
         "Audio_Link": "",
 
@@ -499,5 +499,5 @@
             "What is MERS?"
         ]
         
-    },
+    }
 ]
