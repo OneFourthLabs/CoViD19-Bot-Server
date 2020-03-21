@@ -10,3 +10,9 @@ GCP Steps:
 7. Optional: `gcloud app create`
 8. `gcloud app deploy app.yaml`
 9. Go to the URL indicated
+
+Host it locally:
+
+1. To host local server - `ngrok http 8000`
+2. `python main.py`
+3. Use `{HTTPS_URL_FROM_GROK}/webhook` as diaglogflow webhook URL
