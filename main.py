@@ -27,6 +27,9 @@ STATS_CSV = 'coronabot_stats_data.csv'
 stats_data = pd.read_csv(STATS_CSV)
 stats_data['Date'] = stats_data['Date'].apply(lambda x: x[0:10])
 stats_data['Date'] = pd.to_datetime(stats_data['Date'], infer_datetime_format=True)  
+max_date = stats_data['Date'].max()
+
+print(max_date)
 
 failure_messages = ["Sorry I could not understand you", "I am sorry, I did not follow", "Can you please rephrase that"]
 
@@ -44,22 +47,32 @@ def write_date(date):
 
 def get_stats(intent, entities):
 
+  warning_txt = ''
+
   country = entities['geo-country'] if len(entities['geo-country']) > 0 else 'World'
   state = entities['geo-state'] if len(entities['geo-state']) > 0 else 'Total'
   case_type = entities['case_types'] if len(entities['case_types']) > 0 else 'Confirmed'
   yesterday = datetime.datetime.today() - datetime.timedelta(days=1)
 
   date = entities['date-time']
+  print(date, type(date))
   if type(date) == str:
     if len(date) == 0: # if no date is specified assume that the total is being asked
       start_date = read_date('2020-01-20')
-      end_date = yesterday
+      end_date = min(max_date, yesterday)
     else:
-      start_date = date
-      end_date = date
+      if max_date < read_date(date):
+        warning_txt = 'I have date only till ' + write_date(max_date) + '. '
+        start_date = end_date = max_date
+      else:
+        start_date = end_date = read_date(date)
   elif type(date) == dict:
-    start_date = read_date(date['startDate'])
-    end_date = read_date(date['endDate'])
+    start_date = min(max_date, read_date(date['startDate']))
+    if max_date < read_date(date['endDate']):
+      warning_txt = 'I have date only till ' + write_date(max_date) + '. '
+      end_date = max_date
+    else:
+      end_date = read_date(date['endDate'])
 
   # find case type
   if case_type == 'deaths':
@@ -99,7 +112,7 @@ def get_stats(intent, entities):
   # date = date.strftime("%B %d")
   response = {
       "Response_Type": "Error:EntitiesNotFound",
-      "Answer": 'In ' + str_location + ' there were ' + ret_val + ' ' + str_case_type + date_str
+      "Answer": warning_txt + 'In ' + str_location + ' there were ' + ret_val + ' ' + str_case_type + date_str
   }
   print(response["Answer"])
   return response
