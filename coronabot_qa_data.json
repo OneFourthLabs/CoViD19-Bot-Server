@@ -70,5 +70,434 @@
             "TODO"
         ]
         
-    }
+    },
+    
+    {
+
+        "Intent": "what-is-scientific_term-or-disease",
+        "Entities": {
+                "scientific_term": "virus"
+        },
+
+        "Sample_Question": "What is a virus?",
+        "Answer_Title": "Virus",
+        "Answer": "A virus is a biological agent that reproduces inside the cells of living hosts. When infected by a virus, a host cell is forced to produce thousands of identical copies of the original virus at an extraordinary rate.",
+        "Source": "https://en.wikipedia.org/wiki/Virus",
+        "Reference": "https://www.nationalgeographic.org/encyclopedia/viruses/",
+
+        "Image_URL": "https://media.nationalgeographic.org/assets/photos/569/648/2adb092b-1726-4e56-a0dd-30056756ddae.jpg",
+        "Response_Type": "Card",
+        "Audio_Link": "",
+
+        "Suggestions": [
+            "What is Coronavirus"
+        ]
+        
+    },
+    
+    {
+
+        "Intent": "what-is-scientific_term-or-disease",
+        "Entities": {
+                "scientific_term": "contact tracing"
+        },
+
+        "Sample_Question": "What is contact tracing?",
+        "Answer_Title": "Contact Tracing",
+        "Answer": "People in close contact with someone who is infected with a virus like COVID-19, are at higher risk of becoming infected themselves, and of potentially further infecting others. Closely watching these contacts after exposure to an infected person will help the contacts to get care and treatment, and will prevent further transmission of the virus. This monitoring process is called contact tracing, which can be broken down into 3 basic steps: Contact identification: Once someone is confirmed as infected with a virus, contacts are identified by asking about the person’s activities and the activities and roles of the people around them since onset of illness. Contacts can be anyone who has been in contact with an infected person: family members, work colleagues, friends, or health care providers. Contact listing: All persons considered to have contact with the infected person should be listed as contacts. Efforts should be made to identify every listed contact and to inform them of their contact status, what it means, the actions that will follow, and the importance of receiving early care if they develop symptoms. Contacts should also be provided with information about prevention of the disease. In some cases, quarantine or isolation is required for high risk contacts, either at home, or in hospital. Contact follow-up: Regular follow-up should be conducted with all contacts to monitor for symptoms and test for signs of infection",
+        "Source": "https://www.who.int/features/qa/contact-tracing/en/",
+        "Reference": "https://www.health.govt.nz/our-work/diseases-and-conditions/covid-19-novel-coronavirus/covid-19-novel-coronavirus-health-advice-general-public/contact-tracing-covid-19",
+
+        "Image_URL": "https://www.google.com/imgres?imgurl=https%3A%2F%2Fwww.popsci.com%2Fresizer%2F_I0x7GZ9LaQJ6nHvnDH-q8b2D8Q%3D%2F760x514%2Farc-anglerfish-arc2-prod-bonnier.s3.amazonaws.com%2Fpublic%2FW7BUEA3Q6DZ3LTDXQLORAHE7W4.png&imgrefurl=https%3A%2F%2Fwww.popsci.com%2Fwhat-its-work-contact-tracer-ebola%2F&tbnid=SXDJPj8d3ZRjxM&vet=12ahUKEwjW0diF26voAhX17TgGHYubC_EQMygSegUIARCVAg..i&docid=yb3b-Ky9X0_gtM&w=760&h=514&q=what%20is%20contact%20tracing&ved=2ahUKEwjW0diF26voAhX17TgGHYubC_EQMygSegUIARCVAg",
+        "Response_Type": "Card",
+        "Audio_Link": "",
+
+        "Suggestions": [
+            "TODO"
+        ]
+        
+    },
+    
+    {
+
+        "Intent": "what-is-scientific_term-or-disease",
+        "Entities": {
+                "scientific_term": "exponential curve"
+        },
+
+        "Sample_Question": "What is an exponential curve?",
+        "Answer_Title": "Exponential curve",
+        "Answer": "Exponential growth is a specific way that a quantity may increase over time. It occurs when the instantaneous rate of change of a quantity with respect to time is proportional to the quantity itself.",
+        "Source": "https://en.wikipedia.org/wiki/Exponential_growth",
+        "Reference": "https://www.forbes.com/sites/startswithabang/2020/03/17/why-exponential-growth-is-so-scary-for-the-covid-19-coronavirus/#60d3b2294e9b",
+
+        "Image_URL": "https://www.google.com/imgres?imgurl=https%3A%2F%2Fcdn3.iconfinder.com%2Fdata%2Ficons%2Fpresentation-add-on-twotone%2F48%2FPaul-04-512.png&imgrefurl=https%3A%2F%2Fwww.iconfinder.com%2Ficons%2F2436545%2Farrow_bar_graph_chart_exponential_growth_icon&tbnid=Xdw7mF8Z3D7kYM&vet=10CFEQMyiLAWoXChMI8Nbxvdyr6AIVAAAAAB0AAAAAEAg..i&docid=noNZp3jiQ3L9tM&w=512&h=512&q=exponential%20growth&ved=0CFEQMyiLAWoXChMI8Nbxvdyr6AIVAAAAAB0AAAAAEAg",
+        "Response_Type": "Card",
+        "Audio_Link": "",
+
+        "Suggestions": [
+            "What is a pandemic?"
+        ]
+        
+    },
+    
+    {
+
+        "Intent": "what-is-scientific_term-or-disease",
+        "Entities": {
+                "scientific_term": "stage 1"
+        },
+
+        "Sample_Question": "What is Stage 1 transmission?",
+        "Answer_Title": "Stage 1 transmission",
+        "Answer": "When the disease is just introduced to a population. In India’s case, that is with imported cases – only those with travel history to affected countries tested positive for the infection.",        
+        "Source": "https://www.thenewsminute.com/article/what-are-four-stages-coronavirus-transmission-and-where-india-now-120625",
+        "Reference": "https://www.youtube.com/watch?v=NRmrJIlB0OU",
+
+        "Image_URL": "",
+        "Response_Type": "Card",
+        "Audio_Link": "",
+
+        "Suggestions": [
+            "What is Stage 2 transmission?",
+            "What is Stage 3 transmission?",
+            "What is Stage 4 transmission?"
+        ]
+        
+    },
+    
+    {
+
+        "Intent": "what-is-scientific_term-or-disease",
+        "Entities": {
+                "scientific_term": "stage 2"
+        },
+
+        "Sample_Question": "What is Stage 2 transmission?",
+        "Answer_Title": "Stage 2 transmission",
+        "Answer": "This is the stage that India is at right now, according to ICMR. This is when there is local transmission of the disease – some of those in contact with persons with travel history in turn get infected.",
+        "Source": "https://www.thenewsminute.com/article/what-are-four-stages-coronavirus-transmission-and-where-india-now-120625",
+        "Reference": "https://www.youtube.com/watch?v=NRmrJIlB0OU",
+
+        "Image_URL": "",
+        "Response_Type": "Card",
+        "Audio_Link": "",
+
+        "Suggestions": [
+            "What is Stage 1 transmission?",
+            "What is Stage 3 transmission?",
+            "What is Stage 4 transmission?"
+        ]
+        
+    },
+    
+    {
+
+        "Intent": "what-is-scientific_term-or-disease",
+        "Entities": {
+                "scientific_term": "stage 3"
+        },
+
+        "Sample_Question": "What is Stage 3 transmission?",
+        "Answer_Title": "Stage 3 transmission",
+        "Answer": "In this stage, there is community transmission i.e. even those who have had no known contact with an affected person, and haven’t travelled to an affected country start contracting the coronavirus disease. According to the Centre for Disease Control and Prevention (CDC), community spread is when “people have been infected with the virus in an area, including some who are not sure how or where they became infected.” This stage makes it difficult to break the chain of transmission, thereby making the disease harder to contain.",
+        "Source": "https://www.thenewsminute.com/article/what-are-four-stages-coronavirus-transmission-and-where-india-now-120625",
+        "Reference": "https://www.youtube.com/watch?v=NRmrJIlB0OU",
+
+        "Image_URL": "",
+        "Response_Type": "Card",
+        "Audio_Link": "",
+
+        "Suggestions": [
+            "What is Stage 1 transmission?",
+            "What is Stage 2 transmission?",
+            "What is Stage 4 transmission?"
+        ]
+        
+    },
+    
+    {
+
+        "Intent": "what-is-scientific_term-or-disease",
+        "Entities": {
+                "scientific_term": "stage 4"
+        },
+
+        "Sample_Question": "What is Stage 4 transmission?",
+        "Answer_Title": "Stage 4 transmission",
+        "Answer": "The fourth stage is when there is a widespread outbreak, leading it to become an epidemic within the population and difficult to contain.",
+        "Source": "https://www.thenewsminute.com/article/what-are-four-stages-coronavirus-transmission-and-where-india-now-120625",
+        "Reference": "https://www.youtube.com/watch?v=NRmrJIlB0OU",
+
+        "Image_URL": "",
+        "Response_Type": "Card",
+        "Audio_Link": "",
+
+        "Suggestions": [
+            "What is Stage 1 transmission?",
+            "What is Stage 2 transmission?",
+            "What is Stage 3 transmission?"
+        ]
+        
+    },
+    
+    {
+
+        "Intent": "what-is-scientific_term-or-disease",
+        "Entities": {
+                "scientific_term": "isolation"
+        },
+
+        "Sample_Question": "What is social isolation?",
+        "Answer_Title": "Social Isolation",
+        "Answer": "The separation of people with a contagious disease from people who are not sick. Governments around the world are advising people to socially distance themselves in order to reduce pressures on health services and stop the spread of coronavirus (Covid-19).",
+        "Source": "https://www.health.harvard.edu/diseases-and-conditions/coronavirus-resource-center#Questions",
+        "Reference": "https://www.bbc.com/news/av/health-51966112/coronavirus-what-is-social-distancing",
+
+        "Image_URL": "https://www.google.com/imgres?imgurl=https%3A%2F%2F2rdnmg1qbg403gumla1v9i2h-wpengine.netdna-ssl.com%2Fwp-content%2Fuploads%2Fsites%2F3%2F2020%2F03%2FquarantineHome-556834631-770x533-1-650x428.jpg&imgrefurl=https%3A%2F%2Fhealth.clevelandclinic.org%2Fcovid-19-understanding-quarantine-isolation-and-social-distancing-in-a-pandemic%2F&tbnid=tRMsPmxenUFpMM&vet=12ahUKEwjLivrq4avoAhVcwzgGHb7oBtgQMygCegUIARChAg..i&docid=x7DM5573bbP5EM&w=650&h=428&q=what%20is%20social%20isolation%20covid19&ved=2ahUKEwjLivrq4avoAhVcwzgGHb7oBtgQMygCegUIARChAg",
+        "Response_Type": "Card",
+        "Audio_Link": "",
+
+        "Suggestions": [
+            "TODO"
+        ]
+        
+    },
+    
+    {
+
+        "Intent": "what-is-scientific_term-or-disease",
+        "Entities": {
+                "transmission_mode": "contact transmission"
+        },
+
+        "Sample_Question": "What is Contact transmission?",
+        "Answer_Title": "Contact Transmission",
+        "Answer": "Contact transmission refers to infection that is spread through direct or indirect contact with an infected person. For example spread of the common cold may occur when people infected with the cold viruses touch their mouth, nose or eyes (mucous membranes) or cough or sneeze into their hands, before touching someone else (direct contact transmission) or touching a common surface (indirect contact transmission).",
+        "Source": "https://healthengine.com.au/info/medical-glossary/contact-transmission",
+        "Reference": "https://www.youtube.com/watch?v=WfJSVbQtHsk",
+
+        "Image_URL": "https://www.google.com/url?sa=i&url=https%3A%2F%2Femedia.rmit.edu.au%2Finfection_control%2Fcontent%2F3_MethodTransmission%2F01_tran_de.htm&psig=AOvVaw0Nb8stQVcy-FSR4F3z9hiV&ust=1584887232997000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCMDRnJ3jq-gCFQAAAAAdAAAAABAD",
+        "Response_Type": "Card",
+        "Audio_Link": "",
+
+        "Suggestions": [
+            "What is airborne transmission?",
+            "What is droplet transmission?"
+        ]
+        
+    },
+    
+    {
+
+        "Intent": "what-is-scientific_term-or-disease",
+        "Entities": {
+                "transmission_mode": "airborne transmission"
+        },
+
+        "Sample_Question": "What is airborne transmission?",
+        "Answer_Title": "Airborne Transmission",
+        "Answer": "Airborne transmission refers to situations where droplet nuclei (residue from evaporated droplets) or dust particles containing microorganisms can remain suspended in air for long periods of time. These organisms must be capable of surviving for long periods of time outside the body and must be resistant to drying. Airborne transmission allows organisms to enter the upper and lower respiratory tracts. Fortunately, only a limited number of diseases are capable of airborne transmission.",
+        "Source": "https://eportal.mountsinai.ca/Microbiology/faq/transmission.shtml#five",
+        "Reference": "https://www.youtube.com/watch?v=WfJSVbQtHsk",
+
+        "Image_URL": "https://www.google.com/imgres?imgurl=https%3A%2F%2Fimage.shutterstock.com%2Fimage-vector%2Fways-infection-viruses-airborne-transmission-260nw-1639566511.jpg&imgrefurl=https%3A%2F%2Fwww.shutterstock.com%2Fsearch%2Fairborne%2Btransmission&tbnid=kitfwYivfOM4pM&vet=12ahUKEwix0pmX5KvoAhUX9DgGHQmOAj4QMygRegUIARCBAg..i&docid=34kks_i0adprVM&w=390&h=280&q=what%20is%20airborne%20transmission&ved=2ahUKEwix0pmX5KvoAhUX9DgGHQmOAj4QMygRegUIARCBAg",
+        "Response_Type": "Card",
+        "Audio_Link": "",
+
+        "Suggestions": [
+            "What is contact transmission?",
+            "What is droplet transmission?"
+        ]
+        
+    },
+    
+    {
+
+        "Intent": "what-is-scientific_term-or-disease",
+        "Entities": {
+                "scientific_term": "shortness of breath"
+        },
+
+        "Sample_Question": "What is shortness of breath?",
+        "Answer_Title": "Shortness of breath and Covid19",
+        "Answer": "Shortness of breath refers to unexpectedly feeling out of breath, or winded. But when should you worry about shortness of breath? There are many examples of temporary shortness of breath that are not worrisome. For example, if you feel very anxious, it's common to get short of breath and then it goes away when you calm down. However, if you find that you are ever breathing harder or having trouble getting air each time you exert yourself, you always need to call your doctor. That was true before we had the recent outbreak of COVID-19, and it will still be true after it is over. Meanwhile, it's important to remember that if shortness of breath is your only symptom, without a cough or fever, something other than COVID-19 is the likely problem.",
+        "Source": "https://www.health.harvard.edu/diseases-and-conditions/coronavirus-resource-center",
+        "Reference": "https://www.statnews.com/2020/03/20/self-triage-tool-covid-19/",
+
+        "Image_URL": "https://www.google.com/imgres?imgurl=https%3A%2F%2Fcopd.net%2Fwp-content%2Fuploads%2F2016%2F07%2F4831.jpg&imgrefurl=https%3A%2F%2Fcopd.net%2Fliving%2Ffive-triggers-shortness-of-breath%2F&tbnid=fW_67paxvj2uDM&vet=12ahUKEwiwuen55avoAhWQcH0KHQcACj0QMygYegQIARBk..i&docid=oinlggoacdE9YM&w=734&h=280&q=shortness%20of%20breath&ved=2ahUKEwiwuen55avoAhWQcH0KHQcACj0QMygYegQIARBk",
+        "Response_Type": "Card",
+        "Audio_Link": "",
+
+        "Suggestions": [
+            "What are the symptoms of COVID-19?"
+        ]
+        
+    },
+    
+    {
+
+        "Intent": "what-is-scientific_term-or-disease",
+        "Entities": {
+                "scientific_term": "symptoms of COVID-19"
+        },
+
+        "Sample_Question": "What are the symptoms of COVID-19?",
+        "Answer_Title": "Symptoms of COVID-19",
+        "Answer": "The most common symptoms of COVID-19 are fever, tiredness, difficulty in breathing and dry cough. Some patients may also have aches and pains, nasal congestion, runny nose, sore throat or diarrhea. These symptoms are usually mild and begin gradually. Some people become infected but don’t develop any symptoms and don't feel unwell. Most people (about 80%) recover from the disease without needing special treatment. Around 1 out of every 6 people who gets COVID-19 becomes seriously ill and develops difficulty breathing. Older people, and those with underlying medical problems like high blood pressure, heart problems or diabetes, are more likely to develop serious illness. People with fever, cough and difficulty breathing should seek medical attention.",
+        "Source": "https://www.who.int/news-room/q-a-detail/q-a-coronaviruses",
+        "Reference": "https://www.youtube.com/watch?v=oGruT7Fd54E",
+
+        "Image_URL": "https://www.google.com/imgres?imgurl=https%3A%2F%2Fnews.sanfordhealth.org%2Fwp-content%2Fuploads%2F2020%2F03%2F019037-00167-FACEBOOK-COVID-19-Three-Symptoms-800x800-1.jpg&imgrefurl=https%3A%2F%2Fnews.sanfordhealth.org%2Fnews%2Fcoronavirus-disease-2019-covid-19%2Ffaqs-coronavirus-symptoms%2F&tbnid=MJOybpOj-vrqpM&vet=12ahUKEwiz2NCj56voAhWVPCsKHYPLACUQMygEegUIARD7AQ..i&docid=GwzCesobJo804M&w=800&h=800&q=symptoms%20of%20covid-19&ved=2ahUKEwiz2NCj56voAhWVPCsKHYPLACUQMygEegUIARD7AQ",
+        "Response_Type": "Card",
+        "Audio_Link": "",
+
+        "Suggestions": [
+            "What is COVID-19?"
+        ]
+        
+    },
+    
+    {
+
+        "Intent": "what-is-scientific_term-or-disease",
+        "Entities": {
+                "scientific_term": "quarantine"
+        },
+
+        "Sample_Question": "I want to understand what quarantine means ?",
+        "Answer_Title": "Quarantine",
+        "Answer": "Quarantine is a state or place of isolation for a person or animal who may have come in contact with contagious diseases. The period of isolation lowers the chance that person or animal could transfer illnesses to others. Quarantine isn't reserved for sick people only. People who appear healthy could spread a pathogen without ever knowing they were carriers, which is why travelers who appear healthy may still be quarantined, depending on where they are visiting from.",
+        "Source": "https://www.livescience.com/quarantine.html",
+        "Reference": "https://www.wired.com/story/what-is-a-quarantine/",
+
+        "Image_URL": "https://www.google.com/imgres?imgurl=https%3A%2F%2Fcdn.vox-cdn.com%2Fthumbor%2FgjR2IG8SPDfYsneZCXeZL2FvZoA%3D%2F0x0%3A4032x2688%2F1200x800%2Ffilters%3Afocal(1694x1022%3A2338x1666)%2Fcdn.vox-cdn.com%2Fuploads%2Fchorus_image%2Fimage%2F66454045%2Fdaria_nepriakhina_i5iIhHSAtp4_unsplash.0.jpg&imgrefurl=https%3A%2F%2Fwww.theverge.com%2F2020%2F3%2F6%2F21166383%2Fcoronavirus-quarantine-self-isolate-how-to-best-practices-virus&tbnid=sq-eAD-8bSF_MM&vet=10CE0QMyjsAWoXChMI-Lyhreir6AIVAAAAAB0AAAAAEAM..i&docid=Cd8Ww5Zj_rZ2yM&w=1200&h=800&q=what%20is%20quarantine&ved=0CE0QMyjsAWoXChMI-Lyhreir6AIVAAAAAB0AAAAAEAM",
+        "Response_Type": "Card",
+        "Audio_Link": "",
+
+        "Suggestions": [
+            "What is social isolation?"
+        ]
+        
+    },
+    
+    {
+
+        "Intent": "what-is-scientific_term-or-disease",
+        "Entities": {
+                "disease": "coronavirus"
+        },
+
+        "Sample_Question": "Can you help me understand about coronavirus?",
+        "Answer_Title": "Coronavirus",
+        "Answer": "Coronaviruses are named for the crown-like spikes on their surface. Coronaviruses are a large family of viruses which may cause illness in animals or humans.  In humans, several coronaviruses are known to cause respiratory infections ranging from the common cold to more severe diseases such as Middle East Respiratory Syndrome (MERS) and Severe Acute Respiratory Syndrome (SARS). The most recently discovered coronavirus causes coronavirus disease COVID-19.",
+        "Source": "https://www.who.int/news-room/q-a-detail/q-a-coronaviruses",
+        "Reference": "https://www.youtube.com/watch?v=sHP0UIdZyI4",
+
+        "Image_URL": "https://www.google.com/imgres?imgurl=https%3A%2F%2Fwww.cdc.gov%2Fcoronavirus%2F2019-ncov%2Fimages%2Fhome-banner.jpg&imgrefurl=https%3A%2F%2Fwww.cdc.gov%2Fcoronavirus%2F&tbnid=QbYCz-PObcfMcM&vet=12ahUKEwjJprb86avoAhU55jgGHdI5DmAQMygDegUIARDLAQ..i&docid=nHU5wd8MPctGcM&w=1330&h=370&q=coronavirus&ved=2ahUKEwjJprb86avoAhU55jgGHdI5DmAQMygDegUIARDLAQ",
+        "Response_Type": "Card",
+        "Audio_Link": "",
+
+        "Suggestions": [
+            "What is COVID-19?",
+            "What is SARS?",
+            "What is MERS?"
+        ]
+        
+    },
+    
+    {
+
+        "Intent": "what-is-scientific_term-or-disease",
+        "Entities": {
+                "scientific_term": "community transmission"
+        },
+
+        "Sample_Question": "I am hearing about community transmission, what is it ?",
+        "Answer_Title": "Community Transmission",
+        "Answer": "community transmission is said to have occurred when people have been infected without any knowledge of contact with someone who has the same infection",
+        "Source": "https://www.health.harvard.edu/diseases-and-conditions/coronavirus-resource-center#Questions",
+        "Reference": "https://theprint.in/health/what-is-community-transmission-how-one-can-contract-covid-19-without-travelling/380398/",
+
+        "Image_URL": "https://www.google.com/imgres?imgurl=https%3A%2F%2Fgumlet.assettype.com%2Ffreepressjournal%2F2020-03%2Ff815d789-4914-4988-842e-ecaee72171ff%2F2003_20200320239l.jpg%3Fw%3D1200%26h%3D754&imgrefurl=https%3A%2F%2Fwww.freepressjournal.in%2Findia%2Flatest-coronavirus-news-in-india-is-20-year-old-from-tamil-nadu-indias-first-community-transmission-case&tbnid=wPjQJUxQw5qeFM&vet=10CBMQMyjOAWoXChMI6NrNs-ur6AIVAAAAAB0AAAAAEAM..i&docid=2p5XHqXwjYSk9M&w=760&h=478&q=community%20transmission&ved=0CBMQMyjOAWoXChMI6NrNs-ur6AIVAAAAAB0AAAAAEAM",
+        "Response_Type": "Card",
+        "Audio_Link": "",
+
+        "Suggestions": [
+            "What is contact transmission?"
+        ]
+        
+    },
+    
+    {
+
+        "Intent": "what-is-scientific_term-or-disease",
+        "Entities": {
+                "disease": "SARS"
+        },
+
+        "Sample_Question": "Can you explain to me what is SARS ?",
+        "Answer_Title": "SARS",
+        "Answer": "SARS is caused by a virus called the SARS-associated coronavirus (SARS-CoV). It was first identified in April 2003 and is a member of the Coronaviridae family, which also includes many of the viruses that cause the common cold. Coronaviruses have been found in many different animal species including birds and mammals. SARS-CoV is thought to have passed from animals to humans through close contact, butchering or eating undercooked meat in parts of Southern China.",
+        "Source": "https://www.health.state.mn.us/diseases/sars/basics.html",
+        "Reference": "https://www.who.int/ith/diseases/sars/en/",
+
+        "Image_URL": "https://www.google.com/imgres?imgurl=https%3A%2F%2Fmedcoi.com%2Fhealth%2Ffiles%2F2018%2F07%2Fwhat-is-sars-disease-550x285.png&imgrefurl=https%3A%2F%2Fmedcoi.com%2Fhealth%2Fwhat-is-sars-disease%2F&tbnid=1uemaWCzhaiUlM&vet=12ahUKEwjo46jS7KvoAhUqpukKHfiKCeMQMygFegUIARD9AQ..i&docid=plCIGfeH0eUJKM&w=550&h=285&q=What%20is%20SARS&ved=2ahUKEwjo46jS7KvoAhUqpukKHfiKCeMQMygFegUIARD9AQ",
+        "Response_Type": "Card",
+        "Audio_Link": "",
+
+        "Suggestions": [
+            "What is COVID-19?",
+            "What is MERS?"
+        ]
+        
+    },
+    
+    {
+
+        "Intent": "what-is-scientific_term-or-disease",
+        "Entities": {
+                "disease": "MERS"
+        },
+
+        "Sample_Question": "I would like to know about MERS ?",
+        "Answer_Title": "MERS",
+        "Answer": "Middle East respiratory syndrome (MERS) is an illness that affects your respiratory system. It is caused by a common type of virus called coronavirus. These viruses cause mild to moderate respiratory illness. But in some cases the symptoms are severe and can lead to death.",
+        "Source": "https://www.hopkinsmedicine.org/health/conditions-and-diseases/middle-east-respiratory-syndrome-mers",
+        "Reference": "https://www.hopkinsmedicine.org/health/conditions-and-diseases/middle-east-respiratory-syndrome-mers",
+
+        "Image_URL": "https://www.google.com/imgres?imgurl=https%3A%2F%2Fi0.wp.com%2Fcdn-prod.medicalnewstoday.com%2Fcontent%2Fimages%2Farticles%2F262%2F262538%2Fmers-cov.jpg%3Fw%3D1155%26h%3D907&imgrefurl=https%3A%2F%2Fwww.medicalnewstoday.com%2Farticles%2F262538&tbnid=_IazxD2qb7ccXM&vet=12ahUKEwjy0L307KvoAhWl7TgGHQBcDcUQMygEegUIARDlAQ..i&docid=dyP3E0gan9FW-M&w=700&h=432&q=What%20is%20MERS&ved=2ahUKEwjy0L307KvoAhWl7TgGHQBcDcUQMygEegUIARDlAQ",
+        "Response_Type": "Card",
+        "Audio_Link": "",
+
+        "Suggestions": [
+            "What is SARS?",
+            "What is COVID-19?"
+        ]
+        
+    },
+    
+    {
+
+        "Intent": "what-is-scientific_term-or-disease",
+        "Entities": {
+                "disease": "COVID-19"
+        },
+
+        "Sample_Question": "What is COVID-19?",
+        "Answer_Title": "COVID-19",
+        "Answer": "Coronavirus disease 2019 (COVID-19) is an infectious disease caused by severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2). The disease was first identified in 2019 in Wuhan, China, and has since spread globally, resulting in the 2019–20 coronavirus pandemic. Common symptoms include fever, cough, and shortness of breath. Muscle pain, sputum production and sore throat are less common",
+        "Source": "https://en.wikipedia.org/wiki/Coronavirus_disease_2019",
+        "Reference": "https://www.cdc.gov/coronavirus/2019-ncov/about/index.html",
+
+        "Image_URL": "https://www.google.com/imgres?imgurl=https%3A%2F%2Fwww.fsb.org.uk%2Fstatic%2F351a084c-3d5f-4d75-8dfabfa5f0c5d993%2FCOVID19-Header-Image.jpg&imgrefurl=https%3A%2F%2Fwww.fsb.org.uk%2Fcampaign%2Fcovid19.html&tbnid=T3x1A0sxTRY9WM&vet=12ahUKEwjWtoHU7qvoAhUC8DgGHYxrDqYQMygEegUIARDtAQ..i&docid=9Co8zYAbNnd_iM&w=1999&h=1499&q=covid19&ved=2ahUKEwjWtoHU7qvoAhUC8DgGHYxrDqYQMygEegUIARDtAQ",
+        "Response_Type": "Card",
+        "Audio_Link": "",
+
+        "Suggestions": [
+            "What is SARS?",
+            "What is MERS?"
+        ]
+        
+    },
 ]
