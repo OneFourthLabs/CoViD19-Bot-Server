@@ -36,29 +36,32 @@ stats_error_messages = ["I could not find the numbers for that query"]
 def index():
   return 'Hello World!'
 
+def read_date(date):
+  return datetime.datetime.strptime(date[0:10], '%Y-%m-%d')
+
+def write_date(date):
+  return date.strftime("%B %d")
+
 def get_stats(intent, entities):
 
   country = entities['geo-country'] if len(entities['geo-country']) > 0 else 'World'
   state = entities['geo-state'] if len(entities['geo-state']) > 0 else 'Total'
   case_type = entities['case_types'] if len(entities['case_types']) > 0 else 'Confirmed'
   yesterday = datetime.datetime.today() - datetime.timedelta(days=1)
-  date = datetime.datetime.strptime(entities['date-time'][0:10], '%Y-%m-%d') if len(entities['date-time']) > 0 else yesterday
 
+  date = entities['date-time']
+  if type(date) == str:
+    if len(date) == 0: # if no date is specified assume that the total is being asked
+      start_date = read_date('2020-01-20')
+      end_date = yesterday
+    else:
+      start_date = date
+      end_date = date
+  elif type(date) == dict:
+    start_date = read_date(date['startDate'])
+    end_date = read_date(date['endDate'])
 
-  if not state == 'Total':
-    stats_data_sel = stats_data[(stats_data['State'] == state) & (stats_data['Date'] == date)]
-    str_location = state + ', ' + stats_data_sel.iloc[0]['Country']
-  else:
-    stats_data_sel = stats_data[(stats_data['Country'] == country) & (stats_data['State'] == state) & (stats_data['Date'] == date)]
-    str_location = country
-
-  if stats_data_sel.empty:
-    response = {
-      "Response_Type": "Error:StatsNotFound",
-      "Answer": random.choice(stats_error_messages)
-    }
-    return response
-
+  # find case type
   if case_type == 'deaths':
     case_type = 'Deaths'
     str_case_type = 'deaths'
@@ -69,11 +72,34 @@ def get_stats(intent, entities):
     case_type = 'Confirmed'
     str_case_type = 'total cases recorded'
 
-  ret_val = max(0, stats_data_sel.iloc[0][case_type])
-  date = date.strftime("%B %d")
+  if not state == 'Total':
+    stats_data_sel = stats_data[(stats_data['State'] == state) & (stats_data['Date'] >= start_date) & (stats_data['Date'] <= end_date)]
+    if not stats_data_sel.empty:
+      str_location = state + ', ' + stats_data_sel.iloc[0]['Country']
+  else:
+    stats_data_sel = stats_data[(stats_data['Country'] == country) & (stats_data['State'] == state) & (stats_data['Date'] >= start_date) & (stats_data['Date'] <= end_date)]
+    str_location = country
+
+  if stats_data_sel.empty:
+    response = {
+      "Response_Type": "Error:StatsNotFound",
+      "Answer": random.choice(stats_error_messages)
+    }
+    return response
+
+  if start_date == end_date:
+    date_str = ' on ' + write_date(start_date)
+  else:
+    if start_date == read_date('2020-01-20'):
+      date_str = ' until ' + write_date(end_date)
+    else:
+      date_str = ' between ' + write_date(start_date) + ' and ' + write_date(end_date)
+
+  ret_val = format(int(max(0, stats_data_sel[case_type].sum())), ',d')
+  # date = date.strftime("%B %d")
   response = {
       "Response_Type": "Error:EntitiesNotFound",
-      "Answer": 'In ' + str_location + ' there were ' + str(ret_val) + ' ' + str_case_type + ' till ' + date
+      "Answer": 'In ' + str_location + ' there were ' + ret_val + ' ' + str_case_type + date_str
   }
   print(response["Answer"])
   return response

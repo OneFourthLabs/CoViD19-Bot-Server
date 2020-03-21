@@ -14,7 +14,8 @@ import os
 # replace some names used in the file so that they confirm to ISO standards 
 # (which is what DialogFlow will give as system intents)
 replacement_dict = {
-    'US': 'United States'
+    'US': 'United States',
+    'Korea, South': 'South Korea'
 }
 
 # get the three files
