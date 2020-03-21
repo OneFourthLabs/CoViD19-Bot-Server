@@ -1,0 +1,50 @@
+[
+
+    {
+
+        "Intent": "what-is-scientific_term-or-disease",
+        "Entities": {
+                "scientific_term": "pandemic"
+        },
+
+        "Sample_Question": "What is a pandemic?",
+        "Answer_Title": "Pandemic",
+        "Answer": "Pandemic refers to an epidemic that has spread over several countries or continents, usually affecting a large number of people.\nWHO recently declared the ongoing COVID-19 as a pandemic.",
+
+        "Source": "https://www.cdc.gov/csels/dsepd/ss1978/lesson1/section11.html",
+        "Reference": "https://www.youtube.com/watch?v=CUl87kYHT3I",
+
+        "Image_URL": "",
+        "Response_Type": "Card",
+        "Audio_Link": "",
+
+        "Suggestions": [
+            "What is an epidemic"
+        ]
+        
+    },
+
+    {
+
+        "Intent": "what-is-scientific_term-or-disease",
+        "Entities": {
+                "scientific_term": "epidemic"
+        },
+
+        "Sample_Question": "What is an epidemic?",
+        "Answer_Title": "Epidemic",
+        "Answer": "Epidemic refers to an increase, often sudden, in the number of cases of a disease above what is normally expected in that population in that area. Outbreak carries the same definition of epidemic, but is often used for a more limited geographic area.",
+
+        "Source": "https://www.cdc.gov/csels/dsepd/ss1978/lesson1/section11.html",
+        "Reference": "https://www.youtube.com/watch?v=CUl87kYHT3I",
+
+        "Image_URL": "",
+        "Response_Type": "Card",
+        "Audio_Link": "",
+
+        "Suggestions": [
+            "What is a pandemic"
+        ]
+        
+    }
+]
