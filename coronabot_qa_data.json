@@ -1193,8 +1193,8 @@
         "Sample_Question": "Does it spread from pets ?",
         "Answer_Title": "Spread",
         "Answer": "CDC has not received any reports of pets or other animals becoming sick with COVID-19. Further studies are needed to understand if and how different animals could be affected by COVID-19.",
-        "Source": "https://www.hopkinsmedicine.org/health/conditions-and-diseases/coronavirus/coronavirus-frequently-asked-questions",
-        "Reference": "",
+        "Source": "https://www.cdc.gov/coronavirus/2019-ncov/prepare/animals.html",
+        "Reference": "https://www.hopkinsmedicine.org/health/conditions-and-diseases/coronavirus/coronavirus-frequently-asked-questions",
 
         "Image_URL": "",
         "Response_Type": "Card",
@@ -1381,6 +1381,51 @@
             "Can an asymptomatic person give it to recovered person ?"
         ]
         
-    }
+    },
+    
+    {
+        "Intent": "does-disease-spread-through-transmission_medium",
+        "Entities": {
+                "tranmission_organisms": "insects"
+        },
+
+        "Sample_Question": "Can i get it from mosquitoes?",
+        "Answer_Title": "COVID-19 from Mosquitoes",
+        "Answer": "To date there has been no information nor evidence to suggest that the new coronavirus could be transmitted by mosquitoes. The new coronavirus is a respiratory virus which spreads primarily through droplets generated when an infected person coughs or sneezes, or through droplets of saliva or discharge from the nose. To protect yourself, clean your hands frequently with an alcohol-based hand rub or wash them with soap and water. Also, avoid close contact with anyone who is coughing and sneezing.",
+        "Source": " https://www.who.int/emergencies/diseases/novel-coronavirus-2019/advice-for-public/myth-busters",
+        "Reference": "",
+
+        "Image_URL": "",
+        "Response_Type": "Card",
+        "Audio_Link": "",
+
+        "Suggestions": [
+            "Can i get it from dogs ?"
+        ]
+        
+    },
+    
+    {
+        "Intent": "does-disease-spread-through-transmission_medium",
+        "Entities": {
+                "human_conditions": "cured"
+        },
+
+        "Sample_Question": "Can I get infected from a recovered patient ?",
+        "Answer_Title": "From recovered patient",
+        "Answer": "Probably to some extent, though the first batch of studies is far from conclusive as to how long it lasts. Provisional research from Germany has suggested that COVID-19 infectiousness – in contrast to the 2003 SARS outbreak – peaks early and that recovering patients with mild symptoms become low-risk around 10 days after they first fall ill. But another study, following four medical professionals treated at a Wuhan hospital, revealed that traces of the virus could persist in the body for up to two weeks after symptoms had vanished; as the patients were no longer coughing or sneezing, the potential means of transmission were albeit much reduced.",
+        "Source": "https://www.weforum.org/agenda/2020/03/coronavirus-recovery-what-happens-after-covid19/",
+        "Reference": "",
+
+        "Image_URL": "",
+        "Response_Type": "Card",
+        "Audio_Link": "",
+
+        "Suggestions": [
+            "Can i get it from infected person?"
+        ]
+        
+    },
+    
 ]
 
