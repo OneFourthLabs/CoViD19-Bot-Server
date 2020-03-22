@@ -3,6 +3,7 @@ import pandas as pd
 import random
 import datetime
 import json
+import numpy as np
 
 app = Flask(__name__)
 
@@ -231,21 +232,89 @@ def get_stats_where(intent, entities):
     return response
 
 
+
+def get_stats_plot(intent, entities):
+  # parse values
+  country = entities['geo-country'] if len(entities['geo-country']) > 0 else 'World'
+  state = entities['geo-state'] if len(entities['geo-state']) > 0 else 'Total'
+  case_type = entities['case_types'] if len(entities['case_types']) > 0 else 'Confirmed'
+  chart_type = entities['plot_type'] if len(entities['plot_type']) > 0 else 'barplot'
+  aggregation_type = entities['aggregation_type'] if len(entities['aggregation_type']) > 0 else 'total'
+  
+  yesterday = datetime.datetime.today() - datetime.timedelta(days=1)
+  date = entities['date-period']
+  if len(date) == 0:
+    start_date = datetime.datetime.today() - datetime.timedelta(days=7)
+    end_date = datetime.datetime.today() - datetime.timedelta(days=1)
+  else:
+    start_date = read_date(date['startDate'][0:10])
+    end_date = read_date(date['endDate'][0:10])
+  end_date = min(end_date, max_date)
+  # find case type
+  if case_type == 'deaths':
+    case_type = 'Deaths'
+  elif case_type == 'recovered':
+    case_type = 'Recovered'
+  else:
+    case_type = 'Confirmed'
+
+  if state != 'Total':
+    # we are doing selection by state
+    stats_data_sel = stats_data[(stats_data['State'] == state) & (stats_data['Date'] >= start_date) & (stats_data['Date'] <= end_date)]
+    loc_str = state
+    if stats_data_sel.empty:
+      response = {
+        "Response_Type": "Error:PlotDataMissingStateInfo",
+        "Answer": "I do not have the stats for " + state
+      }
+      return response
+  else:
+    # we are doing selection by country
+    stats_data_sel = stats_data[(stats_data['Country'] == country) & (stats_data['State'] == 'Total') & (stats_data['Date'] >= start_date) & (stats_data['Date'] <= end_date)]
+    loc_str = country
+    if stats_data_sel.empty:
+      response = {
+        "Response_Type": "Error:PlotDataMissingStateInfo",
+        "Answer": "I do not have the stats for " + state
+      }
+      return response
+
+
+  labels = stats_data_sel['Date'].apply(write_date).tolist()
+  values = stats_data_sel[case_type].apply(int).tolist()
+
+  if aggregation_type != 'daily':
+    for i in range(1, len(values)):
+      values[i] = values[i - 1] + values[i]
+
+  chart_payload = {}
+  chart_payload['type'] = 'line' if chart_type == 'lineplot' else 'bar'
+  chart_payload['data'] = {}
+  chart_payload['data']['labels'] = labels
+  chart_payload['data']['datasets'] = []
+  chart_payload['data']['datasets'].append({})
+  chart_payload['data']['datasets'][0]['label'] = case_type + " - " + loc_str
+  chart_payload['data']['datasets'][0]['data'] = values
+
+  response = {
+    "Response_Type": "Plot:Worked",
+    "URL": "https://quickchart.io/chart?c=" + json.dumps(chart_payload) + "&backgroundColor=white"
+  }
+  return response
+
+
 def get_stats(intent, entities):
 
   if intent == "stats-case_types-in-location-date":
     return get_stats_cases(intent, entities)
   elif intent == "stats-where-sel_criterion-case_types-when":
     return get_stats_where(intent, entities)
-
-
-
-
+  elif intent == "stats-plot":
+    return get_stats_plot(intent, entities)
 
 
 ####
 def find_answer(intent, entities):
-
 
   if intent[0:5] == 'stats':
     return get_stats(intent, entities)
@@ -289,6 +358,48 @@ def results():
     reply = {}
     reply['fulfillment_text'] = result["Answer"]
     return reply
+
+  if "Plot:" in result["Response_Type"]:
+    imageURL = result["URL"]
+    reply = {}
+    reply = {
+      "fulfillmentText": "",
+      "fulfillmentMessages": [
+        {
+        }
+      ],
+      "payload": {
+        "google": 
+        {
+          "expectUserResponse": True,
+          "richResponse": 
+          {
+            "items": [
+            {
+              "basicCard": 
+              {
+                "title": "",
+                "formattedText": "",
+                "image": 
+                {
+                  "url": imageURL,
+                },
+                "buttons": [
+                  {
+                    "title": "See large image",
+                    "openUrlAction": 
+                    {
+                        "url": imageURL
+                    }
+                  }, 
+                ]
+              },
+            }
+            ],
+          }
+        }
+      }
+    }
 
   if result["Response_Type"] == "Card":
     textTitle = result["Answer_Title"] if result["Answer_Title"] else ""
