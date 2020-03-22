@@ -43,7 +43,7 @@ def read_date(date):
 def write_date(date):
   return date.strftime("%B %d")
 
-def get_stats(intent, entities):
+def get_stats_cases(intent, entities):
 
   warning_txt = ''
 
@@ -90,7 +90,6 @@ def get_stats(intent, entities):
   else:
     stats_data_sel = stats_data[(stats_data['Country'] == country) & (stats_data['State'] == state) & (stats_data['Date'] >= start_date) & (stats_data['Date'] <= end_date)]
     str_location = ' the world' if country == 'World' else country
-  print(stats_data_sel.shape)
 
   if stats_data_sel.empty:
     response = {
@@ -110,11 +109,141 @@ def get_stats(intent, entities):
   ret_val = format(int(max(0, stats_data_sel[case_type].sum())), ',d')
   # date = date.strftime("%B %d")
   response = {
-      "Response_Type": "Error:EntitiesNotFound",
+      "Response_Type": "Text:StatsWorked",
       "Answer": warning_txt + 'In ' + str_location + ', there were ' + ret_val + ' ' + str_case_type + date_str
   }
   return response
 
+
+
+####
+def get_stats_where(intent, entities):
+
+  # parse values
+  country = entities['geo-country'] if len(entities['geo-country']) > 0 else 'World'
+  case_type = entities['case_types'] if len(entities['case_types']) > 0 else 'Confirmed'
+  #location type can be state or country
+  location_type = entities['location_type'] if len(entities['location_type']) > 0 else 'state' if country != 'World' else 'country'
+  # sel_criterion can be highest or lowest
+  sel_criterion = entities['sel_criterion'] if len(entities['sel_criterion']) > 0 else 'highest'
+  yesterday = datetime.datetime.today() - datetime.timedelta(days=1)
+  date = entities['date-time']
+  if type(date) == str:
+    if len(date) == 0: # if no date is specified assume that the total is being asked
+      start_date = read_date('2020-01-20')
+      end_date = min(max_date, yesterday)
+    else:
+      if max_date < read_date(date):
+        warning_txt = 'I have date only till ' + write_date(max_date) + '. '
+        start_date = end_date = max_date
+      else:
+        start_date = end_date = read_date(date)
+  elif type(date) == dict:
+    start_date = min(max_date, read_date(date['startDate']))
+    if max_date < read_date(date['endDate']):
+      warning_txt = 'I have date only till ' + write_date(max_date) + '. '
+      end_date = max_date
+    else:
+      end_date = read_date(date['endDate'])
+  # find case type
+  if case_type == 'deaths':
+    case_type = 'Deaths'
+    str_case_type = 'number of deaths'
+  elif case_type == 'recovered':
+    case_type = 'Recovered'
+    str_case_type = 'number of recovered patients'
+  else:
+    case_type = 'Confirmed'
+    str_case_type = 'number of total cases recorded'
+
+  if start_date == end_date:
+    date_str = ' on ' + write_date(start_date)
+  else:
+    if start_date == read_date('2020-01-20'):
+      date_str = ' until ' + write_date(end_date)
+    else:
+      date_str = ' between ' + write_date(start_date) + ' and ' + write_date(end_date)
+
+  # check if query is possible
+  if location_type == 'state':
+    if country == 'World':
+      # this does not make sense
+      response = {
+        "Response_Type": "Error:SelCriterionStateButNoCountrySpecified",
+        "Answer": "I am unable to find the country you have mentioned."
+      }
+      return response
+    if stats_data[(stats_data['Country'] == country) & (stats_data['State'] != 'Total')].empty:
+      # we do not have state wise data for this country
+      response = {
+        "Response_Type": "Error:SelCriterionStateButNoCountrySpecified",
+        "Answer": "I do not have state-wise data for " + country
+      }
+      return response
+    stats_data_sel = stats_data[(stats_data['Country'] == country) & (stats_data['Date'] >= start_date) & (stats_data['Date'] <= end_date)]
+    if stats_data_sel.empty:
+      # we do not have state wise data for this country
+      response = {
+        "Response_Type": "Error:SelCriterionStateButNoCountrySpecified",
+        "Answer": "I could not find any data in the range of dates you queried for."
+      }
+      return response
+    stats_data_sel = stats_data_sel[['State', 'Date', case_type]]
+    stats_data_sel = stats_data_sel.groupby('State').sum()
+
+    stats_data_sel.drop(['Total'], inplace=True)
+    if sel_criterion == 'highest':
+      response_state = (stats_data_sel[[case_type]].idxmax())[case_type]
+    else:
+      response_state = (stats_data_sel[[case_type]].idxmin())[case_type]
+    response_value = stats_data_sel.at[response_state, case_type]
+
+    response = {
+      "Response_Type": "Text:StatsWhereWorked",
+      "Answer": response_state + " had the " + sel_criterion + " " + str_case_type + " in " + country + " with a figure of " + format(int(response_value), ',d') + date_str
+    }
+    return response
+
+  # check if query is possible
+  if location_type == 'country':
+    stats_data_sel = stats_data[(stats_data['State'] == 'Total') & (stats_data['Date'] >= start_date) & (stats_data['Date'] <= end_date)]
+    if stats_data_sel.empty:
+      # we do not have state wise data for this country
+      response = {
+        "Response_Type": "Error:SelCriterionStateButNoCountrySpecified",
+        "Answer": "I could not find any data in the range of dates you queried for."
+      }
+      return response
+    stats_data_sel = stats_data_sel[['Country', 'Date', case_type]]
+    stats_data_sel = stats_data_sel.groupby('Country').sum()
+
+    stats_data_sel.drop(['World'], inplace=True)
+    if sel_criterion == 'highest':
+      response_country = (stats_data_sel[[case_type]].idxmax())[case_type]
+    else:
+      response_country = (stats_data_sel[[case_type]].idxmin())[case_type]
+    response_value = stats_data_sel.at[response_country, case_type]
+
+    response = {
+      "Response_Type": "Text:StatsWhereWorked",
+      "Answer": response_country + " had the " + sel_criterion + " " + str_case_type + " with a figure of " + format(int(response_value), ',d') + date_str
+    }
+    return response
+
+
+def get_stats(intent, entities):
+
+  if intent == "stats-case_types-in-location-date":
+    return get_stats_cases(intent, entities)
+  elif intent == "stats-where-sel_criterion-case_types-when":
+    return get_stats_where(intent, entities)
+
+
+
+
+
+
+####
 def find_answer(intent, entities):
 
 
@@ -156,7 +285,7 @@ def results():
 
   result = find_answer(intent, params)
 
-  if "Error" in result["Response_Type"]:
+  if "Error" in result["Response_Type"] or "Text" in result["Response_Type"]:
     reply = {}
     reply['fulfillment_text'] = result["Answer"]
     return reply
