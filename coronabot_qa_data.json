@@ -904,7 +904,7 @@
                 "weather_conditions": "hot"
         },
 
-        "Sample_Question": "Will it stop spreading in summer ?",
+        "Sample_Question": "Will it stop spreading in hot weather ?",
         "Answer_Title": "Spread",
         "Answer": "As humidity increases, the viral droplet size is larger and settles out of the air rapidly. COVID-19 is believed to be spread by viral droplets that are injected into the air when a person coughs or sneezes, and them land on someone nearby. 'In contrast, in low humidity, there is rapid evaporation of respiratory droplets,' They remain airborne for prolonged periods, increasing the time and distance over which transmission can occur. Thus, transmission is highly efficient under drier and colder conditions, but far less so in a humid environment.",
         "Source": "https://www.kiro7.com/news/trending/coronavirus-does-warm-weather-slow-spread-virus-maybe/UZQ4XTXWMRHVTLGN5WN5O6OL4U/",
@@ -1047,7 +1047,7 @@
         "Audio_Link": "",
 
         "Suggestions": [
-            "Can it spread through drinks ?"
+            "Can it spread through water ?"
         ]
         
     },
@@ -1091,7 +1091,7 @@
         "Audio_Link": "",
 
         "Suggestions": [
-            "Does it transmit in rainy season ?"
+            ""
         ]
         
     },
@@ -1192,7 +1192,7 @@
 
         "Sample_Question": "Does it spread from pets ?",
         "Answer_Title": "Spread",
-        "Answer": "There have not been any reports of companion animals becoming sick with COVID-19. Because this is a new virus, experts recommend good hygiene when handling or caring for your pets. Wash your hands before and after interacting with animals, and avoid kissing them or letting them lick you or share your food. People ill with COVID-19 should let someone else take care of their animals. If this isn’t possible, patients should wear a mask while looking after their pet",
+        "Answer": "CDC has not received any reports of pets or other animals becoming sick with COVID-19. Further studies are needed to understand if and how different animals could be affected by COVID-19.",
         "Source": "https://www.hopkinsmedicine.org/health/conditions-and-diseases/coronavirus/coronavirus-frequently-asked-questions",
         "Reference": "",
 
