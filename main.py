@@ -295,7 +295,14 @@ def get_stats_plot(intent, entities):
   chart_payload['data']['datasets'].append({})
   chart_payload['data']['datasets'][0]['label'] = case_type + " - " + loc_str
   chart_payload['data']['datasets'][0]['data'] = values
-
+  if chart_type == 'lineplot':
+    chart_payload['data']['datasets'][0]['backgroundColor'] = 'pink'
+    chart_payload['data']['datasets'][0]['borderColor'] = 'red'
+    chart_payload['data']['datasets'][0]['fill'] = 'boundary'
+  elif chart_type == 'barplot':
+    chart_payload['data']['datasets'][0]['backgroundColor'] = 'pink'
+    chart_payload['data']['datasets'][0]['borderColor'] = 'red'
+    chart_payload['data']['datasets'][0]['borderWidth'] = 1
   response = {
     "Response_Type": "Plot:Worked",
     "URL": "https://quickchart.io/chart?c=" + json.dumps(chart_payload) + "&backgroundColor=white"
