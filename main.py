@@ -39,18 +39,26 @@ def index():
   return 'Hello World!'
 
 def read_date(date):
+  if date[0:4] == '2021':
+    date = '2020' + date[4:]
   return datetime.datetime.strptime(date[0:10], '%Y-%m-%d')
 
 def write_date(date):
   return date.strftime("%B %d")
 
+def unlist(var):
+  if type(var) == list:
+    return var[0]
+  else:
+    return var
+
 def get_stats_cases(intent, entities):
 
   warning_txt = ''
 
-  country = entities['geo-country'] if len(entities['geo-country']) > 0 else 'World'
-  state = entities['geo-state'] if len(entities['geo-state']) > 0 else 'Total'
-  case_type = entities['case_types'] if len(entities['case_types']) > 0 else 'Confirmed'
+  country = unlist(entities['geo-country'] if len(entities['geo-country']) > 0 else 'World')
+  state = unlist(entities['geo-state'] if len(entities['geo-state']) > 0 else 'Total')
+  case_type = unlist(entities['case_types'] if len(entities['case_types']) > 0 else 'Confirmed')
   yesterday = datetime.datetime.today() - datetime.timedelta(days=1)
 
   date = entities['date-time']
@@ -121,14 +129,19 @@ def get_stats_cases(intent, entities):
 def get_stats_where(intent, entities):
 
   # parse values
-  country = entities['geo-country'] if len(entities['geo-country']) > 0 else 'World'
-  case_type = entities['case_types'] if len(entities['case_types']) > 0 else 'Confirmed'
+  country = unlist(entities['geo-country'] if len(entities['geo-country']) > 0 else 'World')
+  case_type = unlist(entities['case_types'] if len(entities['case_types']) > 0 else 'Confirmed')
   #location type can be state or country
   location_type = entities['location_type'] if len(entities['location_type']) > 0 else 'state' if country != 'World' else 'country'
   # sel_criterion can be highest or lowest
   sel_criterion = entities['sel_criterion'] if len(entities['sel_criterion']) > 0 else 'highest'
   yesterday = datetime.datetime.today() - datetime.timedelta(days=1)
-  date = entities['date-time']
+  print(len(entities['date-time']), len(entities['date-period']))
+  date = entities['date-time'] 
+  if (len(date) == 0) & (len(entities['date-period']) > 0): 
+    print('good')
+    date = entities['date-period']
+  print('Date', date)
   if type(date) == str:
     if len(date) == 0: # if no date is specified assume that the total is being asked
       start_date = read_date('2020-01-20')
@@ -146,6 +159,7 @@ def get_stats_where(intent, entities):
       end_date = max_date
     else:
       end_date = read_date(date['endDate'])
+  print('Startdate', start_date, 'Enddate', end_date)
   # find case type
   if case_type == 'deaths':
     case_type = 'Deaths'
@@ -237,7 +251,7 @@ def get_stats_plot(intent, entities):
   # parse values
   country = entities['geo-country'] if len(entities['geo-country']) > 0 else 'World'
   state = entities['geo-state'] if len(entities['geo-state']) > 0 else 'Total'
-  case_type = entities['case_types'] if len(entities['case_types']) > 0 else 'Confirmed'
+  case_type = unlist(entities['case_types'] if len(entities['case_types']) > 0 else 'Confirmed')
   chart_type = entities['plot_type'] if len(entities['plot_type']) > 0 else 'barplot'
   aggregation_type = entities['aggregation_type'] if len(entities['aggregation_type']) > 0 else 'total'
   
