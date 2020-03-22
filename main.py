@@ -91,7 +91,7 @@ def get_stats(intent, entities):
       str_location = state + ', ' + stats_data_sel.iloc[0]['Country']
   else:
     stats_data_sel = stats_data[(stats_data['Country'] == country) & (stats_data['State'] == state) & (stats_data['Date'] >= start_date) & (stats_data['Date'] <= end_date)]
-    str_location = country
+    str_location = ' the world' if country == 'World' else country
 
   if stats_data_sel.empty:
     response = {
@@ -112,7 +112,7 @@ def get_stats(intent, entities):
   # date = date.strftime("%B %d")
   response = {
       "Response_Type": "Error:EntitiesNotFound",
-      "Answer": warning_txt + 'In ' + str_location + ' there were ' + ret_val + ' ' + str_case_type + date_str
+      "Answer": warning_txt + 'In ' + str_location + ', there were ' + ret_val + ' ' + str_case_type + date_str
   }
   print(response["Answer"])
   return response

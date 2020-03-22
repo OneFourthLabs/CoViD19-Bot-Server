@@ -64,6 +64,16 @@ df[['Confirmed','Recovered','Deaths']] = df[['Confirmed','Recovered','Deaths']].
 
 df = df[df['Date'] != datetime.datetime.strptime('2020-01-22', '%Y-%m-%d')]
 
+df_total = df[df['State'] == 'Total']
+df_total = df_total.groupby('Date').sum()
+
+df_total.reset_index(level=0, inplace=True)
+df_total['State'] = 'Total'
+df_total['Country'] = 'World'
+df_total = df_total[['Country', 'State', 'Date', 'Confirmed', 'Recovered', 'Deaths']]
+df = df.append(df_total, ignore_index = True)
+
+
 df.to_csv('coronabot_stats_data.csv', index=False)
 
 # # writes output to json file which is optimised for query
