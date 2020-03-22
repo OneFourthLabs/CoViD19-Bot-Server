@@ -10,6 +10,7 @@ Original file is located at
 import pandas as pd
 import datetime
 import os 
+import json
 
 # replace some names used in the file so that they confirm to ISO standards 
 # (which is what DialogFlow will give as system intents)
@@ -57,12 +58,42 @@ df_deaths = process_df('Deaths')
 
 ## merge the three files into one
 df = df_confirmed.merge(df_recovered, on=['Country', 'State', 'Date']).merge(df_deaths, on=['Country', 'State', 'Date'])
+
+##load India data
+# get india data
+os.system("curl -O https://api.rootnet.in/covid19-in/stats/daily")
+with open('daily') as f:
+  data = json.load(f)
+for item in data['data']:
+    day = item['day']
+    # don't put India level data as that is already available
+    # df = df.append({
+    #     'Country': 'India', 
+    #     'State': 'Total', 
+    #     'Date': day, 
+    #     'Confirmed': item['summary']['total'], 
+    #     'Recovered': item['summary']['discharged'], 
+    #     'Deaths': item['summary']['deaths']
+    #     }, ignore_index=True)
+    for reg_item in item['regional']:
+        df = df.append({
+            'Country': 'India',
+            'State': reg_item['loc'],
+            'Date': day,
+            'Confirmed': reg_item['confirmedCasesIndian'] + reg_item['confirmedCasesForeign'],
+            'Recovered': reg_item['discharged'],
+            'Deaths': reg_item['deaths']
+        }, ignore_index=True)
+
+
 ## convert the date string to datetime format
 df['Date'] = pd.to_datetime(df['Date'])
 df.sort_values(by=['Country', 'State', 'Date'], inplace=True)
 df[['Confirmed','Recovered','Deaths']] = df[['Confirmed','Recovered','Deaths']].diff()
 
-df = df[df['Date'] != datetime.datetime.strptime('2020-01-22', '%Y-%m-%d')]
+df = df[(df['Confirmed'] >= 0) & (df['Recovered'] >= 0) & (df['Deaths'] >= 0)]
+# df = df[df['Date'] != datetime.datetime.strptime('2020-01-22', '%Y-%m-%d')]
+
 
 df_total = df[df['State'] == 'Total']
 df_total = df_total.groupby('Date').sum()
@@ -72,7 +103,6 @@ df_total['State'] = 'Total'
 df_total['Country'] = 'World'
 df_total = df_total[['Country', 'State', 'Date', 'Confirmed', 'Recovered', 'Deaths']]
 df = df.append(df_total, ignore_index = True)
-
 
 df.to_csv('coronabot_stats_data.csv', index=False)
 

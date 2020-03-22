@@ -226,7 +226,6 @@ Andorra,Total,2020-03-09,0.0,0.0,0.0
 Andorra,Total,2020-03-10,0.0,0.0,0.0
 Andorra,Total,2020-03-11,0.0,0.0,0.0
 Andorra,Total,2020-03-12,0.0,1.0,0.0
-Andorra,Total,2020-03-13,0.0,-1.0,0.0
 Andorra,Total,2020-03-14,0.0,1.0,0.0
 Andorra,Total,2020-03-15,0.0,0.0,0.0
 Andorra,Total,2020-03-16,1.0,0.0,0.0
@@ -567,7 +566,6 @@ Australia,From Diamond Princess,2020-02-25,0.0,0.0,0.0
 Australia,From Diamond Princess,2020-02-26,0.0,0.0,0.0
 Australia,From Diamond Princess,2020-02-27,1.0,0.0,0.0
 Australia,From Diamond Princess,2020-02-28,0.0,0.0,0.0
-Australia,From Diamond Princess,2020-02-29,-8.0,0.0,0.0
 Australia,From Diamond Princess,2020-03-01,0.0,0.0,0.0
 Australia,From Diamond Princess,2020-03-02,0.0,0.0,0.0
 Australia,From Diamond Princess,2020-03-03,0.0,0.0,0.0
@@ -589,6 +587,7 @@ Australia,From Diamond Princess,2020-03-18,0.0,0.0,0.0
 Australia,From Diamond Princess,2020-03-19,0.0,0.0,0.0
 Australia,From Diamond Princess,2020-03-20,0.0,0.0,0.0
 Australia,From Diamond Princess,2020-03-21,0.0,0.0,0.0
+Australia,New South Wales,2020-01-22,0.0,0.0,0.0
 Australia,New South Wales,2020-01-23,0.0,0.0,0.0
 Australia,New South Wales,2020-01-24,0.0,0.0,0.0
 Australia,New South Wales,2020-01-25,0.0,0.0,0.0
@@ -691,7 +690,6 @@ Australia,Northern Territory,2020-03-02,0.0,0.0,0.0
 Australia,Northern Territory,2020-03-03,0.0,0.0,0.0
 Australia,Northern Territory,2020-03-04,1.0,0.0,0.0
 Australia,Northern Territory,2020-03-05,0.0,0.0,0.0
-Australia,Northern Territory,2020-03-06,-1.0,0.0,0.0
 Australia,Northern Territory,2020-03-07,0.0,0.0,0.0
 Australia,Northern Territory,2020-03-08,0.0,0.0,0.0
 Australia,Northern Territory,2020-03-09,0.0,0.0,0.0
@@ -715,9 +713,7 @@ Australia,Queensland,2020-01-27,0.0,0.0,0.0
 Australia,Queensland,2020-01-28,0.0,0.0,0.0
 Australia,Queensland,2020-01-29,1.0,0.0,0.0
 Australia,Queensland,2020-01-30,2.0,0.0,0.0
-Australia,Queensland,2020-01-31,-1.0,0.0,0.0
 Australia,Queensland,2020-02-01,1.0,0.0,0.0
-Australia,Queensland,2020-02-02,-1.0,0.0,0.0
 Australia,Queensland,2020-02-03,0.0,0.0,0.0
 Australia,Queensland,2020-02-04,1.0,0.0,0.0
 Australia,Queensland,2020-02-05,0.0,0.0,0.0
@@ -1115,7 +1111,6 @@ Austria,Total,2020-03-13,202.0,2.0,0.0
 Austria,Total,2020-03-14,151.0,0.0,0.0
 Austria,Total,2020-03-15,205.0,0.0,0.0
 Austria,Total,2020-03-16,158.0,0.0,2.0
-Austria,Total,2020-03-17,314.0,-5.0,0.0
 Austria,Total,2020-03-18,314.0,8.0,1.0
 Austria,Total,2020-03-19,367.0,0.0,2.0
 Austria,Total,2020-03-20,375.0,0.0,0.0
@@ -1173,7 +1168,6 @@ Azerbaijan,Total,2020-03-12,0.0,0.0,0.0
 Azerbaijan,Total,2020-03-13,4.0,0.0,1.0
 Azerbaijan,Total,2020-03-14,0.0,0.0,0.0
 Azerbaijan,Total,2020-03-15,8.0,3.0,0.0
-Azerbaijan,Total,2020-03-16,-8.0,0.0,0.0
 Azerbaijan,Total,2020-03-17,13.0,0.0,0.0
 Azerbaijan,Total,2020-03-18,0.0,0.0,0.0
 Azerbaijan,Total,2020-03-19,16.0,0.0,0.0
@@ -1288,7 +1282,6 @@ Bahrain,Total,2020-03-09,10.0,10.0,0.0
 Bahrain,Total,2020-03-10,15.0,8.0,0.0
 Bahrain,Total,2020-03-11,85.0,13.0,0.0
 Bahrain,Total,2020-03-12,0.0,0.0,0.0
-Bahrain,Total,2020-03-13,-6.0,9.0,0.0
 Bahrain,Total,2020-03-14,21.0,0.0,0.0
 Bahrain,Total,2020-03-15,4.0,16.0,0.0
 Bahrain,Total,2020-03-16,0.0,17.0,1.0
@@ -1531,7 +1524,6 @@ Belgium,Total,2020-03-16,172.0,0.0,1.0
 Belgium,Total,2020-03-17,185.0,0.0,5.0
 Belgium,Total,2020-03-18,243.0,30.0,4.0
 Belgium,Total,2020-03-19,309.0,0.0,7.0
-Belgium,Total,2020-03-20,462.0,-30.0,16.0
 Belgium,Total,2020-03-21,558.0,262.0,30.0
 Benin,Total,2020-01-23,0.0,0.0,0.0
 Benin,Total,2020-01-24,0.0,0.0,0.0
@@ -3559,7 +3551,6 @@ China,Guangxi,2020-02-08,11.0,0.0,0.0
 China,Guangxi,2020-02-09,12.0,1.0,1.0
 China,Guangxi,2020-02-10,15.0,6.0,0.0
 China,Guangxi,2020-02-11,5.0,9.0,0.0
-China,Guangxi,2020-02-12,7.0,-1.0,0.0
 China,Guangxi,2020-02-13,0.0,1.0,1.0
 China,Guangxi,2020-02-14,4.0,3.0,0.0
 China,Guangxi,2020-02-15,9.0,8.0,0.0
@@ -3612,7 +3603,6 @@ China,Guizhou,2020-02-02,9.0,0.0,0.0
 China,Guizhou,2020-02-03,8.0,0.0,0.0
 China,Guizhou,2020-02-04,12.0,0.0,0.0
 China,Guizhou,2020-02-05,6.0,7.0,1.0
-China,Guizhou,2020-02-06,7.0,-3.0,0.0
 China,Guizhou,2020-02-07,10.0,0.0,0.0
 China,Guizhou,2020-02-08,8.0,1.0,0.0
 China,Guizhou,2020-02-09,10.0,0.0,0.0
@@ -3653,7 +3643,6 @@ China,Guizhou,2020-03-14,0.0,3.0,0.0
 China,Guizhou,2020-03-15,0.0,0.0,0.0
 China,Guizhou,2020-03-16,0.0,1.0,0.0
 China,Guizhou,2020-03-17,1.0,0.0,0.0
-China,Guizhou,2020-03-18,-1.0,0.0,0.0
 China,Guizhou,2020-03-19,0.0,0.0,0.0
 China,Guizhou,2020-03-20,0.0,0.0,0.0
 China,Guizhou,2020-03-21,0.0,0.0,0.0
@@ -3680,7 +3669,6 @@ China,Hainan,2020-02-11,6.0,1.0,0.0
 China,Hainan,2020-02-12,13.0,7.0,1.0
 China,Hainan,2020-02-13,0.0,3.0,0.0
 China,Hainan,2020-02-14,2.0,13.0,0.0
-China,Hainan,2020-02-15,3.0,-4.0,0.0
 China,Hainan,2020-02-16,0.0,13.0,0.0
 China,Hainan,2020-02-17,1.0,7.0,0.0
 China,Hainan,2020-02-18,0.0,20.0,0.0
@@ -3794,7 +3782,6 @@ China,Heilongjiang,2020-02-07,50.0,4.0,0.0
 China,Heilongjiang,2020-02-08,18.0,1.0,2.0
 China,Heilongjiang,2020-02-09,12.0,1.0,1.0
 China,Heilongjiang,2020-02-10,24.0,16.0,1.0
-China,Heilongjiang,2020-02-11,29.0,-2.0,1.0
 China,Heilongjiang,2020-02-12,18.0,3.0,0.0
 China,Heilongjiang,2020-02-13,17.0,2.0,1.0
 China,Heilongjiang,2020-02-14,24.0,14.0,2.0
@@ -3922,7 +3909,6 @@ China,Hong Kong,2020-02-17,3.0,0.0,0.0
 China,Hong Kong,2020-02-18,2.0,0.0,0.0
 China,Hong Kong,2020-02-19,1.0,3.0,1.0
 China,Hong Kong,2020-02-20,5.0,1.0,0.0
-China,Hong Kong,2020-02-21,0.0,-1.0,0.0
 China,Hong Kong,2020-02-22,1.0,1.0,0.0
 China,Hong Kong,2020-02-23,5.0,5.0,0.0
 China,Hong Kong,2020-02-24,5.0,8.0,0.0
@@ -4441,7 +4427,6 @@ China,Ningxia,2020-02-05,0.0,0.0,0.0
 China,Ningxia,2020-02-06,6.0,0.0,0.0
 China,Ningxia,2020-02-07,3.0,4.0,0.0
 China,Ningxia,2020-02-08,2.0,10.0,0.0
-China,Ningxia,2020-02-09,0.0,-2.0,0.0
 China,Ningxia,2020-02-10,4.0,0.0,0.0
 China,Ningxia,2020-02-11,4.0,9.0,0.0
 China,Ningxia,2020-02-12,5.0,2.0,0.0
@@ -4730,7 +4715,6 @@ China,Shanxi,2020-01-30,8.0,0.0,0.0
 China,Shanxi,2020-01-31,4.0,0.0,0.0
 China,Shanxi,2020-02-01,8.0,0.0,0.0
 China,Shanxi,2020-02-02,19.0,2.0,0.0
-China,Shanxi,2020-02-03,8.0,-1.0,0.0
 China,Shanxi,2020-02-04,7.0,2.0,0.0
 China,Shanxi,2020-02-05,0.0,1.0,0.0
 China,Shanxi,2020-02-06,15.0,7.0,0.0
@@ -4955,6 +4939,7 @@ China,Tibet,2020-03-18,0.0,0.0,0.0
 China,Tibet,2020-03-19,0.0,0.0,0.0
 China,Tibet,2020-03-20,0.0,0.0,0.0
 China,Tibet,2020-03-21,0.0,0.0,0.0
+China,Total,2020-01-22,547.0,27.0,17.0
 China,Total,2020-01-23,95.0,2.0,1.0
 China,Total,2020-01-24,277.0,6.0,8.0
 China,Total,2020-01-25,486.0,3.0,16.0
@@ -5576,7 +5561,6 @@ Cruise Ship,Diamond Princess,2020-02-19,79.0,1.0,0.0
 Cruise Ship,Diamond Princess,2020-02-20,13.0,0.0,2.0
 Cruise Ship,Diamond Princess,2020-02-21,0.0,0.0,0.0
 Cruise Ship,Diamond Princess,2020-02-22,0.0,0.0,0.0
-Cruise Ship,Diamond Princess,2020-02-23,57.0,-1.0,1.0
 Cruise Ship,Diamond Princess,2020-02-24,0.0,0.0,0.0
 Cruise Ship,Diamond Princess,2020-02-25,0.0,0.0,0.0
 Cruise Ship,Diamond Princess,2020-02-26,14.0,10.0,1.0
@@ -5588,7 +5572,6 @@ Cruise Ship,Diamond Princess,2020-03-02,0.0,0.0,0.0
 Cruise Ship,Diamond Princess,2020-03-03,1.0,0.0,0.0
 Cruise Ship,Diamond Princess,2020-03-04,0.0,0.0,0.0
 Cruise Ship,Diamond Princess,2020-03-05,0.0,0.0,0.0
-Cruise Ship,Diamond Princess,2020-03-06,-10.0,30.0,0.0
 Cruise Ship,Diamond Princess,2020-03-07,0.0,0.0,0.0
 Cruise Ship,Diamond Princess,2020-03-08,0.0,0.0,0.0
 Cruise Ship,Diamond Princess,2020-03-09,0.0,0.0,0.0
@@ -5635,7 +5618,6 @@ Cruise Ship,Total,2020-02-19,79.0,1.0,0.0
 Cruise Ship,Total,2020-02-20,13.0,0.0,2.0
 Cruise Ship,Total,2020-02-21,0.0,0.0,0.0
 Cruise Ship,Total,2020-02-22,0.0,0.0,0.0
-Cruise Ship,Total,2020-02-23,57.0,-1.0,1.0
 Cruise Ship,Total,2020-02-24,0.0,0.0,0.0
 Cruise Ship,Total,2020-02-25,0.0,0.0,0.0
 Cruise Ship,Total,2020-02-26,14.0,10.0,1.0
@@ -5647,7 +5629,6 @@ Cruise Ship,Total,2020-03-02,0.0,0.0,0.0
 Cruise Ship,Total,2020-03-03,1.0,0.0,0.0
 Cruise Ship,Total,2020-03-04,0.0,0.0,0.0
 Cruise Ship,Total,2020-03-05,0.0,0.0,0.0
-Cruise Ship,Total,2020-03-06,-10.0,30.0,0.0
 Cruise Ship,Total,2020-03-07,0.0,0.0,0.0
 Cruise Ship,Total,2020-03-08,0.0,0.0,0.0
 Cruise Ship,Total,2020-03-09,0.0,0.0,0.0
@@ -6364,7 +6345,6 @@ Egypt,Total,2020-03-11,1.0,26.0,0.0
 Egypt,Total,2020-03-12,7.0,0.0,0.0
 Egypt,Total,2020-03-13,13.0,0.0,1.0
 Egypt,Total,2020-03-14,29.0,0.0,0.0
-Egypt,Total,2020-03-15,1.0,-6.0,0.0
 Egypt,Total,2020-03-16,40.0,6.0,0.0
 Egypt,Total,2020-03-17,46.0,5.0,2.0
 Egypt,Total,2020-03-18,0.0,0.0,2.0
@@ -7302,7 +7282,6 @@ France,Saint Barthelemy,2020-03-05,0.0,0.0,0.0
 France,Saint Barthelemy,2020-03-06,0.0,0.0,0.0
 France,Saint Barthelemy,2020-03-07,0.0,0.0,0.0
 France,Saint Barthelemy,2020-03-08,0.0,0.0,0.0
-France,Saint Barthelemy,2020-03-09,-2.0,0.0,0.0
 France,Saint Barthelemy,2020-03-10,0.0,0.0,0.0
 France,Saint Barthelemy,2020-03-11,0.0,0.0,0.0
 France,Saint Barthelemy,2020-03-12,0.0,0.0,0.0
@@ -8253,12 +8232,156 @@ Iceland,Total,2020-03-12,18.0,0.0,0.0
 Iceland,Total,2020-03-13,31.0,0.0,0.0
 Iceland,Total,2020-03-14,22.0,0.0,0.0
 Iceland,Total,2020-03-15,15.0,7.0,5.0
-Iceland,Total,2020-03-16,9.0,-8.0,-5.0
 Iceland,Total,2020-03-17,40.0,0.0,1.0
 Iceland,Total,2020-03-18,30.0,5.0,0.0
 Iceland,Total,2020-03-19,80.0,0.0,0.0
-Iceland,Total,2020-03-20,79.0,0.0,-1.0
 Iceland,Total,2020-03-21,64.0,17.0,1.0
+India,Andhra Pradesh,2020-03-14,0.0,0.0,0.0
+India,Andhra Pradesh,2020-03-15,0.0,0.0,0.0
+India,Andhra Pradesh,2020-03-16,0.0,0.0,0.0
+India,Andhra Pradesh,2020-03-17,0.0,0.0,0.0
+India,Andhra Pradesh,2020-03-18,0.0,0.0,0.0
+India,Andhra Pradesh,2020-03-19,1.0,0.0,0.0
+India,Andhra Pradesh,2020-03-20,1.0,0.0,0.0
+India,Andhra Pradesh,2020-03-21,0.0,0.0,0.0
+India,Chandigarh,2020-03-20,0.0,0.0,0.0
+India,Chandigarh,2020-03-21,0.0,0.0,0.0
+India,Chhattisgarh,2020-03-19,0.0,0.0,0.0
+India,Chhattisgarh,2020-03-20,0.0,0.0,0.0
+India,Chhattisgarh,2020-03-21,0.0,0.0,0.0
+India,Delhi,2020-03-10,3.0,0.0,0.0
+India,Delhi,2020-03-11,1.0,0.0,0.0
+India,Delhi,2020-03-12,1.0,0.0,0.0
+India,Delhi,2020-03-13,1.0,1.0,1.0
+India,Delhi,2020-03-14,0.0,0.0,0.0
+India,Delhi,2020-03-15,0.0,1.0,0.0
+India,Delhi,2020-03-16,0.0,0.0,0.0
+India,Delhi,2020-03-17,1.0,0.0,0.0
+India,Delhi,2020-03-18,2.0,0.0,0.0
+India,Delhi,2020-03-19,2.0,1.0,0.0
+India,Delhi,2020-03-20,5.0,2.0,0.0
+India,Delhi,2020-03-21,9.0,0.0,0.0
+India,Gujarat,2020-03-21,2.0,0.0,0.0
+India,Haryana,2020-03-10,7.0,0.0,0.0
+India,Haryana,2020-03-11,0.0,0.0,0.0
+India,Haryana,2020-03-12,0.0,0.0,0.0
+India,Haryana,2020-03-13,0.0,0.0,0.0
+India,Haryana,2020-03-14,0.0,0.0,0.0
+India,Haryana,2020-03-15,0.0,0.0,0.0
+India,Haryana,2020-03-16,0.0,0.0,0.0
+India,Haryana,2020-03-17,1.0,0.0,0.0
+India,Haryana,2020-03-18,2.0,0.0,0.0
+India,Haryana,2020-03-19,0.0,0.0,0.0
+India,Haryana,2020-03-20,0.0,0.0,0.0
+India,Haryana,2020-03-21,0.0,0.0,0.0
+India,Jammu and Kashmir,2020-03-11,0.0,0.0,0.0
+India,Jammu and Kashmir,2020-03-12,0.0,0.0,0.0
+India,Jammu and Kashmir,2020-03-13,0.0,0.0,0.0
+India,Jammu and Kashmir,2020-03-14,1.0,0.0,0.0
+India,Jammu and Kashmir,2020-03-15,0.0,0.0,0.0
+India,Jammu and Kashmir,2020-03-16,1.0,0.0,0.0
+India,Jammu and Kashmir,2020-03-17,0.0,0.0,0.0
+India,Jammu and Kashmir,2020-03-18,0.0,0.0,0.0
+India,Jammu and Kashmir,2020-03-19,1.0,0.0,0.0
+India,Jammu and Kashmir,2020-03-20,0.0,0.0,0.0
+India,Jammu and Kashmir,2020-03-21,0.0,0.0,0.0
+India,Karnataka,2020-03-11,3.0,0.0,0.0
+India,Karnataka,2020-03-12,0.0,0.0,0.0
+India,Karnataka,2020-03-13,2.0,0.0,1.0
+India,Karnataka,2020-03-14,0.0,0.0,0.0
+India,Karnataka,2020-03-15,0.0,0.0,0.0
+India,Karnataka,2020-03-16,0.0,0.0,0.0
+India,Karnataka,2020-03-17,5.0,0.0,0.0
+India,Karnataka,2020-03-18,0.0,0.0,0.0
+India,Karnataka,2020-03-19,3.0,0.0,0.0
+India,Karnataka,2020-03-20,1.0,1.0,0.0
+India,Karnataka,2020-03-21,0.0,0.0,0.0
+India,Kerala,2020-03-11,8.0,0.0,0.0
+India,Kerala,2020-03-12,0.0,0.0,0.0
+India,Kerala,2020-03-13,2.0,3.0,0.0
+India,Kerala,2020-03-14,0.0,0.0,0.0
+India,Kerala,2020-03-15,3.0,0.0,0.0
+India,Kerala,2020-03-16,1.0,0.0,0.0
+India,Kerala,2020-03-17,3.0,0.0,0.0
+India,Kerala,2020-03-18,1.0,0.0,0.0
+India,Kerala,2020-03-19,0.0,0.0,0.0
+India,Kerala,2020-03-20,1.0,0.0,0.0
+India,Kerala,2020-03-21,12.0,0.0,0.0
+India,Ladakh,2020-03-11,0.0,0.0,0.0
+India,Ladakh,2020-03-12,1.0,0.0,0.0
+India,Ladakh,2020-03-13,0.0,0.0,0.0
+India,Ladakh,2020-03-14,0.0,0.0,0.0
+India,Ladakh,2020-03-15,0.0,0.0,0.0
+India,Ladakh,2020-03-16,1.0,0.0,0.0
+India,Ladakh,2020-03-17,2.0,0.0,0.0
+India,Ladakh,2020-03-18,2.0,0.0,0.0
+India,Ladakh,2020-03-19,0.0,0.0,0.0
+India,Ladakh,2020-03-20,2.0,0.0,0.0
+India,Ladakh,2020-03-21,3.0,0.0,0.0
+India,Maharashtra,2020-03-11,0.0,0.0,0.0
+India,Maharashtra,2020-03-12,9.0,0.0,0.0
+India,Maharashtra,2020-03-13,3.0,0.0,0.0
+India,Maharashtra,2020-03-14,0.0,0.0,0.0
+India,Maharashtra,2020-03-15,18.0,0.0,0.0
+India,Maharashtra,2020-03-16,0.0,0.0,0.0
+India,Maharashtra,2020-03-17,7.0,0.0,1.0
+India,Maharashtra,2020-03-18,3.0,0.0,0.0
+India,Maharashtra,2020-03-19,5.0,0.0,0.0
+India,Maharashtra,2020-03-20,5.0,0.0,0.0
+India,Maharashtra,2020-03-21,11.0,0.0,0.0
+India,Odisha,2020-03-17,0.0,0.0,0.0
+India,Odisha,2020-03-18,0.0,0.0,0.0
+India,Odisha,2020-03-19,0.0,0.0,0.0
+India,Odisha,2020-03-20,1.0,0.0,0.0
+India,Odisha,2020-03-21,0.0,0.0,0.0
+India,Puducherry,2020-03-19,0.0,0.0,0.0
+India,Puducherry,2020-03-20,0.0,0.0,0.0
+India,Puducherry,2020-03-21,0.0,0.0,0.0
+India,Punjab,2020-03-10,0.0,0.0,0.0
+India,Punjab,2020-03-11,0.0,0.0,0.0
+India,Punjab,2020-03-12,0.0,0.0,0.0
+India,Punjab,2020-03-13,0.0,0.0,0.0
+India,Punjab,2020-03-14,0.0,0.0,0.0
+India,Punjab,2020-03-15,0.0,0.0,0.0
+India,Punjab,2020-03-16,0.0,0.0,0.0
+India,Punjab,2020-03-17,0.0,0.0,0.0
+India,Punjab,2020-03-18,0.0,0.0,0.0
+India,Punjab,2020-03-19,1.0,0.0,1.0
+India,Punjab,2020-03-20,0.0,0.0,0.0
+India,Punjab,2020-03-21,11.0,0.0,0.0
+India,Rajasthan,2020-03-11,1.0,0.0,0.0
+India,Rajasthan,2020-03-12,0.0,0.0,0.0
+India,Rajasthan,2020-03-13,0.0,1.0,0.0
+India,Rajasthan,2020-03-14,0.0,0.0,0.0
+India,Rajasthan,2020-03-15,1.0,2.0,0.0
+India,Rajasthan,2020-03-16,0.0,0.0,0.0
+India,Rajasthan,2020-03-17,0.0,0.0,0.0
+India,Rajasthan,2020-03-18,0.0,0.0,0.0
+India,Rajasthan,2020-03-19,3.0,0.0,0.0
+India,Rajasthan,2020-03-20,10.0,0.0,0.0
+India,Rajasthan,2020-03-21,0.0,0.0,0.0
+India,Tamil Nadu,2020-03-11,0.0,0.0,0.0
+India,Tamil Nadu,2020-03-12,0.0,0.0,0.0
+India,Tamil Nadu,2020-03-13,0.0,0.0,0.0
+India,Tamil Nadu,2020-03-14,0.0,0.0,0.0
+India,Tamil Nadu,2020-03-15,0.0,0.0,0.0
+India,Tamil Nadu,2020-03-16,0.0,0.0,0.0
+India,Tamil Nadu,2020-03-17,0.0,0.0,0.0
+India,Tamil Nadu,2020-03-18,0.0,0.0,0.0
+India,Tamil Nadu,2020-03-19,1.0,1.0,0.0
+India,Tamil Nadu,2020-03-20,1.0,0.0,0.0
+India,Tamil Nadu,2020-03-21,0.0,0.0,0.0
+India,Telengana,2020-03-11,0.0,0.0,0.0
+India,Telengana,2020-03-12,0.0,0.0,0.0
+India,Telengana,2020-03-13,0.0,0.0,0.0
+India,Telengana,2020-03-14,0.0,0.0,0.0
+India,Telengana,2020-03-15,2.0,1.0,0.0
+India,Telengana,2020-03-16,0.0,0.0,0.0
+India,Telengana,2020-03-17,2.0,0.0,0.0
+India,Telengana,2020-03-18,1.0,0.0,0.0
+India,Telengana,2020-03-19,0.0,0.0,0.0
+India,Telengana,2020-03-20,11.0,0.0,0.0
+India,Telengana,2020-03-21,4.0,0.0,0.0
 India,Total,2020-01-23,0.0,0.0,0.0
 India,Total,2020-01-24,0.0,0.0,0.0
 India,Total,2020-01-25,0.0,0.0,0.0
@@ -8317,7 +8440,25 @@ India,Total,2020-03-17,23.0,1.0,1.0
 India,Total,2020-03-18,14.0,0.0,0.0
 India,Total,2020-03-19,38.0,1.0,1.0
 India,Total,2020-03-20,50.0,5.0,1.0
-India,Total,2020-03-21,86.0,3.0,-1.0
+India,Uttar Pradesh,2020-03-11,0.0,0.0,0.0
+India,Uttar Pradesh,2020-03-12,2.0,0.0,0.0
+India,Uttar Pradesh,2020-03-13,0.0,5.0,0.0
+India,Uttar Pradesh,2020-03-14,1.0,0.0,0.0
+India,Uttar Pradesh,2020-03-16,0.0,0.0,0.0
+India,Uttar Pradesh,2020-03-17,2.0,1.0,0.0
+India,Uttar Pradesh,2020-03-18,1.0,0.0,0.0
+India,Uttar Pradesh,2020-03-19,3.0,4.0,0.0
+India,Uttar Pradesh,2020-03-20,4.0,0.0,0.0
+India,Uttar Pradesh,2020-03-21,1.0,0.0,0.0
+India,Uttarakhand,2020-03-16,0.0,0.0,0.0
+India,Uttarakhand,2020-03-17,0.0,0.0,0.0
+India,Uttarakhand,2020-03-18,0.0,0.0,0.0
+India,Uttarakhand,2020-03-19,0.0,0.0,0.0
+India,Uttarakhand,2020-03-20,2.0,0.0,0.0
+India,Uttarakhand,2020-03-21,0.0,0.0,0.0
+India,West Bengal,2020-03-19,0.0,0.0,0.0
+India,West Bengal,2020-03-20,1.0,0.0,0.0
+India,West Bengal,2020-03-21,1.0,0.0,0.0
 Indonesia,Total,2020-01-23,0.0,0.0,0.0
 Indonesia,Total,2020-01-24,0.0,0.0,0.0
 Indonesia,Total,2020-01-25,0.0,0.0,0.0
@@ -8645,7 +8786,6 @@ Italy,Total,2020-02-20,0.0,0.0,0.0
 Italy,Total,2020-02-21,17.0,0.0,1.0
 Italy,Total,2020-02-22,42.0,1.0,1.0
 Italy,Total,2020-02-23,93.0,1.0,1.0
-Italy,Total,2020-02-24,74.0,-1.0,4.0
 Italy,Total,2020-02-25,93.0,0.0,3.0
 Italy,Total,2020-02-26,131.0,2.0,2.0
 Italy,Total,2020-02-27,202.0,42.0,5.0
@@ -8731,7 +8871,6 @@ Jamaica,Total,2020-03-18,1.0,0.0,0.0
 Jamaica,Total,2020-03-19,2.0,0.0,1.0
 Jamaica,Total,2020-03-20,1.0,0.0,0.0
 Jamaica,Total,2020-03-21,0.0,0.0,0.0
-Japan,Total,2020-01-23,-1.0,0.0,0.0
 Japan,Total,2020-01-24,1.0,0.0,0.0
 Japan,Total,2020-01-25,0.0,0.0,0.0
 Japan,Total,2020-01-26,2.0,1.0,0.0
@@ -8746,7 +8885,6 @@ Japan,Total,2020-02-03,0.0,0.0,0.0
 Japan,Total,2020-02-04,2.0,0.0,0.0
 Japan,Total,2020-02-05,0.0,0.0,0.0
 Japan,Total,2020-02-06,23.0,0.0,0.0
-Japan,Total,2020-02-07,-20.0,0.0,0.0
 Japan,Total,2020-02-08,0.0,0.0,0.0
 Japan,Total,2020-02-09,1.0,0.0,0.0
 Japan,Total,2020-02-10,0.0,3.0,0.0
@@ -8784,7 +8922,6 @@ Japan,Total,2020-03-12,0.0,0.0,1.0
 Japan,Total,2020-03-13,62.0,0.0,3.0
 Japan,Total,2020-03-14,72.0,0.0,3.0
 Japan,Total,2020-03-15,66.0,0.0,0.0
-Japan,Total,2020-03-16,-14.0,26.0,5.0
 Japan,Total,2020-03-17,53.0,0.0,2.0
 Japan,Total,2020-03-18,11.0,0.0,0.0
 Japan,Total,2020-03-19,35.0,6.0,0.0
@@ -8907,7 +9044,6 @@ Kazakhstan,Total,2020-03-17,23.0,0.0,0.0
 Kazakhstan,Total,2020-03-18,2.0,0.0,0.0
 Kazakhstan,Total,2020-03-19,9.0,0.0,0.0
 Kazakhstan,Total,2020-03-20,5.0,0.0,3.0
-Kazakhstan,Total,2020-03-21,4.0,0.0,-3.0
 Kenya,Total,2020-01-23,0.0,0.0,0.0
 Kenya,Total,2020-01-24,0.0,0.0,0.0
 Kenya,Total,2020-01-25,0.0,0.0,0.0
@@ -9256,7 +9392,6 @@ Lebanon,Total,2020-03-12,0.0,0.0,0.0
 Lebanon,Total,2020-03-13,16.0,0.0,0.0
 Lebanon,Total,2020-03-14,16.0,0.0,0.0
 Lebanon,Total,2020-03-15,17.0,0.0,0.0
-Lebanon,Total,2020-03-16,-11.0,0.0,0.0
 Lebanon,Total,2020-03-17,21.0,2.0,0.0
 Lebanon,Total,2020-03-18,13.0,0.0,0.0
 Lebanon,Total,2020-03-19,24.0,1.0,1.0
@@ -10202,7 +10337,6 @@ Montenegro,Total,2020-03-14,0.0,0.0,0.0
 Montenegro,Total,2020-03-15,0.0,0.0,0.0
 Montenegro,Total,2020-03-16,0.0,0.0,0.0
 Montenegro,Total,2020-03-17,2.0,0.0,0.0
-Montenegro,Total,2020-03-18,-1.0,0.0,0.0
 Montenegro,Total,2020-03-19,2.0,0.0,0.0
 Montenegro,Total,2020-03-20,11.0,0.0,0.0
 Montenegro,Total,2020-03-21,0.0,0.0,0.0
@@ -11442,7 +11576,6 @@ Philippines,Total,2020-03-15,29.0,0.0,3.0
 Philippines,Total,2020-03-16,2.0,0.0,1.0
 Philippines,Total,2020-03-17,45.0,3.0,0.0
 Philippines,Total,2020-03-18,15.0,0.0,7.0
-Philippines,Total,2020-03-19,15.0,3.0,-2.0
 Philippines,Total,2020-03-20,13.0,0.0,1.0
 Philippines,Total,2020-03-21,77.0,5.0,1.0
 Poland,Total,2020-01-23,0.0,0.0,0.0
@@ -11501,7 +11634,6 @@ Poland,Total,2020-03-15,16.0,0.0,0.0
 Poland,Total,2020-03-16,58.0,13.0,1.0
 Poland,Total,2020-03-17,61.0,0.0,1.0
 Poland,Total,2020-03-18,13.0,0.0,0.0
-Poland,Total,2020-03-19,104.0,-12.0,0.0
 Poland,Total,2020-03-20,70.0,0.0,0.0
 Poland,Total,2020-03-21,111.0,0.0,0.0
 Portugal,Total,2020-01-23,0.0,0.0,0.0
@@ -12552,7 +12684,6 @@ South Korea,Total,2020-03-04,435.0,11.0,7.0
 South Korea,Total,2020-03-05,467.0,0.0,0.0
 South Korea,Total,2020-03-06,505.0,94.0,7.0
 South Korea,Total,2020-03-07,448.0,0.0,2.0
-South Korea,Total,2020-03-08,273.0,-17.0,6.0
 South Korea,Total,2020-03-09,164.0,0.0,3.0
 South Korea,Total,2020-03-10,35.0,129.0,1.0
 South Korea,Total,2020-03-11,242.0,41.0,6.0
@@ -12683,7 +12814,6 @@ Sri Lanka,Total,2020-03-17,16.0,0.0,0.0
 Sri Lanka,Total,2020-03-18,7.0,0.0,0.0
 Sri Lanka,Total,2020-03-19,9.0,2.0,0.0
 Sri Lanka,Total,2020-03-20,13.0,0.0,0.0
-Sri Lanka,Total,2020-03-21,4.0,-2.0,0.0
 Sudan,Total,2020-01-23,0.0,0.0,0.0
 Sudan,Total,2020-01-24,0.0,0.0,0.0
 Sudan,Total,2020-01-25,0.0,0.0,0.0
@@ -14041,6 +14171,7 @@ United States,"Adams, IN",2020-03-18,0.0,0.0,0.0
 United States,"Adams, IN",2020-03-19,0.0,0.0,0.0
 United States,"Adams, IN",2020-03-20,0.0,0.0,0.0
 United States,"Adams, IN",2020-03-21,0.0,0.0,0.0
+United States,Alabama,2020-01-22,0.0,0.0,0.0
 United States,Alabama,2020-01-23,0.0,0.0,0.0
 United States,Alabama,2020-01-24,0.0,0.0,0.0
 United States,Alabama,2020-01-25,0.0,0.0,0.0
@@ -14159,6 +14290,7 @@ United States,"Alachua, FL",2020-03-18,0.0,0.0,0.0
 United States,"Alachua, FL",2020-03-19,0.0,0.0,0.0
 United States,"Alachua, FL",2020-03-20,0.0,0.0,0.0
 United States,"Alachua, FL",2020-03-21,0.0,0.0,0.0
+United States,"Alameda County, CA",2020-01-22,0.0,0.0,0.0
 United States,"Alameda County, CA",2020-01-23,0.0,0.0,0.0
 United States,"Alameda County, CA",2020-01-24,0.0,0.0,0.0
 United States,"Alameda County, CA",2020-01-25,0.0,0.0,0.0
@@ -14206,7 +14338,6 @@ United States,"Alameda County, CA",2020-03-06,0.0,0.0,0.0
 United States,"Alameda County, CA",2020-03-07,1.0,0.0,0.0
 United States,"Alameda County, CA",2020-03-08,0.0,0.0,0.0
 United States,"Alameda County, CA",2020-03-09,0.0,0.0,0.0
-United States,"Alameda County, CA",2020-03-10,-2.0,0.0,0.0
 United States,"Alameda County, CA",2020-03-11,0.0,0.0,0.0
 United States,"Alameda County, CA",2020-03-12,0.0,0.0,0.0
 United States,"Alameda County, CA",2020-03-13,0.0,0.0,0.0
@@ -14218,6 +14349,7 @@ United States,"Alameda County, CA",2020-03-18,0.0,0.0,0.0
 United States,"Alameda County, CA",2020-03-19,0.0,0.0,0.0
 United States,"Alameda County, CA",2020-03-20,0.0,0.0,0.0
 United States,"Alameda County, CA",2020-03-21,0.0,0.0,0.0
+United States,Alaska,2020-01-22,0.0,0.0,0.0
 United States,Alaska,2020-01-23,0.0,0.0,0.0
 United States,Alaska,2020-01-24,0.0,0.0,0.0
 United States,Alaska,2020-01-25,0.0,0.0,0.0
@@ -14336,6 +14468,7 @@ United States,"Anoka, MN",2020-03-18,0.0,0.0,0.0
 United States,"Anoka, MN",2020-03-19,0.0,0.0,0.0
 United States,"Anoka, MN",2020-03-20,0.0,0.0,0.0
 United States,"Anoka, MN",2020-03-21,0.0,0.0,0.0
+United States,"Arapahoe, CO",2020-01-22,0.0,0.0,0.0
 United States,"Arapahoe, CO",2020-01-23,0.0,0.0,0.0
 United States,"Arapahoe, CO",2020-01-24,0.0,0.0,0.0
 United States,"Arapahoe, CO",2020-01-25,0.0,0.0,0.0
@@ -14395,6 +14528,7 @@ United States,"Arapahoe, CO",2020-03-18,0.0,0.0,0.0
 United States,"Arapahoe, CO",2020-03-19,0.0,0.0,0.0
 United States,"Arapahoe, CO",2020-03-20,0.0,0.0,0.0
 United States,"Arapahoe, CO",2020-03-21,0.0,0.0,0.0
+United States,Arizona,2020-01-22,0.0,0.0,0.0
 United States,Arizona,2020-01-23,0.0,0.0,0.0
 United States,Arizona,2020-01-24,0.0,0.0,0.0
 United States,Arizona,2020-01-25,0.0,0.0,0.0
@@ -14450,7 +14584,6 @@ United States,Arizona,2020-03-14,3.0,0.0,0.0
 United States,Arizona,2020-03-15,1.0,0.0,0.0
 United States,Arizona,2020-03-16,5.0,0.0,0.0
 United States,Arizona,2020-03-17,2.0,0.0,0.0
-United States,Arizona,2020-03-18,7.0,-1.0,0.0
 United States,Arizona,2020-03-19,18.0,0.0,0.0
 United States,Arizona,2020-03-20,33.0,0.0,0.0
 United States,Arizona,2020-03-21,40.0,0.0,1.0
@@ -14572,6 +14705,7 @@ United States,"Arlington, VA",2020-03-18,0.0,0.0,0.0
 United States,"Arlington, VA",2020-03-19,0.0,0.0,0.0
 United States,"Arlington, VA",2020-03-20,0.0,0.0,0.0
 United States,"Arlington, VA",2020-03-21,0.0,0.0,0.0
+United States,"Beadle, SD",2020-01-22,0.0,0.0,0.0
 United States,"Beadle, SD",2020-01-23,0.0,0.0,0.0
 United States,"Beadle, SD",2020-01-24,0.0,0.0,0.0
 United States,"Beadle, SD",2020-01-25,0.0,0.0,0.0
@@ -14631,6 +14765,7 @@ United States,"Beadle, SD",2020-03-18,0.0,0.0,0.0
 United States,"Beadle, SD",2020-03-19,0.0,0.0,0.0
 United States,"Beadle, SD",2020-03-20,0.0,0.0,0.0
 United States,"Beadle, SD",2020-03-21,0.0,0.0,0.0
+United States,"Bennington County, VT",2020-01-22,0.0,0.0,0.0
 United States,"Bennington County, VT",2020-01-23,0.0,0.0,0.0
 United States,"Bennington County, VT",2020-01-24,0.0,0.0,0.0
 United States,"Bennington County, VT",2020-01-25,0.0,0.0,0.0
@@ -14678,7 +14813,6 @@ United States,"Bennington County, VT",2020-03-06,0.0,0.0,0.0
 United States,"Bennington County, VT",2020-03-07,0.0,0.0,0.0
 United States,"Bennington County, VT",2020-03-08,1.0,0.0,0.0
 United States,"Bennington County, VT",2020-03-09,0.0,0.0,0.0
-United States,"Bennington County, VT",2020-03-10,-1.0,0.0,0.0
 United States,"Bennington County, VT",2020-03-11,0.0,0.0,0.0
 United States,"Bennington County, VT",2020-03-12,0.0,0.0,0.0
 United States,"Bennington County, VT",2020-03-13,0.0,0.0,0.0
@@ -14690,6 +14824,7 @@ United States,"Bennington County, VT",2020-03-18,0.0,0.0,0.0
 United States,"Bennington County, VT",2020-03-19,0.0,0.0,0.0
 United States,"Bennington County, VT",2020-03-20,0.0,0.0,0.0
 United States,"Bennington County, VT",2020-03-21,0.0,0.0,0.0
+United States,"Bergen County, NJ",2020-01-22,0.0,0.0,0.0
 United States,"Bergen County, NJ",2020-01-23,0.0,0.0,0.0
 United States,"Bergen County, NJ",2020-01-24,0.0,0.0,0.0
 United States,"Bergen County, NJ",2020-01-25,0.0,0.0,0.0
@@ -14737,7 +14872,6 @@ United States,"Bergen County, NJ",2020-03-06,0.0,0.0,0.0
 United States,"Bergen County, NJ",2020-03-07,2.0,0.0,0.0
 United States,"Bergen County, NJ",2020-03-08,0.0,0.0,0.0
 United States,"Bergen County, NJ",2020-03-09,0.0,0.0,0.0
-United States,"Bergen County, NJ",2020-03-10,-4.0,0.0,0.0
 United States,"Bergen County, NJ",2020-03-11,0.0,0.0,0.0
 United States,"Bergen County, NJ",2020-03-12,0.0,0.0,0.0
 United States,"Bergen County, NJ",2020-03-13,0.0,0.0,0.0
@@ -14749,6 +14883,7 @@ United States,"Bergen County, NJ",2020-03-18,0.0,0.0,0.0
 United States,"Bergen County, NJ",2020-03-19,0.0,0.0,0.0
 United States,"Bergen County, NJ",2020-03-20,0.0,0.0,0.0
 United States,"Bergen County, NJ",2020-03-21,0.0,0.0,0.0
+United States,"Berkshire County, MA",2020-01-22,0.0,0.0,0.0
 United States,"Berkshire County, MA",2020-01-23,0.0,0.0,0.0
 United States,"Berkshire County, MA",2020-01-24,0.0,0.0,0.0
 United States,"Berkshire County, MA",2020-01-25,0.0,0.0,0.0
@@ -14796,7 +14931,6 @@ United States,"Berkshire County, MA",2020-03-06,0.0,0.0,0.0
 United States,"Berkshire County, MA",2020-03-07,0.0,0.0,0.0
 United States,"Berkshire County, MA",2020-03-08,1.0,0.0,0.0
 United States,"Berkshire County, MA",2020-03-09,0.0,0.0,0.0
-United States,"Berkshire County, MA",2020-03-10,-1.0,0.0,0.0
 United States,"Berkshire County, MA",2020-03-11,0.0,0.0,0.0
 United States,"Berkshire County, MA",2020-03-12,0.0,0.0,0.0
 United States,"Berkshire County, MA",2020-03-13,0.0,0.0,0.0
@@ -14808,6 +14942,7 @@ United States,"Berkshire County, MA",2020-03-18,0.0,0.0,0.0
 United States,"Berkshire County, MA",2020-03-19,0.0,0.0,0.0
 United States,"Berkshire County, MA",2020-03-20,0.0,0.0,0.0
 United States,"Berkshire County, MA",2020-03-21,0.0,0.0,0.0
+United States,"Bernalillo, NM",2020-01-22,0.0,0.0,0.0
 United States,"Bernalillo, NM",2020-01-23,0.0,0.0,0.0
 United States,"Bernalillo, NM",2020-01-24,0.0,0.0,0.0
 United States,"Bernalillo, NM",2020-01-25,0.0,0.0,0.0
@@ -14867,6 +15002,7 @@ United States,"Bernalillo, NM",2020-03-18,0.0,0.0,0.0
 United States,"Bernalillo, NM",2020-03-19,0.0,0.0,0.0
 United States,"Bernalillo, NM",2020-03-20,0.0,0.0,0.0
 United States,"Bernalillo, NM",2020-03-21,0.0,0.0,0.0
+United States,"Bon Homme, SD",2020-01-22,0.0,0.0,0.0
 United States,"Bon Homme, SD",2020-01-23,0.0,0.0,0.0
 United States,"Bon Homme, SD",2020-01-24,0.0,0.0,0.0
 United States,"Bon Homme, SD",2020-01-25,0.0,0.0,0.0
@@ -14926,6 +15062,7 @@ United States,"Bon Homme, SD",2020-03-18,0.0,0.0,0.0
 United States,"Bon Homme, SD",2020-03-19,0.0,0.0,0.0
 United States,"Bon Homme, SD",2020-03-20,0.0,0.0,0.0
 United States,"Bon Homme, SD",2020-03-21,0.0,0.0,0.0
+United States,"Boone, IN",2020-01-22,0.0,0.0,0.0
 United States,"Boone, IN",2020-01-23,0.0,0.0,0.0
 United States,"Boone, IN",2020-01-24,0.0,0.0,0.0
 United States,"Boone, IN",2020-01-25,0.0,0.0,0.0
@@ -14985,6 +15122,7 @@ United States,"Boone, IN",2020-03-18,0.0,0.0,0.0
 United States,"Boone, IN",2020-03-19,0.0,0.0,0.0
 United States,"Boone, IN",2020-03-20,0.0,0.0,0.0
 United States,"Boone, IN",2020-03-21,0.0,0.0,0.0
+United States,"Broward County, FL",2020-01-22,0.0,0.0,0.0
 United States,"Broward County, FL",2020-01-23,0.0,0.0,0.0
 United States,"Broward County, FL",2020-01-24,0.0,0.0,0.0
 United States,"Broward County, FL",2020-01-25,0.0,0.0,0.0
@@ -15032,7 +15170,6 @@ United States,"Broward County, FL",2020-03-06,0.0,0.0,0.0
 United States,"Broward County, FL",2020-03-07,2.0,0.0,0.0
 United States,"Broward County, FL",2020-03-08,0.0,0.0,0.0
 United States,"Broward County, FL",2020-03-09,1.0,0.0,0.0
-United States,"Broward County, FL",2020-03-10,-3.0,0.0,0.0
 United States,"Broward County, FL",2020-03-11,0.0,0.0,0.0
 United States,"Broward County, FL",2020-03-12,0.0,0.0,0.0
 United States,"Broward County, FL",2020-03-13,0.0,0.0,0.0
@@ -15044,6 +15181,7 @@ United States,"Broward County, FL",2020-03-18,0.0,0.0,0.0
 United States,"Broward County, FL",2020-03-19,0.0,0.0,0.0
 United States,"Broward County, FL",2020-03-20,0.0,0.0,0.0
 United States,"Broward County, FL",2020-03-21,0.0,0.0,0.0
+United States,"Bucks, PA",2020-01-22,0.0,0.0,0.0
 United States,"Bucks, PA",2020-01-23,0.0,0.0,0.0
 United States,"Bucks, PA",2020-01-24,0.0,0.0,0.0
 United States,"Bucks, PA",2020-01-25,0.0,0.0,0.0
@@ -15103,6 +15241,7 @@ United States,"Bucks, PA",2020-03-18,0.0,0.0,0.0
 United States,"Bucks, PA",2020-03-19,0.0,0.0,0.0
 United States,"Bucks, PA",2020-03-20,0.0,0.0,0.0
 United States,"Bucks, PA",2020-03-21,0.0,0.0,0.0
+United States,"Burlington, NJ",2020-01-22,0.0,0.0,0.0
 United States,"Burlington, NJ",2020-01-23,0.0,0.0,0.0
 United States,"Burlington, NJ",2020-01-24,0.0,0.0,0.0
 United States,"Burlington, NJ",2020-01-25,0.0,0.0,0.0
@@ -15162,6 +15301,7 @@ United States,"Burlington, NJ",2020-03-18,0.0,0.0,0.0
 United States,"Burlington, NJ",2020-03-19,0.0,0.0,0.0
 United States,"Burlington, NJ",2020-03-20,0.0,0.0,0.0
 United States,"Burlington, NJ",2020-03-21,0.0,0.0,0.0
+United States,"Calaveras, CA",2020-01-22,0.0,0.0,0.0
 United States,"Calaveras, CA",2020-01-23,0.0,0.0,0.0
 United States,"Calaveras, CA",2020-01-24,0.0,0.0,0.0
 United States,"Calaveras, CA",2020-01-25,0.0,0.0,0.0
@@ -15221,6 +15361,7 @@ United States,"Calaveras, CA",2020-03-18,0.0,0.0,0.0
 United States,"Calaveras, CA",2020-03-19,0.0,0.0,0.0
 United States,"Calaveras, CA",2020-03-20,0.0,0.0,0.0
 United States,"Calaveras, CA",2020-03-21,0.0,0.0,0.0
+United States,California,2020-01-22,0.0,0.0,0.0
 United States,California,2020-01-23,0.0,0.0,0.0
 United States,California,2020-01-24,0.0,0.0,0.0
 United States,California,2020-01-25,0.0,0.0,0.0
@@ -15276,7 +15417,6 @@ United States,California,2020-03-14,58.0,0.0,1.0
 United States,California,2020-03-15,86.0,0.0,1.0
 United States,California,2020-03-16,131.0,0.0,1.0
 United States,California,2020-03-17,141.0,0.0,5.0
-United States,California,2020-03-18,53.0,-6.0,1.0
 United States,California,2020-03-19,201.0,0.0,5.0
 United States,California,2020-03-20,225.0,0.0,5.0
 United States,California,2020-03-21,187.0,0.0,1.0
@@ -15339,6 +15479,7 @@ United States,"Camden, NC",2020-03-18,0.0,0.0,0.0
 United States,"Camden, NC",2020-03-19,0.0,0.0,0.0
 United States,"Camden, NC",2020-03-20,0.0,0.0,0.0
 United States,"Camden, NC",2020-03-21,0.0,0.0,0.0
+United States,"Camden, NJ",2020-01-22,0.0,0.0,0.0
 United States,"Camden, NJ",2020-01-23,0.0,0.0,0.0
 United States,"Camden, NJ",2020-01-24,0.0,0.0,0.0
 United States,"Camden, NJ",2020-01-25,0.0,0.0,0.0
@@ -15398,6 +15539,7 @@ United States,"Camden, NJ",2020-03-18,0.0,0.0,0.0
 United States,"Camden, NJ",2020-03-19,0.0,0.0,0.0
 United States,"Camden, NJ",2020-03-20,0.0,0.0,0.0
 United States,"Camden, NJ",2020-03-21,0.0,0.0,0.0
+United States,"Carver County, MN",2020-01-22,0.0,0.0,0.0
 United States,"Carver County, MN",2020-01-23,0.0,0.0,0.0
 United States,"Carver County, MN",2020-01-24,0.0,0.0,0.0
 United States,"Carver County, MN",2020-01-25,0.0,0.0,0.0
@@ -15445,7 +15587,6 @@ United States,"Carver County, MN",2020-03-06,0.0,0.0,0.0
 United States,"Carver County, MN",2020-03-07,0.0,0.0,0.0
 United States,"Carver County, MN",2020-03-08,0.0,0.0,0.0
 United States,"Carver County, MN",2020-03-09,1.0,0.0,0.0
-United States,"Carver County, MN",2020-03-10,-1.0,0.0,0.0
 United States,"Carver County, MN",2020-03-11,0.0,0.0,0.0
 United States,"Carver County, MN",2020-03-12,0.0,0.0,0.0
 United States,"Carver County, MN",2020-03-13,0.0,0.0,0.0
@@ -15457,6 +15598,7 @@ United States,"Carver County, MN",2020-03-18,0.0,0.0,0.0
 United States,"Carver County, MN",2020-03-19,0.0,0.0,0.0
 United States,"Carver County, MN",2020-03-20,0.0,0.0,0.0
 United States,"Carver County, MN",2020-03-21,0.0,0.0,0.0
+United States,"Charles Mix, SD",2020-01-22,0.0,0.0,0.0
 United States,"Charles Mix, SD",2020-01-23,0.0,0.0,0.0
 United States,"Charles Mix, SD",2020-01-24,0.0,0.0,0.0
 United States,"Charles Mix, SD",2020-01-25,0.0,0.0,0.0
@@ -15516,6 +15658,7 @@ United States,"Charles Mix, SD",2020-03-18,0.0,0.0,0.0
 United States,"Charles Mix, SD",2020-03-19,0.0,0.0,0.0
 United States,"Charles Mix, SD",2020-03-20,0.0,0.0,0.0
 United States,"Charles Mix, SD",2020-03-21,0.0,0.0,0.0
+United States,"Charleston County, SC",2020-01-22,0.0,0.0,0.0
 United States,"Charleston County, SC",2020-01-23,0.0,0.0,0.0
 United States,"Charleston County, SC",2020-01-24,0.0,0.0,0.0
 United States,"Charleston County, SC",2020-01-25,0.0,0.0,0.0
@@ -15563,7 +15706,6 @@ United States,"Charleston County, SC",2020-03-06,0.0,0.0,0.0
 United States,"Charleston County, SC",2020-03-07,1.0,0.0,0.0
 United States,"Charleston County, SC",2020-03-08,0.0,0.0,0.0
 United States,"Charleston County, SC",2020-03-09,0.0,0.0,0.0
-United States,"Charleston County, SC",2020-03-10,-1.0,0.0,0.0
 United States,"Charleston County, SC",2020-03-11,0.0,0.0,0.0
 United States,"Charleston County, SC",2020-03-12,0.0,0.0,0.0
 United States,"Charleston County, SC",2020-03-13,0.0,0.0,0.0
@@ -15575,6 +15717,7 @@ United States,"Charleston County, SC",2020-03-18,0.0,0.0,0.0
 United States,"Charleston County, SC",2020-03-19,0.0,0.0,0.0
 United States,"Charleston County, SC",2020-03-20,0.0,0.0,0.0
 United States,"Charleston County, SC",2020-03-21,0.0,0.0,0.0
+United States,"Charlotte County, FL",2020-01-22,0.0,0.0,0.0
 United States,"Charlotte County, FL",2020-01-23,0.0,0.0,0.0
 United States,"Charlotte County, FL",2020-01-24,0.0,0.0,0.0
 United States,"Charlotte County, FL",2020-01-25,0.0,0.0,0.0
@@ -15622,7 +15765,6 @@ United States,"Charlotte County, FL",2020-03-06,0.0,0.0,0.0
 United States,"Charlotte County, FL",2020-03-07,0.0,0.0,0.0
 United States,"Charlotte County, FL",2020-03-08,0.0,0.0,0.0
 United States,"Charlotte County, FL",2020-03-09,1.0,0.0,0.0
-United States,"Charlotte County, FL",2020-03-10,-1.0,0.0,0.0
 United States,"Charlotte County, FL",2020-03-11,0.0,0.0,0.0
 United States,"Charlotte County, FL",2020-03-12,0.0,0.0,0.0
 United States,"Charlotte County, FL",2020-03-13,0.0,0.0,0.0
@@ -15634,6 +15776,7 @@ United States,"Charlotte County, FL",2020-03-18,0.0,0.0,0.0
 United States,"Charlotte County, FL",2020-03-19,0.0,0.0,0.0
 United States,"Charlotte County, FL",2020-03-20,0.0,0.0,0.0
 United States,"Charlotte County, FL",2020-03-21,0.0,0.0,0.0
+United States,"Charlton, GA",2020-01-22,0.0,0.0,0.0
 United States,"Charlton, GA",2020-01-23,0.0,0.0,0.0
 United States,"Charlton, GA",2020-01-24,0.0,0.0,0.0
 United States,"Charlton, GA",2020-01-25,0.0,0.0,0.0
@@ -15693,6 +15836,7 @@ United States,"Charlton, GA",2020-03-18,0.0,0.0,0.0
 United States,"Charlton, GA",2020-03-19,0.0,0.0,0.0
 United States,"Charlton, GA",2020-03-20,0.0,0.0,0.0
 United States,"Charlton, GA",2020-03-21,0.0,0.0,0.0
+United States,"Chatham County, NC",2020-01-22,0.0,0.0,0.0
 United States,"Chatham County, NC",2020-01-23,0.0,0.0,0.0
 United States,"Chatham County, NC",2020-01-24,0.0,0.0,0.0
 United States,"Chatham County, NC",2020-01-25,0.0,0.0,0.0
@@ -15740,7 +15884,6 @@ United States,"Chatham County, NC",2020-03-06,1.0,0.0,0.0
 United States,"Chatham County, NC",2020-03-07,0.0,0.0,0.0
 United States,"Chatham County, NC",2020-03-08,0.0,0.0,0.0
 United States,"Chatham County, NC",2020-03-09,0.0,0.0,0.0
-United States,"Chatham County, NC",2020-03-10,-1.0,0.0,0.0
 United States,"Chatham County, NC",2020-03-11,0.0,0.0,0.0
 United States,"Chatham County, NC",2020-03-12,0.0,0.0,0.0
 United States,"Chatham County, NC",2020-03-13,0.0,0.0,0.0
@@ -15752,6 +15895,7 @@ United States,"Chatham County, NC",2020-03-18,0.0,0.0,0.0
 United States,"Chatham County, NC",2020-03-19,0.0,0.0,0.0
 United States,"Chatham County, NC",2020-03-20,0.0,0.0,0.0
 United States,"Chatham County, NC",2020-03-21,0.0,0.0,0.0
+United States,"Cherokee County, GA",2020-01-22,0.0,0.0,0.0
 United States,"Cherokee County, GA",2020-01-23,0.0,0.0,0.0
 United States,"Cherokee County, GA",2020-01-24,0.0,0.0,0.0
 United States,"Cherokee County, GA",2020-01-25,0.0,0.0,0.0
@@ -15799,7 +15943,6 @@ United States,"Cherokee County, GA",2020-03-06,0.0,0.0,0.0
 United States,"Cherokee County, GA",2020-03-07,0.0,0.0,0.0
 United States,"Cherokee County, GA",2020-03-08,0.0,0.0,0.0
 United States,"Cherokee County, GA",2020-03-09,1.0,0.0,0.0
-United States,"Cherokee County, GA",2020-03-10,-1.0,0.0,0.0
 United States,"Cherokee County, GA",2020-03-11,0.0,0.0,0.0
 United States,"Cherokee County, GA",2020-03-12,0.0,0.0,0.0
 United States,"Cherokee County, GA",2020-03-13,0.0,0.0,0.0
@@ -15811,6 +15954,7 @@ United States,"Cherokee County, GA",2020-03-18,0.0,0.0,0.0
 United States,"Cherokee County, GA",2020-03-19,0.0,0.0,0.0
 United States,"Cherokee County, GA",2020-03-20,0.0,0.0,0.0
 United States,"Cherokee County, GA",2020-03-21,0.0,0.0,0.0
+United States,"Clark County, NV",2020-01-22,0.0,0.0,0.0
 United States,"Clark County, NV",2020-01-23,0.0,0.0,0.0
 United States,"Clark County, NV",2020-01-24,0.0,0.0,0.0
 United States,"Clark County, NV",2020-01-25,0.0,0.0,0.0
@@ -15858,7 +16002,6 @@ United States,"Clark County, NV",2020-03-06,0.0,0.0,0.0
 United States,"Clark County, NV",2020-03-07,0.0,0.0,0.0
 United States,"Clark County, NV",2020-03-08,1.0,0.0,0.0
 United States,"Clark County, NV",2020-03-09,0.0,0.0,0.0
-United States,"Clark County, NV",2020-03-10,-2.0,0.0,0.0
 United States,"Clark County, NV",2020-03-11,0.0,0.0,0.0
 United States,"Clark County, NV",2020-03-12,0.0,0.0,0.0
 United States,"Clark County, NV",2020-03-13,0.0,0.0,0.0
@@ -15870,6 +16013,7 @@ United States,"Clark County, NV",2020-03-18,0.0,0.0,0.0
 United States,"Clark County, NV",2020-03-19,0.0,0.0,0.0
 United States,"Clark County, NV",2020-03-20,0.0,0.0,0.0
 United States,"Clark County, NV",2020-03-21,0.0,0.0,0.0
+United States,"Clark County, WA",2020-01-22,0.0,0.0,0.0
 United States,"Clark County, WA",2020-01-23,0.0,0.0,0.0
 United States,"Clark County, WA",2020-01-24,0.0,0.0,0.0
 United States,"Clark County, WA",2020-01-25,0.0,0.0,0.0
@@ -15917,7 +16061,6 @@ United States,"Clark County, WA",2020-03-06,0.0,0.0,0.0
 United States,"Clark County, WA",2020-03-07,1.0,0.0,0.0
 United States,"Clark County, WA",2020-03-08,0.0,0.0,0.0
 United States,"Clark County, WA",2020-03-09,0.0,0.0,0.0
-United States,"Clark County, WA",2020-03-10,-1.0,0.0,0.0
 United States,"Clark County, WA",2020-03-11,0.0,0.0,0.0
 United States,"Clark County, WA",2020-03-12,0.0,0.0,0.0
 United States,"Clark County, WA",2020-03-13,0.0,0.0,0.0
@@ -15929,6 +16072,7 @@ United States,"Clark County, WA",2020-03-18,0.0,0.0,0.0
 United States,"Clark County, WA",2020-03-19,0.0,0.0,0.0
 United States,"Clark County, WA",2020-03-20,0.0,0.0,0.0
 United States,"Clark County, WA",2020-03-21,0.0,0.0,0.0
+United States,"Cobb County, GA",2020-01-22,0.0,0.0,0.0
 United States,"Cobb County, GA",2020-01-23,0.0,0.0,0.0
 United States,"Cobb County, GA",2020-01-24,0.0,0.0,0.0
 United States,"Cobb County, GA",2020-01-25,0.0,0.0,0.0
@@ -15976,7 +16120,6 @@ United States,"Cobb County, GA",2020-03-06,0.0,0.0,0.0
 United States,"Cobb County, GA",2020-03-07,1.0,0.0,0.0
 United States,"Cobb County, GA",2020-03-08,0.0,0.0,0.0
 United States,"Cobb County, GA",2020-03-09,2.0,0.0,0.0
-United States,"Cobb County, GA",2020-03-10,-3.0,0.0,0.0
 United States,"Cobb County, GA",2020-03-11,0.0,0.0,0.0
 United States,"Cobb County, GA",2020-03-12,0.0,0.0,0.0
 United States,"Cobb County, GA",2020-03-13,0.0,0.0,0.0
@@ -15988,6 +16131,7 @@ United States,"Cobb County, GA",2020-03-18,0.0,0.0,0.0
 United States,"Cobb County, GA",2020-03-19,0.0,0.0,0.0
 United States,"Cobb County, GA",2020-03-20,0.0,0.0,0.0
 United States,"Cobb County, GA",2020-03-21,0.0,0.0,0.0
+United States,"Collier, FL",2020-01-22,0.0,0.0,0.0
 United States,"Collier, FL",2020-01-23,0.0,0.0,0.0
 United States,"Collier, FL",2020-01-24,0.0,0.0,0.0
 United States,"Collier, FL",2020-01-25,0.0,0.0,0.0
@@ -16047,6 +16191,7 @@ United States,"Collier, FL",2020-03-18,0.0,0.0,0.0
 United States,"Collier, FL",2020-03-19,0.0,0.0,0.0
 United States,"Collier, FL",2020-03-20,0.0,0.0,0.0
 United States,"Collier, FL",2020-03-21,0.0,0.0,0.0
+United States,"Collin County, TX",2020-01-22,0.0,0.0,0.0
 United States,"Collin County, TX",2020-01-23,0.0,0.0,0.0
 United States,"Collin County, TX",2020-01-24,0.0,0.0,0.0
 United States,"Collin County, TX",2020-01-25,0.0,0.0,0.0
@@ -16094,7 +16239,6 @@ United States,"Collin County, TX",2020-03-06,0.0,0.0,0.0
 United States,"Collin County, TX",2020-03-07,0.0,0.0,0.0
 United States,"Collin County, TX",2020-03-08,0.0,0.0,0.0
 United States,"Collin County, TX",2020-03-09,1.0,0.0,0.0
-United States,"Collin County, TX",2020-03-10,-1.0,0.0,0.0
 United States,"Collin County, TX",2020-03-11,0.0,0.0,0.0
 United States,"Collin County, TX",2020-03-12,0.0,0.0,0.0
 United States,"Collin County, TX",2020-03-13,0.0,0.0,0.0
@@ -16106,6 +16250,7 @@ United States,"Collin County, TX",2020-03-18,0.0,0.0,0.0
 United States,"Collin County, TX",2020-03-19,0.0,0.0,0.0
 United States,"Collin County, TX",2020-03-20,0.0,0.0,0.0
 United States,"Collin County, TX",2020-03-21,0.0,0.0,0.0
+United States,Colorado,2020-01-22,0.0,0.0,0.0
 United States,Colorado,2020-01-23,0.0,0.0,0.0
 United States,Colorado,2020-01-24,0.0,0.0,0.0
 United States,Colorado,2020-01-25,0.0,0.0,0.0
@@ -16271,7 +16416,6 @@ United States,"Contra Costa County, CA",2020-03-06,2.0,0.0,0.0
 United States,"Contra Costa County, CA",2020-03-07,0.0,0.0,0.0
 United States,"Contra Costa County, CA",2020-03-08,6.0,0.0,0.0
 United States,"Contra Costa County, CA",2020-03-09,0.0,0.0,0.0
-United States,"Contra Costa County, CA",2020-03-10,-9.0,0.0,0.0
 United States,"Contra Costa County, CA",2020-03-11,0.0,0.0,0.0
 United States,"Contra Costa County, CA",2020-03-12,0.0,0.0,0.0
 United States,"Contra Costa County, CA",2020-03-13,0.0,0.0,0.0
@@ -16283,6 +16427,7 @@ United States,"Contra Costa County, CA",2020-03-18,0.0,0.0,0.0
 United States,"Contra Costa County, CA",2020-03-19,0.0,0.0,0.0
 United States,"Contra Costa County, CA",2020-03-20,0.0,0.0,0.0
 United States,"Contra Costa County, CA",2020-03-21,0.0,0.0,0.0
+United States,"Cook County, IL",2020-01-22,0.0,0.0,0.0
 United States,"Cook County, IL",2020-01-23,0.0,0.0,0.0
 United States,"Cook County, IL",2020-01-24,1.0,0.0,0.0
 United States,"Cook County, IL",2020-01-25,0.0,0.0,0.0
@@ -16330,7 +16475,6 @@ United States,"Cook County, IL",2020-03-06,0.0,0.0,0.0
 United States,"Cook County, IL",2020-03-07,1.0,0.0,0.0
 United States,"Cook County, IL",2020-03-08,1.0,0.0,0.0
 United States,"Cook County, IL",2020-03-09,0.0,0.0,0.0
-United States,"Cook County, IL",2020-03-10,-7.0,-2.0,0.0
 United States,"Cook County, IL",2020-03-11,0.0,0.0,0.0
 United States,"Cook County, IL",2020-03-12,0.0,0.0,0.0
 United States,"Cook County, IL",2020-03-13,0.0,0.0,0.0
@@ -16342,6 +16486,7 @@ United States,"Cook County, IL",2020-03-18,0.0,0.0,0.0
 United States,"Cook County, IL",2020-03-19,0.0,0.0,0.0
 United States,"Cook County, IL",2020-03-20,0.0,0.0,0.0
 United States,"Cook County, IL",2020-03-21,0.0,0.0,0.0
+United States,"Cuyahoga, OH",2020-01-22,0.0,0.0,0.0
 United States,"Cuyahoga, OH",2020-01-23,0.0,0.0,0.0
 United States,"Cuyahoga, OH",2020-01-24,0.0,0.0,0.0
 United States,"Cuyahoga, OH",2020-01-25,0.0,0.0,0.0
@@ -16401,6 +16546,7 @@ United States,"Cuyahoga, OH",2020-03-18,0.0,0.0,0.0
 United States,"Cuyahoga, OH",2020-03-19,0.0,0.0,0.0
 United States,"Cuyahoga, OH",2020-03-20,0.0,0.0,0.0
 United States,"Cuyahoga, OH",2020-03-21,0.0,0.0,0.0
+United States,"Dallas, TX",2020-01-22,0.0,0.0,0.0
 United States,"Dallas, TX",2020-01-23,0.0,0.0,0.0
 United States,"Dallas, TX",2020-01-24,0.0,0.0,0.0
 United States,"Dallas, TX",2020-01-25,0.0,0.0,0.0
@@ -16460,6 +16606,7 @@ United States,"Dallas, TX",2020-03-18,0.0,0.0,0.0
 United States,"Dallas, TX",2020-03-19,0.0,0.0,0.0
 United States,"Dallas, TX",2020-03-20,0.0,0.0,0.0
 United States,"Dallas, TX",2020-03-21,0.0,0.0,0.0
+United States,"Dane, WI",2020-01-22,0.0,0.0,0.0
 United States,"Dane, WI",2020-01-23,0.0,0.0,0.0
 United States,"Dane, WI",2020-01-24,0.0,0.0,0.0
 United States,"Dane, WI",2020-01-25,0.0,0.0,0.0
@@ -16519,6 +16666,7 @@ United States,"Dane, WI",2020-03-18,0.0,0.0,0.0
 United States,"Dane, WI",2020-03-19,0.0,0.0,0.0
 United States,"Dane, WI",2020-03-20,0.0,0.0,0.0
 United States,"Dane, WI",2020-03-21,0.0,0.0,0.0
+United States,"Davidson County, TN",2020-01-22,0.0,0.0,0.0
 United States,"Davidson County, TN",2020-01-23,0.0,0.0,0.0
 United States,"Davidson County, TN",2020-01-24,0.0,0.0,0.0
 United States,"Davidson County, TN",2020-01-25,0.0,0.0,0.0
@@ -16566,7 +16714,6 @@ United States,"Davidson County, TN",2020-03-06,0.0,0.0,0.0
 United States,"Davidson County, TN",2020-03-07,0.0,0.0,0.0
 United States,"Davidson County, TN",2020-03-08,1.0,0.0,0.0
 United States,"Davidson County, TN",2020-03-09,0.0,0.0,0.0
-United States,"Davidson County, TN",2020-03-10,-1.0,0.0,0.0
 United States,"Davidson County, TN",2020-03-11,0.0,0.0,0.0
 United States,"Davidson County, TN",2020-03-12,0.0,0.0,0.0
 United States,"Davidson County, TN",2020-03-13,0.0,0.0,0.0
@@ -16578,6 +16725,7 @@ United States,"Davidson County, TN",2020-03-18,0.0,0.0,0.0
 United States,"Davidson County, TN",2020-03-19,0.0,0.0,0.0
 United States,"Davidson County, TN",2020-03-20,0.0,0.0,0.0
 United States,"Davidson County, TN",2020-03-21,0.0,0.0,0.0
+United States,"Davis County, UT",2020-01-22,0.0,0.0,0.0
 United States,"Davis County, UT",2020-01-23,0.0,0.0,0.0
 United States,"Davis County, UT",2020-01-24,0.0,0.0,0.0
 United States,"Davis County, UT",2020-01-25,0.0,0.0,0.0
@@ -16625,7 +16773,6 @@ United States,"Davis County, UT",2020-03-06,0.0,0.0,0.0
 United States,"Davis County, UT",2020-03-07,1.0,0.0,0.0
 United States,"Davis County, UT",2020-03-08,0.0,0.0,0.0
 United States,"Davis County, UT",2020-03-09,0.0,0.0,0.0
-United States,"Davis County, UT",2020-03-10,-1.0,0.0,0.0
 United States,"Davis County, UT",2020-03-11,0.0,0.0,0.0
 United States,"Davis County, UT",2020-03-12,0.0,0.0,0.0
 United States,"Davis County, UT",2020-03-13,0.0,0.0,0.0
@@ -16637,6 +16784,7 @@ United States,"Davis County, UT",2020-03-18,0.0,0.0,0.0
 United States,"Davis County, UT",2020-03-19,0.0,0.0,0.0
 United States,"Davis County, UT",2020-03-20,0.0,0.0,0.0
 United States,"Davis County, UT",2020-03-21,0.0,0.0,0.0
+United States,"Davison, SD",2020-01-22,0.0,0.0,0.0
 United States,"Davison, SD",2020-01-23,0.0,0.0,0.0
 United States,"Davison, SD",2020-01-24,0.0,0.0,0.0
 United States,"Davison, SD",2020-01-25,0.0,0.0,0.0
@@ -16696,6 +16844,7 @@ United States,"Davison, SD",2020-03-18,0.0,0.0,0.0
 United States,"Davison, SD",2020-03-19,0.0,0.0,0.0
 United States,"Davison, SD",2020-03-20,0.0,0.0,0.0
 United States,"Davison, SD",2020-03-21,0.0,0.0,0.0
+United States,"DeKalb, GA",2020-01-22,0.0,0.0,0.0
 United States,"DeKalb, GA",2020-01-23,0.0,0.0,0.0
 United States,"DeKalb, GA",2020-01-24,0.0,0.0,0.0
 United States,"DeKalb, GA",2020-01-25,0.0,0.0,0.0
@@ -16755,6 +16904,7 @@ United States,"DeKalb, GA",2020-03-18,0.0,0.0,0.0
 United States,"DeKalb, GA",2020-03-19,0.0,0.0,0.0
 United States,"DeKalb, GA",2020-03-20,0.0,0.0,0.0
 United States,"DeKalb, GA",2020-03-21,0.0,0.0,0.0
+United States,Delaware,2020-01-22,0.0,0.0,0.0
 United States,Delaware,2020-01-23,0.0,0.0,0.0
 United States,Delaware,2020-01-24,0.0,0.0,0.0
 United States,Delaware,2020-01-25,0.0,0.0,0.0
@@ -16861,7 +17011,6 @@ United States,"Delaware County, PA",2020-03-06,1.0,0.0,0.0
 United States,"Delaware County, PA",2020-03-07,0.0,0.0,0.0
 United States,"Delaware County, PA",2020-03-08,0.0,0.0,0.0
 United States,"Delaware County, PA",2020-03-09,0.0,0.0,0.0
-United States,"Delaware County, PA",2020-03-10,-1.0,0.0,0.0
 United States,"Delaware County, PA",2020-03-11,0.0,0.0,0.0
 United States,"Delaware County, PA",2020-03-12,0.0,0.0,0.0
 United States,"Delaware County, PA",2020-03-13,0.0,0.0,0.0
@@ -16873,6 +17022,7 @@ United States,"Delaware County, PA",2020-03-18,0.0,0.0,0.0
 United States,"Delaware County, PA",2020-03-19,0.0,0.0,0.0
 United States,"Delaware County, PA",2020-03-20,0.0,0.0,0.0
 United States,"Delaware County, PA",2020-03-21,0.0,0.0,0.0
+United States,"Denver County, CO",2020-01-22,0.0,0.0,0.0
 United States,"Denver County, CO",2020-01-23,0.0,0.0,0.0
 United States,"Denver County, CO",2020-01-24,0.0,0.0,0.0
 United States,"Denver County, CO",2020-01-25,0.0,0.0,0.0
@@ -16920,7 +17070,6 @@ United States,"Denver County, CO",2020-03-06,2.0,0.0,0.0
 United States,"Denver County, CO",2020-03-07,0.0,0.0,0.0
 United States,"Denver County, CO",2020-03-08,0.0,0.0,0.0
 United States,"Denver County, CO",2020-03-09,0.0,0.0,0.0
-United States,"Denver County, CO",2020-03-10,-2.0,0.0,0.0
 United States,"Denver County, CO",2020-03-11,0.0,0.0,0.0
 United States,"Denver County, CO",2020-03-12,0.0,0.0,0.0
 United States,"Denver County, CO",2020-03-13,0.0,0.0,0.0
@@ -16932,6 +17081,7 @@ United States,"Denver County, CO",2020-03-18,0.0,0.0,0.0
 United States,"Denver County, CO",2020-03-19,0.0,0.0,0.0
 United States,"Denver County, CO",2020-03-20,0.0,0.0,0.0
 United States,"Denver County, CO",2020-03-21,0.0,0.0,0.0
+United States,"Deschutes, OR",2020-01-22,0.0,0.0,0.0
 United States,"Deschutes, OR",2020-01-23,0.0,0.0,0.0
 United States,"Deschutes, OR",2020-01-24,0.0,0.0,0.0
 United States,"Deschutes, OR",2020-01-25,0.0,0.0,0.0
@@ -16991,6 +17141,7 @@ United States,"Deschutes, OR",2020-03-18,0.0,0.0,0.0
 United States,"Deschutes, OR",2020-03-19,0.0,0.0,0.0
 United States,"Deschutes, OR",2020-03-20,0.0,0.0,0.0
 United States,"Deschutes, OR",2020-03-21,0.0,0.0,0.0
+United States,Diamond Princess,2020-01-22,0.0,0.0,0.0
 United States,Diamond Princess,2020-01-23,0.0,0.0,0.0
 United States,Diamond Princess,2020-01-24,0.0,0.0,0.0
 United States,Diamond Princess,2020-01-25,0.0,0.0,0.0
@@ -17156,7 +17307,6 @@ United States,"Douglas County, CO",2020-03-06,0.0,0.0,0.0
 United States,"Douglas County, CO",2020-03-07,3.0,0.0,0.0
 United States,"Douglas County, CO",2020-03-08,0.0,0.0,0.0
 United States,"Douglas County, CO",2020-03-09,0.0,0.0,0.0
-United States,"Douglas County, CO",2020-03-10,-3.0,0.0,0.0
 United States,"Douglas County, CO",2020-03-11,0.0,0.0,0.0
 United States,"Douglas County, CO",2020-03-12,0.0,0.0,0.0
 United States,"Douglas County, CO",2020-03-13,0.0,0.0,0.0
@@ -17168,6 +17318,7 @@ United States,"Douglas County, CO",2020-03-18,0.0,0.0,0.0
 United States,"Douglas County, CO",2020-03-19,0.0,0.0,0.0
 United States,"Douglas County, CO",2020-03-20,0.0,0.0,0.0
 United States,"Douglas County, CO",2020-03-21,0.0,0.0,0.0
+United States,"Douglas County, NE",2020-01-22,0.0,0.0,0.0
 United States,"Douglas County, NE",2020-01-23,0.0,0.0,0.0
 United States,"Douglas County, NE",2020-01-24,0.0,0.0,0.0
 United States,"Douglas County, NE",2020-01-25,0.0,0.0,0.0
@@ -17215,7 +17366,6 @@ United States,"Douglas County, NE",2020-03-06,1.0,0.0,0.0
 United States,"Douglas County, NE",2020-03-07,0.0,0.0,0.0
 United States,"Douglas County, NE",2020-03-08,0.0,0.0,0.0
 United States,"Douglas County, NE",2020-03-09,2.0,0.0,0.0
-United States,"Douglas County, NE",2020-03-10,-3.0,0.0,0.0
 United States,"Douglas County, NE",2020-03-11,0.0,0.0,0.0
 United States,"Douglas County, NE",2020-03-12,0.0,0.0,0.0
 United States,"Douglas County, NE",2020-03-13,0.0,0.0,0.0
@@ -17227,6 +17377,7 @@ United States,"Douglas County, NE",2020-03-18,0.0,0.0,0.0
 United States,"Douglas County, NE",2020-03-19,0.0,0.0,0.0
 United States,"Douglas County, NE",2020-03-20,0.0,0.0,0.0
 United States,"Douglas County, NE",2020-03-21,0.0,0.0,0.0
+United States,"Douglas County, OR",2020-01-22,0.0,0.0,0.0
 United States,"Douglas County, OR",2020-01-23,0.0,0.0,0.0
 United States,"Douglas County, OR",2020-01-24,0.0,0.0,0.0
 United States,"Douglas County, OR",2020-01-25,0.0,0.0,0.0
@@ -17274,7 +17425,6 @@ United States,"Douglas County, OR",2020-03-06,0.0,0.0,0.0
 United States,"Douglas County, OR",2020-03-07,0.0,0.0,0.0
 United States,"Douglas County, OR",2020-03-08,1.0,0.0,0.0
 United States,"Douglas County, OR",2020-03-09,0.0,0.0,0.0
-United States,"Douglas County, OR",2020-03-10,-1.0,0.0,0.0
 United States,"Douglas County, OR",2020-03-11,0.0,0.0,0.0
 United States,"Douglas County, OR",2020-03-12,0.0,0.0,0.0
 United States,"Douglas County, OR",2020-03-13,0.0,0.0,0.0
@@ -17286,6 +17436,7 @@ United States,"Douglas County, OR",2020-03-18,0.0,0.0,0.0
 United States,"Douglas County, OR",2020-03-19,0.0,0.0,0.0
 United States,"Douglas County, OR",2020-03-20,0.0,0.0,0.0
 United States,"Douglas County, OR",2020-03-21,0.0,0.0,0.0
+United States,"Eagle, CO",2020-01-22,0.0,0.0,0.0
 United States,"Eagle, CO",2020-01-23,0.0,0.0,0.0
 United States,"Eagle, CO",2020-01-24,0.0,0.0,0.0
 United States,"Eagle, CO",2020-01-25,0.0,0.0,0.0
@@ -17345,6 +17496,7 @@ United States,"Eagle, CO",2020-03-18,0.0,0.0,0.0
 United States,"Eagle, CO",2020-03-19,0.0,0.0,0.0
 United States,"Eagle, CO",2020-03-20,0.0,0.0,0.0
 United States,"Eagle, CO",2020-03-21,0.0,0.0,0.0
+United States,"El Paso County, CO",2020-01-22,0.0,0.0,0.0
 United States,"El Paso County, CO",2020-01-23,0.0,0.0,0.0
 United States,"El Paso County, CO",2020-01-24,0.0,0.0,0.0
 United States,"El Paso County, CO",2020-01-25,0.0,0.0,0.0
@@ -17392,7 +17544,6 @@ United States,"El Paso County, CO",2020-03-06,0.0,0.0,0.0
 United States,"El Paso County, CO",2020-03-07,1.0,0.0,0.0
 United States,"El Paso County, CO",2020-03-08,0.0,0.0,0.0
 United States,"El Paso County, CO",2020-03-09,0.0,0.0,0.0
-United States,"El Paso County, CO",2020-03-10,-1.0,0.0,0.0
 United States,"El Paso County, CO",2020-03-11,0.0,0.0,0.0
 United States,"El Paso County, CO",2020-03-12,0.0,0.0,0.0
 United States,"El Paso County, CO",2020-03-13,0.0,0.0,0.0
@@ -17404,6 +17555,7 @@ United States,"El Paso County, CO",2020-03-18,0.0,0.0,0.0
 United States,"El Paso County, CO",2020-03-19,0.0,0.0,0.0
 United States,"El Paso County, CO",2020-03-20,0.0,0.0,0.0
 United States,"El Paso County, CO",2020-03-21,0.0,0.0,0.0
+United States,"Essex, MA",2020-01-22,0.0,0.0,0.0
 United States,"Essex, MA",2020-01-23,0.0,0.0,0.0
 United States,"Essex, MA",2020-01-24,0.0,0.0,0.0
 United States,"Essex, MA",2020-01-25,0.0,0.0,0.0
@@ -17463,6 +17615,7 @@ United States,"Essex, MA",2020-03-18,0.0,0.0,0.0
 United States,"Essex, MA",2020-03-19,0.0,0.0,0.0
 United States,"Essex, MA",2020-03-20,0.0,0.0,0.0
 United States,"Essex, MA",2020-03-21,0.0,0.0,0.0
+United States,"Fairfax County, VA",2020-01-22,0.0,0.0,0.0
 United States,"Fairfax County, VA",2020-01-23,0.0,0.0,0.0
 United States,"Fairfax County, VA",2020-01-24,0.0,0.0,0.0
 United States,"Fairfax County, VA",2020-01-25,0.0,0.0,0.0
@@ -17510,7 +17663,6 @@ United States,"Fairfax County, VA",2020-03-06,0.0,0.0,0.0
 United States,"Fairfax County, VA",2020-03-07,0.0,0.0,0.0
 United States,"Fairfax County, VA",2020-03-08,2.0,0.0,0.0
 United States,"Fairfax County, VA",2020-03-09,0.0,0.0,0.0
-United States,"Fairfax County, VA",2020-03-10,-2.0,0.0,0.0
 United States,"Fairfax County, VA",2020-03-11,0.0,0.0,0.0
 United States,"Fairfax County, VA",2020-03-12,0.0,0.0,0.0
 United States,"Fairfax County, VA",2020-03-13,0.0,0.0,0.0
@@ -17522,6 +17674,7 @@ United States,"Fairfax County, VA",2020-03-18,0.0,0.0,0.0
 United States,"Fairfax County, VA",2020-03-19,0.0,0.0,0.0
 United States,"Fairfax County, VA",2020-03-20,0.0,0.0,0.0
 United States,"Fairfax County, VA",2020-03-21,0.0,0.0,0.0
+United States,"Fairfield, CT",2020-01-22,0.0,0.0,0.0
 United States,"Fairfield, CT",2020-01-23,0.0,0.0,0.0
 United States,"Fairfield, CT",2020-01-24,0.0,0.0,0.0
 United States,"Fairfield, CT",2020-01-25,0.0,0.0,0.0
@@ -17581,6 +17734,7 @@ United States,"Fairfield, CT",2020-03-18,0.0,0.0,0.0
 United States,"Fairfield, CT",2020-03-19,0.0,0.0,0.0
 United States,"Fairfield, CT",2020-03-20,0.0,0.0,0.0
 United States,"Fairfield, CT",2020-03-21,0.0,0.0,0.0
+United States,"Fayette County, KY",2020-01-22,0.0,0.0,0.0
 United States,"Fayette County, KY",2020-01-23,0.0,0.0,0.0
 United States,"Fayette County, KY",2020-01-24,0.0,0.0,0.0
 United States,"Fayette County, KY",2020-01-25,0.0,0.0,0.0
@@ -17628,7 +17782,6 @@ United States,"Fayette County, KY",2020-03-06,1.0,0.0,0.0
 United States,"Fayette County, KY",2020-03-07,0.0,0.0,0.0
 United States,"Fayette County, KY",2020-03-08,0.0,0.0,0.0
 United States,"Fayette County, KY",2020-03-09,0.0,0.0,0.0
-United States,"Fayette County, KY",2020-03-10,-1.0,0.0,0.0
 United States,"Fayette County, KY",2020-03-11,0.0,0.0,0.0
 United States,"Fayette County, KY",2020-03-12,0.0,0.0,0.0
 United States,"Fayette County, KY",2020-03-13,0.0,0.0,0.0
@@ -17640,6 +17793,7 @@ United States,"Fayette County, KY",2020-03-18,0.0,0.0,0.0
 United States,"Fayette County, KY",2020-03-19,0.0,0.0,0.0
 United States,"Fayette County, KY",2020-03-20,0.0,0.0,0.0
 United States,"Fayette County, KY",2020-03-21,0.0,0.0,0.0
+United States,"Fayette, GA",2020-01-22,0.0,0.0,0.0
 United States,"Fayette, GA",2020-01-23,0.0,0.0,0.0
 United States,"Fayette, GA",2020-01-24,0.0,0.0,0.0
 United States,"Fayette, GA",2020-01-25,0.0,0.0,0.0
@@ -17699,6 +17853,7 @@ United States,"Fayette, GA",2020-03-18,0.0,0.0,0.0
 United States,"Fayette, GA",2020-03-19,0.0,0.0,0.0
 United States,"Fayette, GA",2020-03-20,0.0,0.0,0.0
 United States,"Fayette, GA",2020-03-21,0.0,0.0,0.0
+United States,Florida,2020-01-22,0.0,0.0,0.0
 United States,Florida,2020-01-23,0.0,0.0,0.0
 United States,Florida,2020-01-24,0.0,0.0,0.0
 United States,Florida,2020-01-25,0.0,0.0,0.0
@@ -17817,6 +17972,7 @@ United States,"Floyd, GA",2020-03-18,0.0,0.0,0.0
 United States,"Floyd, GA",2020-03-19,0.0,0.0,0.0
 United States,"Floyd, GA",2020-03-20,0.0,0.0,0.0
 United States,"Floyd, GA",2020-03-21,0.0,0.0,0.0
+United States,"Fort Bend County, TX",2020-01-22,0.0,0.0,0.0
 United States,"Fort Bend County, TX",2020-01-23,0.0,0.0,0.0
 United States,"Fort Bend County, TX",2020-01-24,0.0,0.0,0.0
 United States,"Fort Bend County, TX",2020-01-25,0.0,0.0,0.0
@@ -17864,7 +18020,6 @@ United States,"Fort Bend County, TX",2020-03-06,0.0,0.0,0.0
 United States,"Fort Bend County, TX",2020-03-07,2.0,0.0,0.0
 United States,"Fort Bend County, TX",2020-03-08,3.0,0.0,0.0
 United States,"Fort Bend County, TX",2020-03-09,0.0,0.0,0.0
-United States,"Fort Bend County, TX",2020-03-10,-6.0,0.0,0.0
 United States,"Fort Bend County, TX",2020-03-11,0.0,0.0,0.0
 United States,"Fort Bend County, TX",2020-03-12,0.0,0.0,0.0
 United States,"Fort Bend County, TX",2020-03-13,0.0,0.0,0.0
@@ -17876,6 +18031,7 @@ United States,"Fort Bend County, TX",2020-03-18,0.0,0.0,0.0
 United States,"Fort Bend County, TX",2020-03-19,0.0,0.0,0.0
 United States,"Fort Bend County, TX",2020-03-20,0.0,0.0,0.0
 United States,"Fort Bend County, TX",2020-03-21,0.0,0.0,0.0
+United States,"Fresno County, CA",2020-01-22,0.0,0.0,0.0
 United States,"Fresno County, CA",2020-01-23,0.0,0.0,0.0
 United States,"Fresno County, CA",2020-01-24,0.0,0.0,0.0
 United States,"Fresno County, CA",2020-01-25,0.0,0.0,0.0
@@ -17923,7 +18079,6 @@ United States,"Fresno County, CA",2020-03-06,0.0,0.0,0.0
 United States,"Fresno County, CA",2020-03-07,0.0,0.0,0.0
 United States,"Fresno County, CA",2020-03-08,1.0,0.0,0.0
 United States,"Fresno County, CA",2020-03-09,0.0,0.0,0.0
-United States,"Fresno County, CA",2020-03-10,-1.0,0.0,0.0
 United States,"Fresno County, CA",2020-03-11,0.0,0.0,0.0
 United States,"Fresno County, CA",2020-03-12,0.0,0.0,0.0
 United States,"Fresno County, CA",2020-03-13,0.0,0.0,0.0
@@ -17935,6 +18090,7 @@ United States,"Fresno County, CA",2020-03-18,0.0,0.0,0.0
 United States,"Fresno County, CA",2020-03-19,0.0,0.0,0.0
 United States,"Fresno County, CA",2020-03-20,0.0,0.0,0.0
 United States,"Fresno County, CA",2020-03-21,0.0,0.0,0.0
+United States,"Fulton County, GA",2020-01-22,0.0,0.0,0.0
 United States,"Fulton County, GA",2020-01-23,0.0,0.0,0.0
 United States,"Fulton County, GA",2020-01-24,0.0,0.0,0.0
 United States,"Fulton County, GA",2020-01-25,0.0,0.0,0.0
@@ -17982,7 +18138,6 @@ United States,"Fulton County, GA",2020-03-06,0.0,0.0,0.0
 United States,"Fulton County, GA",2020-03-07,1.0,0.0,0.0
 United States,"Fulton County, GA",2020-03-08,0.0,0.0,0.0
 United States,"Fulton County, GA",2020-03-09,2.0,0.0,0.0
-United States,"Fulton County, GA",2020-03-10,-5.0,0.0,0.0
 United States,"Fulton County, GA",2020-03-11,0.0,0.0,0.0
 United States,"Fulton County, GA",2020-03-12,0.0,0.0,0.0
 United States,"Fulton County, GA",2020-03-13,0.0,0.0,0.0
@@ -17994,6 +18149,7 @@ United States,"Fulton County, GA",2020-03-18,0.0,0.0,0.0
 United States,"Fulton County, GA",2020-03-19,0.0,0.0,0.0
 United States,"Fulton County, GA",2020-03-20,0.0,0.0,0.0
 United States,"Fulton County, GA",2020-03-21,0.0,0.0,0.0
+United States,Georgia,2020-01-22,0.0,0.0,0.0
 United States,Georgia,2020-01-23,0.0,0.0,0.0
 United States,Georgia,2020-01-24,0.0,0.0,0.0
 United States,Georgia,2020-01-25,0.0,0.0,0.0
@@ -18100,7 +18256,6 @@ United States,"Grafton County, NH",2020-03-06,0.0,0.0,0.0
 United States,"Grafton County, NH",2020-03-07,0.0,0.0,0.0
 United States,"Grafton County, NH",2020-03-08,1.0,0.0,0.0
 United States,"Grafton County, NH",2020-03-09,0.0,0.0,0.0
-United States,"Grafton County, NH",2020-03-10,-3.0,0.0,0.0
 United States,"Grafton County, NH",2020-03-11,0.0,0.0,0.0
 United States,"Grafton County, NH",2020-03-12,0.0,0.0,0.0
 United States,"Grafton County, NH",2020-03-13,0.0,0.0,0.0
@@ -18112,6 +18267,7 @@ United States,"Grafton County, NH",2020-03-18,0.0,0.0,0.0
 United States,"Grafton County, NH",2020-03-19,0.0,0.0,0.0
 United States,"Grafton County, NH",2020-03-20,0.0,0.0,0.0
 United States,"Grafton County, NH",2020-03-21,0.0,0.0,0.0
+United States,Grand Princess,2020-01-22,0.0,0.0,0.0
 United States,Grand Princess,2020-01-23,0.0,0.0,0.0
 United States,Grand Princess,2020-01-24,0.0,0.0,0.0
 United States,Grand Princess,2020-01-25,0.0,0.0,0.0
@@ -18165,7 +18321,6 @@ United States,Grand Princess,2020-03-12,0.0,0.0,0.0
 United States,Grand Princess,2020-03-13,0.0,0.0,0.0
 United States,Grand Princess,2020-03-14,0.0,0.0,0.0
 United States,Grand Princess,2020-03-15,0.0,0.0,0.0
-United States,Grand Princess,2020-03-16,-1.0,0.0,0.0
 United States,Grand Princess,2020-03-17,1.0,0.0,0.0
 United States,Grand Princess,2020-03-18,0.0,0.0,0.0
 United States,Grand Princess,2020-03-19,1.0,0.0,0.0
@@ -18218,7 +18373,6 @@ United States,"Grant County, WA",2020-03-06,0.0,0.0,0.0
 United States,"Grant County, WA",2020-03-07,0.0,0.0,0.0
 United States,"Grant County, WA",2020-03-08,0.0,0.0,0.0
 United States,"Grant County, WA",2020-03-09,0.0,0.0,1.0
-United States,"Grant County, WA",2020-03-10,-1.0,0.0,-1.0
 United States,"Grant County, WA",2020-03-11,0.0,0.0,0.0
 United States,"Grant County, WA",2020-03-12,0.0,0.0,0.0
 United States,"Grant County, WA",2020-03-13,0.0,0.0,0.0
@@ -18230,6 +18384,7 @@ United States,"Grant County, WA",2020-03-18,0.0,0.0,0.0
 United States,"Grant County, WA",2020-03-19,0.0,0.0,0.0
 United States,"Grant County, WA",2020-03-20,0.0,0.0,0.0
 United States,"Grant County, WA",2020-03-21,0.0,0.0,0.0
+United States,"Gregg, TX",2020-01-22,0.0,0.0,0.0
 United States,"Gregg, TX",2020-01-23,0.0,0.0,0.0
 United States,"Gregg, TX",2020-01-24,0.0,0.0,0.0
 United States,"Gregg, TX",2020-01-25,0.0,0.0,0.0
@@ -18289,6 +18444,7 @@ United States,"Gregg, TX",2020-03-18,0.0,0.0,0.0
 United States,"Gregg, TX",2020-03-19,0.0,0.0,0.0
 United States,"Gregg, TX",2020-03-20,0.0,0.0,0.0
 United States,"Gregg, TX",2020-03-21,0.0,0.0,0.0
+United States,Guam,2020-01-22,0.0,0.0,0.0
 United States,Guam,2020-01-23,0.0,0.0,0.0
 United States,Guam,2020-01-24,0.0,0.0,0.0
 United States,Guam,2020-01-25,0.0,0.0,0.0
@@ -18407,6 +18563,7 @@ United States,"Gunnison, CO",2020-03-18,0.0,0.0,0.0
 United States,"Gunnison, CO",2020-03-19,0.0,0.0,0.0
 United States,"Gunnison, CO",2020-03-20,0.0,0.0,0.0
 United States,"Gunnison, CO",2020-03-21,0.0,0.0,0.0
+United States,"Gwinnett, GA",2020-01-22,0.0,0.0,0.0
 United States,"Gwinnett, GA",2020-01-23,0.0,0.0,0.0
 United States,"Gwinnett, GA",2020-01-24,0.0,0.0,0.0
 United States,"Gwinnett, GA",2020-01-25,0.0,0.0,0.0
@@ -18466,6 +18623,7 @@ United States,"Gwinnett, GA",2020-03-18,0.0,0.0,0.0
 United States,"Gwinnett, GA",2020-03-19,0.0,0.0,0.0
 United States,"Gwinnett, GA",2020-03-20,0.0,0.0,0.0
 United States,"Gwinnett, GA",2020-03-21,0.0,0.0,0.0
+United States,"Hanover, VA",2020-01-22,0.0,0.0,0.0
 United States,"Hanover, VA",2020-01-23,0.0,0.0,0.0
 United States,"Hanover, VA",2020-01-24,0.0,0.0,0.0
 United States,"Hanover, VA",2020-01-25,0.0,0.0,0.0
@@ -18525,6 +18683,7 @@ United States,"Hanover, VA",2020-03-18,0.0,0.0,0.0
 United States,"Hanover, VA",2020-03-19,0.0,0.0,0.0
 United States,"Hanover, VA",2020-03-20,0.0,0.0,0.0
 United States,"Hanover, VA",2020-03-21,0.0,0.0,0.0
+United States,"Harford County, MD",2020-01-22,0.0,0.0,0.0
 United States,"Harford County, MD",2020-01-23,0.0,0.0,0.0
 United States,"Harford County, MD",2020-01-24,0.0,0.0,0.0
 United States,"Harford County, MD",2020-01-25,0.0,0.0,0.0
@@ -18572,7 +18731,6 @@ United States,"Harford County, MD",2020-03-06,0.0,0.0,0.0
 United States,"Harford County, MD",2020-03-07,0.0,0.0,0.0
 United States,"Harford County, MD",2020-03-08,1.0,0.0,0.0
 United States,"Harford County, MD",2020-03-09,0.0,0.0,0.0
-United States,"Harford County, MD",2020-03-10,-1.0,0.0,0.0
 United States,"Harford County, MD",2020-03-11,0.0,0.0,0.0
 United States,"Harford County, MD",2020-03-12,0.0,0.0,0.0
 United States,"Harford County, MD",2020-03-13,0.0,0.0,0.0
@@ -18584,6 +18742,7 @@ United States,"Harford County, MD",2020-03-18,0.0,0.0,0.0
 United States,"Harford County, MD",2020-03-19,0.0,0.0,0.0
 United States,"Harford County, MD",2020-03-20,0.0,0.0,0.0
 United States,"Harford County, MD",2020-03-21,0.0,0.0,0.0
+United States,"Harris County, TX",2020-01-22,0.0,0.0,0.0
 United States,"Harris County, TX",2020-01-23,0.0,0.0,0.0
 United States,"Harris County, TX",2020-01-24,0.0,0.0,0.0
 United States,"Harris County, TX",2020-01-25,0.0,0.0,0.0
@@ -18631,7 +18790,6 @@ United States,"Harris County, TX",2020-03-06,1.0,0.0,0.0
 United States,"Harris County, TX",2020-03-07,2.0,0.0,0.0
 United States,"Harris County, TX",2020-03-08,0.0,0.0,0.0
 United States,"Harris County, TX",2020-03-09,1.0,0.0,0.0
-United States,"Harris County, TX",2020-03-10,-6.0,0.0,0.0
 United States,"Harris County, TX",2020-03-11,0.0,0.0,0.0
 United States,"Harris County, TX",2020-03-12,0.0,0.0,0.0
 United States,"Harris County, TX",2020-03-13,0.0,0.0,0.0
@@ -18643,6 +18801,7 @@ United States,"Harris County, TX",2020-03-18,0.0,0.0,0.0
 United States,"Harris County, TX",2020-03-19,0.0,0.0,0.0
 United States,"Harris County, TX",2020-03-20,0.0,0.0,0.0
 United States,"Harris County, TX",2020-03-21,0.0,0.0,0.0
+United States,"Harrison County, KY",2020-01-22,0.0,0.0,0.0
 United States,"Harrison County, KY",2020-01-23,0.0,0.0,0.0
 United States,"Harrison County, KY",2020-01-24,0.0,0.0,0.0
 United States,"Harrison County, KY",2020-01-25,0.0,0.0,0.0
@@ -18690,7 +18849,6 @@ United States,"Harrison County, KY",2020-03-06,0.0,0.0,0.0
 United States,"Harrison County, KY",2020-03-07,0.0,0.0,0.0
 United States,"Harrison County, KY",2020-03-08,0.0,0.0,0.0
 United States,"Harrison County, KY",2020-03-09,2.0,0.0,0.0
-United States,"Harrison County, KY",2020-03-10,-2.0,0.0,0.0
 United States,"Harrison County, KY",2020-03-11,0.0,0.0,0.0
 United States,"Harrison County, KY",2020-03-12,0.0,0.0,0.0
 United States,"Harrison County, KY",2020-03-13,0.0,0.0,0.0
@@ -18702,6 +18860,7 @@ United States,"Harrison County, KY",2020-03-18,0.0,0.0,0.0
 United States,"Harrison County, KY",2020-03-19,0.0,0.0,0.0
 United States,"Harrison County, KY",2020-03-20,0.0,0.0,0.0
 United States,"Harrison County, KY",2020-03-21,0.0,0.0,0.0
+United States,Hawaii,2020-01-22,0.0,0.0,0.0
 United States,Hawaii,2020-01-23,0.0,0.0,0.0
 United States,Hawaii,2020-01-24,0.0,0.0,0.0
 United States,Hawaii,2020-01-25,0.0,0.0,0.0
@@ -18808,7 +18967,6 @@ United States,"Hendricks County, IN",2020-03-06,0.0,0.0,0.0
 United States,"Hendricks County, IN",2020-03-07,0.0,0.0,0.0
 United States,"Hendricks County, IN",2020-03-08,1.0,0.0,0.0
 United States,"Hendricks County, IN",2020-03-09,1.0,0.0,0.0
-United States,"Hendricks County, IN",2020-03-10,-2.0,0.0,0.0
 United States,"Hendricks County, IN",2020-03-11,0.0,0.0,0.0
 United States,"Hendricks County, IN",2020-03-12,0.0,0.0,0.0
 United States,"Hendricks County, IN",2020-03-13,0.0,0.0,0.0
@@ -18820,6 +18978,7 @@ United States,"Hendricks County, IN",2020-03-18,0.0,0.0,0.0
 United States,"Hendricks County, IN",2020-03-19,0.0,0.0,0.0
 United States,"Hendricks County, IN",2020-03-20,0.0,0.0,0.0
 United States,"Hendricks County, IN",2020-03-21,0.0,0.0,0.0
+United States,"Hillsborough, FL",2020-01-22,0.0,0.0,0.0
 United States,"Hillsborough, FL",2020-01-23,0.0,0.0,0.0
 United States,"Hillsborough, FL",2020-01-24,0.0,0.0,0.0
 United States,"Hillsborough, FL",2020-01-25,0.0,0.0,0.0
@@ -18867,7 +19026,6 @@ United States,"Hillsborough, FL",2020-03-06,0.0,0.0,0.0
 United States,"Hillsborough, FL",2020-03-07,0.0,0.0,0.0
 United States,"Hillsborough, FL",2020-03-08,0.0,0.0,0.0
 United States,"Hillsborough, FL",2020-03-09,0.0,0.0,0.0
-United States,"Hillsborough, FL",2020-03-10,-2.0,0.0,0.0
 United States,"Hillsborough, FL",2020-03-11,0.0,0.0,0.0
 United States,"Hillsborough, FL",2020-03-12,0.0,0.0,0.0
 United States,"Hillsborough, FL",2020-03-13,0.0,0.0,0.0
@@ -18879,6 +19037,7 @@ United States,"Hillsborough, FL",2020-03-18,0.0,0.0,0.0
 United States,"Hillsborough, FL",2020-03-19,0.0,0.0,0.0
 United States,"Hillsborough, FL",2020-03-20,0.0,0.0,0.0
 United States,"Hillsborough, FL",2020-03-21,0.0,0.0,0.0
+United States,"Honolulu County, HI",2020-01-22,0.0,0.0,0.0
 United States,"Honolulu County, HI",2020-01-23,0.0,0.0,0.0
 United States,"Honolulu County, HI",2020-01-24,0.0,0.0,0.0
 United States,"Honolulu County, HI",2020-01-25,0.0,0.0,0.0
@@ -18926,7 +19085,6 @@ United States,"Honolulu County, HI",2020-03-06,0.0,0.0,0.0
 United States,"Honolulu County, HI",2020-03-07,1.0,0.0,0.0
 United States,"Honolulu County, HI",2020-03-08,0.0,0.0,0.0
 United States,"Honolulu County, HI",2020-03-09,0.0,0.0,0.0
-United States,"Honolulu County, HI",2020-03-10,-1.0,0.0,0.0
 United States,"Honolulu County, HI",2020-03-11,0.0,0.0,0.0
 United States,"Honolulu County, HI",2020-03-12,0.0,0.0,0.0
 United States,"Honolulu County, HI",2020-03-13,0.0,0.0,0.0
@@ -18938,6 +19096,7 @@ United States,"Honolulu County, HI",2020-03-18,0.0,0.0,0.0
 United States,"Honolulu County, HI",2020-03-19,0.0,0.0,0.0
 United States,"Honolulu County, HI",2020-03-20,0.0,0.0,0.0
 United States,"Honolulu County, HI",2020-03-21,0.0,0.0,0.0
+United States,"Howard, IN",2020-01-22,0.0,0.0,0.0
 United States,"Howard, IN",2020-01-23,0.0,0.0,0.0
 United States,"Howard, IN",2020-01-24,0.0,0.0,0.0
 United States,"Howard, IN",2020-01-25,0.0,0.0,0.0
@@ -18997,6 +19156,7 @@ United States,"Howard, IN",2020-03-18,0.0,0.0,0.0
 United States,"Howard, IN",2020-03-19,0.0,0.0,0.0
 United States,"Howard, IN",2020-03-20,0.0,0.0,0.0
 United States,"Howard, IN",2020-03-21,0.0,0.0,0.0
+United States,"Hudson County, NJ",2020-01-22,0.0,0.0,0.0
 United States,"Hudson County, NJ",2020-01-23,0.0,0.0,0.0
 United States,"Hudson County, NJ",2020-01-24,0.0,0.0,0.0
 United States,"Hudson County, NJ",2020-01-25,0.0,0.0,0.0
@@ -19044,7 +19204,6 @@ United States,"Hudson County, NJ",2020-03-06,0.0,0.0,0.0
 United States,"Hudson County, NJ",2020-03-07,0.0,0.0,0.0
 United States,"Hudson County, NJ",2020-03-08,1.0,0.0,0.0
 United States,"Hudson County, NJ",2020-03-09,0.0,0.0,0.0
-United States,"Hudson County, NJ",2020-03-10,-1.0,0.0,0.0
 United States,"Hudson County, NJ",2020-03-11,0.0,0.0,0.0
 United States,"Hudson County, NJ",2020-03-12,0.0,0.0,0.0
 United States,"Hudson County, NJ",2020-03-13,0.0,0.0,0.0
@@ -19056,6 +19215,7 @@ United States,"Hudson County, NJ",2020-03-18,0.0,0.0,0.0
 United States,"Hudson County, NJ",2020-03-19,0.0,0.0,0.0
 United States,"Hudson County, NJ",2020-03-20,0.0,0.0,0.0
 United States,"Hudson County, NJ",2020-03-21,0.0,0.0,0.0
+United States,"Humboldt County, CA",2020-01-22,0.0,0.0,0.0
 United States,"Humboldt County, CA",2020-01-23,0.0,0.0,0.0
 United States,"Humboldt County, CA",2020-01-24,0.0,0.0,0.0
 United States,"Humboldt County, CA",2020-01-25,0.0,0.0,0.0
@@ -19103,7 +19263,6 @@ United States,"Humboldt County, CA",2020-03-06,0.0,0.0,0.0
 United States,"Humboldt County, CA",2020-03-07,0.0,0.0,0.0
 United States,"Humboldt County, CA",2020-03-08,0.0,0.0,0.0
 United States,"Humboldt County, CA",2020-03-09,0.0,0.0,0.0
-United States,"Humboldt County, CA",2020-03-10,-1.0,0.0,0.0
 United States,"Humboldt County, CA",2020-03-11,0.0,0.0,0.0
 United States,"Humboldt County, CA",2020-03-12,0.0,0.0,0.0
 United States,"Humboldt County, CA",2020-03-13,0.0,0.0,0.0
@@ -19115,6 +19274,7 @@ United States,"Humboldt County, CA",2020-03-18,0.0,0.0,0.0
 United States,"Humboldt County, CA",2020-03-19,0.0,0.0,0.0
 United States,"Humboldt County, CA",2020-03-20,0.0,0.0,0.0
 United States,"Humboldt County, CA",2020-03-21,0.0,0.0,0.0
+United States,Idaho,2020-01-22,0.0,0.0,0.0
 United States,Idaho,2020-01-23,0.0,0.0,0.0
 United States,Idaho,2020-01-24,0.0,0.0,0.0
 United States,Idaho,2020-01-25,0.0,0.0,0.0
@@ -19229,7 +19389,6 @@ United States,Illinois,2020-03-14,18.0,0.0,0.0
 United States,Illinois,2020-03-15,29.0,0.0,0.0
 United States,Illinois,2020-03-16,12.0,0.0,0.0
 United States,Illinois,2020-03-17,56.0,0.0,1.0
-United States,Illinois,2020-03-18,1.0,-2.0,0.0
 United States,Illinois,2020-03-19,260.0,0.0,3.0
 United States,Illinois,2020-03-20,163.0,0.0,1.0
 United States,Illinois,2020-03-21,168.0,0.0,1.0
@@ -19410,6 +19569,7 @@ United States,"Island, WA",2020-03-18,0.0,0.0,0.0
 United States,"Island, WA",2020-03-19,0.0,0.0,0.0
 United States,"Island, WA",2020-03-20,0.0,0.0,0.0
 United States,"Island, WA",2020-03-21,0.0,0.0,0.0
+United States,"Jackson County, OR ",2020-01-22,0.0,0.0,0.0
 United States,"Jackson County, OR ",2020-01-23,0.0,0.0,0.0
 United States,"Jackson County, OR ",2020-01-24,0.0,0.0,0.0
 United States,"Jackson County, OR ",2020-01-25,0.0,0.0,0.0
@@ -19457,7 +19617,6 @@ United States,"Jackson County, OR ",2020-03-06,0.0,0.0,0.0
 United States,"Jackson County, OR ",2020-03-07,1.0,0.0,0.0
 United States,"Jackson County, OR ",2020-03-08,1.0,0.0,0.0
 United States,"Jackson County, OR ",2020-03-09,0.0,0.0,0.0
-United States,"Jackson County, OR ",2020-03-10,-2.0,0.0,0.0
 United States,"Jackson County, OR ",2020-03-11,0.0,0.0,0.0
 United States,"Jackson County, OR ",2020-03-12,0.0,0.0,0.0
 United States,"Jackson County, OR ",2020-03-13,0.0,0.0,0.0
@@ -19469,6 +19628,7 @@ United States,"Jackson County, OR ",2020-03-18,0.0,0.0,0.0
 United States,"Jackson County, OR ",2020-03-19,0.0,0.0,0.0
 United States,"Jackson County, OR ",2020-03-20,0.0,0.0,0.0
 United States,"Jackson County, OR ",2020-03-21,0.0,0.0,0.0
+United States,"Jefferson County, KY",2020-01-22,0.0,0.0,0.0
 United States,"Jefferson County, KY",2020-01-23,0.0,0.0,0.0
 United States,"Jefferson County, KY",2020-01-24,0.0,0.0,0.0
 United States,"Jefferson County, KY",2020-01-25,0.0,0.0,0.0
@@ -19516,7 +19676,6 @@ United States,"Jefferson County, KY",2020-03-06,0.0,0.0,0.0
 United States,"Jefferson County, KY",2020-03-07,0.0,0.0,0.0
 United States,"Jefferson County, KY",2020-03-08,0.0,0.0,0.0
 United States,"Jefferson County, KY",2020-03-09,1.0,0.0,0.0
-United States,"Jefferson County, KY",2020-03-10,-1.0,0.0,0.0
 United States,"Jefferson County, KY",2020-03-11,0.0,0.0,0.0
 United States,"Jefferson County, KY",2020-03-12,0.0,0.0,0.0
 United States,"Jefferson County, KY",2020-03-13,0.0,0.0,0.0
@@ -19528,6 +19687,7 @@ United States,"Jefferson County, KY",2020-03-18,0.0,0.0,0.0
 United States,"Jefferson County, KY",2020-03-19,0.0,0.0,0.0
 United States,"Jefferson County, KY",2020-03-20,0.0,0.0,0.0
 United States,"Jefferson County, KY",2020-03-21,0.0,0.0,0.0
+United States,"Jefferson County, WA",2020-01-22,0.0,0.0,0.0
 United States,"Jefferson County, WA",2020-01-23,0.0,0.0,0.0
 United States,"Jefferson County, WA",2020-01-24,0.0,0.0,0.0
 United States,"Jefferson County, WA",2020-01-25,0.0,0.0,0.0
@@ -19575,7 +19735,6 @@ United States,"Jefferson County, WA",2020-03-06,0.0,0.0,0.0
 United States,"Jefferson County, WA",2020-03-07,1.0,0.0,0.0
 United States,"Jefferson County, WA",2020-03-08,0.0,0.0,0.0
 United States,"Jefferson County, WA",2020-03-09,0.0,0.0,0.0
-United States,"Jefferson County, WA",2020-03-10,-1.0,0.0,0.0
 United States,"Jefferson County, WA",2020-03-11,0.0,0.0,0.0
 United States,"Jefferson County, WA",2020-03-12,0.0,0.0,0.0
 United States,"Jefferson County, WA",2020-03-13,0.0,0.0,0.0
@@ -19587,6 +19746,7 @@ United States,"Jefferson County, WA",2020-03-18,0.0,0.0,0.0
 United States,"Jefferson County, WA",2020-03-19,0.0,0.0,0.0
 United States,"Jefferson County, WA",2020-03-20,0.0,0.0,0.0
 United States,"Jefferson County, WA",2020-03-21,0.0,0.0,0.0
+United States,"Jefferson Parish, LA",2020-01-22,0.0,0.0,0.0
 United States,"Jefferson Parish, LA",2020-01-23,0.0,0.0,0.0
 United States,"Jefferson Parish, LA",2020-01-24,0.0,0.0,0.0
 United States,"Jefferson Parish, LA",2020-01-25,0.0,0.0,0.0
@@ -19634,7 +19794,6 @@ United States,"Jefferson Parish, LA",2020-03-06,0.0,0.0,0.0
 United States,"Jefferson Parish, LA",2020-03-07,0.0,0.0,0.0
 United States,"Jefferson Parish, LA",2020-03-08,0.0,0.0,0.0
 United States,"Jefferson Parish, LA",2020-03-09,1.0,0.0,0.0
-United States,"Jefferson Parish, LA",2020-03-10,-1.0,0.0,0.0
 United States,"Jefferson Parish, LA",2020-03-11,0.0,0.0,0.0
 United States,"Jefferson Parish, LA",2020-03-12,0.0,0.0,0.0
 United States,"Jefferson Parish, LA",2020-03-13,0.0,0.0,0.0
@@ -19646,6 +19805,7 @@ United States,"Jefferson Parish, LA",2020-03-18,0.0,0.0,0.0
 United States,"Jefferson Parish, LA",2020-03-19,0.0,0.0,0.0
 United States,"Jefferson Parish, LA",2020-03-20,0.0,0.0,0.0
 United States,"Jefferson Parish, LA",2020-03-21,0.0,0.0,0.0
+United States,"Jefferson, CO",2020-01-22,0.0,0.0,0.0
 United States,"Jefferson, CO",2020-01-23,0.0,0.0,0.0
 United States,"Jefferson, CO",2020-01-24,0.0,0.0,0.0
 United States,"Jefferson, CO",2020-01-25,0.0,0.0,0.0
@@ -19705,6 +19865,7 @@ United States,"Jefferson, CO",2020-03-18,0.0,0.0,0.0
 United States,"Jefferson, CO",2020-03-19,0.0,0.0,0.0
 United States,"Jefferson, CO",2020-03-20,0.0,0.0,0.0
 United States,"Jefferson, CO",2020-03-21,0.0,0.0,0.0
+United States,"Johnson County, IA",2020-01-22,0.0,0.0,0.0
 United States,"Johnson County, IA",2020-01-23,0.0,0.0,0.0
 United States,"Johnson County, IA",2020-01-24,0.0,0.0,0.0
 United States,"Johnson County, IA",2020-01-25,0.0,0.0,0.0
@@ -19752,7 +19913,6 @@ United States,"Johnson County, IA",2020-03-06,0.0,0.0,0.0
 United States,"Johnson County, IA",2020-03-07,0.0,0.0,0.0
 United States,"Johnson County, IA",2020-03-08,0.0,0.0,0.0
 United States,"Johnson County, IA",2020-03-09,3.0,0.0,0.0
-United States,"Johnson County, IA",2020-03-10,-3.0,0.0,0.0
 United States,"Johnson County, IA",2020-03-11,0.0,0.0,0.0
 United States,"Johnson County, IA",2020-03-12,0.0,0.0,0.0
 United States,"Johnson County, IA",2020-03-13,0.0,0.0,0.0
@@ -19764,6 +19924,7 @@ United States,"Johnson County, IA",2020-03-18,0.0,0.0,0.0
 United States,"Johnson County, IA",2020-03-19,0.0,0.0,0.0
 United States,"Johnson County, IA",2020-03-20,0.0,0.0,0.0
 United States,"Johnson County, IA",2020-03-21,0.0,0.0,0.0
+United States,"Johnson County, KS",2020-01-22,0.0,0.0,0.0
 United States,"Johnson County, KS",2020-01-23,0.0,0.0,0.0
 United States,"Johnson County, KS",2020-01-24,0.0,0.0,0.0
 United States,"Johnson County, KS",2020-01-25,0.0,0.0,0.0
@@ -19811,7 +19972,6 @@ United States,"Johnson County, KS",2020-03-06,0.0,0.0,0.0
 United States,"Johnson County, KS",2020-03-07,0.0,0.0,0.0
 United States,"Johnson County, KS",2020-03-08,1.0,0.0,0.0
 United States,"Johnson County, KS",2020-03-09,0.0,0.0,0.0
-United States,"Johnson County, KS",2020-03-10,-1.0,0.0,0.0
 United States,"Johnson County, KS",2020-03-11,0.0,0.0,0.0
 United States,"Johnson County, KS",2020-03-12,0.0,0.0,0.0
 United States,"Johnson County, KS",2020-03-13,0.0,0.0,0.0
@@ -19823,6 +19983,7 @@ United States,"Johnson County, KS",2020-03-18,0.0,0.0,0.0
 United States,"Johnson County, KS",2020-03-19,0.0,0.0,0.0
 United States,"Johnson County, KS",2020-03-20,0.0,0.0,0.0
 United States,"Johnson County, KS",2020-03-21,0.0,0.0,0.0
+United States,"Johnson, IN",2020-01-22,0.0,0.0,0.0
 United States,"Johnson, IN",2020-01-23,0.0,0.0,0.0
 United States,"Johnson, IN",2020-01-24,0.0,0.0,0.0
 United States,"Johnson, IN",2020-01-25,0.0,0.0,0.0
@@ -19882,6 +20043,7 @@ United States,"Johnson, IN",2020-03-18,0.0,0.0,0.0
 United States,"Johnson, IN",2020-03-19,0.0,0.0,0.0
 United States,"Johnson, IN",2020-03-20,0.0,0.0,0.0
 United States,"Johnson, IN",2020-03-21,0.0,0.0,0.0
+United States,"Kane, IL",2020-01-22,0.0,0.0,0.0
 United States,"Kane, IL",2020-01-23,0.0,0.0,0.0
 United States,"Kane, IL",2020-01-24,0.0,0.0,0.0
 United States,"Kane, IL",2020-01-25,0.0,0.0,0.0
@@ -19941,6 +20103,7 @@ United States,"Kane, IL",2020-03-18,0.0,0.0,0.0
 United States,"Kane, IL",2020-03-19,0.0,0.0,0.0
 United States,"Kane, IL",2020-03-20,0.0,0.0,0.0
 United States,"Kane, IL",2020-03-21,0.0,0.0,0.0
+United States,Kansas,2020-01-22,0.0,0.0,0.0
 United States,Kansas,2020-01-23,0.0,0.0,0.0
 United States,Kansas,2020-01-24,0.0,0.0,0.0
 United States,Kansas,2020-01-25,0.0,0.0,0.0
@@ -20055,7 +20218,6 @@ United States,Kentucky,2020-03-14,0.0,0.0,0.0
 United States,Kentucky,2020-03-15,6.0,0.0,0.0
 United States,Kentucky,2020-03-16,1.0,1.0,1.0
 United States,Kentucky,2020-03-17,5.0,0.0,0.0
-United States,Kentucky,2020-03-18,1.0,-1.0,0.0
 United States,Kentucky,2020-03-19,10.0,0.0,1.0
 United States,Kentucky,2020-03-20,10.0,0.0,0.0
 United States,Kentucky,2020-03-21,40.0,0.0,1.0
@@ -20106,7 +20268,6 @@ United States,"Kershaw County, SC",2020-03-06,0.0,0.0,0.0
 United States,"Kershaw County, SC",2020-03-07,1.0,0.0,0.0
 United States,"Kershaw County, SC",2020-03-08,0.0,0.0,0.0
 United States,"Kershaw County, SC",2020-03-09,0.0,0.0,0.0
-United States,"Kershaw County, SC",2020-03-10,-1.0,0.0,0.0
 United States,"Kershaw County, SC",2020-03-11,0.0,0.0,0.0
 United States,"Kershaw County, SC",2020-03-12,0.0,0.0,0.0
 United States,"Kershaw County, SC",2020-03-13,0.0,0.0,0.0
@@ -20118,6 +20279,7 @@ United States,"Kershaw County, SC",2020-03-18,0.0,0.0,0.0
 United States,"Kershaw County, SC",2020-03-19,0.0,0.0,0.0
 United States,"Kershaw County, SC",2020-03-20,0.0,0.0,0.0
 United States,"Kershaw County, SC",2020-03-21,0.0,0.0,0.0
+United States,"King County, WA",2020-01-22,1.0,0.0,0.0
 United States,"King County, WA",2020-01-23,0.0,0.0,0.0
 United States,"King County, WA",2020-01-24,0.0,0.0,0.0
 United States,"King County, WA",2020-01-25,0.0,0.0,0.0
@@ -20165,7 +20327,6 @@ United States,"King County, WA",2020-03-06,7.0,0.0,2.0
 United States,"King County, WA",2020-03-07,13.0,0.0,3.0
 United States,"King County, WA",2020-03-08,12.0,0.0,2.0
 United States,"King County, WA",2020-03-09,0.0,0.0,0.0
-United States,"King County, WA",2020-03-10,-83.0,-1.0,-17.0
 United States,"King County, WA",2020-03-11,0.0,0.0,0.0
 United States,"King County, WA",2020-03-12,0.0,0.0,0.0
 United States,"King County, WA",2020-03-13,0.0,0.0,0.0
@@ -20177,6 +20338,7 @@ United States,"King County, WA",2020-03-18,0.0,0.0,0.0
 United States,"King County, WA",2020-03-19,0.0,0.0,0.0
 United States,"King County, WA",2020-03-20,0.0,0.0,0.0
 United States,"King County, WA",2020-03-21,0.0,0.0,0.0
+United States,"Kitsap, WA",2020-01-22,0.0,0.0,0.0
 United States,"Kitsap, WA",2020-01-23,0.0,0.0,0.0
 United States,"Kitsap, WA",2020-01-24,0.0,0.0,0.0
 United States,"Kitsap, WA",2020-01-25,0.0,0.0,0.0
@@ -20236,6 +20398,7 @@ United States,"Kitsap, WA",2020-03-18,0.0,0.0,0.0
 United States,"Kitsap, WA",2020-03-19,0.0,0.0,0.0
 United States,"Kitsap, WA",2020-03-20,0.0,0.0,0.0
 United States,"Kitsap, WA",2020-03-21,0.0,0.0,0.0
+United States,"Kittitas County, WA",2020-01-22,0.0,0.0,0.0
 United States,"Kittitas County, WA",2020-01-23,0.0,0.0,0.0
 United States,"Kittitas County, WA",2020-01-24,0.0,0.0,0.0
 United States,"Kittitas County, WA",2020-01-25,0.0,0.0,0.0
@@ -20283,7 +20446,6 @@ United States,"Kittitas County, WA",2020-03-06,0.0,0.0,0.0
 United States,"Kittitas County, WA",2020-03-07,0.0,0.0,0.0
 United States,"Kittitas County, WA",2020-03-08,1.0,0.0,0.0
 United States,"Kittitas County, WA",2020-03-09,0.0,0.0,0.0
-United States,"Kittitas County, WA",2020-03-10,-1.0,0.0,0.0
 United States,"Kittitas County, WA",2020-03-11,0.0,0.0,0.0
 United States,"Kittitas County, WA",2020-03-12,0.0,0.0,0.0
 United States,"Kittitas County, WA",2020-03-13,0.0,0.0,0.0
@@ -20295,6 +20457,7 @@ United States,"Kittitas County, WA",2020-03-18,0.0,0.0,0.0
 United States,"Kittitas County, WA",2020-03-19,0.0,0.0,0.0
 United States,"Kittitas County, WA",2020-03-20,0.0,0.0,0.0
 United States,"Kittitas County, WA",2020-03-21,0.0,0.0,0.0
+United States,"Klamath County, OR",2020-01-22,0.0,0.0,0.0
 United States,"Klamath County, OR",2020-01-23,0.0,0.0,0.0
 United States,"Klamath County, OR",2020-01-24,0.0,0.0,0.0
 United States,"Klamath County, OR",2020-01-25,0.0,0.0,0.0
@@ -20342,7 +20505,6 @@ United States,"Klamath County, OR",2020-03-06,0.0,0.0,0.0
 United States,"Klamath County, OR",2020-03-07,1.0,0.0,0.0
 United States,"Klamath County, OR",2020-03-08,0.0,0.0,0.0
 United States,"Klamath County, OR",2020-03-09,0.0,0.0,0.0
-United States,"Klamath County, OR",2020-03-10,-1.0,0.0,0.0
 United States,"Klamath County, OR",2020-03-11,0.0,0.0,0.0
 United States,"Klamath County, OR",2020-03-12,0.0,0.0,0.0
 United States,"Klamath County, OR",2020-03-13,0.0,0.0,0.0
@@ -20354,6 +20516,7 @@ United States,"Klamath County, OR",2020-03-18,0.0,0.0,0.0
 United States,"Klamath County, OR",2020-03-19,0.0,0.0,0.0
 United States,"Klamath County, OR",2020-03-20,0.0,0.0,0.0
 United States,"Klamath County, OR",2020-03-21,0.0,0.0,0.0
+United States,"Knox, NE",2020-01-22,0.0,0.0,0.0
 United States,"Knox, NE",2020-01-23,0.0,0.0,0.0
 United States,"Knox, NE",2020-01-24,0.0,0.0,0.0
 United States,"Knox, NE",2020-01-25,0.0,0.0,0.0
@@ -20413,6 +20576,7 @@ United States,"Knox, NE",2020-03-18,0.0,0.0,0.0
 United States,"Knox, NE",2020-03-19,0.0,0.0,0.0
 United States,"Knox, NE",2020-03-20,0.0,0.0,0.0
 United States,"Knox, NE",2020-03-21,0.0,0.0,0.0
+United States,"Lake, IL",2020-01-22,0.0,0.0,0.0
 United States,"Lake, IL",2020-01-23,0.0,0.0,0.0
 United States,"Lake, IL",2020-01-24,0.0,0.0,0.0
 United States,"Lake, IL",2020-01-25,0.0,0.0,0.0
@@ -20472,6 +20636,7 @@ United States,"Lake, IL",2020-03-18,0.0,0.0,0.0
 United States,"Lake, IL",2020-03-19,0.0,0.0,0.0
 United States,"Lake, IL",2020-03-20,0.0,0.0,0.0
 United States,"Lake, IL",2020-03-21,0.0,0.0,0.0
+United States,"Lancaster, SC",2020-01-22,0.0,0.0,0.0
 United States,"Lancaster, SC",2020-01-23,0.0,0.0,0.0
 United States,"Lancaster, SC",2020-01-24,0.0,0.0,0.0
 United States,"Lancaster, SC",2020-01-25,0.0,0.0,0.0
@@ -20531,6 +20696,7 @@ United States,"Lancaster, SC",2020-03-18,0.0,0.0,0.0
 United States,"Lancaster, SC",2020-03-19,0.0,0.0,0.0
 United States,"Lancaster, SC",2020-03-20,0.0,0.0,0.0
 United States,"Lancaster, SC",2020-03-21,0.0,0.0,0.0
+United States,"Larimer, CO",2020-01-22,0.0,0.0,0.0
 United States,"Larimer, CO",2020-01-23,0.0,0.0,0.0
 United States,"Larimer, CO",2020-01-24,0.0,0.0,0.0
 United States,"Larimer, CO",2020-01-25,0.0,0.0,0.0
@@ -20590,6 +20756,7 @@ United States,"Larimer, CO",2020-03-18,0.0,0.0,0.0
 United States,"Larimer, CO",2020-03-19,0.0,0.0,0.0
 United States,"Larimer, CO",2020-03-20,0.0,0.0,0.0
 United States,"Larimer, CO",2020-03-21,0.0,0.0,0.0
+United States,"Lee County, FL",2020-01-22,0.0,0.0,0.0
 United States,"Lee County, FL",2020-01-23,0.0,0.0,0.0
 United States,"Lee County, FL",2020-01-24,0.0,0.0,0.0
 United States,"Lee County, FL",2020-01-25,0.0,0.0,0.0
@@ -20637,7 +20804,6 @@ United States,"Lee County, FL",2020-03-06,0.0,0.0,0.0
 United States,"Lee County, FL",2020-03-07,2.0,0.0,0.0
 United States,"Lee County, FL",2020-03-08,0.0,0.0,1.0
 United States,"Lee County, FL",2020-03-09,0.0,0.0,0.0
-United States,"Lee County, FL",2020-03-10,-2.0,0.0,-1.0
 United States,"Lee County, FL",2020-03-11,0.0,0.0,0.0
 United States,"Lee County, FL",2020-03-12,0.0,0.0,0.0
 United States,"Lee County, FL",2020-03-13,0.0,0.0,0.0
@@ -20649,6 +20815,7 @@ United States,"Lee County, FL",2020-03-18,0.0,0.0,0.0
 United States,"Lee County, FL",2020-03-19,0.0,0.0,0.0
 United States,"Lee County, FL",2020-03-20,0.0,0.0,0.0
 United States,"Lee County, FL",2020-03-21,0.0,0.0,0.0
+United States,"Litchfield, CT",2020-01-22,0.0,0.0,0.0
 United States,"Litchfield, CT",2020-01-23,0.0,0.0,0.0
 United States,"Litchfield, CT",2020-01-24,0.0,0.0,0.0
 United States,"Litchfield, CT",2020-01-25,0.0,0.0,0.0
@@ -20708,6 +20875,7 @@ United States,"Litchfield, CT",2020-03-18,0.0,0.0,0.0
 United States,"Litchfield, CT",2020-03-19,0.0,0.0,0.0
 United States,"Litchfield, CT",2020-03-20,0.0,0.0,0.0
 United States,"Litchfield, CT",2020-03-21,0.0,0.0,0.0
+United States,"Los Angeles, CA",2020-01-22,0.0,0.0,0.0
 United States,"Los Angeles, CA",2020-01-23,0.0,0.0,0.0
 United States,"Los Angeles, CA",2020-01-24,0.0,0.0,0.0
 United States,"Los Angeles, CA",2020-01-25,0.0,0.0,0.0
@@ -20755,7 +20923,6 @@ United States,"Los Angeles, CA",2020-03-06,2.0,0.0,0.0
 United States,"Los Angeles, CA",2020-03-07,1.0,0.0,0.0
 United States,"Los Angeles, CA",2020-03-08,0.0,0.0,0.0
 United States,"Los Angeles, CA",2020-03-09,0.0,0.0,0.0
-United States,"Los Angeles, CA",2020-03-10,-14.0,0.0,0.0
 United States,"Los Angeles, CA",2020-03-11,0.0,0.0,0.0
 United States,"Los Angeles, CA",2020-03-12,0.0,0.0,0.0
 United States,"Los Angeles, CA",2020-03-13,0.0,0.0,0.0
@@ -20767,6 +20934,7 @@ United States,"Los Angeles, CA",2020-03-18,0.0,0.0,0.0
 United States,"Los Angeles, CA",2020-03-19,0.0,0.0,0.0
 United States,"Los Angeles, CA",2020-03-20,0.0,0.0,0.0
 United States,"Los Angeles, CA",2020-03-21,0.0,0.0,0.0
+United States,"Loudoun, VA",2020-01-22,0.0,0.0,0.0
 United States,"Loudoun, VA",2020-01-23,0.0,0.0,0.0
 United States,"Loudoun, VA",2020-01-24,0.0,0.0,0.0
 United States,"Loudoun, VA",2020-01-25,0.0,0.0,0.0
@@ -20826,6 +20994,7 @@ United States,"Loudoun, VA",2020-03-18,0.0,0.0,0.0
 United States,"Loudoun, VA",2020-03-19,0.0,0.0,0.0
 United States,"Loudoun, VA",2020-03-20,0.0,0.0,0.0
 United States,"Loudoun, VA",2020-03-21,0.0,0.0,0.0
+United States,Louisiana,2020-01-22,0.0,0.0,0.0
 United States,Louisiana,2020-01-23,0.0,0.0,0.0
 United States,Louisiana,2020-01-24,0.0,0.0,0.0
 United States,Louisiana,2020-01-25,0.0,0.0,0.0
@@ -20932,7 +21101,6 @@ United States,"Madera County, CA",2020-03-06,0.0,0.0,0.0
 United States,"Madera County, CA",2020-03-07,1.0,0.0,0.0
 United States,"Madera County, CA",2020-03-08,0.0,0.0,0.0
 United States,"Madera County, CA",2020-03-09,0.0,0.0,0.0
-United States,"Madera County, CA",2020-03-10,-1.0,0.0,0.0
 United States,"Madera County, CA",2020-03-11,0.0,0.0,0.0
 United States,"Madera County, CA",2020-03-12,0.0,0.0,0.0
 United States,"Madera County, CA",2020-03-13,0.0,0.0,0.0
@@ -20944,6 +21112,7 @@ United States,"Madera County, CA",2020-03-18,0.0,0.0,0.0
 United States,"Madera County, CA",2020-03-19,0.0,0.0,0.0
 United States,"Madera County, CA",2020-03-20,0.0,0.0,0.0
 United States,"Madera County, CA",2020-03-21,0.0,0.0,0.0
+United States,Maine,2020-01-22,0.0,0.0,0.0
 United States,Maine,2020-01-23,0.0,0.0,0.0
 United States,Maine,2020-01-24,0.0,0.0,0.0
 United States,Maine,2020-01-25,0.0,0.0,0.0
@@ -21050,7 +21219,6 @@ United States,"Manatee County, FL",2020-03-06,0.0,0.0,0.0
 United States,"Manatee County, FL",2020-03-07,0.0,0.0,0.0
 United States,"Manatee County, FL",2020-03-08,1.0,0.0,0.0
 United States,"Manatee County, FL",2020-03-09,1.0,0.0,0.0
-United States,"Manatee County, FL",2020-03-10,-2.0,0.0,0.0
 United States,"Manatee County, FL",2020-03-11,0.0,0.0,0.0
 United States,"Manatee County, FL",2020-03-12,0.0,0.0,0.0
 United States,"Manatee County, FL",2020-03-13,0.0,0.0,0.0
@@ -21062,6 +21230,7 @@ United States,"Manatee County, FL",2020-03-18,0.0,0.0,0.0
 United States,"Manatee County, FL",2020-03-19,0.0,0.0,0.0
 United States,"Manatee County, FL",2020-03-20,0.0,0.0,0.0
 United States,"Manatee County, FL",2020-03-21,0.0,0.0,0.0
+United States,"Maricopa County, AZ",2020-01-22,0.0,0.0,0.0
 United States,"Maricopa County, AZ",2020-01-23,0.0,0.0,0.0
 United States,"Maricopa County, AZ",2020-01-24,0.0,0.0,0.0
 United States,"Maricopa County, AZ",2020-01-25,0.0,0.0,0.0
@@ -21109,7 +21278,6 @@ United States,"Maricopa County, AZ",2020-03-06,1.0,0.0,0.0
 United States,"Maricopa County, AZ",2020-03-07,0.0,0.0,0.0
 United States,"Maricopa County, AZ",2020-03-08,0.0,0.0,0.0
 United States,"Maricopa County, AZ",2020-03-09,0.0,0.0,0.0
-United States,"Maricopa County, AZ",2020-03-10,-2.0,-1.0,0.0
 United States,"Maricopa County, AZ",2020-03-11,0.0,0.0,0.0
 United States,"Maricopa County, AZ",2020-03-12,0.0,0.0,0.0
 United States,"Maricopa County, AZ",2020-03-13,0.0,0.0,0.0
@@ -21121,6 +21289,7 @@ United States,"Maricopa County, AZ",2020-03-18,0.0,0.0,0.0
 United States,"Maricopa County, AZ",2020-03-19,0.0,0.0,0.0
 United States,"Maricopa County, AZ",2020-03-20,0.0,0.0,0.0
 United States,"Maricopa County, AZ",2020-03-21,0.0,0.0,0.0
+United States,"Marin, CA",2020-01-22,0.0,0.0,0.0
 United States,"Marin, CA",2020-01-23,0.0,0.0,0.0
 United States,"Marin, CA",2020-01-24,0.0,0.0,0.0
 United States,"Marin, CA",2020-01-25,0.0,0.0,0.0
@@ -21180,6 +21349,7 @@ United States,"Marin, CA",2020-03-18,0.0,0.0,0.0
 United States,"Marin, CA",2020-03-19,0.0,0.0,0.0
 United States,"Marin, CA",2020-03-20,0.0,0.0,0.0
 United States,"Marin, CA",2020-03-21,0.0,0.0,0.0
+United States,"Marion County, IN",2020-01-22,0.0,0.0,0.0
 United States,"Marion County, IN",2020-01-23,0.0,0.0,0.0
 United States,"Marion County, IN",2020-01-24,0.0,0.0,0.0
 United States,"Marion County, IN",2020-01-25,0.0,0.0,0.0
@@ -21227,7 +21397,6 @@ United States,"Marion County, IN",2020-03-06,1.0,0.0,0.0
 United States,"Marion County, IN",2020-03-07,0.0,0.0,0.0
 United States,"Marion County, IN",2020-03-08,0.0,0.0,0.0
 United States,"Marion County, IN",2020-03-09,0.0,0.0,0.0
-United States,"Marion County, IN",2020-03-10,-1.0,0.0,0.0
 United States,"Marion County, IN",2020-03-11,0.0,0.0,0.0
 United States,"Marion County, IN",2020-03-12,0.0,0.0,0.0
 United States,"Marion County, IN",2020-03-13,0.0,0.0,0.0
@@ -21239,6 +21408,7 @@ United States,"Marion County, IN",2020-03-18,0.0,0.0,0.0
 United States,"Marion County, IN",2020-03-19,0.0,0.0,0.0
 United States,"Marion County, IN",2020-03-20,0.0,0.0,0.0
 United States,"Marion County, IN",2020-03-21,0.0,0.0,0.0
+United States,"Marion County, OR",2020-01-22,0.0,0.0,0.0
 United States,"Marion County, OR",2020-01-23,0.0,0.0,0.0
 United States,"Marion County, OR",2020-01-24,0.0,0.0,0.0
 United States,"Marion County, OR",2020-01-25,0.0,0.0,0.0
@@ -21286,7 +21456,6 @@ United States,"Marion County, OR",2020-03-06,0.0,0.0,0.0
 United States,"Marion County, OR",2020-03-07,0.0,0.0,0.0
 United States,"Marion County, OR",2020-03-08,1.0,0.0,0.0
 United States,"Marion County, OR",2020-03-09,0.0,0.0,0.0
-United States,"Marion County, OR",2020-03-10,-1.0,0.0,0.0
 United States,"Marion County, OR",2020-03-11,0.0,0.0,0.0
 United States,"Marion County, OR",2020-03-12,0.0,0.0,0.0
 United States,"Marion County, OR",2020-03-13,0.0,0.0,0.0
@@ -21298,6 +21467,7 @@ United States,"Marion County, OR",2020-03-18,0.0,0.0,0.0
 United States,"Marion County, OR",2020-03-19,0.0,0.0,0.0
 United States,"Marion County, OR",2020-03-20,0.0,0.0,0.0
 United States,"Marion County, OR",2020-03-21,0.0,0.0,0.0
+United States,Maryland,2020-01-22,0.0,0.0,0.0
 United States,Maryland,2020-01-23,0.0,0.0,0.0
 United States,Maryland,2020-01-24,0.0,0.0,0.0
 United States,Maryland,2020-01-25,0.0,0.0,0.0
@@ -21353,7 +21523,6 @@ United States,Maryland,2020-03-14,8.0,0.0,0.0
 United States,Maryland,2020-03-15,6.0,0.0,0.0
 United States,Maryland,2020-03-16,9.0,3.0,0.0
 United States,Maryland,2020-03-17,19.0,0.0,0.0
-United States,Maryland,2020-03-18,25.0,-3.0,0.0
 United States,Maryland,2020-03-19,22.0,0.0,1.0
 United States,Maryland,2020-03-20,42.0,0.0,0.0
 United States,Maryland,2020-03-21,44.0,0.0,1.0
@@ -21412,7 +21581,6 @@ United States,Massachusetts,2020-03-14,15.0,0.0,0.0
 United States,Massachusetts,2020-03-15,26.0,0.0,0.0
 United States,Massachusetts,2020-03-16,33.0,0.0,0.0
 United States,Massachusetts,2020-03-17,21.0,0.0,0.0
-United States,Massachusetts,2020-03-18,0.0,-1.0,0.0
 United States,Massachusetts,2020-03-19,110.0,0.0,0.0
 United States,Massachusetts,2020-03-20,85.0,0.0,1.0
 United States,Massachusetts,2020-03-21,112.0,0.0,0.0
@@ -21475,6 +21643,7 @@ United States,"McHenry, IL",2020-03-18,0.0,0.0,0.0
 United States,"McHenry, IL",2020-03-19,0.0,0.0,0.0
 United States,"McHenry, IL",2020-03-20,0.0,0.0,0.0
 United States,"McHenry, IL",2020-03-21,0.0,0.0,0.0
+United States,Michigan,2020-01-22,0.0,0.0,0.0
 United States,Michigan,2020-01-23,0.0,0.0,0.0
 United States,Michigan,2020-01-24,0.0,0.0,0.0
 United States,Michigan,2020-01-25,0.0,0.0,0.0
@@ -21581,7 +21750,6 @@ United States,"Middlesex County, MA",2020-03-06,1.0,0.0,0.0
 United States,"Middlesex County, MA",2020-03-07,0.0,0.0,0.0
 United States,"Middlesex County, MA",2020-03-08,6.0,0.0,0.0
 United States,"Middlesex County, MA",2020-03-09,0.0,0.0,0.0
-United States,"Middlesex County, MA",2020-03-10,-7.0,0.0,0.0
 United States,"Middlesex County, MA",2020-03-11,0.0,0.0,0.0
 United States,"Middlesex County, MA",2020-03-12,0.0,0.0,0.0
 United States,"Middlesex County, MA",2020-03-13,0.0,0.0,0.0
@@ -21593,6 +21761,7 @@ United States,"Middlesex County, MA",2020-03-18,0.0,0.0,0.0
 United States,"Middlesex County, MA",2020-03-19,0.0,0.0,0.0
 United States,"Middlesex County, MA",2020-03-20,0.0,0.0,0.0
 United States,"Middlesex County, MA",2020-03-21,0.0,0.0,0.0
+United States,"Middlesex, NJ",2020-01-22,0.0,0.0,0.0
 United States,"Middlesex, NJ",2020-01-23,0.0,0.0,0.0
 United States,"Middlesex, NJ",2020-01-24,0.0,0.0,0.0
 United States,"Middlesex, NJ",2020-01-25,0.0,0.0,0.0
@@ -21652,6 +21821,7 @@ United States,"Middlesex, NJ",2020-03-18,0.0,0.0,0.0
 United States,"Middlesex, NJ",2020-03-19,0.0,0.0,0.0
 United States,"Middlesex, NJ",2020-03-20,0.0,0.0,0.0
 United States,"Middlesex, NJ",2020-03-21,0.0,0.0,0.0
+United States,"Minnehaha, SD",2020-01-22,0.0,0.0,0.0
 United States,"Minnehaha, SD",2020-01-23,0.0,0.0,0.0
 United States,"Minnehaha, SD",2020-01-24,0.0,0.0,0.0
 United States,"Minnehaha, SD",2020-01-25,0.0,0.0,0.0
@@ -21711,6 +21881,7 @@ United States,"Minnehaha, SD",2020-03-18,0.0,0.0,0.0
 United States,"Minnehaha, SD",2020-03-19,0.0,0.0,0.0
 United States,"Minnehaha, SD",2020-03-20,0.0,0.0,0.0
 United States,"Minnehaha, SD",2020-03-21,0.0,0.0,0.0
+United States,Minnesota,2020-01-22,0.0,0.0,0.0
 United States,Minnesota,2020-01-23,0.0,0.0,0.0
 United States,Minnesota,2020-01-24,0.0,0.0,0.0
 United States,Minnesota,2020-01-25,0.0,0.0,0.0
@@ -21947,6 +22118,7 @@ United States,"Monmouth, NJ",2020-03-18,0.0,0.0,0.0
 United States,"Monmouth, NJ",2020-03-19,0.0,0.0,0.0
 United States,"Monmouth, NJ",2020-03-20,0.0,0.0,0.0
 United States,"Monmouth, NJ",2020-03-21,0.0,0.0,0.0
+United States,"Monroe, PA",2020-01-22,0.0,0.0,0.0
 United States,"Monroe, PA",2020-01-23,0.0,0.0,0.0
 United States,"Monroe, PA",2020-01-24,0.0,0.0,0.0
 United States,"Monroe, PA",2020-01-25,0.0,0.0,0.0
@@ -22006,6 +22178,7 @@ United States,"Monroe, PA",2020-03-18,0.0,0.0,0.0
 United States,"Monroe, PA",2020-03-19,0.0,0.0,0.0
 United States,"Monroe, PA",2020-03-20,0.0,0.0,0.0
 United States,"Monroe, PA",2020-03-21,0.0,0.0,0.0
+United States,Montana,2020-01-22,0.0,0.0,0.0
 United States,Montana,2020-01-23,0.0,0.0,0.0
 United States,Montana,2020-01-24,0.0,0.0,0.0
 United States,Montana,2020-01-25,0.0,0.0,0.0
@@ -22112,7 +22285,6 @@ United States,"Montgomery County, MD",2020-03-06,3.0,0.0,0.0
 United States,"Montgomery County, MD",2020-03-07,0.0,0.0,0.0
 United States,"Montgomery County, MD",2020-03-08,1.0,0.0,0.0
 United States,"Montgomery County, MD",2020-03-09,0.0,0.0,0.0
-United States,"Montgomery County, MD",2020-03-10,-4.0,0.0,0.0
 United States,"Montgomery County, MD",2020-03-11,0.0,0.0,0.0
 United States,"Montgomery County, MD",2020-03-12,0.0,0.0,0.0
 United States,"Montgomery County, MD",2020-03-13,0.0,0.0,0.0
@@ -22124,6 +22296,7 @@ United States,"Montgomery County, MD",2020-03-18,0.0,0.0,0.0
 United States,"Montgomery County, MD",2020-03-19,0.0,0.0,0.0
 United States,"Montgomery County, MD",2020-03-20,0.0,0.0,0.0
 United States,"Montgomery County, MD",2020-03-21,0.0,0.0,0.0
+United States,"Montgomery County, PA",2020-01-22,0.0,0.0,0.0
 United States,"Montgomery County, PA",2020-01-23,0.0,0.0,0.0
 United States,"Montgomery County, PA",2020-01-24,0.0,0.0,0.0
 United States,"Montgomery County, PA",2020-01-25,0.0,0.0,0.0
@@ -22171,7 +22344,6 @@ United States,"Montgomery County, PA",2020-03-06,0.0,0.0,0.0
 United States,"Montgomery County, PA",2020-03-07,0.0,0.0,0.0
 United States,"Montgomery County, PA",2020-03-08,4.0,0.0,0.0
 United States,"Montgomery County, PA",2020-03-09,1.0,0.0,0.0
-United States,"Montgomery County, PA",2020-03-10,-5.0,0.0,0.0
 United States,"Montgomery County, PA",2020-03-11,0.0,0.0,0.0
 United States,"Montgomery County, PA",2020-03-12,0.0,0.0,0.0
 United States,"Montgomery County, PA",2020-03-13,0.0,0.0,0.0
@@ -22183,6 +22355,7 @@ United States,"Montgomery County, PA",2020-03-18,0.0,0.0,0.0
 United States,"Montgomery County, PA",2020-03-19,0.0,0.0,0.0
 United States,"Montgomery County, PA",2020-03-20,0.0,0.0,0.0
 United States,"Montgomery County, PA",2020-03-21,0.0,0.0,0.0
+United States,"Montgomery, TX",2020-01-22,0.0,0.0,0.0
 United States,"Montgomery, TX",2020-01-23,0.0,0.0,0.0
 United States,"Montgomery, TX",2020-01-24,0.0,0.0,0.0
 United States,"Montgomery, TX",2020-01-25,0.0,0.0,0.0
@@ -22242,6 +22415,7 @@ United States,"Montgomery, TX",2020-03-18,0.0,0.0,0.0
 United States,"Montgomery, TX",2020-03-19,0.0,0.0,0.0
 United States,"Montgomery, TX",2020-03-20,0.0,0.0,0.0
 United States,"Montgomery, TX",2020-03-21,0.0,0.0,0.0
+United States,"Multnomah, OR",2020-01-22,0.0,0.0,0.0
 United States,"Multnomah, OR",2020-01-23,0.0,0.0,0.0
 United States,"Multnomah, OR",2020-01-24,0.0,0.0,0.0
 United States,"Multnomah, OR",2020-01-25,0.0,0.0,0.0
@@ -22301,6 +22475,7 @@ United States,"Multnomah, OR",2020-03-18,0.0,0.0,0.0
 United States,"Multnomah, OR",2020-03-19,0.0,0.0,0.0
 United States,"Multnomah, OR",2020-03-20,0.0,0.0,0.0
 United States,"Multnomah, OR",2020-03-21,0.0,0.0,0.0
+United States,"Napa, CA",2020-01-22,0.0,0.0,0.0
 United States,"Napa, CA",2020-01-23,0.0,0.0,0.0
 United States,"Napa, CA",2020-01-24,0.0,0.0,0.0
 United States,"Napa, CA",2020-01-25,0.0,0.0,0.0
@@ -22360,6 +22535,7 @@ United States,"Napa, CA",2020-03-18,0.0,0.0,0.0
 United States,"Napa, CA",2020-03-19,0.0,0.0,0.0
 United States,"Napa, CA",2020-03-20,0.0,0.0,0.0
 United States,"Napa, CA",2020-03-21,0.0,0.0,0.0
+United States,"Nassau County, NY",2020-01-22,0.0,0.0,0.0
 United States,"Nassau County, NY",2020-01-23,0.0,0.0,0.0
 United States,"Nassau County, NY",2020-01-24,0.0,0.0,0.0
 United States,"Nassau County, NY",2020-01-25,0.0,0.0,0.0
@@ -22407,7 +22583,6 @@ United States,"Nassau County, NY",2020-03-06,0.0,0.0,0.0
 United States,"Nassau County, NY",2020-03-07,3.0,0.0,0.0
 United States,"Nassau County, NY",2020-03-08,1.0,0.0,0.0
 United States,"Nassau County, NY",2020-03-09,12.0,0.0,0.0
-United States,"Nassau County, NY",2020-03-10,-17.0,0.0,0.0
 United States,"Nassau County, NY",2020-03-11,0.0,0.0,0.0
 United States,"Nassau County, NY",2020-03-12,0.0,0.0,0.0
 United States,"Nassau County, NY",2020-03-13,0.0,0.0,0.0
@@ -22419,6 +22594,7 @@ United States,"Nassau County, NY",2020-03-18,0.0,0.0,0.0
 United States,"Nassau County, NY",2020-03-19,0.0,0.0,0.0
 United States,"Nassau County, NY",2020-03-20,0.0,0.0,0.0
 United States,"Nassau County, NY",2020-03-21,0.0,0.0,0.0
+United States,"Nassau, FL",2020-01-22,0.0,0.0,0.0
 United States,"Nassau, FL",2020-01-23,0.0,0.0,0.0
 United States,"Nassau, FL",2020-01-24,0.0,0.0,0.0
 United States,"Nassau, FL",2020-01-25,0.0,0.0,0.0
@@ -22478,6 +22654,7 @@ United States,"Nassau, FL",2020-03-18,0.0,0.0,0.0
 United States,"Nassau, FL",2020-03-19,0.0,0.0,0.0
 United States,"Nassau, FL",2020-03-20,0.0,0.0,0.0
 United States,"Nassau, FL",2020-03-21,0.0,0.0,0.0
+United States,Nebraska,2020-01-22,0.0,0.0,0.0
 United States,Nebraska,2020-01-23,0.0,0.0,0.0
 United States,Nebraska,2020-01-24,0.0,0.0,0.0
 United States,Nebraska,2020-01-25,0.0,0.0,0.0
@@ -22592,7 +22769,6 @@ United States,Nevada,2020-03-14,4.0,0.0,0.0
 United States,Nevada,2020-03-15,3.0,0.0,0.0
 United States,Nevada,2020-03-16,21.0,0.0,1.0
 United States,Nevada,2020-03-17,11.0,0.0,0.0
-United States,Nevada,2020-03-18,-1.0,0.0,0.0
 United States,Nevada,2020-03-19,40.0,0.0,0.0
 United States,Nevada,2020-03-20,19.0,0.0,0.0
 United States,Nevada,2020-03-21,47.0,0.0,1.0
@@ -22655,6 +22831,7 @@ United States,"New Castle, DE",2020-03-18,0.0,0.0,0.0
 United States,"New Castle, DE",2020-03-19,0.0,0.0,0.0
 United States,"New Castle, DE",2020-03-20,0.0,0.0,0.0
 United States,"New Castle, DE",2020-03-21,0.0,0.0,0.0
+United States,New Hampshire,2020-01-22,0.0,0.0,0.0
 United States,New Hampshire,2020-01-23,0.0,0.0,0.0
 United States,New Hampshire,2020-01-24,0.0,0.0,0.0
 United States,New Hampshire,2020-01-25,0.0,0.0,0.0
@@ -22769,7 +22946,6 @@ United States,New Jersey,2020-03-14,40.0,0.0,0.0
 United States,New Jersey,2020-03-15,29.0,0.0,1.0
 United States,New Jersey,2020-03-16,80.0,1.0,0.0
 United States,New Jersey,2020-03-17,89.0,0.0,1.0
-United States,New Jersey,2020-03-18,0.0,-1.0,0.0
 United States,New Jersey,2020-03-19,475.0,0.0,6.0
 United States,New Jersey,2020-03-20,148.0,0.0,2.0
 United States,New Jersey,2020-03-21,437.0,0.0,5.0
@@ -22938,7 +23114,6 @@ United States,"New York County, NY",2020-03-06,7.0,0.0,0.0
 United States,"New York County, NY",2020-03-07,0.0,0.0,0.0
 United States,"New York County, NY",2020-03-08,1.0,0.0,0.0
 United States,"New York County, NY",2020-03-09,7.0,0.0,0.0
-United States,"New York County, NY",2020-03-10,-19.0,0.0,0.0
 United States,"New York County, NY",2020-03-11,0.0,0.0,0.0
 United States,"New York County, NY",2020-03-12,0.0,0.0,0.0
 United States,"New York County, NY",2020-03-13,0.0,0.0,0.0
@@ -22950,6 +23125,7 @@ United States,"New York County, NY",2020-03-18,0.0,0.0,0.0
 United States,"New York County, NY",2020-03-19,0.0,0.0,0.0
 United States,"New York County, NY",2020-03-20,0.0,0.0,0.0
 United States,"New York County, NY",2020-03-21,0.0,0.0,0.0
+United States,"Noble, IN",2020-01-22,0.0,0.0,0.0
 United States,"Noble, IN",2020-01-23,0.0,0.0,0.0
 United States,"Noble, IN",2020-01-24,0.0,0.0,0.0
 United States,"Noble, IN",2020-01-25,0.0,0.0,0.0
@@ -23009,6 +23185,7 @@ United States,"Noble, IN",2020-03-18,0.0,0.0,0.0
 United States,"Noble, IN",2020-03-19,0.0,0.0,0.0
 United States,"Noble, IN",2020-03-20,0.0,0.0,0.0
 United States,"Noble, IN",2020-03-21,0.0,0.0,0.0
+United States,"Norfolk County, MA",2020-01-22,0.0,0.0,0.0
 United States,"Norfolk County, MA",2020-01-23,0.0,0.0,0.0
 United States,"Norfolk County, MA",2020-01-24,0.0,0.0,0.0
 United States,"Norfolk County, MA",2020-01-25,0.0,0.0,0.0
@@ -23056,7 +23233,6 @@ United States,"Norfolk County, MA",2020-03-06,1.0,0.0,0.0
 United States,"Norfolk County, MA",2020-03-07,0.0,0.0,0.0
 United States,"Norfolk County, MA",2020-03-08,4.0,0.0,0.0
 United States,"Norfolk County, MA",2020-03-09,0.0,0.0,0.0
-United States,"Norfolk County, MA",2020-03-10,-6.0,0.0,0.0
 United States,"Norfolk County, MA",2020-03-11,0.0,0.0,0.0
 United States,"Norfolk County, MA",2020-03-12,0.0,0.0,0.0
 United States,"Norfolk County, MA",2020-03-13,0.0,0.0,0.0
@@ -23068,6 +23244,7 @@ United States,"Norfolk County, MA",2020-03-18,0.0,0.0,0.0
 United States,"Norfolk County, MA",2020-03-19,0.0,0.0,0.0
 United States,"Norfolk County, MA",2020-03-20,0.0,0.0,0.0
 United States,"Norfolk County, MA",2020-03-21,0.0,0.0,0.0
+United States,"Norfolk, VA",2020-01-22,0.0,0.0,0.0
 United States,"Norfolk, VA",2020-01-23,0.0,0.0,0.0
 United States,"Norfolk, VA",2020-01-24,0.0,0.0,0.0
 United States,"Norfolk, VA",2020-01-25,0.0,0.0,0.0
@@ -23127,6 +23304,7 @@ United States,"Norfolk, VA",2020-03-18,0.0,0.0,0.0
 United States,"Norfolk, VA",2020-03-19,0.0,0.0,0.0
 United States,"Norfolk, VA",2020-03-20,0.0,0.0,0.0
 United States,"Norfolk, VA",2020-03-21,0.0,0.0,0.0
+United States,North Carolina,2020-01-22,0.0,0.0,0.0
 United States,North Carolina,2020-01-23,0.0,0.0,0.0
 United States,North Carolina,2020-01-24,0.0,0.0,0.0
 United States,North Carolina,2020-01-25,0.0,0.0,0.0
@@ -23304,6 +23482,7 @@ United States,"Oakland, MI",2020-03-18,0.0,0.0,0.0
 United States,"Oakland, MI",2020-03-19,0.0,0.0,0.0
 United States,"Oakland, MI",2020-03-20,0.0,0.0,0.0
 United States,"Oakland, MI",2020-03-21,0.0,0.0,0.0
+United States,Ohio,2020-01-22,0.0,0.0,0.0
 United States,Ohio,2020-01-23,0.0,0.0,0.0
 United States,Ohio,2020-01-24,0.0,0.0,0.0
 United States,Ohio,2020-01-25,0.0,0.0,0.0
@@ -23410,7 +23589,6 @@ United States,"Okaloosa County, FL",2020-03-06,0.0,0.0,0.0
 United States,"Okaloosa County, FL",2020-03-07,0.0,0.0,0.0
 United States,"Okaloosa County, FL",2020-03-08,1.0,0.0,0.0
 United States,"Okaloosa County, FL",2020-03-09,0.0,0.0,0.0
-United States,"Okaloosa County, FL",2020-03-10,-1.0,0.0,0.0
 United States,"Okaloosa County, FL",2020-03-11,0.0,0.0,0.0
 United States,"Okaloosa County, FL",2020-03-12,0.0,0.0,0.0
 United States,"Okaloosa County, FL",2020-03-13,0.0,0.0,0.0
@@ -23422,6 +23600,7 @@ United States,"Okaloosa County, FL",2020-03-18,0.0,0.0,0.0
 United States,"Okaloosa County, FL",2020-03-19,0.0,0.0,0.0
 United States,"Okaloosa County, FL",2020-03-20,0.0,0.0,0.0
 United States,"Okaloosa County, FL",2020-03-21,0.0,0.0,0.0
+United States,Oklahoma,2020-01-22,0.0,0.0,0.0
 United States,Oklahoma,2020-01-23,0.0,0.0,0.0
 United States,Oklahoma,2020-01-24,0.0,0.0,0.0
 United States,Oklahoma,2020-01-25,0.0,0.0,0.0
@@ -23540,6 +23719,7 @@ United States,"Olmsted, MN",2020-03-18,0.0,0.0,0.0
 United States,"Olmsted, MN",2020-03-19,0.0,0.0,0.0
 United States,"Olmsted, MN",2020-03-20,0.0,0.0,0.0
 United States,"Olmsted, MN",2020-03-21,0.0,0.0,0.0
+United States,"Orange County, CA",2020-01-22,0.0,0.0,0.0
 United States,"Orange County, CA",2020-01-23,0.0,0.0,0.0
 United States,"Orange County, CA",2020-01-24,0.0,0.0,0.0
 United States,"Orange County, CA",2020-01-25,0.0,0.0,0.0
@@ -23587,7 +23767,6 @@ United States,"Orange County, CA",2020-03-06,0.0,0.0,0.0
 United States,"Orange County, CA",2020-03-07,0.0,0.0,0.0
 United States,"Orange County, CA",2020-03-08,0.0,0.0,0.0
 United States,"Orange County, CA",2020-03-09,1.0,0.0,0.0
-United States,"Orange County, CA",2020-03-10,-4.0,0.0,0.0
 United States,"Orange County, CA",2020-03-11,0.0,0.0,0.0
 United States,"Orange County, CA",2020-03-12,0.0,0.0,0.0
 United States,"Orange County, CA",2020-03-13,0.0,0.0,0.0
@@ -23599,6 +23778,7 @@ United States,"Orange County, CA",2020-03-18,0.0,0.0,0.0
 United States,"Orange County, CA",2020-03-19,0.0,0.0,0.0
 United States,"Orange County, CA",2020-03-20,0.0,0.0,0.0
 United States,"Orange County, CA",2020-03-21,0.0,0.0,0.0
+United States,Oregon,2020-01-22,0.0,0.0,0.0
 United States,Oregon,2020-01-23,0.0,0.0,0.0
 United States,Oregon,2020-01-24,0.0,0.0,0.0
 United States,Oregon,2020-01-25,0.0,0.0,0.0
@@ -23717,6 +23897,7 @@ United States,"Orleans, LA",2020-03-18,0.0,0.0,0.0
 United States,"Orleans, LA",2020-03-19,0.0,0.0,0.0
 United States,"Orleans, LA",2020-03-20,0.0,0.0,0.0
 United States,"Orleans, LA",2020-03-21,0.0,0.0,0.0
+United States,"Pasco, FL",2020-01-22,0.0,0.0,0.0
 United States,"Pasco, FL",2020-01-23,0.0,0.0,0.0
 United States,"Pasco, FL",2020-01-24,0.0,0.0,0.0
 United States,"Pasco, FL",2020-01-25,0.0,0.0,0.0
@@ -23776,6 +23957,7 @@ United States,"Pasco, FL",2020-03-18,0.0,0.0,0.0
 United States,"Pasco, FL",2020-03-19,0.0,0.0,0.0
 United States,"Pasco, FL",2020-03-20,0.0,0.0,0.0
 United States,"Pasco, FL",2020-03-21,0.0,0.0,0.0
+United States,"Passaic, NJ",2020-01-22,0.0,0.0,0.0
 United States,"Passaic, NJ",2020-01-23,0.0,0.0,0.0
 United States,"Passaic, NJ",2020-01-24,0.0,0.0,0.0
 United States,"Passaic, NJ",2020-01-25,0.0,0.0,0.0
@@ -23835,6 +24017,7 @@ United States,"Passaic, NJ",2020-03-18,0.0,0.0,0.0
 United States,"Passaic, NJ",2020-03-19,0.0,0.0,0.0
 United States,"Passaic, NJ",2020-03-20,0.0,0.0,0.0
 United States,"Passaic, NJ",2020-03-21,0.0,0.0,0.0
+United States,"Pennington, SD",2020-01-22,0.0,0.0,0.0
 United States,"Pennington, SD",2020-01-23,0.0,0.0,0.0
 United States,"Pennington, SD",2020-01-24,0.0,0.0,0.0
 United States,"Pennington, SD",2020-01-25,0.0,0.0,0.0
@@ -23894,6 +24077,7 @@ United States,"Pennington, SD",2020-03-18,0.0,0.0,0.0
 United States,"Pennington, SD",2020-03-19,0.0,0.0,0.0
 United States,"Pennington, SD",2020-03-20,0.0,0.0,0.0
 United States,"Pennington, SD",2020-03-21,0.0,0.0,0.0
+United States,Pennsylvania,2020-01-22,0.0,0.0,0.0
 United States,Pennsylvania,2020-01-23,0.0,0.0,0.0
 United States,Pennsylvania,2020-01-24,0.0,0.0,0.0
 United States,Pennsylvania,2020-01-25,0.0,0.0,0.0
@@ -24012,6 +24196,7 @@ United States,"Philadelphia, PA",2020-03-18,0.0,0.0,0.0
 United States,"Philadelphia, PA",2020-03-19,0.0,0.0,0.0
 United States,"Philadelphia, PA",2020-03-20,0.0,0.0,0.0
 United States,"Philadelphia, PA",2020-03-21,0.0,0.0,0.0
+United States,"Pierce County, WA",2020-01-22,0.0,0.0,0.0
 United States,"Pierce County, WA",2020-01-23,0.0,0.0,0.0
 United States,"Pierce County, WA",2020-01-24,0.0,0.0,0.0
 United States,"Pierce County, WA",2020-01-25,0.0,0.0,0.0
@@ -24059,7 +24244,6 @@ United States,"Pierce County, WA",2020-03-06,0.0,0.0,0.0
 United States,"Pierce County, WA",2020-03-07,1.0,0.0,0.0
 United States,"Pierce County, WA",2020-03-08,3.0,0.0,0.0
 United States,"Pierce County, WA",2020-03-09,0.0,0.0,0.0
-United States,"Pierce County, WA",2020-03-10,-4.0,0.0,0.0
 United States,"Pierce County, WA",2020-03-11,0.0,0.0,0.0
 United States,"Pierce County, WA",2020-03-12,0.0,0.0,0.0
 United States,"Pierce County, WA",2020-03-13,0.0,0.0,0.0
@@ -24071,6 +24255,7 @@ United States,"Pierce County, WA",2020-03-18,0.0,0.0,0.0
 United States,"Pierce County, WA",2020-03-19,0.0,0.0,0.0
 United States,"Pierce County, WA",2020-03-20,0.0,0.0,0.0
 United States,"Pierce County, WA",2020-03-21,0.0,0.0,0.0
+United States,"Pierce, WI",2020-01-22,0.0,0.0,0.0
 United States,"Pierce, WI",2020-01-23,0.0,0.0,0.0
 United States,"Pierce, WI",2020-01-24,0.0,0.0,0.0
 United States,"Pierce, WI",2020-01-25,0.0,0.0,0.0
@@ -24130,6 +24315,7 @@ United States,"Pierce, WI",2020-03-18,0.0,0.0,0.0
 United States,"Pierce, WI",2020-03-19,0.0,0.0,0.0
 United States,"Pierce, WI",2020-03-20,0.0,0.0,0.0
 United States,"Pierce, WI",2020-03-21,0.0,0.0,0.0
+United States,"Pima, AZ",2020-01-22,0.0,0.0,0.0
 United States,"Pima, AZ",2020-01-23,0.0,0.0,0.0
 United States,"Pima, AZ",2020-01-24,0.0,0.0,0.0
 United States,"Pima, AZ",2020-01-25,0.0,0.0,0.0
@@ -24189,6 +24375,7 @@ United States,"Pima, AZ",2020-03-18,0.0,0.0,0.0
 United States,"Pima, AZ",2020-03-19,0.0,0.0,0.0
 United States,"Pima, AZ",2020-03-20,0.0,0.0,0.0
 United States,"Pima, AZ",2020-03-21,0.0,0.0,0.0
+United States,"Pinal County, AZ",2020-01-22,0.0,0.0,0.0
 United States,"Pinal County, AZ",2020-01-23,0.0,0.0,0.0
 United States,"Pinal County, AZ",2020-01-24,0.0,0.0,0.0
 United States,"Pinal County, AZ",2020-01-25,0.0,0.0,0.0
@@ -24236,7 +24423,6 @@ United States,"Pinal County, AZ",2020-03-06,0.0,0.0,0.0
 United States,"Pinal County, AZ",2020-03-07,2.0,0.0,0.0
 United States,"Pinal County, AZ",2020-03-08,0.0,0.0,0.0
 United States,"Pinal County, AZ",2020-03-09,0.0,0.0,0.0
-United States,"Pinal County, AZ",2020-03-10,-2.0,0.0,0.0
 United States,"Pinal County, AZ",2020-03-11,0.0,0.0,0.0
 United States,"Pinal County, AZ",2020-03-12,0.0,0.0,0.0
 United States,"Pinal County, AZ",2020-03-13,0.0,0.0,0.0
@@ -24248,6 +24434,7 @@ United States,"Pinal County, AZ",2020-03-18,0.0,0.0,0.0
 United States,"Pinal County, AZ",2020-03-19,0.0,0.0,0.0
 United States,"Pinal County, AZ",2020-03-20,0.0,0.0,0.0
 United States,"Pinal County, AZ",2020-03-21,0.0,0.0,0.0
+United States,"Pinellas, FL",2020-01-22,0.0,0.0,0.0
 United States,"Pinellas, FL",2020-01-23,0.0,0.0,0.0
 United States,"Pinellas, FL",2020-01-24,0.0,0.0,0.0
 United States,"Pinellas, FL",2020-01-25,0.0,0.0,0.0
@@ -24307,6 +24494,7 @@ United States,"Pinellas, FL",2020-03-18,0.0,0.0,0.0
 United States,"Pinellas, FL",2020-03-19,0.0,0.0,0.0
 United States,"Pinellas, FL",2020-03-20,0.0,0.0,0.0
 United States,"Pinellas, FL",2020-03-21,0.0,0.0,0.0
+United States,"Placer County, CA",2020-01-22,0.0,0.0,0.0
 United States,"Placer County, CA",2020-01-23,0.0,0.0,0.0
 United States,"Placer County, CA",2020-01-24,0.0,0.0,0.0
 United States,"Placer County, CA",2020-01-25,0.0,0.0,0.0
@@ -24354,7 +24542,6 @@ United States,"Placer County, CA",2020-03-06,3.0,0.0,0.0
 United States,"Placer County, CA",2020-03-07,0.0,0.0,0.0
 United States,"Placer County, CA",2020-03-08,0.0,0.0,0.0
 United States,"Placer County, CA",2020-03-09,2.0,0.0,0.0
-United States,"Placer County, CA",2020-03-10,-7.0,0.0,-1.0
 United States,"Placer County, CA",2020-03-11,0.0,0.0,0.0
 United States,"Placer County, CA",2020-03-12,0.0,0.0,0.0
 United States,"Placer County, CA",2020-03-13,0.0,0.0,0.0
@@ -24366,6 +24553,7 @@ United States,"Placer County, CA",2020-03-18,0.0,0.0,0.0
 United States,"Placer County, CA",2020-03-19,0.0,0.0,0.0
 United States,"Placer County, CA",2020-03-20,0.0,0.0,0.0
 United States,"Placer County, CA",2020-03-21,0.0,0.0,0.0
+United States,"Polk County, GA",2020-01-22,0.0,0.0,0.0
 United States,"Polk County, GA",2020-01-23,0.0,0.0,0.0
 United States,"Polk County, GA",2020-01-24,0.0,0.0,0.0
 United States,"Polk County, GA",2020-01-25,0.0,0.0,0.0
@@ -24413,7 +24601,6 @@ United States,"Polk County, GA",2020-03-06,1.0,0.0,0.0
 United States,"Polk County, GA",2020-03-07,0.0,0.0,0.0
 United States,"Polk County, GA",2020-03-08,0.0,0.0,0.0
 United States,"Polk County, GA",2020-03-09,0.0,0.0,0.0
-United States,"Polk County, GA",2020-03-10,-1.0,0.0,0.0
 United States,"Polk County, GA",2020-03-11,0.0,0.0,0.0
 United States,"Polk County, GA",2020-03-12,0.0,0.0,0.0
 United States,"Polk County, GA",2020-03-13,0.0,0.0,0.0
@@ -24425,6 +24612,7 @@ United States,"Polk County, GA",2020-03-18,0.0,0.0,0.0
 United States,"Polk County, GA",2020-03-19,0.0,0.0,0.0
 United States,"Polk County, GA",2020-03-20,0.0,0.0,0.0
 United States,"Polk County, GA",2020-03-21,0.0,0.0,0.0
+United States,"Polk, OR",2020-01-22,0.0,0.0,0.0
 United States,"Polk, OR",2020-01-23,0.0,0.0,0.0
 United States,"Polk, OR",2020-01-24,0.0,0.0,0.0
 United States,"Polk, OR",2020-01-25,0.0,0.0,0.0
@@ -24484,6 +24672,7 @@ United States,"Polk, OR",2020-03-18,0.0,0.0,0.0
 United States,"Polk, OR",2020-03-19,0.0,0.0,0.0
 United States,"Polk, OR",2020-03-20,0.0,0.0,0.0
 United States,"Polk, OR",2020-03-21,0.0,0.0,0.0
+United States,"Pottawattamie, IA",2020-01-22,0.0,0.0,0.0
 United States,"Pottawattamie, IA",2020-01-23,0.0,0.0,0.0
 United States,"Pottawattamie, IA",2020-01-24,0.0,0.0,0.0
 United States,"Pottawattamie, IA",2020-01-25,0.0,0.0,0.0
@@ -24543,6 +24732,7 @@ United States,"Pottawattamie, IA",2020-03-18,0.0,0.0,0.0
 United States,"Pottawattamie, IA",2020-03-19,0.0,0.0,0.0
 United States,"Pottawattamie, IA",2020-03-20,0.0,0.0,0.0
 United States,"Pottawattamie, IA",2020-03-21,0.0,0.0,0.0
+United States,"Prince George's, MD",2020-01-22,0.0,0.0,0.0
 United States,"Prince George's, MD",2020-01-23,0.0,0.0,0.0
 United States,"Prince George's, MD",2020-01-24,0.0,0.0,0.0
 United States,"Prince George's, MD",2020-01-25,0.0,0.0,0.0
@@ -24602,6 +24792,7 @@ United States,"Prince George's, MD",2020-03-18,0.0,0.0,0.0
 United States,"Prince George's, MD",2020-03-19,0.0,0.0,0.0
 United States,"Prince George's, MD",2020-03-20,0.0,0.0,0.0
 United States,"Prince George's, MD",2020-03-21,0.0,0.0,0.0
+United States,"Providence County, RI",2020-01-22,0.0,0.0,0.0
 United States,"Providence County, RI",2020-01-23,0.0,0.0,0.0
 United States,"Providence County, RI",2020-01-24,0.0,0.0,0.0
 United States,"Providence County, RI",2020-01-25,0.0,0.0,0.0
@@ -24649,7 +24840,6 @@ United States,"Providence County, RI",2020-03-06,0.0,0.0,0.0
 United States,"Providence County, RI",2020-03-07,1.0,0.0,0.0
 United States,"Providence County, RI",2020-03-08,0.0,0.0,0.0
 United States,"Providence County, RI",2020-03-09,0.0,0.0,0.0
-United States,"Providence County, RI",2020-03-10,-3.0,0.0,0.0
 United States,"Providence County, RI",2020-03-11,0.0,0.0,0.0
 United States,"Providence County, RI",2020-03-12,0.0,0.0,0.0
 United States,"Providence County, RI",2020-03-13,0.0,0.0,0.0
@@ -24661,6 +24851,7 @@ United States,"Providence County, RI",2020-03-18,0.0,0.0,0.0
 United States,"Providence County, RI",2020-03-19,0.0,0.0,0.0
 United States,"Providence County, RI",2020-03-20,0.0,0.0,0.0
 United States,"Providence County, RI",2020-03-21,0.0,0.0,0.0
+United States,Puerto Rico,2020-01-22,0.0,0.0,0.0
 United States,Puerto Rico,2020-01-23,0.0,0.0,0.0
 United States,Puerto Rico,2020-01-24,0.0,0.0,0.0
 United States,Puerto Rico,2020-01-25,0.0,0.0,0.0
@@ -24767,7 +24958,6 @@ United States,"Ramsey County, MN",2020-03-06,1.0,0.0,0.0
 United States,"Ramsey County, MN",2020-03-07,0.0,0.0,0.0
 United States,"Ramsey County, MN",2020-03-08,0.0,0.0,0.0
 United States,"Ramsey County, MN",2020-03-09,0.0,0.0,0.0
-United States,"Ramsey County, MN",2020-03-10,-1.0,0.0,0.0
 United States,"Ramsey County, MN",2020-03-11,0.0,0.0,0.0
 United States,"Ramsey County, MN",2020-03-12,0.0,0.0,0.0
 United States,"Ramsey County, MN",2020-03-13,0.0,0.0,0.0
@@ -24779,6 +24969,7 @@ United States,"Ramsey County, MN",2020-03-18,0.0,0.0,0.0
 United States,"Ramsey County, MN",2020-03-19,0.0,0.0,0.0
 United States,"Ramsey County, MN",2020-03-20,0.0,0.0,0.0
 United States,"Ramsey County, MN",2020-03-21,0.0,0.0,0.0
+United States,Rhode Island,2020-01-22,0.0,0.0,0.0
 United States,Rhode Island,2020-01-23,0.0,0.0,0.0
 United States,Rhode Island,2020-01-24,0.0,0.0,0.0
 United States,Rhode Island,2020-01-25,0.0,0.0,0.0
@@ -24885,7 +25076,6 @@ United States,"Riverside County, CA",2020-03-06,0.0,0.0,0.0
 United States,"Riverside County, CA",2020-03-07,0.0,0.0,0.0
 United States,"Riverside County, CA",2020-03-08,1.0,0.0,0.0
 United States,"Riverside County, CA",2020-03-09,0.0,0.0,0.0
-United States,"Riverside County, CA",2020-03-10,-1.0,0.0,0.0
 United States,"Riverside County, CA",2020-03-11,0.0,0.0,0.0
 United States,"Riverside County, CA",2020-03-12,0.0,0.0,0.0
 United States,"Riverside County, CA",2020-03-13,0.0,0.0,0.0
@@ -24897,6 +25087,7 @@ United States,"Riverside County, CA",2020-03-18,0.0,0.0,0.0
 United States,"Riverside County, CA",2020-03-19,0.0,0.0,0.0
 United States,"Riverside County, CA",2020-03-20,0.0,0.0,0.0
 United States,"Riverside County, CA",2020-03-21,0.0,0.0,0.0
+United States,"Rockingham County, NH",2020-01-22,0.0,0.0,0.0
 United States,"Rockingham County, NH",2020-01-23,0.0,0.0,0.0
 United States,"Rockingham County, NH",2020-01-24,0.0,0.0,0.0
 United States,"Rockingham County, NH",2020-01-25,0.0,0.0,0.0
@@ -24944,7 +25135,6 @@ United States,"Rockingham County, NH",2020-03-06,0.0,0.0,0.0
 United States,"Rockingham County, NH",2020-03-07,0.0,0.0,0.0
 United States,"Rockingham County, NH",2020-03-08,1.0,0.0,0.0
 United States,"Rockingham County, NH",2020-03-09,0.0,0.0,0.0
-United States,"Rockingham County, NH",2020-03-10,-1.0,0.0,0.0
 United States,"Rockingham County, NH",2020-03-11,0.0,0.0,0.0
 United States,"Rockingham County, NH",2020-03-12,0.0,0.0,0.0
 United States,"Rockingham County, NH",2020-03-13,0.0,0.0,0.0
@@ -24956,6 +25146,7 @@ United States,"Rockingham County, NH",2020-03-18,0.0,0.0,0.0
 United States,"Rockingham County, NH",2020-03-19,0.0,0.0,0.0
 United States,"Rockingham County, NH",2020-03-20,0.0,0.0,0.0
 United States,"Rockingham County, NH",2020-03-21,0.0,0.0,0.0
+United States,"Rockland County, NY",2020-01-22,0.0,0.0,0.0
 United States,"Rockland County, NY",2020-01-23,0.0,0.0,0.0
 United States,"Rockland County, NY",2020-01-24,0.0,0.0,0.0
 United States,"Rockland County, NY",2020-01-25,0.0,0.0,0.0
@@ -25003,7 +25194,6 @@ United States,"Rockland County, NY",2020-03-06,0.0,0.0,0.0
 United States,"Rockland County, NY",2020-03-07,2.0,0.0,0.0
 United States,"Rockland County, NY",2020-03-08,0.0,0.0,0.0
 United States,"Rockland County, NY",2020-03-09,2.0,0.0,0.0
-United States,"Rockland County, NY",2020-03-10,-4.0,0.0,0.0
 United States,"Rockland County, NY",2020-03-11,0.0,0.0,0.0
 United States,"Rockland County, NY",2020-03-12,0.0,0.0,0.0
 United States,"Rockland County, NY",2020-03-13,0.0,0.0,0.0
@@ -25015,6 +25205,7 @@ United States,"Rockland County, NY",2020-03-18,0.0,0.0,0.0
 United States,"Rockland County, NY",2020-03-19,0.0,0.0,0.0
 United States,"Rockland County, NY",2020-03-20,0.0,0.0,0.0
 United States,"Rockland County, NY",2020-03-21,0.0,0.0,0.0
+United States,"Sacramento County, CA",2020-01-22,0.0,0.0,0.0
 United States,"Sacramento County, CA",2020-01-23,0.0,0.0,0.0
 United States,"Sacramento County, CA",2020-01-24,0.0,0.0,0.0
 United States,"Sacramento County, CA",2020-01-25,0.0,0.0,0.0
@@ -25062,7 +25253,6 @@ United States,"Sacramento County, CA",2020-03-06,0.0,0.0,0.0
 United States,"Sacramento County, CA",2020-03-07,0.0,0.0,0.0
 United States,"Sacramento County, CA",2020-03-08,0.0,0.0,0.0
 United States,"Sacramento County, CA",2020-03-09,0.0,0.0,0.0
-United States,"Sacramento County, CA",2020-03-10,-2.0,0.0,0.0
 United States,"Sacramento County, CA",2020-03-11,0.0,0.0,0.0
 United States,"Sacramento County, CA",2020-03-12,0.0,0.0,0.0
 United States,"Sacramento County, CA",2020-03-13,0.0,0.0,0.0
@@ -25074,6 +25264,7 @@ United States,"Sacramento County, CA",2020-03-18,0.0,0.0,0.0
 United States,"Sacramento County, CA",2020-03-19,0.0,0.0,0.0
 United States,"Sacramento County, CA",2020-03-20,0.0,0.0,0.0
 United States,"Sacramento County, CA",2020-03-21,0.0,0.0,0.0
+United States,"San Benito, CA",2020-01-22,0.0,0.0,0.0
 United States,"San Benito, CA",2020-01-23,0.0,0.0,0.0
 United States,"San Benito, CA",2020-01-24,0.0,0.0,0.0
 United States,"San Benito, CA",2020-01-25,0.0,0.0,0.0
@@ -25121,7 +25312,6 @@ United States,"San Benito, CA",2020-03-06,0.0,0.0,0.0
 United States,"San Benito, CA",2020-03-07,0.0,0.0,0.0
 United States,"San Benito, CA",2020-03-08,0.0,0.0,0.0
 United States,"San Benito, CA",2020-03-09,0.0,0.0,0.0
-United States,"San Benito, CA",2020-03-10,-2.0,0.0,0.0
 United States,"San Benito, CA",2020-03-11,0.0,0.0,0.0
 United States,"San Benito, CA",2020-03-12,0.0,0.0,0.0
 United States,"San Benito, CA",2020-03-13,0.0,0.0,0.0
@@ -25133,6 +25323,7 @@ United States,"San Benito, CA",2020-03-18,0.0,0.0,0.0
 United States,"San Benito, CA",2020-03-19,0.0,0.0,0.0
 United States,"San Benito, CA",2020-03-20,0.0,0.0,0.0
 United States,"San Benito, CA",2020-03-21,0.0,0.0,0.0
+United States,"San Diego County, CA",2020-01-22,0.0,0.0,0.0
 United States,"San Diego County, CA",2020-01-23,0.0,0.0,0.0
 United States,"San Diego County, CA",2020-01-24,0.0,0.0,0.0
 United States,"San Diego County, CA",2020-01-25,0.0,0.0,0.0
@@ -25180,7 +25371,6 @@ United States,"San Diego County, CA",2020-03-06,0.0,0.0,0.0
 United States,"San Diego County, CA",2020-03-07,0.0,0.0,0.0
 United States,"San Diego County, CA",2020-03-08,0.0,0.0,0.0
 United States,"San Diego County, CA",2020-03-09,0.0,0.0,0.0
-United States,"San Diego County, CA",2020-03-10,-3.0,-1.0,0.0
 United States,"San Diego County, CA",2020-03-11,0.0,0.0,0.0
 United States,"San Diego County, CA",2020-03-12,0.0,0.0,0.0
 United States,"San Diego County, CA",2020-03-13,0.0,0.0,0.0
@@ -25192,6 +25382,7 @@ United States,"San Diego County, CA",2020-03-18,0.0,0.0,0.0
 United States,"San Diego County, CA",2020-03-19,0.0,0.0,0.0
 United States,"San Diego County, CA",2020-03-20,0.0,0.0,0.0
 United States,"San Diego County, CA",2020-03-21,0.0,0.0,0.0
+United States,"San Francisco County, CA",2020-01-22,0.0,0.0,0.0
 United States,"San Francisco County, CA",2020-01-23,0.0,0.0,0.0
 United States,"San Francisco County, CA",2020-01-24,0.0,0.0,0.0
 United States,"San Francisco County, CA",2020-01-25,0.0,0.0,0.0
@@ -25239,7 +25430,6 @@ United States,"San Francisco County, CA",2020-03-06,0.0,0.0,0.0
 United States,"San Francisco County, CA",2020-03-07,7.0,0.0,0.0
 United States,"San Francisco County, CA",2020-03-08,0.0,0.0,0.0
 United States,"San Francisco County, CA",2020-03-09,0.0,0.0,0.0
-United States,"San Francisco County, CA",2020-03-10,-9.0,0.0,0.0
 United States,"San Francisco County, CA",2020-03-11,0.0,0.0,0.0
 United States,"San Francisco County, CA",2020-03-12,0.0,0.0,0.0
 United States,"San Francisco County, CA",2020-03-13,0.0,0.0,0.0
@@ -25251,6 +25441,7 @@ United States,"San Francisco County, CA",2020-03-18,0.0,0.0,0.0
 United States,"San Francisco County, CA",2020-03-19,0.0,0.0,0.0
 United States,"San Francisco County, CA",2020-03-20,0.0,0.0,0.0
 United States,"San Francisco County, CA",2020-03-21,0.0,0.0,0.0
+United States,"San Joaquin, CA",2020-01-22,0.0,0.0,0.0
 United States,"San Joaquin, CA",2020-01-23,0.0,0.0,0.0
 United States,"San Joaquin, CA",2020-01-24,0.0,0.0,0.0
 United States,"San Joaquin, CA",2020-01-25,0.0,0.0,0.0
@@ -25310,6 +25501,7 @@ United States,"San Joaquin, CA",2020-03-18,0.0,0.0,0.0
 United States,"San Joaquin, CA",2020-03-19,0.0,0.0,0.0
 United States,"San Joaquin, CA",2020-03-20,0.0,0.0,0.0
 United States,"San Joaquin, CA",2020-03-21,0.0,0.0,0.0
+United States,"San Mateo, CA",2020-01-22,0.0,0.0,0.0
 United States,"San Mateo, CA",2020-01-23,0.0,0.0,0.0
 United States,"San Mateo, CA",2020-01-24,0.0,0.0,0.0
 United States,"San Mateo, CA",2020-01-25,0.0,0.0,0.0
@@ -25357,7 +25549,6 @@ United States,"San Mateo, CA",2020-03-06,0.0,0.0,0.0
 United States,"San Mateo, CA",2020-03-07,0.0,0.0,0.0
 United States,"San Mateo, CA",2020-03-08,0.0,0.0,0.0
 United States,"San Mateo, CA",2020-03-09,0.0,0.0,0.0
-United States,"San Mateo, CA",2020-03-10,-2.0,0.0,0.0
 United States,"San Mateo, CA",2020-03-11,0.0,0.0,0.0
 United States,"San Mateo, CA",2020-03-12,0.0,0.0,0.0
 United States,"San Mateo, CA",2020-03-13,0.0,0.0,0.0
@@ -25369,6 +25560,7 @@ United States,"San Mateo, CA",2020-03-18,0.0,0.0,0.0
 United States,"San Mateo, CA",2020-03-19,0.0,0.0,0.0
 United States,"San Mateo, CA",2020-03-20,0.0,0.0,0.0
 United States,"San Mateo, CA",2020-03-21,0.0,0.0,0.0
+United States,"Santa Clara County, CA",2020-01-22,0.0,0.0,0.0
 United States,"Santa Clara County, CA",2020-01-23,0.0,0.0,0.0
 United States,"Santa Clara County, CA",2020-01-24,0.0,0.0,0.0
 United States,"Santa Clara County, CA",2020-01-25,0.0,0.0,0.0
@@ -25416,7 +25608,6 @@ United States,"Santa Clara County, CA",2020-03-06,0.0,0.0,0.0
 United States,"Santa Clara County, CA",2020-03-07,12.0,0.0,0.0
 United States,"Santa Clara County, CA",2020-03-08,6.0,0.0,0.0
 United States,"Santa Clara County, CA",2020-03-09,0.0,0.0,0.0
-United States,"Santa Clara County, CA",2020-03-10,-38.0,-1.0,0.0
 United States,"Santa Clara County, CA",2020-03-11,0.0,0.0,0.0
 United States,"Santa Clara County, CA",2020-03-12,0.0,0.0,0.0
 United States,"Santa Clara County, CA",2020-03-13,0.0,0.0,0.0
@@ -25428,6 +25619,7 @@ United States,"Santa Clara County, CA",2020-03-18,0.0,0.0,0.0
 United States,"Santa Clara County, CA",2020-03-19,0.0,0.0,0.0
 United States,"Santa Clara County, CA",2020-03-20,0.0,0.0,0.0
 United States,"Santa Clara County, CA",2020-03-21,0.0,0.0,0.0
+United States,"Santa Cruz, CA",2020-01-22,0.0,0.0,0.0
 United States,"Santa Cruz, CA",2020-01-23,0.0,0.0,0.0
 United States,"Santa Cruz, CA",2020-01-24,0.0,0.0,0.0
 United States,"Santa Cruz, CA",2020-01-25,0.0,0.0,0.0
@@ -25487,6 +25679,7 @@ United States,"Santa Cruz, CA",2020-03-18,0.0,0.0,0.0
 United States,"Santa Cruz, CA",2020-03-19,0.0,0.0,0.0
 United States,"Santa Cruz, CA",2020-03-20,0.0,0.0,0.0
 United States,"Santa Cruz, CA",2020-03-21,0.0,0.0,0.0
+United States,"Santa Rosa County, FL",2020-01-22,0.0,0.0,0.0
 United States,"Santa Rosa County, FL",2020-01-23,0.0,0.0,0.0
 United States,"Santa Rosa County, FL",2020-01-24,0.0,0.0,0.0
 United States,"Santa Rosa County, FL",2020-01-25,0.0,0.0,0.0
@@ -25534,7 +25727,6 @@ United States,"Santa Rosa County, FL",2020-03-06,0.0,0.0,0.0
 United States,"Santa Rosa County, FL",2020-03-07,0.0,0.0,0.0
 United States,"Santa Rosa County, FL",2020-03-08,0.0,0.0,1.0
 United States,"Santa Rosa County, FL",2020-03-09,0.0,0.0,0.0
-United States,"Santa Rosa County, FL",2020-03-10,-1.0,0.0,-1.0
 United States,"Santa Rosa County, FL",2020-03-11,0.0,0.0,0.0
 United States,"Santa Rosa County, FL",2020-03-12,0.0,0.0,0.0
 United States,"Santa Rosa County, FL",2020-03-13,0.0,0.0,0.0
@@ -25546,6 +25738,7 @@ United States,"Santa Rosa County, FL",2020-03-18,0.0,0.0,0.0
 United States,"Santa Rosa County, FL",2020-03-19,0.0,0.0,0.0
 United States,"Santa Rosa County, FL",2020-03-20,0.0,0.0,0.0
 United States,"Santa Rosa County, FL",2020-03-21,0.0,0.0,0.0
+United States,"Saratoga County, NY",2020-01-22,0.0,0.0,0.0
 United States,"Saratoga County, NY",2020-01-23,0.0,0.0,0.0
 United States,"Saratoga County, NY",2020-01-24,0.0,0.0,0.0
 United States,"Saratoga County, NY",2020-01-25,0.0,0.0,0.0
@@ -25593,7 +25786,6 @@ United States,"Saratoga County, NY",2020-03-06,0.0,0.0,0.0
 United States,"Saratoga County, NY",2020-03-07,2.0,0.0,0.0
 United States,"Saratoga County, NY",2020-03-08,0.0,0.0,0.0
 United States,"Saratoga County, NY",2020-03-09,0.0,0.0,0.0
-United States,"Saratoga County, NY",2020-03-10,-2.0,0.0,0.0
 United States,"Saratoga County, NY",2020-03-11,0.0,0.0,0.0
 United States,"Saratoga County, NY",2020-03-12,0.0,0.0,0.0
 United States,"Saratoga County, NY",2020-03-13,0.0,0.0,0.0
@@ -25605,6 +25797,7 @@ United States,"Saratoga County, NY",2020-03-18,0.0,0.0,0.0
 United States,"Saratoga County, NY",2020-03-19,0.0,0.0,0.0
 United States,"Saratoga County, NY",2020-03-20,0.0,0.0,0.0
 United States,"Saratoga County, NY",2020-03-21,0.0,0.0,0.0
+United States,"Shasta County, CA",2020-01-22,0.0,0.0,0.0
 United States,"Shasta County, CA",2020-01-23,0.0,0.0,0.0
 United States,"Shasta County, CA",2020-01-24,0.0,0.0,0.0
 United States,"Shasta County, CA",2020-01-25,0.0,0.0,0.0
@@ -25652,7 +25845,6 @@ United States,"Shasta County, CA",2020-03-06,0.0,0.0,0.0
 United States,"Shasta County, CA",2020-03-07,0.0,0.0,0.0
 United States,"Shasta County, CA",2020-03-08,0.0,0.0,0.0
 United States,"Shasta County, CA",2020-03-09,1.0,0.0,0.0
-United States,"Shasta County, CA",2020-03-10,-1.0,0.0,0.0
 United States,"Shasta County, CA",2020-03-11,0.0,0.0,0.0
 United States,"Shasta County, CA",2020-03-12,0.0,0.0,0.0
 United States,"Shasta County, CA",2020-03-13,0.0,0.0,0.0
@@ -25664,6 +25856,7 @@ United States,"Shasta County, CA",2020-03-18,0.0,0.0,0.0
 United States,"Shasta County, CA",2020-03-19,0.0,0.0,0.0
 United States,"Shasta County, CA",2020-03-20,0.0,0.0,0.0
 United States,"Shasta County, CA",2020-03-21,0.0,0.0,0.0
+United States,"Shelby County, TN",2020-01-22,0.0,0.0,0.0
 United States,"Shelby County, TN",2020-01-23,0.0,0.0,0.0
 United States,"Shelby County, TN",2020-01-24,0.0,0.0,0.0
 United States,"Shelby County, TN",2020-01-25,0.0,0.0,0.0
@@ -25711,7 +25904,6 @@ United States,"Shelby County, TN",2020-03-06,0.0,0.0,0.0
 United States,"Shelby County, TN",2020-03-07,0.0,0.0,0.0
 United States,"Shelby County, TN",2020-03-08,1.0,0.0,0.0
 United States,"Shelby County, TN",2020-03-09,0.0,0.0,0.0
-United States,"Shelby County, TN",2020-03-10,-1.0,0.0,0.0
 United States,"Shelby County, TN",2020-03-11,0.0,0.0,0.0
 United States,"Shelby County, TN",2020-03-12,0.0,0.0,0.0
 United States,"Shelby County, TN",2020-03-13,0.0,0.0,0.0
@@ -25723,6 +25915,7 @@ United States,"Shelby County, TN",2020-03-18,0.0,0.0,0.0
 United States,"Shelby County, TN",2020-03-19,0.0,0.0,0.0
 United States,"Shelby County, TN",2020-03-20,0.0,0.0,0.0
 United States,"Shelby County, TN",2020-03-21,0.0,0.0,0.0
+United States,"Skagit, WA",2020-01-22,0.0,0.0,0.0
 United States,"Skagit, WA",2020-01-23,0.0,0.0,0.0
 United States,"Skagit, WA",2020-01-24,0.0,0.0,0.0
 United States,"Skagit, WA",2020-01-25,0.0,0.0,0.0
@@ -25782,6 +25975,7 @@ United States,"Skagit, WA",2020-03-18,0.0,0.0,0.0
 United States,"Skagit, WA",2020-03-19,0.0,0.0,0.0
 United States,"Skagit, WA",2020-03-20,0.0,0.0,0.0
 United States,"Skagit, WA",2020-03-21,0.0,0.0,0.0
+United States,"Snohomish County, WA",2020-01-22,0.0,0.0,0.0
 United States,"Snohomish County, WA",2020-01-23,0.0,0.0,0.0
 United States,"Snohomish County, WA",2020-01-24,0.0,0.0,0.0
 United States,"Snohomish County, WA",2020-01-25,0.0,0.0,0.0
@@ -25829,7 +26023,6 @@ United States,"Snohomish County, WA",2020-03-06,1.0,0.0,0.0
 United States,"Snohomish County, WA",2020-03-07,8.0,0.0,0.0
 United States,"Snohomish County, WA",2020-03-08,4.0,0.0,0.0
 United States,"Snohomish County, WA",2020-03-09,0.0,0.0,0.0
-United States,"Snohomish County, WA",2020-03-10,-31.0,0.0,-1.0
 United States,"Snohomish County, WA",2020-03-11,0.0,0.0,0.0
 United States,"Snohomish County, WA",2020-03-12,0.0,0.0,0.0
 United States,"Snohomish County, WA",2020-03-13,0.0,0.0,0.0
@@ -25841,6 +26034,7 @@ United States,"Snohomish County, WA",2020-03-18,0.0,0.0,0.0
 United States,"Snohomish County, WA",2020-03-19,0.0,0.0,0.0
 United States,"Snohomish County, WA",2020-03-20,0.0,0.0,0.0
 United States,"Snohomish County, WA",2020-03-21,0.0,0.0,0.0
+United States,"Socorro, NM",2020-01-22,0.0,0.0,0.0
 United States,"Socorro, NM",2020-01-23,0.0,0.0,0.0
 United States,"Socorro, NM",2020-01-24,0.0,0.0,0.0
 United States,"Socorro, NM",2020-01-25,0.0,0.0,0.0
@@ -25900,6 +26094,7 @@ United States,"Socorro, NM",2020-03-18,0.0,0.0,0.0
 United States,"Socorro, NM",2020-03-19,0.0,0.0,0.0
 United States,"Socorro, NM",2020-03-20,0.0,0.0,0.0
 United States,"Socorro, NM",2020-03-21,0.0,0.0,0.0
+United States,"Solano, CA",2020-01-22,0.0,0.0,0.0
 United States,"Solano, CA",2020-01-23,0.0,0.0,0.0
 United States,"Solano, CA",2020-01-24,0.0,0.0,0.0
 United States,"Solano, CA",2020-01-25,0.0,0.0,0.0
@@ -25959,6 +26154,7 @@ United States,"Solano, CA",2020-03-18,0.0,0.0,0.0
 United States,"Solano, CA",2020-03-19,0.0,0.0,0.0
 United States,"Solano, CA",2020-03-20,0.0,0.0,0.0
 United States,"Solano, CA",2020-03-21,0.0,0.0,0.0
+United States,"Sonoma County, CA",2020-01-22,0.0,0.0,0.0
 United States,"Sonoma County, CA",2020-01-23,0.0,0.0,0.0
 United States,"Sonoma County, CA",2020-01-24,0.0,0.0,0.0
 United States,"Sonoma County, CA",2020-01-25,0.0,0.0,0.0
@@ -26006,7 +26202,6 @@ United States,"Sonoma County, CA",2020-03-06,0.0,0.0,0.0
 United States,"Sonoma County, CA",2020-03-07,0.0,0.0,0.0
 United States,"Sonoma County, CA",2020-03-08,0.0,0.0,0.0
 United States,"Sonoma County, CA",2020-03-09,2.0,0.0,0.0
-United States,"Sonoma County, CA",2020-03-10,-3.0,0.0,0.0
 United States,"Sonoma County, CA",2020-03-11,0.0,0.0,0.0
 United States,"Sonoma County, CA",2020-03-12,0.0,0.0,0.0
 United States,"Sonoma County, CA",2020-03-13,0.0,0.0,0.0
@@ -26018,6 +26213,7 @@ United States,"Sonoma County, CA",2020-03-18,0.0,0.0,0.0
 United States,"Sonoma County, CA",2020-03-19,0.0,0.0,0.0
 United States,"Sonoma County, CA",2020-03-20,0.0,0.0,0.0
 United States,"Sonoma County, CA",2020-03-21,0.0,0.0,0.0
+United States,South Carolina,2020-01-22,0.0,0.0,0.0
 United States,South Carolina,2020-01-23,0.0,0.0,0.0
 United States,South Carolina,2020-01-24,0.0,0.0,0.0
 United States,South Carolina,2020-01-25,0.0,0.0,0.0
@@ -26183,7 +26379,6 @@ United States,"Spartanburg County, SC",2020-03-06,0.0,0.0,0.0
 United States,"Spartanburg County, SC",2020-03-07,0.0,0.0,0.0
 United States,"Spartanburg County, SC",2020-03-08,0.0,0.0,0.0
 United States,"Spartanburg County, SC",2020-03-09,1.0,0.0,0.0
-United States,"Spartanburg County, SC",2020-03-10,-1.0,0.0,0.0
 United States,"Spartanburg County, SC",2020-03-11,0.0,0.0,0.0
 United States,"Spartanburg County, SC",2020-03-12,0.0,0.0,0.0
 United States,"Spartanburg County, SC",2020-03-13,0.0,0.0,0.0
@@ -26195,6 +26390,7 @@ United States,"Spartanburg County, SC",2020-03-18,0.0,0.0,0.0
 United States,"Spartanburg County, SC",2020-03-19,0.0,0.0,0.0
 United States,"Spartanburg County, SC",2020-03-20,0.0,0.0,0.0
 United States,"Spartanburg County, SC",2020-03-21,0.0,0.0,0.0
+United States,"Spotsylvania, VA",2020-01-22,0.0,0.0,0.0
 United States,"Spotsylvania, VA",2020-01-23,0.0,0.0,0.0
 United States,"Spotsylvania, VA",2020-01-24,0.0,0.0,0.0
 United States,"Spotsylvania, VA",2020-01-25,0.0,0.0,0.0
@@ -26254,6 +26450,7 @@ United States,"Spotsylvania, VA",2020-03-18,0.0,0.0,0.0
 United States,"Spotsylvania, VA",2020-03-19,0.0,0.0,0.0
 United States,"Spotsylvania, VA",2020-03-20,0.0,0.0,0.0
 United States,"Spotsylvania, VA",2020-03-21,0.0,0.0,0.0
+United States,"St. Joseph, IN",2020-01-22,0.0,0.0,0.0
 United States,"St. Joseph, IN",2020-01-23,0.0,0.0,0.0
 United States,"St. Joseph, IN",2020-01-24,0.0,0.0,0.0
 United States,"St. Joseph, IN",2020-01-25,0.0,0.0,0.0
@@ -26313,6 +26510,7 @@ United States,"St. Joseph, IN",2020-03-18,0.0,0.0,0.0
 United States,"St. Joseph, IN",2020-03-19,0.0,0.0,0.0
 United States,"St. Joseph, IN",2020-03-20,0.0,0.0,0.0
 United States,"St. Joseph, IN",2020-03-21,0.0,0.0,0.0
+United States,"St. Louis County, MO",2020-01-22,0.0,0.0,0.0
 United States,"St. Louis County, MO",2020-01-23,0.0,0.0,0.0
 United States,"St. Louis County, MO",2020-01-24,0.0,0.0,0.0
 United States,"St. Louis County, MO",2020-01-25,0.0,0.0,0.0
@@ -26360,7 +26558,6 @@ United States,"St. Louis County, MO",2020-03-06,0.0,0.0,0.0
 United States,"St. Louis County, MO",2020-03-07,0.0,0.0,0.0
 United States,"St. Louis County, MO",2020-03-08,1.0,0.0,0.0
 United States,"St. Louis County, MO",2020-03-09,0.0,0.0,0.0
-United States,"St. Louis County, MO",2020-03-10,-1.0,0.0,0.0
 United States,"St. Louis County, MO",2020-03-11,0.0,0.0,0.0
 United States,"St. Louis County, MO",2020-03-12,0.0,0.0,0.0
 United States,"St. Louis County, MO",2020-03-13,0.0,0.0,0.0
@@ -26372,6 +26569,7 @@ United States,"St. Louis County, MO",2020-03-18,0.0,0.0,0.0
 United States,"St. Louis County, MO",2020-03-19,0.0,0.0,0.0
 United States,"St. Louis County, MO",2020-03-20,0.0,0.0,0.0
 United States,"St. Louis County, MO",2020-03-21,0.0,0.0,0.0
+United States,"Stanislaus, CA",2020-01-22,0.0,0.0,0.0
 United States,"Stanislaus, CA",2020-01-23,0.0,0.0,0.0
 United States,"Stanislaus, CA",2020-01-24,0.0,0.0,0.0
 United States,"Stanislaus, CA",2020-01-25,0.0,0.0,0.0
@@ -26431,6 +26629,7 @@ United States,"Stanislaus, CA",2020-03-18,0.0,0.0,0.0
 United States,"Stanislaus, CA",2020-03-19,0.0,0.0,0.0
 United States,"Stanislaus, CA",2020-03-20,0.0,0.0,0.0
 United States,"Stanislaus, CA",2020-03-21,0.0,0.0,0.0
+United States,"Stark, OH",2020-01-22,0.0,0.0,0.0
 United States,"Stark, OH",2020-01-23,0.0,0.0,0.0
 United States,"Stark, OH",2020-01-24,0.0,0.0,0.0
 United States,"Stark, OH",2020-01-25,0.0,0.0,0.0
@@ -26490,6 +26689,7 @@ United States,"Stark, OH",2020-03-18,0.0,0.0,0.0
 United States,"Stark, OH",2020-03-19,0.0,0.0,0.0
 United States,"Stark, OH",2020-03-20,0.0,0.0,0.0
 United States,"Stark, OH",2020-03-21,0.0,0.0,0.0
+United States,"Suffolk County, MA",2020-01-22,0.0,0.0,0.0
 United States,"Suffolk County, MA",2020-01-23,0.0,0.0,0.0
 United States,"Suffolk County, MA",2020-01-24,0.0,0.0,0.0
 United States,"Suffolk County, MA",2020-01-25,0.0,0.0,0.0
@@ -26537,7 +26737,6 @@ United States,"Suffolk County, MA",2020-03-06,2.0,0.0,0.0
 United States,"Suffolk County, MA",2020-03-07,0.0,0.0,0.0
 United States,"Suffolk County, MA",2020-03-08,5.0,0.0,0.0
 United States,"Suffolk County, MA",2020-03-09,0.0,0.0,0.0
-United States,"Suffolk County, MA",2020-03-10,-8.0,-1.0,0.0
 United States,"Suffolk County, MA",2020-03-11,0.0,0.0,0.0
 United States,"Suffolk County, MA",2020-03-12,0.0,0.0,0.0
 United States,"Suffolk County, MA",2020-03-13,0.0,0.0,0.0
@@ -26549,6 +26748,7 @@ United States,"Suffolk County, MA",2020-03-18,0.0,0.0,0.0
 United States,"Suffolk County, MA",2020-03-19,0.0,0.0,0.0
 United States,"Suffolk County, MA",2020-03-20,0.0,0.0,0.0
 United States,"Suffolk County, MA",2020-03-21,0.0,0.0,0.0
+United States,"Suffolk County, NY",2020-01-22,0.0,0.0,0.0
 United States,"Suffolk County, NY",2020-01-23,0.0,0.0,0.0
 United States,"Suffolk County, NY",2020-01-24,0.0,0.0,0.0
 United States,"Suffolk County, NY",2020-01-25,0.0,0.0,0.0
@@ -26596,7 +26796,6 @@ United States,"Suffolk County, NY",2020-03-06,0.0,0.0,0.0
 United States,"Suffolk County, NY",2020-03-07,0.0,0.0,0.0
 United States,"Suffolk County, NY",2020-03-08,1.0,0.0,0.0
 United States,"Suffolk County, NY",2020-03-09,0.0,0.0,0.0
-United States,"Suffolk County, NY",2020-03-10,-1.0,0.0,0.0
 United States,"Suffolk County, NY",2020-03-11,0.0,0.0,0.0
 United States,"Suffolk County, NY",2020-03-12,0.0,0.0,0.0
 United States,"Suffolk County, NY",2020-03-13,0.0,0.0,0.0
@@ -26608,6 +26807,7 @@ United States,"Suffolk County, NY",2020-03-18,0.0,0.0,0.0
 United States,"Suffolk County, NY",2020-03-19,0.0,0.0,0.0
 United States,"Suffolk County, NY",2020-03-20,0.0,0.0,0.0
 United States,"Suffolk County, NY",2020-03-21,0.0,0.0,0.0
+United States,"Sullivan, TN",2020-01-22,0.0,0.0,0.0
 United States,"Sullivan, TN",2020-01-23,0.0,0.0,0.0
 United States,"Sullivan, TN",2020-01-24,0.0,0.0,0.0
 United States,"Sullivan, TN",2020-01-25,0.0,0.0,0.0
@@ -26667,6 +26867,7 @@ United States,"Sullivan, TN",2020-03-18,0.0,0.0,0.0
 United States,"Sullivan, TN",2020-03-19,0.0,0.0,0.0
 United States,"Sullivan, TN",2020-03-20,0.0,0.0,0.0
 United States,"Sullivan, TN",2020-03-21,0.0,0.0,0.0
+United States,"Summit County, CO",2020-01-22,0.0,0.0,0.0
 United States,"Summit County, CO",2020-01-23,0.0,0.0,0.0
 United States,"Summit County, CO",2020-01-24,0.0,0.0,0.0
 United States,"Summit County, CO",2020-01-25,0.0,0.0,0.0
@@ -26714,7 +26915,6 @@ United States,"Summit County, CO",2020-03-06,1.0,0.0,0.0
 United States,"Summit County, CO",2020-03-07,0.0,0.0,0.0
 United States,"Summit County, CO",2020-03-08,0.0,0.0,0.0
 United States,"Summit County, CO",2020-03-09,0.0,0.0,0.0
-United States,"Summit County, CO",2020-03-10,-1.0,0.0,0.0
 United States,"Summit County, CO",2020-03-11,0.0,0.0,0.0
 United States,"Summit County, CO",2020-03-12,0.0,0.0,0.0
 United States,"Summit County, CO",2020-03-13,0.0,0.0,0.0
@@ -26726,6 +26926,7 @@ United States,"Summit County, CO",2020-03-18,0.0,0.0,0.0
 United States,"Summit County, CO",2020-03-19,0.0,0.0,0.0
 United States,"Summit County, CO",2020-03-20,0.0,0.0,0.0
 United States,"Summit County, CO",2020-03-21,0.0,0.0,0.0
+United States,"Summit, UT",2020-01-22,0.0,0.0,0.0
 United States,"Summit, UT",2020-01-23,0.0,0.0,0.0
 United States,"Summit, UT",2020-01-24,0.0,0.0,0.0
 United States,"Summit, UT",2020-01-25,0.0,0.0,0.0
@@ -26785,6 +26986,7 @@ United States,"Summit, UT",2020-03-18,0.0,0.0,0.0
 United States,"Summit, UT",2020-03-19,0.0,0.0,0.0
 United States,"Summit, UT",2020-03-20,0.0,0.0,0.0
 United States,"Summit, UT",2020-03-21,0.0,0.0,0.0
+United States,"Tarrant, TX",2020-01-22,0.0,0.0,0.0
 United States,"Tarrant, TX",2020-01-23,0.0,0.0,0.0
 United States,"Tarrant, TX",2020-01-24,0.0,0.0,0.0
 United States,"Tarrant, TX",2020-01-25,0.0,0.0,0.0
@@ -26844,6 +27046,7 @@ United States,"Tarrant, TX",2020-03-18,0.0,0.0,0.0
 United States,"Tarrant, TX",2020-03-19,0.0,0.0,0.0
 United States,"Tarrant, TX",2020-03-20,0.0,0.0,0.0
 United States,"Tarrant, TX",2020-03-21,0.0,0.0,0.0
+United States,Tennessee,2020-01-22,0.0,0.0,0.0
 United States,Tennessee,2020-01-23,0.0,0.0,0.0
 United States,Tennessee,2020-01-24,0.0,0.0,0.0
 United States,Tennessee,2020-01-25,0.0,0.0,0.0
@@ -27021,6 +27224,7 @@ United States,"Thurston, WA",2020-03-18,0.0,0.0,0.0
 United States,"Thurston, WA",2020-03-19,0.0,0.0,0.0
 United States,"Thurston, WA",2020-03-20,0.0,0.0,0.0
 United States,"Thurston, WA",2020-03-21,0.0,0.0,0.0
+United States,Total,2020-01-22,1.0,0.0,0.0
 United States,Total,2020-01-23,0.0,0.0,0.0
 United States,Total,2020-01-24,1.0,0.0,0.0
 United States,Total,2020-01-25,0.0,0.0,0.0
@@ -27076,7 +27280,6 @@ United States,Total,2020-03-14,548.0,0.0,7.0
 United States,Total,2020-03-15,772.0,0.0,9.0
 United States,Total,2020-03-16,1133.0,5.0,22.0
 United States,Total,2020-03-17,1789.0,0.0,23.0
-United States,Total,2020-03-18,1362.0,-17.0,10.0
 United States,Total,2020-03-19,5894.0,0.0,82.0
 United States,Total,2020-03-20,5423.0,0.0,44.0
 United States,Total,2020-03-21,6389.0,0.0,63.0
@@ -27127,7 +27330,6 @@ United States,"Tulsa County, OK",2020-03-06,0.0,0.0,0.0
 United States,"Tulsa County, OK",2020-03-07,1.0,0.0,0.0
 United States,"Tulsa County, OK",2020-03-08,0.0,0.0,0.0
 United States,"Tulsa County, OK",2020-03-09,0.0,0.0,0.0
-United States,"Tulsa County, OK",2020-03-10,-1.0,0.0,0.0
 United States,"Tulsa County, OK",2020-03-11,0.0,0.0,0.0
 United States,"Tulsa County, OK",2020-03-12,0.0,0.0,0.0
 United States,"Tulsa County, OK",2020-03-13,0.0,0.0,0.0
@@ -27139,6 +27341,7 @@ United States,"Tulsa County, OK",2020-03-18,0.0,0.0,0.0
 United States,"Tulsa County, OK",2020-03-19,0.0,0.0,0.0
 United States,"Tulsa County, OK",2020-03-20,0.0,0.0,0.0
 United States,"Tulsa County, OK",2020-03-21,0.0,0.0,0.0
+United States,"Ulster County, NY",2020-01-22,0.0,0.0,0.0
 United States,"Ulster County, NY",2020-01-23,0.0,0.0,0.0
 United States,"Ulster County, NY",2020-01-24,0.0,0.0,0.0
 United States,"Ulster County, NY",2020-01-25,0.0,0.0,0.0
@@ -27186,7 +27389,6 @@ United States,"Ulster County, NY",2020-03-06,0.0,0.0,0.0
 United States,"Ulster County, NY",2020-03-07,0.0,0.0,0.0
 United States,"Ulster County, NY",2020-03-08,1.0,0.0,0.0
 United States,"Ulster County, NY",2020-03-09,0.0,0.0,0.0
-United States,"Ulster County, NY",2020-03-10,-1.0,0.0,0.0
 United States,"Ulster County, NY",2020-03-11,0.0,0.0,0.0
 United States,"Ulster County, NY",2020-03-12,0.0,0.0,0.0
 United States,"Ulster County, NY",2020-03-13,0.0,0.0,0.0
@@ -27198,6 +27400,7 @@ United States,"Ulster County, NY",2020-03-18,0.0,0.0,0.0
 United States,"Ulster County, NY",2020-03-19,0.0,0.0,0.0
 United States,"Ulster County, NY",2020-03-20,0.0,0.0,0.0
 United States,"Ulster County, NY",2020-03-21,0.0,0.0,0.0
+United States,"Umatilla, OR",2020-01-22,0.0,0.0,0.0
 United States,"Umatilla, OR",2020-01-23,0.0,0.0,0.0
 United States,"Umatilla, OR",2020-01-24,0.0,0.0,0.0
 United States,"Umatilla, OR",2020-01-25,0.0,0.0,0.0
@@ -27245,7 +27448,6 @@ United States,"Umatilla, OR",2020-03-06,0.0,0.0,0.0
 United States,"Umatilla, OR",2020-03-07,0.0,0.0,0.0
 United States,"Umatilla, OR",2020-03-08,0.0,0.0,0.0
 United States,"Umatilla, OR",2020-03-09,0.0,0.0,0.0
-United States,"Umatilla, OR",2020-03-10,-1.0,0.0,0.0
 United States,"Umatilla, OR",2020-03-11,0.0,0.0,0.0
 United States,"Umatilla, OR",2020-03-12,0.0,0.0,0.0
 United States,"Umatilla, OR",2020-03-13,0.0,0.0,0.0
@@ -27257,6 +27459,7 @@ United States,"Umatilla, OR",2020-03-18,0.0,0.0,0.0
 United States,"Umatilla, OR",2020-03-19,0.0,0.0,0.0
 United States,"Umatilla, OR",2020-03-20,0.0,0.0,0.0
 United States,"Umatilla, OR",2020-03-21,0.0,0.0,0.0
+United States,"Union, NJ",2020-01-22,0.0,0.0,0.0
 United States,"Union, NJ",2020-01-23,0.0,0.0,0.0
 United States,"Union, NJ",2020-01-24,0.0,0.0,0.0
 United States,"Union, NJ",2020-01-25,0.0,0.0,0.0
@@ -27316,6 +27519,7 @@ United States,"Union, NJ",2020-03-18,0.0,0.0,0.0
 United States,"Union, NJ",2020-03-19,0.0,0.0,0.0
 United States,"Union, NJ",2020-03-20,0.0,0.0,0.0
 United States,"Union, NJ",2020-03-21,0.0,0.0,0.0
+United States,Utah,2020-01-22,0.0,0.0,0.0
 United States,Utah,2020-01-23,0.0,0.0,0.0
 United States,Utah,2020-01-24,0.0,0.0,0.0
 United States,Utah,2020-01-25,0.0,0.0,0.0
@@ -27373,7 +27577,6 @@ United States,Utah,2020-03-16,11.0,0.0,0.0
 United States,Utah,2020-03-17,12.0,0.0,0.0
 United States,Utah,2020-03-18,0.0,0.0,0.0
 United States,Utah,2020-03-19,29.0,0.0,0.0
-United States,Utah,2020-03-20,-2.0,0.0,0.0
 United States,Utah,2020-03-21,58.0,0.0,0.0
 United States,"Ventura, CA",2020-01-23,0.0,0.0,0.0
 United States,"Ventura, CA",2020-01-24,0.0,0.0,0.0
@@ -27434,6 +27637,7 @@ United States,"Ventura, CA",2020-03-18,0.0,0.0,0.0
 United States,"Ventura, CA",2020-03-19,0.0,0.0,0.0
 United States,"Ventura, CA",2020-03-20,0.0,0.0,0.0
 United States,"Ventura, CA",2020-03-21,0.0,0.0,0.0
+United States,Vermont,2020-01-22,0.0,0.0,0.0
 United States,Vermont,2020-01-23,0.0,0.0,0.0
 United States,Vermont,2020-01-24,0.0,0.0,0.0
 United States,Vermont,2020-01-25,0.0,0.0,0.0
@@ -27658,7 +27862,6 @@ United States,"Volusia County, FL",2020-03-06,0.0,0.0,0.0
 United States,"Volusia County, FL",2020-03-07,0.0,0.0,0.0
 United States,"Volusia County, FL",2020-03-08,1.0,0.0,0.0
 United States,"Volusia County, FL",2020-03-09,0.0,0.0,0.0
-United States,"Volusia County, FL",2020-03-10,-1.0,0.0,0.0
 United States,"Volusia County, FL",2020-03-11,0.0,0.0,0.0
 United States,"Volusia County, FL",2020-03-12,0.0,0.0,0.0
 United States,"Volusia County, FL",2020-03-13,0.0,0.0,0.0
@@ -27670,6 +27873,7 @@ United States,"Volusia County, FL",2020-03-18,0.0,0.0,0.0
 United States,"Volusia County, FL",2020-03-19,0.0,0.0,0.0
 United States,"Volusia County, FL",2020-03-20,0.0,0.0,0.0
 United States,"Volusia County, FL",2020-03-21,0.0,0.0,0.0
+United States,"Wake County, NC",2020-01-22,0.0,0.0,0.0
 United States,"Wake County, NC",2020-01-23,0.0,0.0,0.0
 United States,"Wake County, NC",2020-01-24,0.0,0.0,0.0
 United States,"Wake County, NC",2020-01-25,0.0,0.0,0.0
@@ -27717,7 +27921,6 @@ United States,"Wake County, NC",2020-03-06,0.0,0.0,0.0
 United States,"Wake County, NC",2020-03-07,0.0,0.0,0.0
 United States,"Wake County, NC",2020-03-08,0.0,0.0,0.0
 United States,"Wake County, NC",2020-03-09,0.0,0.0,0.0
-United States,"Wake County, NC",2020-03-10,-1.0,0.0,0.0
 United States,"Wake County, NC",2020-03-11,0.0,0.0,0.0
 United States,"Wake County, NC",2020-03-12,0.0,0.0,0.0
 United States,"Wake County, NC",2020-03-13,0.0,0.0,0.0
@@ -27729,6 +27932,7 @@ United States,"Wake County, NC",2020-03-18,0.0,0.0,0.0
 United States,"Wake County, NC",2020-03-19,0.0,0.0,0.0
 United States,"Wake County, NC",2020-03-20,0.0,0.0,0.0
 United States,"Wake County, NC",2020-03-21,0.0,0.0,0.0
+United States,Washington,2020-01-22,0.0,0.0,0.0
 United States,Washington,2020-01-23,0.0,0.0,0.0
 United States,Washington,2020-01-24,0.0,0.0,0.0
 United States,Washington,2020-01-25,0.0,0.0,0.0
@@ -27784,7 +27988,6 @@ United States,Washington,2020-03-14,4.0,0.0,0.0
 United States,Washington,2020-03-15,71.0,0.0,3.0
 United States,Washington,2020-03-16,261.0,0.0,8.0
 United States,Washington,2020-03-17,172.0,0.0,7.0
-United States,Washington,2020-03-18,-62.0,-1.0,0.0
 United States,Washington,2020-03-19,362.0,0.0,19.0
 United States,Washington,2020-03-20,148.0,0.0,9.0
 United States,Washington,2020-03-21,269.0,0.0,11.0
@@ -27835,7 +28038,6 @@ United States,"Washington County, OR",2020-03-06,0.0,0.0,0.0
 United States,"Washington County, OR",2020-03-07,1.0,0.0,0.0
 United States,"Washington County, OR",2020-03-08,5.0,0.0,0.0
 United States,"Washington County, OR",2020-03-09,0.0,0.0,0.0
-United States,"Washington County, OR",2020-03-10,-8.0,0.0,0.0
 United States,"Washington County, OR",2020-03-11,0.0,0.0,0.0
 United States,"Washington County, OR",2020-03-12,0.0,0.0,0.0
 United States,"Washington County, OR",2020-03-13,0.0,0.0,0.0
@@ -27847,6 +28049,7 @@ United States,"Washington County, OR",2020-03-18,0.0,0.0,0.0
 United States,"Washington County, OR",2020-03-19,0.0,0.0,0.0
 United States,"Washington County, OR",2020-03-20,0.0,0.0,0.0
 United States,"Washington County, OR",2020-03-21,0.0,0.0,0.0
+United States,"Washington, D.C.",2020-01-22,0.0,0.0,0.0
 United States,"Washington, D.C.",2020-01-23,0.0,0.0,0.0
 United States,"Washington, D.C.",2020-01-24,0.0,0.0,0.0
 United States,"Washington, D.C.",2020-01-25,0.0,0.0,0.0
@@ -27894,7 +28097,6 @@ United States,"Washington, D.C.",2020-03-06,0.0,0.0,0.0
 United States,"Washington, D.C.",2020-03-07,0.0,0.0,0.0
 United States,"Washington, D.C.",2020-03-08,2.0,0.0,0.0
 United States,"Washington, D.C.",2020-03-09,0.0,0.0,0.0
-United States,"Washington, D.C.",2020-03-10,-2.0,0.0,0.0
 United States,"Washington, D.C.",2020-03-11,0.0,0.0,0.0
 United States,"Washington, D.C.",2020-03-12,0.0,0.0,0.0
 United States,"Washington, D.C.",2020-03-13,0.0,0.0,0.0
@@ -27906,6 +28108,7 @@ United States,"Washington, D.C.",2020-03-18,0.0,0.0,0.0
 United States,"Washington, D.C.",2020-03-19,0.0,0.0,0.0
 United States,"Washington, D.C.",2020-03-20,0.0,0.0,0.0
 United States,"Washington, D.C.",2020-03-21,0.0,0.0,0.0
+United States,"Washoe County, NV",2020-01-22,0.0,0.0,0.0
 United States,"Washoe County, NV",2020-01-23,0.0,0.0,0.0
 United States,"Washoe County, NV",2020-01-24,0.0,0.0,0.0
 United States,"Washoe County, NV",2020-01-25,0.0,0.0,0.0
@@ -27953,7 +28156,6 @@ United States,"Washoe County, NV",2020-03-06,1.0,0.0,0.0
 United States,"Washoe County, NV",2020-03-07,0.0,0.0,0.0
 United States,"Washoe County, NV",2020-03-08,1.0,0.0,0.0
 United States,"Washoe County, NV",2020-03-09,0.0,0.0,0.0
-United States,"Washoe County, NV",2020-03-10,-2.0,0.0,0.0
 United States,"Washoe County, NV",2020-03-11,0.0,0.0,0.0
 United States,"Washoe County, NV",2020-03-12,0.0,0.0,0.0
 United States,"Washoe County, NV",2020-03-13,0.0,0.0,0.0
@@ -27965,6 +28167,7 @@ United States,"Washoe County, NV",2020-03-18,0.0,0.0,0.0
 United States,"Washoe County, NV",2020-03-19,0.0,0.0,0.0
 United States,"Washoe County, NV",2020-03-20,0.0,0.0,0.0
 United States,"Washoe County, NV",2020-03-21,0.0,0.0,0.0
+United States,"Wayne County, PA",2020-01-22,0.0,0.0,0.0
 United States,"Wayne County, PA",2020-01-23,0.0,0.0,0.0
 United States,"Wayne County, PA",2020-01-24,0.0,0.0,0.0
 United States,"Wayne County, PA",2020-01-25,0.0,0.0,0.0
@@ -28012,7 +28215,6 @@ United States,"Wayne County, PA",2020-03-06,1.0,0.0,0.0
 United States,"Wayne County, PA",2020-03-07,0.0,0.0,0.0
 United States,"Wayne County, PA",2020-03-08,0.0,0.0,0.0
 United States,"Wayne County, PA",2020-03-09,0.0,0.0,0.0
-United States,"Wayne County, PA",2020-03-10,-1.0,0.0,0.0
 United States,"Wayne County, PA",2020-03-11,0.0,0.0,0.0
 United States,"Wayne County, PA",2020-03-12,0.0,0.0,0.0
 United States,"Wayne County, PA",2020-03-13,0.0,0.0,0.0
@@ -28024,6 +28226,7 @@ United States,"Wayne County, PA",2020-03-18,0.0,0.0,0.0
 United States,"Wayne County, PA",2020-03-19,0.0,0.0,0.0
 United States,"Wayne County, PA",2020-03-20,0.0,0.0,0.0
 United States,"Wayne County, PA",2020-03-21,0.0,0.0,0.0
+United States,"Wayne, MI",2020-01-22,0.0,0.0,0.0
 United States,"Wayne, MI",2020-01-23,0.0,0.0,0.0
 United States,"Wayne, MI",2020-01-24,0.0,0.0,0.0
 United States,"Wayne, MI",2020-01-25,0.0,0.0,0.0
@@ -28083,6 +28286,7 @@ United States,"Wayne, MI",2020-03-18,0.0,0.0,0.0
 United States,"Wayne, MI",2020-03-19,0.0,0.0,0.0
 United States,"Wayne, MI",2020-03-20,0.0,0.0,0.0
 United States,"Wayne, MI",2020-03-21,0.0,0.0,0.0
+United States,"Weber, UT",2020-01-22,0.0,0.0,0.0
 United States,"Weber, UT",2020-01-23,0.0,0.0,0.0
 United States,"Weber, UT",2020-01-24,0.0,0.0,0.0
 United States,"Weber, UT",2020-01-25,0.0,0.0,0.0
@@ -28142,6 +28346,7 @@ United States,"Weber, UT",2020-03-18,0.0,0.0,0.0
 United States,"Weber, UT",2020-03-19,0.0,0.0,0.0
 United States,"Weber, UT",2020-03-20,0.0,0.0,0.0
 United States,"Weber, UT",2020-03-21,0.0,0.0,0.0
+United States,West Virginia,2020-01-22,0.0,0.0,0.0
 United States,West Virginia,2020-01-23,0.0,0.0,0.0
 United States,West Virginia,2020-01-24,0.0,0.0,0.0
 United States,West Virginia,2020-01-25,0.0,0.0,0.0
@@ -28248,7 +28453,6 @@ United States,"Westchester County, NY",2020-03-06,1.0,0.0,0.0
 United States,"Westchester County, NY",2020-03-07,38.0,0.0,0.0
 United States,"Westchester County, NY",2020-03-08,26.0,0.0,0.0
 United States,"Westchester County, NY",2020-03-09,15.0,0.0,0.0
-United States,"Westchester County, NY",2020-03-10,-98.0,0.0,0.0
 United States,"Westchester County, NY",2020-03-11,0.0,0.0,0.0
 United States,"Westchester County, NY",2020-03-12,0.0,0.0,0.0
 United States,"Westchester County, NY",2020-03-13,0.0,0.0,0.0
@@ -28260,6 +28464,7 @@ United States,"Westchester County, NY",2020-03-18,0.0,0.0,0.0
 United States,"Westchester County, NY",2020-03-19,0.0,0.0,0.0
 United States,"Westchester County, NY",2020-03-20,0.0,0.0,0.0
 United States,"Westchester County, NY",2020-03-21,0.0,0.0,0.0
+United States,"Whatcom, WA",2020-01-22,0.0,0.0,0.0
 United States,"Whatcom, WA",2020-01-23,0.0,0.0,0.0
 United States,"Whatcom, WA",2020-01-24,0.0,0.0,0.0
 United States,"Whatcom, WA",2020-01-25,0.0,0.0,0.0
@@ -28319,6 +28524,7 @@ United States,"Whatcom, WA",2020-03-18,0.0,0.0,0.0
 United States,"Whatcom, WA",2020-03-19,0.0,0.0,0.0
 United States,"Whatcom, WA",2020-03-20,0.0,0.0,0.0
 United States,"Whatcom, WA",2020-03-21,0.0,0.0,0.0
+United States,"Williamson County, TN",2020-01-22,0.0,0.0,0.0
 United States,"Williamson County, TN",2020-01-23,0.0,0.0,0.0
 United States,"Williamson County, TN",2020-01-24,0.0,0.0,0.0
 United States,"Williamson County, TN",2020-01-25,0.0,0.0,0.0
@@ -28366,7 +28572,6 @@ United States,"Williamson County, TN",2020-03-06,0.0,0.0,0.0
 United States,"Williamson County, TN",2020-03-07,0.0,0.0,0.0
 United States,"Williamson County, TN",2020-03-08,0.0,0.0,0.0
 United States,"Williamson County, TN",2020-03-09,0.0,0.0,0.0
-United States,"Williamson County, TN",2020-03-10,-1.0,0.0,0.0
 United States,"Williamson County, TN",2020-03-11,0.0,0.0,0.0
 United States,"Williamson County, TN",2020-03-12,0.0,0.0,0.0
 United States,"Williamson County, TN",2020-03-13,0.0,0.0,0.0
@@ -28378,6 +28583,7 @@ United States,"Williamson County, TN",2020-03-18,0.0,0.0,0.0
 United States,"Williamson County, TN",2020-03-19,0.0,0.0,0.0
 United States,"Williamson County, TN",2020-03-20,0.0,0.0,0.0
 United States,"Williamson County, TN",2020-03-21,0.0,0.0,0.0
+United States,Wisconsin,2020-01-22,0.0,0.0,0.0
 United States,Wisconsin,2020-01-23,0.0,0.0,0.0
 United States,Wisconsin,2020-01-24,0.0,0.0,0.0
 United States,Wisconsin,2020-01-25,0.0,0.0,0.0
@@ -28433,7 +28639,6 @@ United States,Wisconsin,2020-03-14,8.0,0.0,0.0
 United States,Wisconsin,2020-03-15,5.0,0.0,0.0
 United States,Wisconsin,2020-03-16,15.0,0.0,0.0
 United States,Wisconsin,2020-03-17,25.0,0.0,0.0
-United States,Wisconsin,2020-03-18,20.0,-1.0,0.0
 United States,Wisconsin,2020-03-19,67.0,0.0,0.0
 United States,Wisconsin,2020-03-20,48.0,0.0,3.0
 United States,Wisconsin,2020-03-21,75.0,0.0,1.0
@@ -28496,6 +28701,7 @@ United States,"Worcester, MA",2020-03-18,0.0,0.0,0.0
 United States,"Worcester, MA",2020-03-19,0.0,0.0,0.0
 United States,"Worcester, MA",2020-03-20,0.0,0.0,0.0
 United States,"Worcester, MA",2020-03-21,0.0,0.0,0.0
+United States,Wyoming,2020-01-22,0.0,0.0,0.0
 United States,Wyoming,2020-01-23,0.0,0.0,0.0
 United States,Wyoming,2020-01-24,0.0,0.0,0.0
 United States,Wyoming,2020-01-25,0.0,0.0,0.0
@@ -28602,7 +28808,6 @@ United States,"Yolo County, CA",2020-03-06,1.0,0.0,0.0
 United States,"Yolo County, CA",2020-03-07,0.0,0.0,0.0
 United States,"Yolo County, CA",2020-03-08,0.0,0.0,0.0
 United States,"Yolo County, CA",2020-03-09,0.0,0.0,0.0
-United States,"Yolo County, CA",2020-03-10,-1.0,0.0,0.0
 United States,"Yolo County, CA",2020-03-11,0.0,0.0,0.0
 United States,"Yolo County, CA",2020-03-12,0.0,0.0,0.0
 United States,"Yolo County, CA",2020-03-13,0.0,0.0,0.0
@@ -28614,6 +28819,7 @@ United States,"Yolo County, CA",2020-03-18,0.0,0.0,0.0
 United States,"Yolo County, CA",2020-03-19,0.0,0.0,0.0
 United States,"Yolo County, CA",2020-03-20,0.0,0.0,0.0
 United States,"Yolo County, CA",2020-03-21,0.0,0.0,0.0
+Uruguay,Total,2020-01-22,0.0,0.0,0.0
 Uruguay,Total,2020-01-23,0.0,0.0,0.0
 Uruguay,Total,2020-01-24,0.0,0.0,0.0
 Uruguay,Total,2020-01-25,0.0,0.0,0.0
@@ -28968,7 +29174,8 @@ Zimbabwe,Total,2020-03-18,0.0,0.0,0.0
 Zimbabwe,Total,2020-03-19,0.0,0.0,0.0
 Zimbabwe,Total,2020-03-20,1.0,0.0,0.0
 Zimbabwe,Total,2020-03-21,2.0,0.0,0.0
-World,Total,2020-01-23,98.0,2.0,1.0
+World,Total,2020-01-22,548.0,27.0,17.0
+World,Total,2020-01-23,99.0,2.0,1.0
 World,Total,2020-01-24,288.0,6.0,8.0
 World,Total,2020-01-25,493.0,3.0,16.0
 World,Total,2020-01-26,684.0,13.0,14.0
@@ -28983,7 +29190,7 @@ World,Total,2020-02-03,3094.0,151.0,64.0
 World,Total,2020-02-04,4011.0,229.0,66.0
 World,Total,2020-02-05,3743.0,272.0,72.0
 World,Total,2020-02-06,3182.0,363.0,70.0
-World,Total,2020-02-07,3574.0,524.0,85.0
+World,Total,2020-02-07,3594.0,524.0,85.0
 World,Total,2020-02-08,2729.0,605.0,87.0
 World,Total,2020-02-09,3030.0,628.0,100.0
 World,Total,2020-02-10,2612.0,702.0,107.0
@@ -28999,8 +29206,8 @@ World,Total,2020-02-19,503.0,1769.0,115.0
 World,Total,2020-02-20,558.0,2056.0,125.0
 World,Total,2020-02-21,626.0,713.0,4.0
 World,Total,2020-02-22,1756.0,3996.0,207.0
-World,Total,2020-02-23,386.0,508.0,11.0
-World,Total,2020-02-24,603.0,1833.0,160.0
+World,Total,2020-02-23,329.0,509.0,10.0
+World,Total,2020-02-24,529.0,1834.0,156.0
 World,Total,2020-02-25,845.0,2678.0,79.0
 World,Total,2020-02-26,982.0,2479.0,62.0
 World,Total,2020-02-27,1359.0,2893.0,44.0
@@ -29011,19 +29218,19 @@ World,Total,2020-03-02,1937.0,2886.0,89.0
 World,Total,2020-03-03,2534.0,2626.0,75.0
 World,Total,2020-03-04,2280.0,2942.0,94.0
 World,Total,2020-03-05,2762.0,2626.0,94.0
-World,Total,2020-03-06,3902.0,2069.0,112.0
+World,Total,2020-03-06,3912.0,2039.0,112.0
 World,Total,2020-03-07,4037.0,2493.0,98.0
-World,Total,2020-03-08,3974.0,2336.0,244.0
+World,Total,2020-03-08,3701.0,2353.0,238.0
 World,Total,2020-03-09,3766.0,1800.0,186.0
 World,Total,2020-03-10,5031.0,1910.0,274.0
 World,Total,2020-03-11,7273.0,2599.0,353.0
 World,Total,2020-03-12,2478.0,1321.0,105.0
-World,Total,2020-03-13,16850.0,1927.0,684.0
+World,Total,2020-03-13,16856.0,1919.0,684.0
 World,Total,2020-03-14,10901.0,2373.0,415.0
-World,Total,2020-03-15,11352.0,3410.0,621.0
-World,Total,2020-03-16,14081.0,2054.0,686.0
-World,Total,2020-03-17,15615.0,2752.0,779.0
-World,Total,2020-03-18,17768.0,2367.0,828.0
-World,Total,2020-03-19,27798.0,1647.0,1134.0
-World,Total,2020-03-20,29458.0,2402.0,1432.0
-World,Total,2020-03-21,32358.0,4243.0,1674.0
+World,Total,2020-03-15,11351.0,3416.0,621.0
+World,Total,2020-03-16,14105.0,2036.0,686.0
+World,Total,2020-03-17,15301.0,2757.0,779.0
+World,Total,2020-03-18,16407.0,2384.0,818.0
+World,Total,2020-03-19,27679.0,1656.0,1136.0
+World,Total,2020-03-20,28917.0,2432.0,1417.0
+World,Total,2020-03-21,32264.0,4242.0,1678.0

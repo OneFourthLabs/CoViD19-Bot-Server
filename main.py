@@ -29,8 +29,6 @@ stats_data['Date'] = stats_data['Date'].apply(lambda x: x[0:10])
 stats_data['Date'] = pd.to_datetime(stats_data['Date'], infer_datetime_format=True)  
 max_date = stats_data['Date'].max()
 
-print(max_date)
-
 failure_messages = ["Sorry I could not understand you", "I am sorry, I did not follow", "Can you please rephrase that"]
 
 stats_error_messages = ["I could not find the numbers for that query"]
@@ -55,7 +53,6 @@ def get_stats(intent, entities):
   yesterday = datetime.datetime.today() - datetime.timedelta(days=1)
 
   date = entities['date-time']
-  print(date, type(date))
   if type(date) == str:
     if len(date) == 0: # if no date is specified assume that the total is being asked
       start_date = read_date('2020-01-20')
@@ -85,6 +82,7 @@ def get_stats(intent, entities):
     case_type = 'Confirmed'
     str_case_type = 'total cases recorded'
 
+  # do the filtering
   if not state == 'Total':
     stats_data_sel = stats_data[(stats_data['State'] == state) & (stats_data['Date'] >= start_date) & (stats_data['Date'] <= end_date)]
     if not stats_data_sel.empty:
@@ -92,6 +90,7 @@ def get_stats(intent, entities):
   else:
     stats_data_sel = stats_data[(stats_data['Country'] == country) & (stats_data['State'] == state) & (stats_data['Date'] >= start_date) & (stats_data['Date'] <= end_date)]
     str_location = ' the world' if country == 'World' else country
+  print(stats_data_sel.shape)
 
   if stats_data_sel.empty:
     response = {
@@ -114,7 +113,6 @@ def get_stats(intent, entities):
       "Response_Type": "Error:EntitiesNotFound",
       "Answer": warning_txt + 'In ' + str_location + ', there were ' + ret_val + ' ' + str_case_type + date_str
   }
-  print(response["Answer"])
   return response
 
 def find_answer(intent, entities):
