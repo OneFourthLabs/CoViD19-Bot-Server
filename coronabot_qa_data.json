@@ -1223,10 +1223,11 @@
         "Audio_Link": "",
 
         "Suggestions": [
-            "Does it spread from dogs ?"
+            ""
         ]
         
     },
+    
     
        {
         "Intent": "does-disease-spread-through-transmission_medium",
@@ -1334,6 +1335,28 @@
 
         "Suggestions": [
             "Can a infected person spread it to others ?"
+        ]
+        
+    },
+    
+    {
+        "Intent": "does-disease-spread-through-transmission_medium",
+        "Entities": {
+                "tranmission_organisms": "pets"
+        },
+
+        "Sample_Question": "Does it spread from dogs ?",
+        "Answer_Title": "Spread",
+        "Answer": "There have not been any reports of companion animals becoming sick with COVID-19. Because this is a new virus, experts recommend good hygiene when handling or caring for your pets. Wash your hands before and after interacting with animals, and avoid kissing them or letting them lick you or share your food. People ill with COVID-19 should let someone else take care of their animals. If this isn’t possible, patients should wear a mask while looking after their pet",
+        "Source": "https://www.hopkinsmedicine.org/health/conditions-and-diseases/coronavirus/coronavirus-frequently-asked-questions",
+        "Reference": "",
+
+        "Image_URL": "",
+        "Response_Type": "Card",
+        "Audio_Link": "",
+
+        "Suggestions": [
+            ""
         ]
         
     },
