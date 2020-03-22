@@ -1275,7 +1275,7 @@
        {
         "Intent": "does-disease-spread-through-transmission_medium",
         "Entities": {
-                "": ""
+                "human_conditions": "cured"
         },
 
         "Sample_Question": "Can a recovered person spread it to others ?",
