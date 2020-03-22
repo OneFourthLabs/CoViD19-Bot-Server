@@ -624,7 +624,7 @@
         },
 
         "Sample_Question": "How long should I stay in isolation after getting infected",
-        "Answer_Title": "Showing Symptoms",
+        "Answer_Title": "Isolation period",
         "Answer": "The vast majority of people with coronavirus survive. But they might face a lengthy recovery. According to WHO, It takes anything up to six weeks to recover from this disease. People who suffer very severe illness can take months to recover from the illness. Recovery is often marked by a patient no longer showing symptoms and having two consecutive negative tests at least one day apart, Ryan said. But there is no known cure for the novel coronavirus.",
         "Source": "https://edition.cnn.com/interactive/2020/health/coronavirus-questions-answers/",
         "Reference": "https://www.cdc.gov/coronavirus/2019-ncov/symptoms-testing/symptoms.html",
@@ -861,12 +861,12 @@
         },
 
         "Sample_Question": "How long does the virus survive on glass",
-        "Answer_Title": "Survival on Paper",
+        "Answer_Title": "Survival on Glass",
         "Answer": "A report by the Quartz which cites experts on the subject who claim the virus can live on your smartphone’s screen for up to 96-hours and thereby pose a risk to not just your health, but even spread on to any surface it touches in the duration of its existence on your smartphone’s screen.",
         "Source": "https://www.indiatoday.in/technology/features/story/-dirty-phones-can-spread-coronavirus-so-clean-it-well-and-clean-it-using-these-methods-1655403-2020-03-14",
         "Reference": "https://www.indiatoday.in/technology/features/story/-dirty-phones-can-spread-coronavirus-so-clean-it-well-and-clean-it-using-these-methods-1655403-2020-03-14",
 
-        "Image_URL": "",
+        "Image_URL": "https://i.insider.com/59b84da69803c51e008b51bc?width=1100&format=jpeg&auto=webp",
         "Response_Type": "Card",
         "Audio_Link": "",
 
@@ -888,7 +888,7 @@
         "Source": "https://www.kiro7.com/news/trending/coronavirus-does-warm-weather-slow-spread-virus-maybe/UZQ4XTXWMRHVTLGN5WN5O6OL4U/",
         "Reference": "https://www.who.int/emergencies/diseases/novel-coronavirus-2019/advice-for-public/myth-busters",
 
-        "Image_URL": "",
+        "Image_URL": "https://cdn.images.express.co.uk/img/dynamic/11/750x445/1258327.jpg",
         "Response_Type": "Card",
         "Audio_Link": "",
 
