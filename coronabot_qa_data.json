@@ -1427,5 +1427,304 @@
         
     },
     
+    {
+        "Intent": "difference-between-scientific_term_1-and-scientific_term_2",
+        "Entities": {
+            "scientific_term":"pandemic",
+            "scientific_term": "epidemic" 
+        },
+        "Sample_Question": "What is the difference between a pandemic and epidemic ?",
+        "Answer_Title": "Comparison",
+        "Answer": "According to the WHO, a pandemic is the worldwide spread of a new disease. 'A pandemic is when an epidemic spreads between countries'.\nThere are some other closely related terms that might be helpful :\nSporadic: When a disease occurs infrequently and irregularly.\nEndemic: A constant presence and/or usual prevalence of a disease or infection within a geographic area. (Hyperendemic is a situation in which there are persistent, high levels of disease occurrence.)\nEpidemic: A sudden increase in the number of cases of a disease—more than what's typically expected for the population in that area.\nPandemic: An epidemic that has spread over several countries or continents, affecting a large number of people.continents, affecting a large number of people.",
+        "Source": "https://www.health.com/condition/infectious-diseases/epidemic-vs-pandemic",
+        "Reference": "https://www.health.com/condition/infectious-diseases/epidemic-vs-pandemic",
+        "Image_URL": "https://fontmeme.com/images/WHO-logo-font.png",
+        "Response_Type": "Card",
+        "Audio_Link": "",
+        "Suggestions": ["What is the key distinction between SARS and MERS ?"]
+    },
+    {
+        "Intent": "difference-between-scientific_term_1-and-scientific_term_2",
+        "Entities": {
+            "disease": "Coronavirus",
+            "disease":"SARS"
+        },
+        "Sample_Question": "How is covid19 different from SARS",
+        "Answer_Title": "Comparison",
+        "Answer": "Both COVID-19 and SARS belong to the corona group of viruses. SARS coronavirus (SARS-CoV) – virus was identified in 2003 and caused Severe Acute respiratory Syndrome. COVID-19 the disease is caused by the virus SARS-CoV-2. \nViruses, and the diseases they cause, often have different names.  For example, HIV is the virus that causes AIDS.  People often know the name of a disease, such as measles, but not the name of the virus that causes it (rubeola).\n\nThere are different processes, and purposes, for naming viruses and diseases.\n\nViruses are named based on their genetic structure to facilitate the development of diagnostic tests, vaccines and medicines. Virologists and the wider scientific community do this work, so viruses are named by the International Committee on Taxonomy of Viruses (ICTV).",
+        "Source": "https://www.who.int/ith/diseases/sars/en/",
+        "Reference": "https://www.who.int/ith/diseases/sars/en/",
+        "Image_URL": "https://wpcdn.us-east-1.vip.tn-cloud.net/www.abc6.com/content/uploads/2020/03/coronavirus.png",
+        "Response_Type": "Card",
+        "Audio_Link": "",
+        "Suggestions": ["How to you differentiate between novel coronavirus and SARS ?"]
+    },
+    {
+        "Intent": "difference-between-scientific_term_1-and-scientific_term_2",
+        "Entities": {
+            "scientific_term": "virus",
+            "disease":"bacteria" 
+        },
+        "Sample_Question": "Can you tell me in what ways is a virus different from a bacteria",
+        "Answer_Title": "Comparison",
+        "Answer": "Bacteria are single-celled microorganisms that thrive in many different types of environments. Some varieties live in extremes of cold or heat. Others make their home in people's intestines, where they help digest food. Most bacteria cause no harm to people, but there are exceptions.\nInfections caused by bacteria include:\nStrep throat\nTuberculosis\nUrinary tract infections\nInappropriate use of antibiotics has helped create bacterial diseases that are resistant to treatment with different types of antibiotic medications.\nViruses are even smaller than bacteria and require living hosts — such as people, plants or animals — to multiply. Otherwise, they can't survive. When a virus enters your body, it invades some of your cells and takes over the cell machinery, redirecting it to produce the virus.\nDiseases caused by viruses include:\nChickenpox\nAIDS\nCommon colds\nIn some cases, it may be difficult to determine whether a bacterium or a virus is causing your symptoms. Many ailments — such as pneumonia, meningitis and diarrhea — can be caused by either bacteria or viruses.",
+        "Source": "https://www.mayoclinic.org/diseases-conditions/infectious-diseases/expert-answers/infectious-disease/faq-20058098",
+        "Reference": "https://www.cdc.gov/antibiotic-use/community/pdfs/Viruses-or-Bacteria-Factsheet-Eng.pdf",
+        "Image_URL": "https://i.pinimg.com/originals/d8/82/7c/d8827c4794cce378c9151687f2a852b5.png",
+        "Response_Type": "Card",
+        "Audio_Link": "",
+        "Suggestions": [
+        
+        ]
+        
+    },
+    {
+        "Intent": "difference-between-scientific_term_1-and-scientific_term_2",
+        "Entities": {"number": "2","disease":"SARS","disease":"MERS"},
+        "Sample_Question": "Are SARS and MERS two different things",
+        "Answer_Title": "Comparison",
+        "Answer": "MERS-CoV is a viral respiratory disease that was first reported in Saudi Arabia in 2012 and has since spread to more than 27 other countries, according to the World Health Organization. Some people infected with MERS-CoV develop severe acute respiratory illness, including fever, cough, and shortness of breath. From its emergence through December 2019, WHO has confirmed 2,499 MERS cases and 861 deaths (or about 1 in 3). Among all reported cases in people, about 80% have occurred in Saudi Arabia. Only two patients in the United States have tested positive for MERS-CoV, both of whom recovered. They were healthcare providers who lived in Saudi Arabia, where they likely were infected before traveling to the U.S., according to the Centers for Disease Control and Prevention. \n\nInfection with SARS-CoV can cause a severe viral respiratory illness. SARS was first reported in Asia in February 2003, though cases subsequently were tracked to late 2002. SARS quickly spread to about two dozen countries before being contained after about four months. Since 2004, there have been no known SARS cases. ",
+        "Source": "https://www.niaid.nih.gov/diseases-conditions/covid-19",
+        "Reference": "https://www.niaid.nih.gov/diseases-conditions/covid-19",
+        "Image_URL": "https://3.bp.blogspot.com/-JVYM-TQUF8U/U1bkz8YGewI/AAAAAAAAAGg/WUwVm4TH64o/w1200-h630-p-k-no-nu/Blog+220414.001.jpg",
+        "Response_Type": "Card",
+        "Audio_Link": "",
+        "Suggestions": ["How to you differentiate between novel coronavirus and SARS ?"]
+    },
+    {
+        "Intent": "difference-between-scientific_term_1-and-scientific_term_2",
+        "Entities": {
+            "scientific_term": "isolation",
+            "scientific_term":"quarantine"
+        },
+        "Sample_Question": "How to decide between self isolation and quarantine",
+        "Answer_Title": "Decision",
+        "Answer": "Isolation is used to separate ill persons who have a communicable disease from those who are healthy. Isolation restricts the movement of ill persons to help stop the spread of certain diseases. For example, hospitals use isolation for patients with infectious tuberculosis.\n\nQuarantine is used to separate and restrict the movement of well persons who may have been exposed to a communicable disease to see if they become ill. These people may have been exposed to a disease and do not know it, or they may have the disease but do not show symptoms. Quarantine can also help limit the spread of communicable disease.\"",
+        "Source": "https://www.hhs.gov/answers/public-health-and-safety/what-is-the-difference-between-isolation-and-quarantine/index.html",
+        "Reference": "https://www.dictionary.com/e/quarantine-vs-isolation/",
+        "Image_URL": "https://www.ft.com/__origami/service/image/v2/images/raw/http://prod-upp-image-read.ft.com/4e45d53a-5f1b-11ea-ac5e-df00963c20e6?source=next&fit=scale-down&quality=highest&width=1067",
+        "Response_Type": "Card",
+        "Audio_Link": "",
+        "Suggestions": []
+    },
+    {
+        "Intent": "difference-between-scientific_term_1-and-scientific_term_2",
+        "Entities": {
+            "disease": "Coronavirus",
+            "disease":"SARS"
+        },
+        "Sample_Question": "How to you differentiate between novel coronavirus and SARS",
+        "Answer_Title": "Comparison",
+        "Answer": "Both COVID-19 and SARS belong to the corona group of viruses. SARS coronavirus (SARS-CoV) – virus was identified in 2003 and caused Severe Acute respiratory Syndrome. COVID-19 the disease is caused by the virus SARS-CoV-2. \nViruses, and the diseases they cause, often have different names.  For example, HIV is the virus that causes AIDS.  People often know the name of a disease, such as measles, but not the name of the virus that causes it (rubeola). There are different processes, and purposes, for naming viruses and diseases.\n\nViruses are named based on their genetic structure to facilitate the development of diagnostic tests, vaccines and medicines. Virologists and the wider scientific community do this work, so viruses are named by the International Committee on Taxonomy of Viruses (ICTV).",
+        "Source": "https://www.who.int/ith/diseases/sars/en",
+        "Reference": "https://www.who.int/ith/diseases/sars/en/",
+        "Image_URL": "https://wpcdn.us-east-1.vip.tn-cloud.net/www.abc6.com/content/uploads/2020/03/coronavirus.png",
+        "Response_Type": "Card",
+        "Audio_Link": "",
+        "Suggestions": ["What is the key distinction between SARS and MERS ?"]
+    },
+    {
+        "Intent": "difference-between-scientific_term_1-and-scientific_term_2",
+        "Entities": {
+            "disease": "SARS",
+            "disease":"MERS"
+        },
+        "Sample_Question": "What is the key distinction between SARS and MERS",
+        "Answer_Title": "Comparison",
+        "Answer": "MERS-CoV is a viral respiratory disease that was first reported in Saudi Arabia in 2012 and has since spread to more than 27 other countries, according to the World Health Organization. Some people infected with MERS-CoV develop severe acute respiratory illness, including fever, cough, and shortness of breath. From its emergence through December 2019, WHO has confirmed 2,499 MERS cases and 861 deaths (or about 1 in 3). Among all reported cases in people, about 80% have occurred in Saudi Arabia. Only two patients in the United States have tested positive for MERS-CoV, both of whom recovered. They were healthcare providers who lived in Saudi Arabia, where they likely were infected before traveling to the U.S., according to the Centers for Disease Control and Prevention. \n\nInfection with SARS-CoV can cause a severe viral respiratory illness. SARS was first reported in Asia in February 2003, though cases subsequently were tracked to late 2002. SARS quickly spread to about two dozen countries before being contained after about four months. Since 2004, there have been no known SARS cases.",
+        "Source": "https://www.niaid.nih.gov/diseases-conditions/covid-19",
+        "Reference": "https://www.niaid.nih.gov/diseases-conditions/covid-19",
+        "Image_URL": "https://3.bp.blogspot.com/-JVYM-TQUF8U/U1bkz8YGewI/AAAAAAAAAGg/WUwVm4TH64o/w1200-h630-p-k-no-nu/Blog+220414.001.jpg",
+        "Response_Type": "Card",
+        "Audio_Link": "",
+        "Suggestions": ["How to you differentiate between novel coronavirus and SARS ?"]
+    },
+    {
+        "Intent": "difference-between-scientific_term_1-and-scientific_term_2",
+        "Entities": {
+            "disease": "Coronavirus"
+            ,"disease":"SARS"
+        },
+        "Sample_Question": "What distinguishes SARS from coronavirus",
+        "Answer_Title": "Comparison",
+        "Answer": "Both COVID-19 and SARS belong to the corona group of viruses. SARS coronavirus (SARS-CoV) – virus was identified in 2003 and caused Severe Acute respiratory Syndrome. COVID-19 the disease is caused by the virus SARS-CoV-2. Viruses, and the diseases they cause, often have different names.  For example, HIV is the virus that causes AIDS.  People often know the name of a disease, such as measles, but not the name of the virus that causes it (rubeola). There are different processes, and purposes, for naming viruses and diseases.\n\nViruses are named based on their genetic structure to facilitate the development of diagnostic tests, vaccines and medicines. Virologists and the wider scientific community do this work, so viruses are named by the International Committee on Taxonomy of Viruses (ICTV).",
+        "Source": "https://www.who.int/ith/diseases/sars/en",
+        "Reference": "https://www.who.int/ith/diseases/sars/en/",
+        "Image_URL": "https://wpcdn.us-east-1.vip.tn-cloud.net/www.abc6.com/content/uploads/2020/03/coronavirus.png",
+        "Response_Type": "Card",
+        "Audio_Link": "",
+        "Suggestions": ["What is the key distinction between SARS and MERS ?"]
+    },
+    {
+        "Intent": "difference-between-scientific_term_1-and-scientific_term_2",
+        "Entities": {
+            "scientific_term":"pandemic",
+            "scientific_term": "epidemic"
+        },
+        "Sample_Question": "What is the key difference between pandemic and epidemic",
+        "Answer_Title": "Comparison",
+        "Answer": "According to the WHO, a pandemic is the worldwide spread of a new disease. 'A pandemic is when an epidemic spreads between countries'. There are some other closely related terms that might be helpful :Sporadic: When a disease occurs infrequently and irregularly. Endemic: A constant presence and/or usual prevalence of a disease or infection within a geographic area. (Hyperendemic is a situation in which there are persistent, high levels of disease occurrence.) Epidemic: A sudden increase in the number of cases of a disease—more than what's typically expected for the population in that area. Pandemic: An epidemic that has spread over several countries or continents, affecting a large number of people.continents, affecting a large number of people.",
+        "Source": "https://www.health.com/condition/infectious-diseases/epidemic-vs-pandemic",
+        "Reference": "https://www.health.com/condition/infectious-diseases/epidemic-vs-pandemic",
+        "Image_URL": "https://fontmeme.com/images/WHO-logo-font.png",
+        "Response_Type": "Card",
+        "Audio_Link": "",
+        "Suggestions": ["What is the key distinction between SARS and MERS ?"]
+    },
+    {
+        "Intent": "difference-between-scientific_term_1-and-scientific_term_2",
+        "Entities": {
+            "disease": "SARS",
+            "disease":"MERS"
+        },
+        "Sample_Question": "What is the main difference between SARS and MERS",
+        "Answer_Title": "Comparison",
+        "Answer": "MERS-CoV is a viral respiratory disease that was first reported in Saudi Arabia in 2012 and has since spread to more than 27 other countries, according to the World Health Organization. Some people infected with MERS-CoV develop severe acute respiratory illness, including fever, cough, and shortness of breath. From its emergence through December 2019, WHO has confirmed 2,499 MERS cases and 861 deaths (or about 1 in 3). Among all reported cases in people, about 80% have occurred in Saudi Arabia. Only two patients in the United States have tested positive for MERS-CoV, both of whom recovered. They were healthcare providers who lived in Saudi Arabia, where they likely were infected before traveling to the U.S., according to the Centers for Disease Control and Prevention. Infection with SARS-CoV can cause a severe viral respiratory illness. SARS was first reported in Asia in February 2003, though cases subsequently were tracked to late 2002. SARS quickly spread to about two dozen countries before being contained after about four months. Since 2004, there have been no known SARS cases.",
+        "Source": "https://www.niaid.nih.gov/diseases-conditions/covid-19",
+        "Reference": "https://www.niaid.nih.gov/diseases-conditions/covid-19",
+        "Image_URL": "https://3.bp.blogspot.com/-JVYM-TQUF8U/U1bkz8YGewI/AAAAAAAAAGg/WUwVm4TH64o/w1200-h630-p-k-no-nu/Blog+220414.001.jpg",
+        "Response_Type": "Card",
+        "Audio_Link": "",
+        "Suggestions": ["How to you differentiate between novel coronavirus and SARS ?"]
+    },
+    {
+        "Intent": "what_is_phase_of_disease",
+        "Entities": {
+            "phases_of_disease": "treatment"
+        },
+        "Sample_Question": "What treatments can I expect?",
+        "Answer_Title": "Treatments",
+        "Answer": "Not all diseases that follow a SARS-CoV-2 infection take a serious course and require treatment. Even in most of the cases reported from China, disease progression was mild.  Treatment of the infection depends on the severity of the disease presentation (e.g administering oxygen, maintaining fluid balance, if necessary administering antibiotics to combat bacterial co-infections) and also includes the treatment of relevant underlying chronic illnesses. A specific treatment, in other words, one that is directed at the new coronavirus itself, is currently not yet available.",
+        "Source": "https://www.bundesgesundheitsministerium.de/en/press/2020/coronavirus.html",
+        "Reference": "https://www.bundesgesundheitsministerium.de/en/press/2020/coronavirus.html",
+        "Image_URL": "https://www.aljazeera.com/mritems/imagecache/mbdxxlarge/mritems/Images/2020/3/2/602a9359493248638608c4c7382eca0a_18.jpg",
+        "Response_Type": "Card",
+        "Audio_Link": "",
+        "Suggestions": ["How to decide between self isolation and quarantine ?"]
+    },
+    {
+        "Intent": "what_is_phase_of_disease",
+        "Entities": {
+            "phases_of_disease": "showing symptoms",
+            "disease": "Coronavirus"
+        },
+        "Sample_Question": "What are the clinical manifestations of coronavirus?",
+        "Answer_Title": "Symptoms",
+        "Answer": "The onset of COVID-19 is mainly manifested as fever, but some early patients may not have fever, with only chills and respiratory symptoms, which can occur together with mild dry cough, fatigue, poor breathing, diarrhea etc. However, runny nose, sputum and other symptoms are rare. Patients may gradually develop dyspnea. In severe cases, the disease can progress rapidly, causing acute respiratory distress syndrome, septic shock, irreversible metabolic acidosis, and coagulation disorders in just a matter of days. Some patients start out with mild symptoms without fever. The majority of patients have a good prognosis, while a few become critically and sometimes fatally ill.",
+        "Source": "https://www.amazon.com/Coronavirus-Prevention-Handbook-Science-Based-Could-ebook/dp/B085DKMXGY",
+        "Reference": "https://www.cdc.gov/coronavirus/2019-ncov/symptoms-testing/symptoms.html",
+        "Image_URL": "https://wpcdn.us-east-1.vip.tn-cloud.net/www.abc6.com/content/uploads/2020/03/coronavirus.png",
+        "Response_Type": "Card",
+        "Audio_Link": "",
+        "Suggestions": ["What treatments can I expect ?"]
+    },
+    {
+        "Intent": "what_is_phase_of_disease",
+        "Entities": {"medical_procedure": "tested","disease": "Coronavirus"},
+        "Sample_Question": "How to confirm COVID-19 cases?",
+        "Answer_Title": "COVID-19",
+        "Answer": "Once a case is identified as a suspected case, a positive result for 2019-nCoV nucleic acid on rRT-PCR testing of specimens (sputum, throat swabs, lower respiratory tract secretions etc.) or highly homologous sequences to the known novel coronavirus found after gene sequencing of the virus from a patient can confirm the diagnosis.",
+        "Source": "https://www.amazon.com/Coronavirus-Prevention-Handbook-Science-Based-Could-ebook/dp/B085DKMXGY",
+        "Reference": "https://www.cdc.gov/coronavirus/2019-ncov/symptoms-testing/testing.html",
+        "Image_URL": "https://wpcdn.us-east-1.vip.tn-cloud.net/www.abc6.com/content/uploads/2020/03/coronavirus.png",
+        "Response_Type": "Card",
+        "Audio_Link": "",
+        "Suggestions": ["What treatments can I expect ?"]
+    },
+    {
+        "Intent": "difference-between-scientific_term_1-and-scientific_term_2",
+        "Entities": {"disease": "Coronavirus","disease":"Pneumonia"},
+        "Sample_Question": "What is the difference between Coronavirus and other pneumonia?",
+        "Answer_Title": "Difference",
+        "Answer": "(1) Bacterial pneumonia. Common symptoms include coughing, coughing up sputum, or nexacerbation of the original respiratory symptoms, with purulent or bloody sputum, with or without chest pain. It is generally not considered a contagious disease. (2) SARS/MERS. Although the novel coronavirus is in the same family as SARS and MERS coronaviruses, a genetic evolution analysis shows that it belongs to a different branch of the same subgroup. It is neither a SARS nor a MERS virus, based on the viral genomic sequences. Due to the similarities between COVID-19-and SARS/MERS-caused pneumonia, it is challenging to distinguish them with clinical manifestations and imaging results. Therefore, a pathogen identification test by rRT- PCR is needed. (3) Other viral pneumonia. Pneumonia caused by influenza virus, rhinovirus, adenovirus, human metapneumovirus, respiratory syncytial virus and other coronaviruses.",
+        "Source": "https://www.amazon.com/Coronavirus-Prevention-Handbook-Science-Based-Could-ebook/dp/B085DKMXGY",
+        "Reference": "https://www.consumerreports.org/coronavirus/understanding-pneumonia-a-dangerous-coronavirus-complication/",
+        "Image_URL": "https://wpcdn.us-east-1.vip.tn-cloud.net/www.abc6.com/content/uploads/2020/03/coronavirus.png",
+        "Response_Type": "Card",
+        "Audio_Link": "",
+        "Suggestions": ["How to confirm COVID-19 cases?"]
+    },
+    {
+        "Intent": "what_to_do",
+        "Entities": {
+            "disease": "Coronavirus",
+            "healthcare":"treatment centres"
+        },
+        "Sample_Question": "How to choose a medical institution for treatment of coronavirus ?",
+        "Answer_Title": "Actions",
+        "Answer": "Isolation and treatment should be performed in a hospital with proper conditions for isolation and protection. Critical cases should be admitted to an ICU as soon as possible.",
+        "Source": "https://www.amazon.com/Coronavirus-Prevention-Handbook-Science-Based-Could-ebook/dp/B085DKMXGY",
+        "Reference": "https://www.amazon.com/Coronavirus-Prevention-Handbook-Science-Based-Could-ebook/dp/B085DKMXGY",
+        "Image_URL": "https://wpcdn.us-east-1.vip.tn-cloud.net/www.abc6.com/content/uploads/2020/03/coronavirus.png",
+        "Response_Type": "Card",
+        "Audio_Link": "",
+        "Suggestions": ["What treatments can I expect ?"]
+    },
+    {
+        "Intent": "what-is-scientific_term-or-disease",
+        "Entities": {
+            "scientific_term": "outbreak",
+            "aggregation_type":"before"
+        },
+        "Sample_Question": "Have there been similar outbreaks in the past?",
+        "Answer_Title": "Outbreaks in past",
+        "Answer": "This new virus is a pathogen belonging to the coronavirus family, which is the same family as SARS (severe acute respiratory syndrome) and MERS-CoV (Middle East respiratory syndrome coronavirus). In 2003, Germany recorded a small number of SARS cases. The disease did not spread further within Germany.",
+        "Source": "https://www.bundesgesundheitsministerium.de/en/press/2020/coronavirus.html",
+        "Reference": "https://www.amazon.com/Coronavirus-Prevention-Handbook-Science-Based-Could-ebook/dp/B085DKMXGY",
+        "Image_URL": "https://wpcdn.us-east-1.vip.tn-cloud.net/www.abc6.com/content/uploads/2020/03/coronavirus.png",
+        "Response_Type": "Card",
+        "Audio_Link": "",
+        "Suggestions": ["What is the difference between a pandemic and epidemic ?"]
+    },
+    {
+        "Intent": "what-is-scientific_term-or-disease",
+        "Entities": {
+            "disease": "Coronavirus",
+            "healthcare":"vaccine"
+        },
+        "Sample_Question": "Are there any drugs or vaccines against COVID-19?",
+        "Answer_Title": "Treatments",
+        "Answer": "Currently there is no specific antiviral treatment for COVID-19. However, similar to treatment of any viral infection, these measures can help: While you don't need to stay in bed, you should get plenty of rest. Stay well hydrated. Take acetaminophen, ibuprofen, or naproxen to reduce fever and ease aches and pains. Be sure to follow directions. If you are taking any combination cold or flu medicine, keep track of all the ingredients and the doses. Even vaccines against pneumonia, such as pneumococcal vaccine and Haemophilus influenza type B (Hib) vaccine, do not protect against coronavirus, which is a newly discovered virus with no vaccine or cure to date.",
+        "Source": "https://www.health.harvard.edu/diseases-and-conditions/coronavirus-resource-center#Sick",
+        "Reference": "https://www.amazon.com/Coronavirus-Prevention-Handbook-Science-Based-Could-ebook/dp/B085DKMXGY",
+        "Image_URL": "https://wpcdn.us-east-1.vip.tn-cloud.net/www.abc6.com/content/uploads/2020/03/coronavirus.png",
+        "Response_Type": "Card",
+        "Audio_Link": "",
+        "Suggestions": ["What treatments can I expect ?"]
+    },
+    {
+        "Intent": "how-is-medical-procedure-done",
+        "Entities": {
+            "phases_of_disease": "quarantine",
+            "human_conditions": "cured"
+        },
+        "Sample_Question": "When can I be discharged from quarantine?",
+        "Answer_Title": "Recovery",
+        "Answer": "Patients can be discharged if the following conditions are met (1) The condition of the patient is stable and fever has subsided. (2) Lung imaging shows a significant improvement with no sign of organ dysfunction. (3) The patient has had stable breathing, clear consciousness, unimpaired speech, normal diet and body temperature for more than 3 days. Respiratory symptoms have improved significantly, and two consecutive tests for respiratory pathogenic nucleic acid have been negative (at least one day in-between tests).",
+        "Source": "https://www.amazon.com/Coronavirus-Prevention-Handbook-Science-Based-Could-ebook/dp/B085DKMXGY",
+        "Reference": "https://www.amazon.com/Coronavirus-Prevention-Handbook-Science-Based-Could-ebook/dp/B085DKMXGY",
+        "Image_URL": "https://wpcdn.us-east-1.vip.tn-cloud.net/www.abc6.com/content/uploads/2020/03/coronavirus.png",
+        "Response_Type": "Card",
+        "Audio_Link": "",
+        "Suggestions": ["What treatments can I expect ?"]
+    },
+    {
+        "Intent": "what_is_phase_of_disease",
+        "Entities": {
+            "disease": "flu",
+            "scientific_term": "virus",
+            "scientific_term": "pandemic"
+        },
+        "Sample_Question": "Why does flu caused by viruses become pandemic?",
+        "Answer_Title": "Pandemic Stage",
+        "Answer": "Influenza is mainly transmitted through respiratory droplets and contact from infected to susceptible people, or through contact with contaminated items. In general, its incidence peaks in autumn and winter. Human influenza is mainly caused by influenza A virus and influenza B virus. Influenza A viruses often undergo antigen mutations and can be further classified into subtypes such as H1N1, H3N2, H5N1, and H7N9. When new influenza virus subtypes appear, they easily become a pandemic because the population generally lacks immunity against them.",
+        "Source": "https://www.amazon.com/Coronavirus-Prevention-Handbook-Science-Based-Could-ebook/dp/B085DKMXGY",
+        "Reference": "https://www.amazon.com/Coronavirus-Prevention-Handbook-Science-Based-Could-ebook/dp/B085DKMXGY",
+        "Image_URL": "https://wpcdn.us-east-1.vip.tn-cloud.net/www.abc6.com/content/uploads/2020/03/coronavirus.png",
+        "Response_Type": "Card",
+        "Audio_Link": "",
+        "Suggestions": ["What distinguishes SARS from coronavirus ?"]
+    }
+    
 ]
 
