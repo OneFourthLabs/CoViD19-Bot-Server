@@ -784,7 +784,7 @@
 
         "Intent": "how-long-does-virus-survive-on-medium",
         "Entities": {
-                "transmission_surface": "metal",
+                "transmission_surface": "plastic",
                 "scientific_term": "virus"
         },
 
