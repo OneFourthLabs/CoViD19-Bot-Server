@@ -2039,7 +2039,7 @@
     },
     {
         "Intent": "how-is-medical-procedure-done",
-        "Entities": {"human_conditions": "infected", {"medical_procedure": "treatment"},
+        "Entities": {"human_conditions": "infected", "medical_procedure": "treatment"},
         "Sample_Question": "How do I take treatment if I am infected?",
         "Answer_Title": "Treatment for COVID19",
         "Answer": "To date, there is no specific medicine recommended to prevent or treat the new coronavirus (2019-nCoV).However, those infected with the virus should receive appropriate care to relieve and treat symptoms, and those with severe illness should receive optimized supportive care. Some specific treatments are under investigation, and will be tested through clinical trials. WHO is helping to accelerate research and development efforts with a range or partners.",
@@ -2052,7 +2052,7 @@
     },
     {
         "Intent": "how-is-medical-procedure-done",
-        "Entities": {"human_conditions": "infected", {"medical_procedure": "tested"},
+        "Entities": {"human_conditions": "infected", "medical_procedure": "tested"},
         "Sample_Question": "How do I get tested to see if I am infected?",
         "Answer_Title": "Testing procedure",
         "Answer": "A specialized test must be done to confirm that a person has been infected with the virus that causes COVID-19. Most often a clinician takes a swab of your nose (or both your nose and throat). The sample is delivered to labs that have been approved to perform the test. The number of tests and testing sites available are rapidly increasing. Still, it will take weeks before the test is available to everyone who may be infected. Meanwhile, clinicians will primarily test those with respiratory symptoms who have recently traveled to certain countries, live in a community with many infected people, or likely have been exposed to someone known to have COVID-19. Call the State Helpline Number or Ministry of Health & Family Welfare, Government of India's 24x7 helpline 011-2397 8046. If one qualifies as a case for testing as per the protocol, they would be tested at a Government approved lab only.",
@@ -2065,7 +2065,7 @@
     },
     {
         "Intent": "how-is-medical-procedure-done",
-        "Entities": {"human_conditions": "infected", {"medical_procedure": "quarantined"},
+        "Entities": {"human_conditions": "infected", "medical_procedure": "quarantined"},
         "Sample_Question": "Do I need to be quarantined if I am infected?",
         "Answer_Title": "Quarantine procedure",
         "Answer": "Quarantine means separating a person or group of people who have been exposed to a contagious disease but have not developed illness (symptoms) from others who have not been exposed, in order to prevent the possible spread of that disease. As per the latest guidelines, we should all be in self isolation if we have the symptoms for COVID19.",
