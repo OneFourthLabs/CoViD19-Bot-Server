@@ -1430,8 +1430,8 @@
     {
         "Intent": "difference-between-scientific_term_1-and-scientific_term_2",
         "Entities": {
-            "scientific_term":"pandemic",
-            "scientific_term": "epidemic" 
+            "scientific_term":"SARS",
+            "scientific_term": "MERS" 
         },
         "Sample_Question": "What is the difference between a pandemic and epidemic ?",
         "Answer_Title": "Comparison",
