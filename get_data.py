@@ -11,6 +11,7 @@ import pandas as pd
 import datetime
 import os 
 import json
+import numpy as np
 
 # replace some names used in the file so that they confirm to ISO standards 
 # (which is what DialogFlow will give as system intents)
@@ -49,13 +50,15 @@ def process_df(label):
     df.drop_duplicates(inplace=True)
     ## convert from wide form to narrow/long form
     df = pd.melt(df, id_vars = ['Country', 'State'] , var_name = 'Date', value_name=label)
+    df.drop_duplicates(inplace=True)
+    df[label].replace('', np.nan, inplace=True)
+    df.dropna(subset=[label], inplace=True)
     return df
 
 ## process the three files
 df_confirmed = process_df('Confirmed')
 df_recovered = process_df('Recovered')
 df_deaths = process_df('Deaths')
-
 ## merge the three files into one
 df = df_confirmed.merge(df_recovered, on=['Country', 'State', 'Date']).merge(df_deaths, on=['Country', 'State', 'Date'])
 
@@ -89,6 +92,13 @@ for item in data['data']:
 ## convert the date string to datetime format
 df['Date'] = pd.to_datetime(df['Date'])
 df.sort_values(by=['Country', 'State', 'Date'], inplace=True)
+df[['Confirmed','Recovered','Deaths']] = df[['Confirmed','Recovered','Deaths']].fillna(0)
+
+for index, row in df.iterrows(): 
+    if (type(row['Confirmed']) == str) or (type(row['Recovered']) == str) or (type(row['Deaths']) == str):
+        print(row)
+        break
+
 df[['Confirmed','Recovered','Deaths']] = df[['Confirmed','Recovered','Deaths']].diff()
 
 df = df[(df['Confirmed'] >= 0) & (df['Recovered'] >= 0) & (df['Deaths'] >= 0)]
