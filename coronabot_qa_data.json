@@ -9,11 +9,11 @@
         "Answer":"Pandemic refers to an epidemic that has spread over several countries or continents, usually affecting a large number of people. WHO recently declared the ongoing COVID-19 as a pandemic.",
         "Source":"https://www.cdc.gov/csels/dsepd/ss1978/lesson1/section11.html",
         "Reference":"https://www.youtube.com/watch?v=CUl87kYHT3I",
-        "Image_URL":"",
+        "Image_URL":"https://cdn.technologynetworks.com/tn/images/body/endemicvsepidemicimage41568108070133.png",
         "Response_Type":"Card",
         "Audio_Link":"",
         "Suggestions":[
-            "What is an epidemic"
+            "What is an COVID19?"
         ]
     },
     {
@@ -26,11 +26,11 @@
         "Answer":"Epidemic refers to an increase, often sudden, in the number of cases of a disease above what is normally expected in that population in that area. Outbreak carries the same definition of epidemic, but is often used for a more limited geographic area.",
         "Source":"https://www.cdc.gov/csels/dsepd/ss1978/lesson1/section11.html",
         "Reference":"https://www.youtube.com/watch?v=CUl87kYHT3I",
-        "Image_URL":"",
+        "Image_URL":"https://cdn.technologynetworks.com/tn/images/body/endemicvsepidemicimage41568108070133.png",
         "Response_Type":"Card",
         "Audio_Link":"",
         "Suggestions":[
-            "What is a pandemic"
+            "What is a herd immunity?", "What is Stage 1 transmission?"]
         ]
     },
     {
@@ -43,11 +43,11 @@
         "Answer":"Herd immunity (also called herd effect, community immunity, population immunity, or social immunity) is a form of indirect protection from infectious disease that occurs when a large percentage of a population has become immune to an infection, whether through infection or vaccination, thereby providing a measure of protection for individuals who are not immune.In a population in which a large number of individuals are immune, chains of infection are likely to be disrupted, which stops or slows the spread of disease. The greater the proportion of individuals in a community who are immune, the smaller the probability that those who are not immune will come into contact with an infectious individual.",
         "Source":"https://en.wikipedia.org/wiki/Herd_immunity",
         "Reference":"https://www.youtube.com/watch?v=tC47JjakPSA",
-        "Image_URL":"",
+        "Image_URL":"https://i.ytimg.com/vi/cEn1PKyBUNc/maxresdefault.jpg",
         "Response_Type":"Card",
         "Audio_Link":"",
         "Suggestions":[
-            ""
+            "What is the difference between coronavirus and MERS?"
         ]
     },
     {
@@ -64,7 +64,7 @@
         "Response_Type":"Card",
         "Audio_Link":"",
         "Suggestions":[
-            "What is Coronavirus"
+            "What is Coronavirus?"
         ]
     },
     {
@@ -81,7 +81,7 @@
         "Response_Type":"Card",
         "Audio_Link":"",
         "Suggestions":[
-            ""
+            "What is the incubation period?"
         ]
     },
     {
@@ -111,13 +111,13 @@
         "Answer":"When the disease is just introduced to a population. In India’s case, that is with imported cases – only those with travel history to affected countries tested positive for the infection.",
         "Source":"https://www.thenewsminute.com/article/what-are-four-stages-coronavirus-transmission-and-where-india-now-120625",
         "Reference":"https://www.youtube.com/watch?v=NRmrJIlB0OU",
-        "Image_URL":"",
+        "Image_URL":"https://www.jagranimages.com/images/2020/mar/graph1584679164245.jpg",
         "Response_Type":"Card",
         "Audio_Link":"",
         "Suggestions":[
             "What is Stage 2 transmission?",
-            "What is Stage 3 transmission?",
-            "What is Stage 4 transmission?"
+            "What is the incubation period for coronavirus?"
+            
         ]
     },
     {
@@ -130,11 +130,10 @@
         "Answer":"This is the stage that India is at right now, according to ICMR. This is when there is local transmission of the disease – some of those in contact with persons with travel history in turn get infected.",
         "Source":"https://www.thenewsminute.com/article/what-are-four-stages-coronavirus-transmission-and-where-india-now-120625",
         "Reference":"https://www.youtube.com/watch?v=NRmrJIlB0OU",
-        "Image_URL":"",
+        "Image_URL":"https://www.jagranimages.com/images/2020/mar/graph1584679164245.jpg",
         "Response_Type":"Card",
         "Audio_Link":"",
         "Suggestions":[
-            "What is Stage 1 transmission?",
             "What is Stage 3 transmission?",
             "What is Stage 4 transmission?"
         ]
@@ -149,13 +148,12 @@
         "Answer":"In this stage, there is community transmission i.e. even those who have had no known contact with an affected person, and haven’t travelled to an affected country start contracting the coronavirus disease. According to the Centre for Disease Control and Prevention (CDC), community spread is when people have been infected with the virus in an area, including some who are not sure how or where they became infected. This stage makes it difficult to break the chain of transmission, thereby making the disease harder to contain.",
         "Source":"https://www.thenewsminute.com/article/what-are-four-stages-coronavirus-transmission-and-where-india-now-120625",
         "Reference":"https://www.youtube.com/watch?v=NRmrJIlB0OU",
-        "Image_URL":"",
+        "Image_URL":"https://www.jagranimages.com/images/2020/mar/graph1584679164245.jpg",
         "Response_Type":"Card",
         "Audio_Link":"",
         "Suggestions":[
-            "What is Stage 1 transmission?",
-            "What is Stage 2 transmission?",
-            "What is Stage 4 transmission?"
+            "Why is coronavirus called a contagious disease?",
+            "What is Stage 2 transmission?"
         ]
     },
     {
@@ -168,13 +166,12 @@
         "Answer":"The fourth stage is when there is a widespread outbreak, leading it to become an epidemic within the population and difficult to contain.",
         "Source":"https://www.thenewsminute.com/article/what-are-four-stages-coronavirus-transmission-and-where-india-now-120625",
         "Reference":"https://www.youtube.com/watch?v=NRmrJIlB0OU",
-        "Image_URL":"",
+        "Image_URL":"https://www.jagranimages.com/images/2020/mar/graph1584679164245.jpg",
         "Response_Type":"Card",
         "Audio_Link":"",
         "Suggestions":[
             "What is Stage 1 transmission?",
-            "What is Stage 2 transmission?",
-            "What is Stage 3 transmission?"
+            "Why is coronavirus called a contagious disease?"
         ]
     },
     {
@@ -227,7 +224,7 @@
         "Audio_Link":"",
         "Suggestions":[
             "What is contact transmission?",
-            "What is droplet transmission?"
+            "How does one show symptoms of coronavirus?"
         ]
     },
     {
@@ -244,7 +241,7 @@
         "Response_Type":"Card",
         "Audio_Link":"",
         "Suggestions":[
-            "What are the symptoms of COVID-19?"
+            "How long does coronavirus survive in the air?"
         ]
     },
     {
@@ -297,8 +294,7 @@
         "Audio_Link":"",
         "Suggestions":[
             "What is COVID-19?",
-            "What is SARS?",
-            "What is MERS?"
+            "What is difference between SARS and MERS?"
         ]
     },
     {
@@ -333,7 +329,7 @@
         "Audio_Link":"",
         "Suggestions":[
             "What is COVID-19?",
-            "What is MERS?"
+            "Is it okay to go for a walk outside?"
         ]
     },
     {
@@ -368,8 +364,8 @@
         "Response_Type":"Card",
         "Audio_Link":"",
         "Suggestions":[
-            "What is SARS?",
-            "What is MERS?"
+            "Will consuming garlic help in preventing or curing COVID-19?",
+            "How do I know if I am infected?"
         ]
     },
     {
@@ -386,7 +382,7 @@
         "Response_Type":"Card",
         "Audio_Link":"",
         "Suggestions":[
-            ""
+            "Will consuming garlic help in preventing or curing COVID-19?"
         ]
     },
     {
@@ -403,7 +399,8 @@
         "Response_Type":"Card",
         "Audio_Link":"",
         "Suggestions":[
-            "What is social isolation?"
+            "What is social isolation?",
+            "Should I take multivitamins?"
         ]
     },
     {
@@ -416,11 +413,12 @@
         "Answer":" For COVID-19, the period of quarantine is 14 days from the last date of exposure, because 14 days is the longest incubation period seen for similar coronaviruses. Someone who has been released from COVID-19 quarantine is not considered a risk for spreading the virus to others because they have not developed illness during the incubation period.",
         "Source":"https://www.cdc.gov/coronavirus/2019-ncov/faq.html",
         "Reference":"https://www.youtube.com/watch?v=AQxpQ94Euic",
-        "Image_URL":"",
+        "Image_URL":"https://i0.wp.com/www.smeweb.com/wp-content/uploads/2020/03/aloneathome.jpg?fit=640%2C427&ssl=1",
         "Response_Type":"Card",
         "Audio_Link":"",
         "Suggestions":[
-            "What is social isolation?"
+            "What is social isolation?",
+            "how is someone treated for coronavirus"
         ]
     },
     {
@@ -433,11 +431,12 @@
         "Answer":"Because this coronavirus has just been discovered, the time from exposure to symptom onset (known as the incubation period) for most people has yet to be determined. Based on current information, symptoms could appear as soon as three days after exposure to as long as 13 days later. Recently published research found that on average, the incubation period is about five days.",
         "Source":"https://www.health.harvard.edu/diseases-and-conditions/coronavirus-resource-center",
         "Reference":"https://www.cdc.gov/coronavirus/2019-ncov/symptoms-testing/symptoms.html",
-        "Image_URL":"",
+        "Image_URL":"https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRqkP6nalXD31s_fyedFlzj2SKEbjYCUEob--sJyBoqjK53K8N3",
         "Response_Type":"Card",
         "Audio_Link":"",
         "Suggestions":[
-            "What are the symptoms of COVID-19?"
+            "What are the symptoms of COVID-19?",
+            "Can Cow urine help against COVID-19?"
         ]
     },
     {
@@ -450,11 +449,12 @@
         "Answer":"Because this coronavirus has just been discovered, the time from exposure to symptom onset (known as the incubation period) for most people has yet to be determined. Based on current information, symptoms could appear as soon as three days after exposure to as long as 13 days later. Recently published research found that on average, the incubation period is about five days.",
         "Source":"https://www.health.harvard.edu/diseases-and-conditions/coronavirus-resource-center",
         "Reference":"https://www.cdc.gov/coronavirus/2019-ncov/symptoms-testing/symptoms.html",
-        "Image_URL":"",
+        "Image_URL":"https://cdn.powerofpositivity.com/wp-content/uploads/2019/12/Science-Explains-5-Reasons-People-Have-Shortness-of-Breath-And-How-to-Fix-It-1-1-1600x900.jpg",
         "Response_Type":"Card",
         "Audio_Link":"",
         "Suggestions":[
-            "What are the symptoms of COVID-19?"
+            "What are the symptoms of COVID-19?",
+            "how is someone treated for coronavirus"
         ]
     },
     {
@@ -467,11 +467,12 @@
         "Answer":"The vast majority of people with coronavirus survive. But they might face a lengthy recovery. According to WHO, It takes anything up to six weeks to recover from this disease. People who suffer very severe illness can take months to recover from the illness. Recovery is often marked by a patient no longer showing symptoms and having two consecutive negative tests at least one day apart, Ryan said. But there is no known cure for the novel coronavirus.",
         "Source":"https://edition.cnn.com/interactive/2020/health/coronavirus-questions-answers/",
         "Reference":"https://www.cdc.gov/coronavirus/2019-ncov/symptoms-testing/symptoms.html",
-        "Image_URL":"",
+        "Image_URL":"https://www.newshub.co.nz/home/world/2020/03/coronavirus-how-new-zealand-s-self-isolation-rules-compare-to-other-countries/_jcr_content/par/video/image.dynimg.1280.q75.jpg/v1584395300054/GETTY_self_isolation_coronavirus_sick_home_stay_1120.jpg",
         "Response_Type":"Card",
         "Audio_Link":"",
         "Suggestions":[
-            "What is social isolation?"
+            "What is social isolation?",
+            "how is quarantining done"
         ]
     },
     {
@@ -488,7 +489,8 @@
         "Response_Type":"Card",
         "Audio_Link":"",
         "Suggestions":[
-            ""
+            "how is someone treated for coronavirus",
+            "Do I need to be quarantined if I am infected?"
         ]
     },
     {
@@ -505,7 +507,8 @@
         "Response_Type":"Card",
         "Audio_Link":"",
         "Suggestions":[
-            ""
+            "What is the difference between coronavirus and common cold?",
+            "What is social distancing?"
         ]
     },
     {
@@ -518,11 +521,12 @@
         "Answer":"Incubation period is the time elapsed between exposure to a pathogenic organism, a chemical, or radiation, and when symptoms and signs are first apparent. As per a research, median incubation period for COVID-19 of approximately 5 days, whereas 97.5% of those who develop symptoms will do so within 11.5 days.",
         "Source":"https://annals.org/aim/fullarticle/2762808/incubation-period-coronavirus-disease-2019-covid-19-from-publicly-reported",
         "Reference":"https://annals.org/aim/fullarticle/2762808/incubation-period-coronavirus-disease-2019-covid-19-from-publicly-reported",
-        "Image_URL":"",
+        "Image_URL":"https://shawglobalnews.files.wordpress.com/2020/03/cpt10352003.jpg?quality=70&strip=all&w=720",
         "Response_Type":"Card",
         "Audio_Link":"",
         "Suggestions":[
-            ""
+            "What do we mean by flattening the curve?",
+            "Is it safe to go to the gym"
         ]
     },
     {
@@ -540,7 +544,7 @@
         "Response_Type":"Card",
         "Audio_Link":"",
         "Suggestions":[
-            ""
+            "How long does it survive in the water?"
         ]
     },
     {
@@ -554,11 +558,11 @@
         "Answer":"A recent study found that the COVID-19 coronavirus can survive up to 8 hours on clothes. The researchers also found that this virus can hang out as droplets in the air for up to three hours before they fall. But most often they will fall more quickly.",
         "Source":"https://www.health.harvard.edu/diseases-and-conditions/coronavirus-resource-center",
         "Reference":"https://www.youtube.com/watch?v=UM2G26Gc6NE",
-        "Image_URL":"",
+        "Image_URL":"https://i2-prod.devonlive.com/incoming/article3808178.ece/ALTERNATES/s1200b/0_washing-machine-2668472_1920.jpg",
         "Response_Type":"Card",
         "Audio_Link":"",
         "Suggestions":[
-            ""
+            "How long does it survive in the water?"
         ]
     },
     {
@@ -572,11 +576,11 @@
         "Answer":"There is currently no definitive scientific evidence that coronavirus can spread through paper money. According to the CDC, Covid-19 primarily spreads from person to person through respiratory droplets from an infected person’s cough or sneeze. However, the World Health Organization suggests practicing good hygiene after handling money by washing your hands thoroughly with soap and water for at least 20 seconds.",
         "Source":"https://bangordailynews.com/2020/03/05/news/state/have-questions-about-coronavirus-here-are-the-answers/",
         "Reference":"https://bangordailynews.com/2020/03/05/news/state/have-questions-about-coronavirus-here-are-the-answers/",
-        "Image_URL":"",
+        "Image_URL":"https://www.indiaspend.com/wp-content/uploads/2020/03/1400x563COVIDcurrencynote.jpg",
         "Response_Type":"Card",
         "Audio_Link":"",
         "Suggestions":[
-            "For how much duration does the virus survive on coins?"
+            "Is it safe to travel by air"
         ]
     },
     {
@@ -590,11 +594,12 @@
         "Answer":"The Covid-19 virus, according to a new study, sticks around on plastic surfaces for up to three days, but for a shorter period on metals.",
         "Source":"https://www.statnews.com/2020/03/19/coronavirus-survives-on-surfaces-how-to-protect-yourself/",
         "Reference":"https://bangordailynews.com/2020/03/05/news/state/have-questions-about-coronavirus-here-are-the-answers/",
-        "Image_URL":"",
+        "Image_URL":"https://i.insider.com/583f324370296624008b4be9?width=1100&format=jpeg&auto=webp",
         "Response_Type":"Card",
         "Audio_Link":"",
         "Suggestions":[
-            "For how much duration does the virus survive on clothes?"
+            "For how much duration does the virus survive on clothes?",
+            "Can I get infected by a paper cup which was touched by an infected person 2 days ago"
         ]
     },
     {
@@ -608,7 +613,7 @@
         "Answer":"People should stop using banknotes and make contactless payments instead to prevent the spread of the coronavirus, the World Health Organization has warned as the spread of the virus continues to escalate. The international body had advised customers to wash their hands after handling cash because Covid-19 can remain on notes 'just like any other surface' for several days.",
         "Source":"https://www.dailymail.co.uk/news/article-8088067/Coronavirus-spread-cash-warns-WHO.html",
         "Reference":"https://www.businessinsider.in/science/news/coins-carry-viruses-better-than-paper-money-experts-say-as-china-begins-sterilizing-cash/articleshow/74567093.cms",
-        "Image_URL":"",
+        "Image_URL":"https://media-cdn.wehco.com/img/photos/2020/03/12/outbreaklouisiana9132548598.jpg",
         "Response_Type":"Card",
         "Audio_Link":"",
         "Suggestions":[
@@ -626,11 +631,11 @@
         "Answer":"People should stop using banknotes and make contactless payments instead to prevent the spread of the coronavirus, the World Health Organization has warned as the spread of the virus continues to escalate. The international body had advised customers to wash their hands after handling cash because Covid-19 can remain on notes 'just like any other surface' for several days.",
         "Source":"https://www.dailymail.co.uk/news/article-8088067/Coronavirus-spread-cash-warns-WHO.html",
         "Reference":"https://www.businessinsider.in/science/news/coins-carry-viruses-better-than-paper-money-experts-say-as-china-begins-sterilizing-cash/articleshow/74567093.cms",
-        "Image_URL":"",
+        "Image_URL":"https://s.abcnews.com/images/GMA/StarbucksReusabLeCups_hpMain_16x9t_1600.jpg",
         "Response_Type":"Card",
         "Audio_Link":"",
         "Suggestions":[
-            "For how much duration does the virus survive on coins?"
+            "How long can the virus last of metal surfaces"
         ]
     },
     {
@@ -665,7 +670,8 @@
         "Response_Type":"Card",
         "Audio_Link":"",
         "Suggestions":[
-            "Will it spread in Winter ?"
+            "Will it spread in Winter ?",
+            "How to get rid of viruses on my phone"
         ]
     },
     {
@@ -678,11 +684,11 @@
         "Answer":"As humidity increases, the viral droplet size is larger and settles out of the air rapidly. COVID-19 is believed to be spread by viral droplets that are injected into the air when a person coughs or sneezes, and them land on someone nearby. 'In contrast, in low humidity, there is rapid evaporation of respiratory droplets,' They remain airborne for prolonged periods, increasing the time and distance over which transmission can occur. Thus, transmission is highly efficient under drier and colder conditions, but far less so in a humid environment.",
         "Source":"https://www.kiro7.com/news/trending/coronavirus-does-warm-weather-slow-spread-virus-maybe/UZQ4XTXWMRHVTLGN5WN5O6OL4U/",
         "Reference":"https://www.who.int/emergencies/diseases/novel-coronavirus-2019/advice-for-public/myth-busters",
-        "Image_URL":"",
+        "Image_URL":"https://ichef.bbci.co.uk/wwfeatures/live/976_549/images/live/p0/87/ft/p087ft6n.jpg",
         "Response_Type":"Card",
         "Audio_Link":"",
         "Suggestions":[
-            "Will it stop spreading in winter ?"
+            "Will it stop spreading in autumn ?"
         ]
     },
     {
@@ -695,7 +701,7 @@
         "Answer":"As humidity increases, the viral droplet size is larger and settles out of the air rapidly. COVID-19 is believed to be spread by viral droplets that are injected into the air when a person coughs or sneezes, and them land on someone nearby. 'In contrast, in low humidity, there is rapid evaporation of respiratory droplets,' They remain airborne for prolonged periods, increasing the time and distance over which transmission can occur. Thus, transmission is highly efficient under drier and colder conditions, but far less so in a humid environment.",
         "Source":"https://www.kiro7.com/news/trending/coronavirus-does-warm-weather-slow-spread-virus-maybe/UZQ4XTXWMRHVTLGN5WN5O6OL4U/",
         "Reference":"https://www.who.int/emergencies/diseases/novel-coronavirus-2019/advice-for-public/myth-busters",
-        "Image_URL":"",
+        "Image_URL":"https://media.nationthailand.com/images/news/2020/03/11/30383829/800_e22b3015f0705b1.jpeg?v=1583892326",
         "Response_Type":"Card",
         "Audio_Link":"",
         "Suggestions":[
@@ -712,7 +718,7 @@
         "Answer":"COVID-19 is most likely to spread from person-to-person through: 1). Direct close contact with a person while they are infectious or in the 24 hours before their symptoms appeared. 2). Close contact with a person with a confirmed infection who coughs or sneezes. 3). Touching objects or surfaces (such as door handles or tables) contaminated from a cough or sneeze from a person with a confirmed infection, and then touching your mouth or face. ",
         "Source":"https://www.cdc.gov/coronavirus/2019-ncov/prepare/transmission.html",
         "Reference":"https://www.youtube.com/watch?v=8c_UJwLq8PI",
-        "Image_URL":"",
+        "Image_URL":"https://d3nuqriibqh3vw.cloudfront.net/c0481846-wuhan_novel_coronavirus_illustration-spl.jpg?iFJ36W0T_gU2dfelG0z_E2oaOm_7Gnmv",
         "Response_Type":"Card",
         "Audio_Link":"",
         "Suggestions":[
@@ -729,7 +735,7 @@
         "Answer":"COVID-19 is most likely to spread from person-to-person through: 1). Direct close contact with a person while they are infectious or in the 24 hours before their symptoms appeared. 2). Close contact with a person with a confirmed infection who coughs or sneezes. 3). Touching objects or surfaces (such as door handles or tables) contaminated from a cough or sneeze from a person with a confirmed infection, and then touching your mouth or face. ",
         "Source":"https://www.cdc.gov/coronavirus/2019-ncov/prepare/transmission.html",
         "Reference":"https://www.youtube.com/watch?v=8c_UJwLq8PI",
-        "Image_URL":"",
+        "Image_URL":"https://d3nuqriibqh3vw.cloudfront.net/c0481846-wuhan_novel_coronavirus_illustration-spl.jpg?iFJ36W0T_gU2dfelG0z_E2oaOm_7Gnmv",
         "Response_Type":"Card",
         "Audio_Link":"",
         "Suggestions":[
@@ -745,12 +751,13 @@
         "Answer_Title":"Transmission",
         "Answer":"There is a strong evidence that it can be transmitted by people who are just mildly ill or even presymptomatic. That means COVID-19 will be much harder to contain than the Middle East respiratory syndrome or severe acute respiratory syndrome (SARS), which were spread much less efficiently and only by symptomatic people",
         "Source":"https://edition.cnn.com/2020/03/14/health/coronavirus-asymptomatic-spread/index.html",
-        "Reference":"",
-        "Image_URL":"",
+        "Reference":"https://edition.cnn.com/2020/03/14/health/coronavirus-asymptomatic-spread/index.html",
+        "Image_URL":"https://safety4sea.com/wp-content/uploads/2020/02/fall-arrest-infographic-creative-safety-supply.jpg",
         "Response_Type":"Card",
         "Audio_Link":"",
         "Suggestions":[
-            "Can it transmit from an infected person ?"
+            "Can it transmit from an infected person ?",
+            "How do I stay calm?"
         ]
     },
     {
@@ -762,8 +769,8 @@
         "Answer_Title":"Transmission",
         "Answer":"A recent study found that the COVID-19 coronavirus can survive up to four hours on copper, up to 24 hours on cardboard, and up to two to three days on plastic and stainless steel. The researchers also found that this virus can hang out as droplets in the air for up to three hours before they fall. But most often they will fall more quickly. The results provide key information about the stability of SARS-CoV-2, which causes COVID-19 disease, and suggests that people may acquire the virus through the air and after touching contaminated objects.",
         "Source":"https://www.health.harvard.edu/diseases-and-conditions/coronavirus-resource-center",
-        "Reference":"",
-        "Image_URL":"",
+        "Reference":"https://www.health.harvard.edu/diseases-and-conditions/coronavirus-resource-center",
+        "Image_URL":"https://globalbiodefense.com/wp-content/uploads/2020/02/covid-19-sars-cov-2-novel-coronavirus-preparedness-7.jpg",
         "Response_Type":"Card",
         "Audio_Link":"",
         "Suggestions":[
@@ -780,11 +787,12 @@
         "Answer":"1). Coronaviruses are generally thought to be spread from person-to-person through respiratory droplets. Currently there is no evidence to support transmission of COVID-19 associated with food. Before preparing or eating food it is important to always wash your hands with soap and water for 20 seconds for general food safety. 2). It may be possible that a person can get COVID-19 by touching a surface or object that has the virus on it and then touching their own mouth, nose, or possibly their eyes, but this is not thought to be the main way the virus spreads. 3). In general, because of poor survivability of these coronaviruses on surfaces, there is likely very low risk of spread from food products or packaging that are shipped over a period of days or weeks at ambient, refrigerated, or frozen temperatures.",
         "Source":"https://www.fsai.ie/faq/coronavirus.html",
         "Reference":"https://www.fsai.ie/faq/coronavirus.html",
-        "Image_URL":"",
+        "Image_URL":"https://cdn-a.william-reed.com/var/wrbm_gb_food_pharma/storage/images/publications/food-beverage-nutrition/foodnavigator.com/article/2020/02/25/coronavirus-italy-s-food-industry-warns-of-brake-on-sector-growth/10741336-1-eng-GB/Coronavirus-Italy-s-food-industry-warns-of-brake-on-sector-growth.jpg",
         "Response_Type":"Card",
         "Audio_Link":"",
         "Suggestions":[
-            "Can it spread through water ?"
+            "Can it spread through water ?",
+            "Is it okay to order food online"
         ]
     },
     {
@@ -796,8 +804,8 @@
         "Answer_Title":"Spread",
         "Answer":"As humidity increases, the viral droplet size is larger and settles out of the air rapidly. COVID-19 is believed to be spread by viral droplets that are injected into the air when a person coughs or sneezes, and them land on someone nearby. In contrast, in low humidity, there is rapid evaporation of respiratory droplets, They remain airborne for prolonged periods, increasing the time and distance over which transmission can occur. Thus, transmission is highly efficient under drier and colder conditions, but far less so in a humid environment.",
         "Source":"https://www.kiro7.com/news/trending/coronavirus-does-warm-weather-slow-spread-virus-maybe/UZQ4XTXWMRHVTLGN5WN5O6OL4U/",
-        "Reference":"",
-        "Image_URL":"",
+        "Reference":"https://www.kiro7.com/news/trending/coronavirus-does-warm-weather-slow-spread-virus-maybe/UZQ4XTXWMRHVTLGN5WN5O6OL4U/",
+        "Image_URL":"https://www.ocregister.com/wp-content/uploads/2019/08/iStock-824845572-1.jpg",
         "Response_Type":"Card",
         "Audio_Link":"",
         "Suggestions":[
@@ -813,12 +821,12 @@
         "Answer_Title":"Transmission",
         "Answer":"The CDC and the WHO have said this from the start: the most effective way to protect yourself from COVID-19 is with frequent handwashing with soap and water, or using hand sanitizer with at least 60 percent alcohol. The WHO says there is no reason to believe cold weather can kill the new coronavirus, or other diseases, for that matter. ",
         "Source":"https://www.wwlp.com/weather/weather-news/cold-weather-kills-coronavirus-and-13-other-covid-19-myths-you-may-be-falling-for/",
-        "Reference":"",
-        "Image_URL":"",
+        "Reference":"https://www.wwlp.com/weather/weather-news/cold-weather-kills-coronavirus-and-13-other-covid-19-myths-you-may-be-falling-for/",
+        "Image_URL":"https://www.redcross.ca/crc/img/Winter_2.jpg?ext=.jpg",
         "Response_Type":"Card",
         "Audio_Link":"",
         "Suggestions":[
-            ""
+            "what if I am showng no symptoms for coronavirus?"
         ]
     },
     {
@@ -830,12 +838,13 @@
         "Answer_Title":"Spread",
         "Answer":"The CDC and the WHO have said this from the start: the most effective way to protect yourself from COVID-19 is with frequent handwashing with soap and water, or using hand sanitizer with at least 60 percent alcohol. The WHO says there is no reason to believe cold weather can kill the new coronavirus, or other diseases, for that matter. ",
         "Source":"https://www.wwlp.com/weather/weather-news/cold-weather-kills-coronavirus-and-13-other-covid-19-myths-you-may-be-falling-for/",
-        "Reference":"",
-        "Image_URL":"",
+        "Reference":"https://www.wwlp.com/weather/weather-news/cold-weather-kills-coronavirus-and-13-other-covid-19-myths-you-may-be-falling-for/",
+        "Image_URL":"https://cdn.vox-cdn.com/thumbor/JyhY-A68y2zaKHyvpLjEby04IGU=/0x0:3960x2640/1200x800/filters:focal(1664x1004:2296x1636)/cdn.vox-cdn.com/uploads/chorus_image/image/65448592/shutterstock_790740805.7.jpg",
         "Response_Type":"Card",
         "Audio_Link":"",
         "Suggestions":[
-            "Can it spread in hot weather countries ?"
+            "Can it spread in hot weather countries ?",
+            "How can I be cured from coronavirus?"
         ]
     },
     {
@@ -847,8 +856,8 @@
         "Answer_Title":"Spread",
         "Answer":"The CDC and the WHO have said this from the start: the most effective way to protect yourself from COVID-19 is with frequent handwashing with soap and water, or using hand sanitizer with at least 60 percent alcohol. The WHO says there is no reason to believe cold weather can kill the new coronavirus, or other diseases, for that matter. ",
         "Source":"https://www.wwlp.com/weather/weather-news/cold-weather-kills-coronavirus-and-13-other-covid-19-myths-you-may-be-falling-for/",
-        "Reference":"",
-        "Image_URL":"",
+        "Reference":"https://www.wwlp.com/weather/weather-news/cold-weather-kills-coronavirus-and-13-other-covid-19-myths-you-may-be-falling-for/",
+        "Image_URL":"https://static.toiimg.com/photo/62524942/.jpg",
         "Response_Type":"Card",
         "Audio_Link":"",
         "Suggestions":[
@@ -865,11 +874,11 @@
         "Answer":"People should stop using banknotes and make contactless payments instead to prevent the spread of the coronavirus, the World Health Organization has warned as the spread of the virus continues to escalate. The international body had advised customers to wash their hands after handling cash because Covid-19 can remain on notes 'just like any other surface' for several days. But the health group has now advised against people using them in favour of digital transactions.",
         "Source":"https://www.dailymail.co.uk/news/article-8088067/Coronavirus-spread-cash-warns-WHO.html",
         "Reference":"https://www.businessinsider.in/science/news/coins-carry-viruses-better-than-paper-money-experts-say-as-china-begins-sterilizing-cash/articleshow/74567093.cms",
-        "Image_URL":"",
+        "Image_URL":"https://images.wsj.net/im-16046?width=620&size=1.5",
         "Response_Type":"Card",
         "Audio_Link":"",
         "Suggestions":[
-            "Can the virus spread through coins ?"
+            "Is it safe to visit the market?"
         ]
     },
     {
@@ -882,7 +891,7 @@
         "Answer":"COVID-19 is most likely to spread from person-to-person through: 1). Direct close contact with a person while they are infectious or in the 24 hours before their symptoms appeared. 2). Close contact with a person with a confirmed infection who coughs or sneezes. 3). Touching objects or surfaces (such as door handles or tables) contaminated from a cough or sneeze from a person with a confirmed infection, and then touching your mouth or face. ",
         "Source":"https://www.cdc.gov/coronavirus/2019-ncov/prepare/transmission.html",
         "Reference":"https://www.youtube.com/watch?v=8c_UJwLq8PI",
-        "Image_URL":"",
+        "Image_URL":"https://www.gpbnews.org/sites/wjsp/files/styles/medium/public/202003/italy-covid.jpeg",
         "Response_Type":"Card",
         "Audio_Link":"",
         "Suggestions":[
@@ -899,7 +908,7 @@
         "Answer":"CDC has not received any reports of pets or other animals becoming sick with COVID-19. Further studies are needed to understand if and how different animals could be affected by COVID-19.",
         "Source":"https://www.cdc.gov/coronavirus/2019-ncov/prepare/animals.html",
         "Reference":"https://www.hopkinsmedicine.org/health/conditions-and-diseases/coronavirus/coronavirus-frequently-asked-questions",
-        "Image_URL":"",
+        "Image_URL":"https://img.etimg.com/photo/msid-74492625/scientists-suspect-the-virus-known-as-sars-cov-2-that-causes-the-disease-originated-in-bats-before-passing-it-on-to-another-species-.jpg",
         "Response_Type":"Card",
         "Audio_Link":"",
         "Suggestions":[
@@ -915,12 +924,12 @@
         "Answer_Title":"Spread",
         "Answer":"There have not been any reports of companion animals becoming sick with COVID-19. Because this is a new virus, experts recommend good hygiene when handling or caring for your pets. Wash your hands before and after interacting with animals, and avoid kissing them or letting them lick you or share your food. People ill with COVID-19 should let someone else take care of their animals. If this isn’t possible, patients should wear a mask while looking after their pet",
         "Source":"https://www.hopkinsmedicine.org/health/conditions-and-diseases/coronavirus/coronavirus-frequently-asked-questions",
-        "Reference":"",
-        "Image_URL":"",
+        "Reference":"https://www.hopkinsmedicine.org/health/conditions-and-diseases/coronavirus/coronavirus-frequently-asked-questions",
+        "Image_URL":"https://www.deccanherald.com/sites/dh/files/styles/article_detail/public/article_images/2020/03/04/355636-01-02%20%281%29-1583301601.jpg?itok=ChGZdUYY",
         "Response_Type":"Card",
         "Audio_Link":"",
         "Suggestions":[
-            ""
+            "What is social distancing?"
         ]
     },
     {
@@ -933,11 +942,11 @@
         "Answer":"For COVID-19, the period of quarantine is 14 days from the last date of exposure, because 14 days is the longest incubation period seen for similar coronaviruses. Someone who has been released from COVID-19 quarantine is not considered a risk for spreading the virus to others because they have not developed illness during the incubation period.",
         "Source":"https://www.cdc.gov/coronavirus/2019-ncov/faq.html",
         "Reference":"https://www.youtube.com/watch?v=AQxpQ94Euic",
-        "Image_URL":"",
+        "Image_URL":"https://www.aljazeera.com/mritems/imagecache/mbdxxlarge/mritems/Images/2020/3/2/602a9359493248638608c4c7382eca0a_18.jpg",
         "Response_Type":"Card",
         "Audio_Link":"",
         "Suggestions":[
-            "Can I get infected from an infected person ?"
+            "What is a vaccine?"
         ]
     },
     {
@@ -949,12 +958,13 @@
         "Answer_Title":"Infection",
         "Answer":"A small study out of China suggests that the new coronavirus can persist in the body for at least two weeks after symptoms of the disease clear up. This sort of persistence isn't unheard of among viruses, experts told Live Science, and thankfully, the patients are most likely not very contagious in the post-symptom period. The findings may even be good news, said Krys Johnson, an epidemiologist at Temple University's College of Public Health. The viruses that tend to hang around in people's systems also tend to be the viruses that the body develops a strong immune response against. 'If the virus is staying in people's systems, then they may not be able to be reinfected,' Johnson told Live Science. ",
         "Source":"https://www.livescience.com/coronavirus-spread-after-recovery.html",
-        "Reference":"",
-        "Image_URL":"",
+        "Reference":"https://www.livescience.com/coronavirus-spread-after-recovery.html",
+        "Image_URL":"https://1ep6sa1jro642bl0n01shxzi-wpengine.netdna-ssl.com/wp-content/uploads/2020/03/Apple-co-founder-tweets-he-might-be-patient-zero-for-COVID-191-680x365_c.jpg",
         "Response_Type":"Card",
         "Audio_Link":"",
         "Suggestions":[
-            "Can I get infected from a recovered patient ?"
+            "Can I get infected from a recovered patient ?",
+            "How long does it survive in the water?"
         ]
     },
     {
@@ -966,8 +976,8 @@
         "Answer_Title":"Spread",
         "Answer":"A small study out of China suggests that the new coronavirus can persist in the body for at least two weeks after symptoms of the disease clear up. This sort of persistence isn't unheard of among viruses, experts told Live Science, and thankfully, the patients are most likely not very contagious in the post-symptom period. The findings may even be good news, said Krys Johnson, an epidemiologist at Temple University's College of Public Health. The viruses that tend to hang around in people's systems also tend to be the viruses that the body develops a strong immune response against. 'If the virus is staying in people's systems, then they may not be able to be reinfected,' Johnson told Live Science. ",
         "Source":"https://www.livescience.com/coronavirus-spread-after-recovery.html",
-        "Reference":"",
-        "Image_URL":"",
+        "Reference":"https://www.livescience.com/coronavirus-spread-after-recovery.html",
+        "Image_URL":"https://img.dtnext.in/Articles/2020/Feb/202002281713266557_Scientists-detail-early-lung-infection-in-COVID19-patients_SECVPF.gif",
         "Response_Type":"Card",
         "Audio_Link":"",
         "Suggestions":[
@@ -983,12 +993,13 @@
         "Answer_Title":"Human Conditions",
         "Answer":"There is a strong evidence that it can be transmitted by people who are just mildly ill or even presymptomatic. That means COVID-19 will be much harder to contain than the Middle East respiratory syndrome or severe acute respiratory syndrome (SARS), which were spread much less efficiently and only by symptomatic people",
         "Source":"https://edition.cnn.com/2020/03/14/health/coronavirus-asymptomatic-spread/index.html",
-        "Reference":"",
-        "Image_URL":"",
+        "Reference":"https://edition.cnn.com/2020/03/14/health/coronavirus-asymptomatic-spread/index.html",
+        "Image_URL":"https://www.clinicaltrialsarena.com/wp-content/uploads/sites/33/2020/02/new-coronavirus.jpg",
         "Response_Type":"Card",
         "Audio_Link":"",
         "Suggestions":[
-            "Can an asymptomatic person give it to recovered person ?"
+            "Can an asymptomatic person give it to recovered person ?",
+            "Can eating chyavanprash help against coronavirus?"
         ]
     },
     {
@@ -1000,12 +1011,13 @@
         "Answer_Title":"Spread",
         "Answer":"A small study out of China suggests that the new coronavirus can persist in the body for at least two weeks after symptoms of the disease clear up. This sort of persistence isn't unheard of among viruses, experts told Live Science, and thankfully, the patients are most likely not very contagious in the post-symptom period. The findings may even be good news, said Krys Johnson, an epidemiologist at Temple University's College of Public Health. The viruses that tend to hang around in people's systems also tend to be the viruses that the body develops a strong immune response against. 'If the virus is staying in people's systems, then they may not be able to be reinfected,' Johnson told Live Science. ",
         "Source":"https://www.livescience.com/coronavirus-spread-after-recovery.html",
-        "Reference":"",
-        "Image_URL":"",
+        "Reference":"https://www.livescience.com/coronavirus-spread-after-recovery.html",
+        "Image_URL":"https://1ep6sa1jro642bl0n01shxzi-wpengine.netdna-ssl.com/wp-content/uploads/2020/03/Apple-co-founder-tweets-he-might-be-patient-zero-for-COVID-191-680x365_c.jpg",
         "Response_Type":"Card",
         "Audio_Link":"",
         "Suggestions":[
-            "Can a infected person spread it to others ?"
+            "Can a infected person spread it to others ?",
+            "Will taking tulsi help prevent coronavirus?"
         ]
     },
     {
@@ -1017,12 +1029,12 @@
         "Answer_Title":"Spread",
         "Answer":"There have not been any reports of companion animals becoming sick with COVID-19. Because this is a new virus, experts recommend good hygiene when handling or caring for your pets. Wash your hands before and after interacting with animals, and avoid kissing them or letting them lick you or share your food. People ill with COVID-19 should let someone else take care of their animals. If this isn’t possible, patients should wear a mask while looking after their pet",
         "Source":"https://www.hopkinsmedicine.org/health/conditions-and-diseases/coronavirus/coronavirus-frequently-asked-questions",
-        "Reference":"",
-        "Image_URL":"",
+        "Reference":"https://www.hopkinsmedicine.org/health/conditions-and-diseases/coronavirus/coronavirus-frequently-asked-questions",
+        "Image_URL":"https://images.firstpost.com/optimize/8lugquKZXQA1--8b7pokySRX8LE=/www.firstpost.com/wp-content/uploads/2020/03/file-20200309-118956-1cqvm6j.jpg",
         "Response_Type":"Card",
         "Audio_Link":"",
         "Suggestions":[
-            ""
+            "How is coronavirus different from swine flu?"
         ]
     },
     {
@@ -1034,12 +1046,13 @@
         "Answer_Title":"Human Conditions",
         "Answer":"There is a strong evidence that it can be transmitted by people who are just mildly ill or even presymptomatic. That means COVID-19 will be much harder to contain than the Middle East respiratory syndrome or severe acute respiratory syndrome (SARS), which were spread much less efficiently and only by symptomatic people",
         "Source":"https://edition.cnn.com/2020/03/14/health/coronavirus-asymptomatic-spread/index.html",
-        "Reference":"",
-        "Image_URL":"",
+        "Reference":"https://edition.cnn.com/2020/03/14/health/coronavirus-asymptomatic-spread/index.html",
+        "Image_URL":"https://static.euronews.com/articles/stories/04/54/72/16/1440x810_cmsv2_5da74659-68e9-554c-96ae-1f9695b4a0ac-4547216.jpg",
         "Response_Type":"Card",
         "Audio_Link":"",
         "Suggestions":[
-            "Can an asymptomatic person give it to recovered person ?"
+            "Can an asymptomatic person give it to recovered person ?",
+            "What is a super spreader?"
         ]
     },
     {
@@ -1050,13 +1063,14 @@
         "Sample_Question":"Can i get it from mosquitoes?",
         "Answer_Title":"COVID-19 from Mosquitoes",
         "Answer":"To date there has been no information nor evidence to suggest that the new coronavirus could be transmitted by mosquitoes. The new coronavirus is a respiratory virus which spreads primarily through droplets generated when an infected person coughs or sneezes, or through droplets of saliva or discharge from the nose. To protect yourself, clean your hands frequently with an alcohol-based hand rub or wash them with soap and water. Also, avoid close contact with anyone who is coughing and sneezing.",
-        "Source":" https://www.who.int/emergencies/diseases/novel-coronavirus-2019/advice-for-public/myth-busters",
-        "Reference":"",
+        "Source":"https://www.who.int/emergencies/diseases/novel-coronavirus-2019/advice-for-public/myth-busters",
+        "Reference":"https://www.who.int/emergencies/diseases/novel-coronavirus-2019/advice-for-public/myth-busters",
         "Image_URL":"",
         "Response_Type":"Card",
         "Audio_Link":"",
         "Suggestions":[
-            "Can i get it from dogs ?"
+            "How do I get tested to see if I am infected?",
+            "Do I need to be quarantined if I am infected?"
         ]
     },
     {
@@ -1068,8 +1082,8 @@
         "Answer_Title":"From recovered patient",
         "Answer":"Probably to some extent, though the first batch of studies is far from conclusive as to how long it lasts. Provisional research from Germany has suggested that COVID-19 infectiousness – in contrast to the 2003 SARS outbreak – peaks early and that recovering patients with mild symptoms become low-risk around 10 days after they first fall ill. But another study, following four medical professionals treated at a Wuhan hospital, revealed that traces of the virus could persist in the body for up to two weeks after symptoms had vanished; as the patients were no longer coughing or sneezing, the potential means of transmission were albeit much reduced.",
         "Source":"https://www.weforum.org/agenda/2020/03/coronavirus-recovery-what-happens-after-covid19/",
-        "Reference":"",
-        "Image_URL":"",
+        "Reference":"https://www.weforum.org/agenda/2020/03/coronavirus-recovery-what-happens-after-covid19/",
+        "Image_URL":"https://s3media.freemalaysiatoday.com/wp-content/uploads/2020/03/Elizabeth-Coronavirus-COvid19-Lifestyle-afp-130320.jpg",
         "Response_Type":"Card",
         "Audio_Link":"",
         "Suggestions":[
@@ -1080,8 +1094,8 @@
         "Intent":"difference-between-scientific_term_1-and-scientific_term_2",
         "Entities":{
             "scientific_term":[
-                "SARS",
-                "MERS"
+                "pandemic",
+                "epidemic"
             ]
         },
         "Sample_Question":"What is the difference between a pandemic and epidemic ?",
@@ -1131,7 +1145,7 @@
         "Response_Type":"Card",
         "Audio_Link":"",
         "Suggestions":[
-
+            "Will antibiotics help in curing COVID-19?"
         ]
     },
     {
@@ -1152,7 +1166,8 @@
         "Response_Type":"Card",
         "Audio_Link":"",
         "Suggestions":[
-            "How to you differentiate between novel coronavirus and SARS ?"
+            "How to you differentiate between novel coronavirus and SARS ?",
+            "Will antibiotics help in curing COVID-19?"
         ]
     },
     {
@@ -1172,7 +1187,7 @@
         "Response_Type":"Card",
         "Audio_Link":"",
         "Suggestions":[
-
+            "How can I help people who are getting stressed"
         ]
     },
     {
@@ -1192,7 +1207,8 @@
         "Response_Type":"Card",
         "Audio_Link":"",
         "Suggestions":[
-            "What is the key distinction between SARS and MERS ?"
+            "What is the key distinction between SARS and MERS ?",
+            "Will taking turmeric help in preventing or curing COVID-19?"
         ]
     },
     {
@@ -1212,7 +1228,8 @@
         "Response_Type":"Card",
         "Audio_Link":"",
         "Suggestions":[
-            "How to you differentiate between novel coronavirus and SARS ?"
+            "How to you differentiate between novel coronavirus and SARS ?",
+            "how is quarantining done"
         ]
     },
     {
@@ -1232,7 +1249,7 @@
         "Response_Type":"Card",
         "Audio_Link":"",
         "Suggestions":[
-            "What is the key distinction between SARS and MERS ?"
+            "how is someone treated for coronavirus"
         ]
     },
     {
@@ -1252,7 +1269,7 @@
         "Response_Type":"Card",
         "Audio_Link":"",
         "Suggestions":[
-            "What is the key distinction between SARS and MERS ?"
+            "How do I know if I'm infected with coronavirus?"
         ]
     },
     {
@@ -1272,7 +1289,7 @@
         "Response_Type":"Card",
         "Audio_Link":"",
         "Suggestions":[
-            "How to you differentiate between novel coronavirus and SARS ?"
+            "what is the procedure for isolating someone diagnosed with coronavirus"
         ]
     },
     
