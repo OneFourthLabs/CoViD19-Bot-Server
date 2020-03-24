@@ -37,7 +37,7 @@ stats_error_messages = ["I could not find the numbers for that query"]
 
 @app.route('/') 
 def index():
-  return 'Hello World!'
+  return 'The server is running... Yaayy!!!'
 
 def read_date(date):
   if date[0:4] == '2021':
@@ -53,17 +53,31 @@ def unlist(var):
   else:
     return var
 
-def get_stats_cases(intent, entities):
+def read_entry(entities, context, field):
+  entities_index = {'country': 'geo-country', 'state': 'geo-state', 'case_type': 'case_types', 'chart_type': 'plot_type', 'aggregation_type': 'aggregation_type', 'date': 'date-time'}
+  default_values = {'country': 'World', 'state': 'Total', 'case_type': 'Confirmed', 'chart_type': 'barplot', 'aggregation_type': 'total', 'date': ''}
+  context_index = {'country': 'ctx_geo-country', 'state': 'ctx_geo-state', 'case_type': 'ctx_case_types', 'chart_type': 'ctx_plot_type', 'aggregation_type': 'ctx_aggregation_type', 'date': 'ctx_date-time'}
+
+  entry = None
+  if entities_index[field] in entities and len(entities[entities_index[field]]) > 0:
+    entry = entities[entities_index[field]]
+  elif context_index[field] in context  and len(context[context_index[field]]) > 0:
+    entry = context[context_index[field]]
+  else:
+    entry = default_values[field]
+  return unlist(entry)
+
+def read_entry_arr(entities, context, fields):
+  return [read_entry(entities, context, x) for x in fields]
+
+def get_stats_cases(intent, entities, context):
 
   warning_txt = ''
 
-  country = unlist(entities['geo-country'] if len(entities['geo-country']) > 0 else 'World')
-  state = unlist(entities['geo-state'] if len(entities['geo-state']) > 0 else 'Total')
-  case_type = unlist(entities['case_types'] if len(entities['case_types']) > 0 else 'Confirmed')
-  print(country, state, case_type)
+  country, state, case_type, date = read_entry_arr(entities, context, ['country', 'state', 'case_type', 'date'])
+
   yesterday = datetime.datetime.today() - datetime.timedelta(days=1)
 
-  date = entities['date-time']
   if type(date) == str:
     if len(date) == 0: # if no date is specified assume that the total is being asked
       start_date = read_date('2020-01-20')
@@ -126,22 +140,17 @@ def get_stats_cases(intent, entities):
   return response
 
 ####
-def get_stats_where(intent, entities):
+def get_stats_where(intent, entities, context):
 
   # parse values
-  country = unlist(entities['geo-country'] if len(entities['geo-country']) > 0 else 'World')
-  case_type = unlist(entities['case_types'] if len(entities['case_types']) > 0 else 'Confirmed')
-  #location type can be state or country
+
+  country, state, case_type = read_entry_arr(entities, context, ['country', 'state', 'case_type'])
+  
   location_type = entities['location_type'] if len(entities['location_type']) > 0 else 'state' if country != 'World' else 'country'
   # sel_criterion can be highest or lowest
   sel_criterion = entities['sel_criterion'] if len(entities['sel_criterion']) > 0 else 'highest'
   yesterday = datetime.datetime.today() - datetime.timedelta(days=1)
-  print(len(entities['date-time']), len(entities['date-period']))
-  date = entities['date-time'] 
-  if (len(date) == 0) & (len(entities['date-period']) > 0): 
-    print('good')
-    date = entities['date-period']
-  print('Date', date)
+  date = entities['date-time']
   if type(date) == str:
     if len(date) == 0: # if no date is specified assume that the total is being asked
       start_date = read_date('2020-01-20')
@@ -159,7 +168,6 @@ def get_stats_where(intent, entities):
       end_date = max_date
     else:
       end_date = read_date(date['endDate'])
-  print('Startdate', start_date, 'Enddate', end_date)
   # find case type
   if case_type == 'deaths':
     case_type = 'Deaths'
@@ -245,13 +253,10 @@ def get_stats_where(intent, entities):
     }
     return response
 
-def get_stats_plot(intent, entities):
+def get_stats_plot(intent, entities, context):
   # parse values
-  country = entities['geo-country'] if len(entities['geo-country']) > 0 else 'World'
-  state = entities['geo-state'] if len(entities['geo-state']) > 0 else 'Total'
-  case_type = unlist(entities['case_types'] if len(entities['case_types']) > 0 else 'Confirmed')
-  chart_type = entities['plot_type'] if len(entities['plot_type']) > 0 else 'barplot'
-  aggregation_type = entities['aggregation_type'] if len(entities['aggregation_type']) > 0 else 'total'
+
+  country, state, case_type, chart_type, aggregation_type = read_entry_arr(entities, context, ['country', 'state', 'case_type', 'chart_type', 'aggregation_type'])
   
   yesterday = datetime.datetime.today() - datetime.timedelta(days=1)
   date = entities['date-period']
@@ -321,20 +326,20 @@ def get_stats_plot(intent, entities):
   }
   return response
 
-def get_stats(intent, entities):
+def get_stats(intent, entities, context):
 
-  if intent == "stats-case_types-in-location-date":
-    return get_stats_cases(intent, entities)
-  elif intent == "stats-where-sel_criterion-case_types-when":
-    return get_stats_where(intent, entities)
+  if intent.startswith("stats-case_types-in-location-date"):
+    return get_stats_cases(intent, entities, context)
+  elif intent.startswith("stats-where-sel_criterion-case_types-when"):
+    return get_stats_where(intent, entities, context)
   elif intent == "stats-plot":
-    return get_stats_plot(intent, entities)
+    return get_stats_plot(intent, entities, context)
 
 ####
-def find_answer(intent, entities):
+def find_answer(intent, entities, context):
 
   if intent[0:5] == 'stats':
-    return get_stats(intent, entities)
+    return get_stats(intent, entities, context)
 
   entities = entity_stringify(entities)
 
@@ -360,28 +365,49 @@ def find_answer(intent, entities):
 
   return data_match.iloc[0]
 
+def get_updated_context(params, context):
+
+  # TODO: Construct a list of history instead of replacing with new? Set expiry?
+  for param in params:
+    if params[param]:
+      context['ctx_' + param] = params[param]
+
+  return context
+
+
 def results():
 
   req = request.get_json(force=True)
-  print(req['queryResult'])
+
+  context_id = req["session"] + "/contexts/global_context"
+  print(' ---------- ', context_id)
+
+  context = {}
+  for item in req["queryResult"]["outputContexts"]:
+    if item['name'] == context_id:
+      context = item["parameters"]
 
   # find intent
   intent = req["queryResult"]["intent"]["displayName"]
   # find entities
   params = req["queryResult"]["parameters"]
 
-  result = find_answer(intent, params)
+  print(intent)
+  print(params)
+  print(context)
+  print(req["queryResult"]["outputContexts"])
+
+  result = find_answer(intent, params, context)
+  reply = {}
 
   if "Error" in result["Response_Type"] or "Text" in result["Response_Type"]:
-    reply = {}
     reply['fulfillment_text'] = result["Answer"]
-    return reply
 
-  if "Plot:" in result["Response_Type"]:
+  elif "Plot:" in result["Response_Type"]:
     imageURL = result["URL"]
     reply = get_plot_payload(imageURL)
 
-  if result["Response_Type"] == "Card":
+  elif result["Response_Type"] == "Card":
     textTitle = result["Answer_Title"] if result["Answer_Title"] else ""
     textAnswer = result["Answer"] if result["Answer"] else ""
     imageURL = result["Image_URL"] if len(result["Image_URL"]) > 0 else ""
@@ -391,10 +417,17 @@ def results():
     for item in result["Suggestions"]:
       suggestions.append({"title": item})
 
-    response = textAnswer  #+ " Entities: " + ",".join(entities)+" Intent: " + intent
+    response = textAnswer # + " Entities: " + ",".join(entities)+" Intent: " + intent
 
     reply = get_card_payload(textTitle, response, imageURL, sourceURL, referenceURL, suggestions)
-
+    
+  reply["outputContexts"] = [
+        {
+          "name": context_id,
+          "lifespanCount": 5,
+          "parameters": get_updated_context(params, context)
+        }
+      ]
   return reply
 
 @app.route('/webhook', methods=['GET', 'POST'])
@@ -406,7 +439,7 @@ def webhook():
 def test(query):
   intent, entities = query.split('/')
   entities = entities.split(',')
-  response = find_intent_entity_match(intent, entities).to_json(indent=4)
+  response = find_answer(intent, entities, {}).to_json(indent=4)
   return make_response(response)
 
 
