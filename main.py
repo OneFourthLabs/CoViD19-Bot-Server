@@ -4,8 +4,12 @@ import random
 import datetime
 import json
 import numpy as np
+import os
+import atexit
 from df_payload import get_card_payload, get_plot_payload
-from utils import read_date, write_date, unlist, dict_stringify
+from utils import read_date, write_date, unlist, dict_stringify,send_email_amazon_ses
+from apscheduler.schedulers.background import BackgroundScheduler
+from get_data import process_and_save_files
 
 app = Flask(__name__)
 
@@ -22,6 +26,17 @@ max_date = stats_data['Date'].max()
 failure_messages = ["Sorry I could not understand you", "I am sorry, I did not follow", "Can you please rephrase that"]
 
 stats_error_messages = ["I could not find the numbers for that query"]
+
+#cron job
+def download_and_process_data():
+  (status,message) = process_and_save_files()
+  if not status:
+    error_message = "Subject: Problem in Corona Bot data loading\n\n"+message+"\n\nRegards,\nOFL Team"
+    send_email_amazon_ses(email="everyone@onefourthlabs.com",message=error_message)
+  
+scheduler = BackgroundScheduler()
+scheduler.add_job(func=download_and_process_data, trigger="interval", minutes=1)
+scheduler.start()
 
 def read_entry(entities, context, field):
   entities_index = {'country': 'geo-country', 'state': 'geo-state', 'case_type': 'case_types', 'chart_type': 'plot_type', 'aggregation_type': 'aggregation_type', 'date': 'date-time'}
@@ -416,5 +431,7 @@ def test(query):
 def index():
   return 'The server is running... Yaayy!!!'
 
+atexit.register(lambda: scheduler.shutdown())
+
 if __name__ == '__main__':
-  app.run(port=8000, debug=True)
+  app.run(port=8000, debug=True, use_reloader=False)
