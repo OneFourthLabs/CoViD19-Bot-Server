@@ -2456,5 +2456,933 @@
         "Suggestions":[
             "How to ensure mental fitness while working at home"
         ]
-    }
+    },
+    {
+		"Intent": "how-can-I-help-others",
+		"Entities": {
+			"people_who_need_help": "others",
+			"my_things": "house"
+		},
+		"Sample_Question": "How can I help others while I am at home",
+		"Answer_Title": "Helping Homies",
+		"Answer": "As communities work to contain the spread of COVID-19, check in with neighbors that are part of the most vulnerable members of your community, such as the elderly or homeless. Even volunteering to do simple tasks — such as grocery shopping, sharing child care or helping out with errands — can go a long way for those who may be in quarantine or have a compromised immune system.",
+		"Source": "https://www.pbs.org/newshour/health/how-to-help-others-in-the-covid-19-crisis",
+		"Reference": "https://www.cdc.gov/coronavirus/2019-ncov/community/schools-childcare/talking-with-children.html",
+		"Image_URL": "https://1zl13gzmcsu3l9yq032yyf51-wpengine.netdna-ssl.com/wp-content/uploads/2017/01/family-photo.jpg",
+		"Response_Type": "Card",
+		"Audio_Link": "",
+		"Suggestions": ["How can I help people who are becoming anxious due to the pandemic", "How can I help people who are getting stressed"]
+	},
+	{
+		"Intent": "how-can-I-help-others",
+		"Entities": {
+			"people_who_need_help": "anxious"
+		},
+		"Sample_Question": "How can I help people who are becoming anxious due to the pandemic",
+		"Answer_Title": "Mental Help",
+		"Answer": "Ask others to : Take breaks from watching, reading, or listening to news stories, including social media. Hearing about the pandemic repeatedly can be upsetting. Take care of your body. Take deep breaths, stretch, or meditate. Try to eat healthy, well-balanced meals, exercise regularly, get plenty of sleep, and avoid alcohol and drugs. Make time to unwind. Try to do some other activities you enjoy. Connect with others. Talk with people you trust about your concerns and how you are feeling.",
+		"Source": "https://www.cdc.gov/coronavirus/2019-ncov/prepare/managing-stress-anxiety.html",
+		"Reference": "https://www.cdc.gov/coronavirus/2019-ncov/prepare/managing-stress-anxiety.html",
+		"Image_URL": "https://labblog.uofmhealth.org/sites/lab/files/2018-06/michigan-med-l-bright-nights.jpg",
+		"Response_Type": "Card",
+		"Audio_Link": "",
+		"Suggestions": ["How can I help people who are getting stressed"]
+	},
+	{
+		"Intent": "how-can-I-help-others",
+		"Entities": {
+			"people_who_need_help": "stressed"
+		},
+		"Sample_Question": "How can I help people who are getting stressed",
+		"Answer_Title": "Mental Help",
+		"Answer": "Responding to COVID-19 can take an emotional toll on you. There are things you can do to reduce secondary traumatic stress (STS) reactions: Acknowledge that STS can impact anyone helping families after a traumatic event. Learn the symptoms including physical (fatigue, illness) and mental (fear, withdrawal, guilt). Allow time for you and your family to recover from responding to the pandemic. Create a menu of personal self-care activities that you enjoy, such as spending time with friends and family, exercising, or reading a book. Take a break from media coverage of COVID-19. Ask for help if you feel overwhelmed or concerned that COVID-19 is affecting your ability to care for your family and patients as you did before the outbreak.",
+		"Source": "https://www.cdc.gov/coronavirus/2019-ncov/prepare/managing-stress-anxiety.html",
+		"Reference": "https://www.cdc.gov/coronavirus/2019-ncov/prepare/managing-stress-anxiety.html",
+		"Image_URL": "https://si.wsj.net/public/resources/images/BN-XC483_BONDS0_P_20180122073010.jpg",
+		"Response_Type": "Card",
+		"Audio_Link": "",
+		"Suggestions": ["How can I help people who are becoming anxious due to the pandemic"]
+	},
+	{
+		"Intent": "how-can-I-help-others",
+		"Entities": {
+			"people_who_need_help": "parents"
+		},
+		"Sample_Question": "How can I help my parents from a remote location",
+		"Answer_Title": "Helping Parents",
+		"Answer": "Your parents might not take your concerns seriously simply because you’re their child — don’t take it personally. These conversations can be strained because “your parents are going to feel that they are still capable of taking care of themselves, But other sources, such as their friends, communities or even favorite news outlets, might resonate more. “Trusted messengers matter when conveying public health messaging.",
+		"Source": "https://www.cnbc.com/2020/03/13/how-to-talk-to-older-adults-who-arent-taking-coronavirus-seriously.html",
+		"Reference": "https://www.cnbc.com/2020/03/13/how-to-talk-to-older-adults-who-arent-taking-coronavirus-seriously.html",
+		"Image_URL": "https://hca-staging.objects.frb.io/wp-content/uploads/2016/11/bigstock-Happy-Family-Gathering-134401148-1024x683.jpg",
+		"Response_Type": "Card",
+		"Audio_Link": "",
+		"Suggestions": ["What are the symptoms of COVID-19?"]
+	},
+	{
+		"Intent": "how-can-I-help-others",
+		"Entities": {
+			"people_who_need_help": "others",
+			"my_things": "office"
+		},
+		"Sample_Question": "How can I help others while I am at the office?",
+		"Answer_Title": "Helping Coworkers",
+		"Answer": "If you’re close to any coworker who are displaying symptoms of being ill, it’s possible you could approach them yourself and suggest they head home until they feel better. But if that’s not an option, it’s perfectly acceptable to express your concerns to your supervisor or HR team. You could simply say, “I know John is working hard, but it seems like he’s not feeling very well. Is it possible to ask him to work from home until he’s no longer running a fever or coughing? I’m concerned about him infecting others in the office.”  These can feel like awkward conversations to have. But it’s the job of leadership and HR teams to provide a safe work environment to all employees—and they’re trained to address thorny issues like these.",
+		"Source": "https://www.themuse.com/advice/coronavirus-and-work",
+		"Reference": "https://www.cnbc.com/2020/03/13/how-to-talk-to-older-adults-who-arent-taking-coronavirus-seriously.html",
+		"Image_URL": "https://pilbox.themuse.com/image.png?filter=antialias&h=343&opt=1&pos=top-left&prog=1&q=keep&url=https%3A%2F%2Fcms-assets.themuse.com%2Fmedia%2Flead%2Fa9f961af-8ffe-4d6a-a6c2-bb15249bc7a9.png&w=700",
+		"Response_Type": "Card",
+		"Audio_Link": "",
+		"Suggestions": ["What are the symptoms of COVID-19?"]
+	},
+	{
+		"Intent": "should_I_take_or_consume",
+		"Entities": {
+			"medicinal_items": "multivitamins"
+		},
+		"Sample_Question": "Should I take multivitamins?",
+		"Answer_Title": "Taking Multivitamins",
+		"Answer": "Although vitamin C does have some small effect on the common cold, it’s unlikely that taking large amounts of vitamin C supplements will cure a COVID-19 infection – or have a large effect at all.",
+		"Source": "https://www.channelnewsasia.com/news/commentary/covid-19-coronavirus-cold-can-vitamin-c-help-with-really-12526902",
+		"Reference": "https://www.channelnewsasia.com/news/commentary/covid-19-coronavirus-cold-can-vitamin-c-help-with-really-12526902",
+		"Image_URL": "https://5.imimg.com/data5/KI/GE/SC/SELLER-84218482/becadexamin-multivitamin-and-minerals-capsule-500x500.jpg",
+		"Response_Type": "Card",
+		"Audio_Link": "",
+		"Suggestions": ["Are there any drugs or vaccines against COVID-19?", "What treatments can I expect?"]
+	},
+	{
+		"Intent": "should_I_take_or_consume",
+		"Entities": {
+			"medicinal_items": "antibiotics"
+		},
+		"Sample_Question": "Will antibiotics help in curing COVID-19?",
+		"Answer_Title": "Taking Antibiotics",
+		"Answer": "No, antibiotics do not work against viruses, only bacteria.The new coronavirus (2019-nCoV) is a virus and, therefore, antibiotics should not be used as a means of prevention or treatment. However, if you are hospitalized for the 2019-nCoV, you may receive antibiotics because bacterial co-infection is possible.",
+		"Source": " https://www.who.int/emergencies/diseases/novel-coronavirus-2019/advice-for-public/myth-busters",
+		"Reference": "https://www.who.int/emergencies/diseases/novel-coronavirus-2019/advice-for-public/myth-busters",
+		"Image_URL": "https://cdn-a.william-reed.com/var/wrbm_gb_food_pharma/storage/images/publications/pharmaceutical-science/in-pharmatechnologist.com/article/2019/02/20/next-gen-antibiotics-designed-to-combat-resistance/9168053-1-eng-GB/Next-gen-antibiotics-designed-to-combat-resistance_wrbm_large.jpg",
+		"Response_Type": "Card",
+		"Audio_Link": "",
+		"Suggestions": ["Are there any drugs or vaccines against COVID-19?", "What treatments can I expect?"]
+	},
+	{
+		"Intent": "should_I_take_or_consume",
+		"Entities": {
+			"medicinal_items": "flu shot"
+		},
+		"Sample_Question": "Should I get a flu shot?",
+		"Answer_Title": "Flu shot",
+		"Answer": "Vaccines against pneumonia, such as pneumococcal vaccine and Haemophilus influenza type B (Hib) vaccine, do not protect against coronavirus, which is a newly discovered virus with no vaccine or cure to date.",
+		"Source": " https://www.foxnews.com/health/will-pneumonia-shots-protect-against-the-coronavirus",
+		"Reference": " https://www.foxnews.com/health/will-pneumonia-shots-protect-against-the-coronavirus",
+		"Image_URL": "https://www.statnews.com/wp-content/uploads/2015/10/151007_WeakLinkFlu.jpg",
+		"Response_Type": "Card",
+		"Audio_Link": "",
+		"Suggestions": ["Are there any drugs or vaccines against COVID-19?", "What treatments can I expect?"]
+	},
+	{
+		"Intent": "should_I_take_or_consume",
+		"Entities": {
+			"medicinal_items": "turmeric"
+		},
+		"Sample_Question": "Will taking turmeric help in preventing or curing COVID-19?",
+		"Answer_Title": "Taking turmeric",
+		"Answer": "A healthy diet, adequate sleep and exercise are all factors that strengthen your immune system but there is something else you can do to prevent your immunity dropping below the recommended levels and giving it a boost. And it's sitting comfortably in your spice cabinet - Turmeric,a yellow coloured and warm spice that comes from the root of the Curcuma plant.According to a research published in the journal PLOS ONE(Public Library of Science),curcumin,a compound found in turmeric is known to have anti - inflammatory properties that helps boost immunity.While eating turmeric in its raw form is good,researchers explain how the body might not be absorbing the curcumin effectively.",
+		"Source": "https://food.ndtv.com/health/fight-infections-and-boost-your-immunity-with-turmeric-696445",
+		"Reference": "https://www.thehindu.com/sci-tech/health/immunity-boosters-you-can-make-at-home/article31083337.ece",
+		"Image_URL": "https://i0.wp.com/cdn-prod.medicalnewstoday.com/content/images/articles/327/327455/turmeric-root-and-powder.jpg?w=1155&h=1675",
+		"Response_Type": "Card",
+		"Audio_Link": "",
+		"Suggestions": ["Are there any drugs or vaccines against COVID-19?", "What treatments can I expect?"]
+	},
+	{
+		"Intent": "should_I_take_or_consume",
+		"Entities": {
+			"medicinal_items": "HIV drugs"
+		},
+		"Sample_Question": "Are HIV Drugs useful against COVID-19?",
+		"Answer_Title": "Taking HIV Drugs",
+		"Answer": "Results are encouraging, but public health experts caution that more testing is needed before concluding that the HIV drugs can effectively treat the coronavirus. There is also some evidence based on a 2004 study in which patients with severe acute respiratory syndrome (known as SARS), caused by a related coronavirus, showed some clinical benefit from the HIV drug combination.  ",
+		"Source": "https://www.amfar.org/corona/",
+		"Reference": "https://www.amfar.org/corona/",
+		"Image_URL": "https://i0.wp.com/images-prod.healthline.com/hlcmsresource/images/4124-pills-732x549-thumbnail.jpg?w=756&h=567",
+		"Response_Type": "Card",
+		"Audio_Link": "",
+		"Suggestions": ["Are there any drugs or vaccines against COVID-19?", "What treatments can I expect?"]
+	},
+	{
+		"Intent": "should_I_take_or_consume",
+		"Entities": {
+			"medicinal_items": "cow urine"
+		},
+		"Sample_Question": "Can Cow urine help against COVID-19?",
+		"Answer_Title": "Taking cow urine",
+		"Answer": "Scientifically there is no basis to this particular myth. It hasn't been proven or determined yet that cow urine or cow dung used in any form either as a surface applicant or administered orally,kills the virus.",
+		"Source": " https://www.edexlive.com/news/2020/mar/18/can-cow-urine-cure-coronavirus-four-of-the-most-ridiculous-myths-about-covid-19-busted-10747.html",
+		"Reference": " https://www.edexlive.com/news/2020/mar/18/can-cow-urine-cure-coronavirus-four-of-the-most-ridiculous-myths-about-covid-19-busted-10747.html",
+		"Image_URL": "https://kj1bcdn.b-cdn.net/media/13716/cow-urine.jpeg?format=webp",
+		"Response_Type": "Card",
+		"Audio_Link": "",
+		"Suggestions": ["Are there any drugs or vaccines against COVID-19?", "What treatments can I expect?"]
+	},
+	{
+		"Intent": "should_I_take_or_consume",
+		"Entities": {
+			"medicinal_items": "H1N1 shot"
+		},
+		"Sample_Question": "Does H1N1 vaccine work against COVID-19?",
+		"Answer_Title": "H1N1 Vaccine",
+		"Answer": "There is ongoing research  trying to discover if vaccines for other types of Flu are effective against COVID19, but there is no substantial evidence to support this statement as of yet.",
+		"Source": "https://www.jci.org/articles/view/138003",
+		"Reference": "https://www.jci.org/articles/view/138003",
+		"Image_URL": "https://www.gbcghana.com/kitnes/cache/images/750x500/0/1.11517797.jpg",
+		"Response_Type": "Card",
+		"Audio_Link": "",
+		"Suggestions": ["Are there any drugs or vaccines against COVID-19?", "What treatments can I expect?"]
+	},
+	{
+		"Intent": "should_I_take_or_consume",
+		"Entities": {
+			"medicinal_items": "garlic"
+		},
+		"Sample_Question": "Will consuming garlic help in preventing or curing COVID-19?",
+		"Answer_Title": "Taking garlic",
+		"Answer": "Garlic is a healthy food that may have some antimicrobial properties. However, there is no evidence from the current outbreak that eating garlic has protected people from the new coronavirus.",
+		"Source": "https://www.who.int/emergencies/diseases/novel-coronavirus-2019/advice-for-public/myth-busters",
+		"Reference": "https://www.bbc.com/pidgin/tori-51799426",
+		"Image_URL": "https://www.who.int/images/default-source/health-topics/coronavirus/myth-busters/19.tmb-1920v.png?sfvrsn=52adfc93_3",
+		"Response_Type": "Card",
+		"Audio_Link": "",
+		"Suggestions": ["Are there any drugs or vaccines against COVID-19?", "What treatments can I expect?"]
+	},
+	{
+		"Intent": "how-is-medical-procedure-done",
+		"Entities": {
+			"medical_procedure": "quarantined",
+			"human_conditions": "cured"
+		},
+		"Sample_Question": "When can I be discharged from quarantine?",
+		"Answer_Title": "Quarantine period",
+		"Answer": "For COVID-19, the period of quarantine is 14 days from the last date of exposure, because 14 days is the longest incubation period seen for similar coronaviruses. Someone who has been released from COVID-19 quarantine is not considered a risk for spreading the virus to others because they have not developed illness during the incubation period.",
+		"Source": " https://www.cdc.gov/coronavirus/2019-ncov/faq.html ",
+		"Reference": " https://www.youtube.com/watch?v=AQxpQ94Euic",
+		"Image_URL": "https://media.graytvinc.com/images/810*607/coronavirus14.jpg",
+		"Response_Type": "Card",
+		"Audio_Link": "",
+		"Suggestions": ["Should I get a flu shot?"]
+	},
+	{
+		"Intent": "how-is-medical-procedure-done",
+		"Entities": {
+			"medical_procedure": "quarantined"
+		},
+		"Sample_Question": "how is quarantining done",
+		"Answer_Title": "Quarantine procedure",
+		"Answer": "Quarantine means separating a person or group of people who have been exposed to a contagious disease but have not developed illness (symptoms) from others who have not been exposed, in order to prevent the possible spread of that disease. Quarantine is usually established for the incubation period of the communicable disease, which is the span of time during which people have developed illness after exposure. For COVID-19, the period of quarantine is 14 days from the last date of exposure, because 14 days is the longest incubation period seen for similar coronaviruses. Someone who has been released from COVID-19 quarantine is not considered a risk for spreading the virus to others because they have not developed illness during the incubation period.",
+		"Source": "https://www.cdc.gov/coronavirus/2019-ncov/faq.html",
+		"Reference": "https://www.youtube.com/watch?v=AQxpQ94Euic",
+		"Image_URL": "https://media.graytvinc.com/images/810*607/coronavirus14.jpg",
+		"Response_Type": "Card",
+		"Audio_Link": "",
+		"Suggestions": ["How can I help people who are becoming anxious due to the pandemic"]
+	},
+	{
+		"Intent": "how-is-medical-procedure-done",
+		"Entities": {
+			"medical_procedure": "isolated",
+			"disease": "Coronavirus"
+		},
+		"Sample_Question": "what is the procedure for isolating someone diagnosed with coronavirus",
+		"Answer_Title": "Patient isolation procedure",
+		"Answer": "Set up separate, well-ventilated triage areas, place patients with suspected or confirmed COVID-19 in private rooms with door closed and private bathroom (as possible), prioritize AIIRs for patients undergoing aerosol-generating procedures.",
+		"Source": "https://www.cdc.gov/coronavirus/2019-ncov/infection-control/control-recommendations.html",
+		"Reference": "https://www.cdc.gov/coronavirus/2019-ncov/infection-control/control-recommendations.html",
+		"Image_URL": "https://assets.propublica.org/images/articles/_threeTwo400w/20200311-Corona-Window-3x2.jpg",
+		"Response_Type": "Card",
+		"Audio_Link": "",
+		"Suggestions": ["how is quarantining done"]
+	},
+	{
+		"Intent": "how-is-medical-procedure-done",
+		"Entities": {
+			"medical_procedure": "tested",
+			"disease": "Coronavirus"
+		},
+		"Sample_Question": "how is someone tested for coronavirus",
+		"Answer_Title": "Testing procedure",
+		"Answer": "A specialized test must be done to confirm that a person has been infected with the virus that causes COVID-19. Most often a clinician takes a swab of your nose (or both your nose and throat). The sample is delivered to labs that have been approved to perform the test. The number of tests and testing sites available are rapidly increasing. Still, it will take weeks before the test is available to everyone who may be infected. Meanwhile, clinicians will primarily test those with respiratory symptoms who have recently traveled to certain countries, live in a community with many infected people, or likely have been exposed to someone known to have COVID-19. Call the State Helpline Number or Ministry of Health & Family Welfare, Government of India's 24 x7 helpline 011 - 2397 8046. If one qualifies as acase for testing as per the protocol,they would be tested at a Government approved lab only.",
+		"Source": "https://www.mohfw.gov.in/",
+		"Reference": " https://www.icmr.nic.in/node/39071 ",
+		"Image_URL": "https://cms-img.coverfox.com/doctor-hand-taking-blood-sample-tube-1114244621-600x337-8.jpg",
+		"Response_Type": "Card",
+		"Audio_Link": "",
+		"Suggestions": ["How can I be cured?"]
+	},
+	{
+		"Intent": "how-is-medical-procedure-done",
+		"Entities": {
+			"medical_procedure": "treatment",
+			"disease": "Coronavirus"
+		},
+		"Sample_Question": "how is someone treated for coronavirus",
+		"Answer_Title": "Treatment for COVID19",
+		"Answer": "Currently there is no specific antiviral treatment for COVID-19. However, similar to treatment of any viral infection, these measures can help: While you dont need to stay in bed,you should get plenty of rest.Stay well hydrated.Take acetaminophen,ibuprofen,or naproxen to reduce fever and ease aches and pains.Be sure to follow directions.If you are taking any combination cold or flu medicine,keep track of all the ingredients and the doses.Even vaccines against pneumonia,such as pneumococcal vaccine and Haemophilus influenza type B(Hib) vaccine,do not protect against coronavirus,which is a newly discovered virus with no vaccine or cure to date.",
+		"Source": "https://www.health.harvard.edu/diseases-and-conditions/coronavirus-resource-center#Sick",
+		"Reference": "https://www.foxnews.com/health/will-pneumonia-shots-protect-against-the-coronavirus",
+		"Image_URL": "https://cms-img.coverfox.com/doctor-hand-taking-blood-sample-tube-1114244621-600x337-8.jpg",
+		"Response_Type": "Card",
+		"Audio_Link": "",
+		"Suggestions": ["Can Cow urine help against COVID-19?"]
+
+	},
+	{
+		"Intent": "how-is-medical-procedure-done",
+		"Entities": {
+			"human_conditions": "asymptomatic",
+			"disease": "Coronavirus"
+		},
+		"Sample_Question": "what if I am showng no symptoms for coronavirus?",
+		"Answer_Title": "Asymptomatic patients",
+		"Answer": "There is a strong evidence that it can be transmitted by people who are just mildly ill or even presymptomatic. That means COVID-19 will be much harder to contain than the Middle East respiratory syndrome or severe acute respiratory syndrome (SARS), which were spread much less efficiently and only by symptomatic people",
+		"Source": "https://edition.cnn.com/2020/03/14/health/coronavirus-asymptomatic-spread/index.html",
+		"Reference": "https://edition.cnn.com/2020/03/14/health/coronavirus-asymptomatic-spread/index.html",
+		"Image_URL": "https://images.wisegeek.com/doctor-listening-to-male-patients-chest.jpg",
+		"Response_Type": "Card",
+		"Audio_Link": "",
+		"Suggestions": ["how is quarantining done"]
+	},
+	{
+		"Intent": "how-is-medical-procedure-done",
+		"Entities": {
+			"human_conditions": "asymptomatic"
+		},
+		"Sample_Question": "What if I am asymptomatic?",
+		"Answer_Title": "Asymptomatic patients",
+		"Answer": "There is a strong evidence that it can be transmitted by people who are just mildly ill or even presymptomatic. That means COVID-19 will be much harder to contain than the Middle East respiratory syndrome or severe acute respiratory syndrome (SARS), which were spread much less efficiently and only by symptomatic people",
+		"Source": "https://edition.cnn.com/2020/03/14/health/coronavirus-asymptomatic-spread/index.html",
+		"Reference": "https://edition.cnn.com/2020/03/14/health/coronavirus-asymptomatic-spread/index.html",
+		"Image_URL": "https://images.wisegeek.com/doctor-listening-to-male-patients-chest.jpg",
+		"Response_Type": "Card",
+		"Audio_Link": "",
+		"Suggestions": ["how is quarantining done"]
+	},
+	{
+		"Intent": "how - is - medical - procedure - done",
+		"Entities": {
+			"human_conditions ": "cured ",
+			"disease ": "Coronavirus "
+		},
+		"Sample_Question": "How can I be cured from coronavirus?",
+		"Answer_Title": "Cure for COVID19",
+		"Answer": "Currently there is no specific antiviral treatment for COVID-19. However, similar to treatment of any viral infection, these measures can help: While you dont need to stay in bed,you should get plenty of rest.Stay well hydrated.Take acetaminophen,ibuprofen,or naproxen to reduce fever and ease aches and pains.Be sure to follow directions.If you are taking any combination cold or flu medicine,keep track of all the ingredients and the doses.Even vaccines against pneumonia,such as pneumococcal vaccine and Haemophilus influenza type B(Hib) vaccine,do not protect against coronavirus,which is a newly discovered virus with no vaccine or cure to date.",
+		"Source": "https://www.health.harvard.edu/diseases-and-conditions/coronavirus-resource-center#Sick",
+		"Reference": "https://www.foxnews.com/health/will-pneumonia-shots-protect-against-the-coronavirus",
+		"Image_URL": "https://i.ytimg.com/vi/lXcoSXeWwAM/maxresdefault.jpg",
+		"Response_Type": "Card",
+		"Audio_Link": "",
+		"Suggestions": ["Will antibiotics help in curing COVID-19?"]
+	},
+	{
+		"Intent": "how-is-medical-procedure-done",
+		"Entities": {
+			"human_conditions": "cured"
+		},
+		"Sample_Question": "How can I be cured?",
+		"Answer_Title": "Cure for COVID19",
+		"Answer": "Currently there is no specific antiviral treatment for COVID-19. However, similar to treatment of any viral infection, these measures can help: While you don't need to stay in bed,you should get plenty of rest.Stay well hydrated.Take acetaminophen,ibuprofen,or naproxen to reduce fever and ease aches and pains.Be sure to follow directions.If you are taking any combination cold or flu medicine,keep track of all the ingredients and the doses.Even vaccines against pneumonia,such as pneumococcal vaccine and Haemophilus influenza type B(Hib) vaccine,do not protect against coronavirus,which is a newly discovered virus with no vaccine or cure to date.",
+		"Source": "https://www.health.harvard.edu/diseases-and-conditions/coronavirus-resource-center#Sick",
+		"Reference": "https://www.foxnews.com/health/will-pneumonia-shots-protect-against-the-coronavirus",
+		"Image_URL": "https://i0.wp.com/post.healthline.com/wp-content/uploads/2019/07/Female_Patient_Hospital_Bed_1296x728-header-1296x728.jpg?w=1155&h=1528",
+		"Response_Type": "Card",
+		"Audio_Link": "",
+		"Suggestions": ["Will taking turmeric help in preventing or curing COVID-19?"]
+	},
+	{
+		"Intent": "how-is-medical-procedure-done",
+		"Entities": {
+			"human_conditions": "infected",
+			"disease": "Coronavirus"
+		},
+		"Sample_Question": "How do I know if I'm infected with coronavirus ? ",
+		"Answer_Title": "Symptoms ",
+		"Answer": "The most common symptoms of COVID-19 are fever, tiredness, difficulty in breathing and dry cough.  Some patients may also have aches and pains, nasal congestion, runny nose, sore throat or diarrhea. These symptoms are usually mild and begin gradually. Some people become infected but don’t develop any symptoms and don't feel unwell.Most people(about 80 % ) recover from the disease without needing special treatment.Around 1 out of every 6 people who gets COVID - 19 becomes seriously ill and develops difficulty breathing.Older people,and those with underlying medical problems like high blood pressure,heart problems or diabetes,are more likely to develop serious illness.People with fever,cough and difficulty breathing should seek medical attention.",
+		"Source": "https://www.who.int/news-room/q-a-detail/q-a-coronaviruses",
+		"Reference": "https://www.youtube.com/watch?v=oGruT7Fd54E",
+		"Image_URL": "https://cdn.powerofpositivity.com/wp-content/uploads/2019/12/Science-Explains-5-Reasons-People-Have-Shortness-of-Breath-And-How-to-Fix-It-1-1-1600x900.jpg",
+		"Response_Type": "Card",
+		"Audio_Link": "",
+		"Suggestions": ["What if I am asymptomatic?"]
+	},
+	{
+		"Intent": "how-is-medical-procedure-done",
+		"Entities": {
+			"human_conditions": "infected"
+		},
+		"Sample_Question": "How do I know if I am infected?",
+		"Answer_Title": "Symptoms ",
+		"Answer": "The most common symptoms of COVID-19 are fever, tiredness, difficulty in breathing and dry cough.  Some patients may also have aches and pains, nasal congestion, runny nose, sore throat or diarrhea. These symptoms are usually mild and begin gradually. Some people become infected but don’t develop any symptoms and dont feel unwell.Most people(about 80 % ) recover from the disease without needing special treatment.Around 1 out of every 6 people who gets COVID - 19 becomes seriously ill and develops difficulty breathing.Older people,and those with underlying medical problems like high blood pressure,heart problems or diabetes,are more likely to develop serious illness.People with fever,cough and difficulty breathing should seek medical attention.",
+		"Source": "https://www.who.int/news-room/q-a-detail/q-a-coronaviruses",
+		"Reference": "https://www.youtube.com/watch?v=oGruT7Fd54E",
+		"Image_URL": "https://cdn.powerofpositivity.com/wp-content/uploads/2019/12/Science-Explains-5-Reasons-People-Have-Shortness-of-Breath-And-How-to-Fix-It-1-1-1600x900.jpg",
+		"Response_Type": "Card",
+		"Audio_Link": "",
+		"Suggestions": ["How can I be cured?"]
+	},
+	{
+		"Intent": "how-is-medical-procedure-done",
+		"Entities": {
+			"human_conditions": "infected",
+			"medical_procedure": "treatment"
+		},
+		"Sample_Question": "How do I take treatment if I am infected?",
+		"Answer_Title": "Treatment for COVID19",
+		"Answer": "To date, there is no specific medicine recommended to prevent or treat the new coronavirus (2019-nCoV). However, those infected with the virus should receive appropriate care to relieve and treat symptoms, and those with severe illness should receive optimized supportive care. Some specific treatments are under investigation, and will be tested through clinical trials. WHO is helping to accelerate research and development efforts with a range or partners. ",
+		"Source": "https://www.who.int/emergencies/diseases/novel-coronavirus-2019/advice-for-public/myth-busters",
+		"Reference": "https://www.who.int/emergencies/diseases/novel-coronavirus-2019/advice-for-public/myth-busters",
+		"Image_URL": "https://images.agoramedia.com/everydayhealth/gcms/Sepsis-Treatment-RM-722x406.jpg",
+		"Response_Type": "Card",
+		"Audio_Link": "",
+		"Suggestions": ["Will consuming garlic help in preventing or curing COVID-19?"]
+	},
+	{
+		"Intent": "how-is-medical-procedure-done",
+		"Entities": {
+			"human_conditions": "infected",
+			"medical_procedure": "tested"
+		},
+		"Sample_Question": "How do I get tested to see if I am infected?",
+		"Answer_Title": "Testing procedure",
+		"Answer": "A specialized test must be done to confirm that a person has been infected with the virus that causes COVID-19. Most often a clinician takes a swab of your nose (or both your nose and throat). The sample is delivered to labs that have been approved to perform the test. The number of tests and testing sites available are rapidly increasing. Still, it will take weeks before the test is available to everyone who may be infected. Meanwhile, clinicians will primarily test those with respiratory symptoms who have recently traveled to certain countries, live in a community with many infected people, or likely have been exposed to someone known to have COVID-19. Call the State Helpline Number or Ministry of Health & Family Welfare, Government of India's 24 x7 helpline 011 - 2397 8046. If one qualifies as a case for testing as per the protocol,they would be tested at a Government approved lab only.",
+		"Source": "https://www.mohfw.gov.in/",
+		"Reference": " https://www.icmr.nic.in/node/39071 ",
+		"Image_URL": "https://images.agoramedia.com/everydayhealth/gcms/Sepsis-Treatment-RM-722x406.jpg",
+		"Response_Type": "Card",
+		"Audio_Link": "",
+		"Suggestions": ["Will consuming garlic help in preventing or curing COVID-19?"]
+	},
+	{
+		"Intent": "how-is-medical-procedure-done",
+		"Entities": {
+			"human_conditions": "infected",
+			"medical_procedure": "quarantined"
+		},
+		"Sample_Question": "Do I need to be quarantined if I am infected?",
+		"Answer_Title": "Quarantine procedure",
+		"Answer": "Quarantine means separating a person or group of people who have been exposed to a contagious disease but have not developed illness (symptoms) from others who have not been exposed, in order to prevent the possible spread of that disease. As per the latest guidelines, we should all be in self isolation if we have the symptoms for COVID19.",
+		"Source": "https://www.cdc.gov/coronavirus/2019-ncov/faq.html",
+		"Reference": "https://www.youtube.com/watch?v=AQxpQ94Euic",
+		"Image_URL": "https://api.time.com/wp-content/uploads/2020/02/coronavirus-home-quarantine.jpg",
+		"Response_Type": "Card",
+		"Audio_Link": "",
+		"Suggestions": ["Symptoms of COVID19", "How is quarantining done?"]
+	},
+	{
+		"Intent": "is_it_safe_to_do",
+		"Entities": {
+			"daily_actions": "sit in AC"
+		},
+		"Sample_Question": "Is it advisable to sit in an air conditioned office",
+		"Answer_Title": "COVID19 in cold environment",
+		"Answer": "The WHO says there is “no reason to believe cold weather or air-conditioners can kill the new coronavirus,” or other diseases, for that matter. The CDC and the WHO have said this from the start: the most effective way to protect yourself from COVID-19 is with frequent handwashing with soap and water, or using hand sanitizer with at least 60 percent alcohol. ",
+		"Source": "https://www.wwlp.com/weather/weather-news/cold-weather-kills-coronavirus-and-13-other-covid-19-myths-you-may-be-falling-for/",
+		"Reference": "https://www.wwlp.com/weather/weather-news/cold-weather-kills-coronavirus-and-13-other-covid-19-myths-you-may-be-falling-for/",
+		"Image_URL": "https://www.onehourairftworth.com/wp-content/uploads/2018/11/The-Top-Benefits-of-Installing-a-New-Air-Conditioner-in-Your-Workplace-_-Air-Conditioning-Service-in-Plano-TX-1024x683.jpg",
+		"Response_Type": "Card",
+		"Audio_Link": "",
+		"Suggestions": ["Can I go to the office"]
+	},
+	{
+		"Intent": "is_it_safe_to_do",
+		"Entities": {
+			"daily_actions": "order goods"
+		},
+		"Sample_Question": "Is it okay to shop for items online",
+		"Answer_Title": "Online Shopping",
+		"Answer": "Many Delivery partners are trying to make the delivery process as hygienic as possible, but at the same time we all should also follow some basic guidelines so that we don’t contract the virus.  Wash your hands after coming into contact with the delivery partner, make sure to maintain a distance from them if they have symptoms of cough etc.  Online deliveries are a boon for those who cannot leave their homes, as well as small restaurants who fear going out of business. But at the same time it comes with a risk to drivers and delivery workers who fear the loss of income if they get sick. At a minimum, everyone should generously tip their drivers for the service.",
+		"Source": "https://www.nytimes.com/interactive/2020/world/coronavirus-tips-advice.html?action=click&pgtype=Article&state=default&module=styln-coronavirus&variant=show&region=BELOW_MAIN_CONTENT&context=storyline_guide",
+		"Reference": "https://www.nytimes.com/interactive/2020/world/coronavirus-tips-advice.html?action=click&pgtype=Article&state=default&module=styln-coronavirus&variant=show&region=BELOW_MAIN_CONTENT&context=storyline_guide",
+		"Image_URL": "https://www.monsterinsights.com/wp-content/uploads/2019/11/breathtaking-online-shopping-statistics-you-never-knew-625x300.png",
+		"Response_Type": "Card",
+		"Audio_Link": "",
+		"Suggestions": ["How do I get tested to see if I am infected?"]
+	},
+	{
+		"Intent": "is_it_safe_to_do",
+		"Entities": {
+			"daily_actions": "order grocery "
+		},
+		"Sample_Question": "Is it okay to shop for grocery online",
+		"Answer_Title": "Online Ordering",
+		"Answer": "Many Delivery partners are trying to make the delivery process as hygienic as possible, but at the same time we all should also follow some basic guidelines so that we don’t contract the virus.  Wash your hands after coming into contact with the delivery partner, make sure to maintain a distance from them if they have symptoms of cough etc.  Online deliveries are a boon for those who cannot leave their homes, as well as small restaurants who fear going out of business. But at the same time it comes with a risk to drivers and delivery workers who fear the loss of income if they get sick. At a minimum, everyone should generously tip their drivers for the service.",
+		"Source": "https://www.nytimes.com/interactive/2020/world/coronavirus-tips-advice.html?action=click&pgtype=Article&state=default&module=styln-coronavirus&variant=show&region=BELOW_MAIN_CONTENT&context=storyline_guide",
+		"Reference": "https://www.nytimes.com/interactive/2020/world/coronavirus-tips-advice.html?action=click&pgtype=Article&state=default&module=styln-coronavirus&variant=show&region=BELOW_MAIN_CONTENT&context=storyline_guide",
+		"Image_URL": "https://5.imimg.com/data5/RC/GA/MY-41457117/e-commerce-application-development-500x500.jpg",
+		"Response_Type": "Card",
+		"Audio_Link": "",
+		"Suggestions": ["What is the right way of disinfecting my house"]
+	},
+	{
+		"Intent": "is_it_safe_to_do",
+		"Entities": {
+			"daily_actions": "order food"
+		},
+		"Sample_Question": "Is it okay to order food online",
+		"Answer_Title": "Online Ordering",
+		"Answer": "Many Delivery partners are trying to make the delivery process as hygienic as possible, but at the same time we all should also follow some basic guidelines so that we don’t contract the virus.  Wash your hands after coming into contact with the delivery partner, make sure to maintain a distance from them if they have symptoms of cough etc.  Online deliveries are a boon for those who cannot leave their homes, as well as small restaurants who fear going out of business. But at the same time it comes with a risk to drivers and delivery workers who fear the loss of income if they get sick. At a minimum, everyone should generously tip their drivers for the service.",
+		"Source": "https://www.nytimes.com/interactive/2020/world/coronavirus-tips-advice.html?action=click&pgtype=Article&state=default&module=styln-coronavirus&variant=show&region=BELOW_MAIN_CONTENT&context=storyline_guide",
+		"Reference": "https://www.nytimes.com/interactive/2020/world/coronavirus-tips-advice.html?action=click&pgtype=Article&state=default&module=styln-coronavirus&variant=show&region=BELOW_MAIN_CONTENT&context=storyline_guide",
+		"Image_URL": "https://5.imimg.com/data5/RC/GA/MY-41457117/e-commerce-application-development-500x500.jpg",
+		"Response_Type": "Card",
+		"Audio_Link": "",
+		"Suggestions": ["Can I invite my friends for dinner"]
+	},
+	{
+		"Intent": "is_it_safe_to_do",
+		"Entities": {
+			"daily_actions": "invite friends"
+		},
+		"Sample_Question": "Can I invite my friends for dinner",
+		"Answer_Title": "Meetups",
+		"Answer": "As per Indian government's latest guidelines,we should avoid meetups and get to gathers,you can postpone it for later after this crisis.The key to slowing the spread of COVID - 19 is to limit social interactions as much as possible.",
+		"Source": "https://www.mohfw.gov.in/",
+		"Reference": "https://www.cdc.gov/coronavirus/2019-ncov/prepare/children.html",
+		"Image_URL": "https://imgix.bustle.com/uploads/image/2017/9/19/6df36062-22cf-47ab-a228-350ddb911f46-fotolia_139808442_subscription_monthly_m.jpg?w=970&h=546&fit=crop&crop=faces&auto=format&q=70",
+		"Response_Type": "Card",
+		"Audio_Link": "",
+		"Suggestions": ["Is it okay to shop for items online"]
+	},
+	{
+		"Intent": "is_it_safe_to_do",
+		"Entities": {
+			"daily_actions": "travel to office"
+		},
+		"Sample_Question": "Can I go to the office",
+		"Answer_Title": "Work from office",
+		"Answer": "As government directives quickly changed about how workplaces should be operating, many have not been prepared and there’s no legal obligation for an employer to allow employees to work remotely, said Heath.  However, after health officials said to limit gatherings of over 50 people, a workplace that violates that could be creating a health and safety issue, Refusing to let employees work from home at this point during a public health crisis would be the same as refusing to let staff come to work.",
+		"Source": "https://globalnews.ca/news/6708762/working-from-home-coronavirus/",
+		"Reference": "https://globalnews.ca/news/6708762/working-from-home-coronavirus/",
+		"Image_URL": "https://ergoadvantageinc.com/wp-content/uploads/2019/07/iStock_81219573_1200px.jpg",
+		"Response_Type": "Card",
+		"Audio_Link": "",
+		"Suggestions": ["How can I disinfect my office cabin?"]
+	},
+	{
+		"Intent": "is_it_safe_to_do",
+		"Entities": {
+			"daily_actions": "travel by air"
+		},
+		"Sample_Question": "Is it safe to travel by air",
+		"Answer_Title": "Traveling by air",
+		"Answer": "Because of how air circulates and is filtered on airplanes, most viruses and other germs do not spread easily. Although the risk of infection on an airplane is low, If you do travel, take the following steps to help reduce your chances of getting sick: Avoid contact with sick people,  Avoid touching your eyes, nose, or mouth with unwashed hands, Wash your hands often with soap and water for at least 20 seconds or using an alcohol-based hand sanitizer that contains at least 60% alcohol. Soap and water should be used if hands are visibly dirty. It is especially important to clean hands after going to the bathroom; before eating; and after coughing, sneezing or blowing your nose. ",
+		"Source": "https://www.cdc.gov/coronavirus/2019-ncov/travelers/faqs.html",
+		"Reference": "https://www.forbes.com/sites/brucelee/2020/03/07/with-covid-19-coronavirus-should-you-cancel-or-postpone-air-travel/",
+		"Image_URL": "https://render.fineartamerica.com/images/rendered/default/metal-print/10.000/6.625/break/images-medium-5/interior-of-aeroplane-with-passengers-rear-view-ed-pritchard.jpg",
+		"Response_Type": "Card",
+		"Audio_Link": "",
+		"Suggestions": ["Is it safe to visit the market?"]
+	},
+	{
+		"Intent": "is_it_safe_to_do",
+		"Entities": {
+			"daily_actions": "receive a package"
+		},
+		"Sample_Question": "Is it okay to receive a package?",
+		"Answer_Title": "Receiving packages",
+		"Answer": "Yes. The likelihood of an infected person contaminating commercial goods is low and the risk of catching the virus that causes COVID-19 from a package that has been moved, travelled, and exposed to different conditions and temperature is also low.",
+		"Source": "https://www.who.int/news-room/q-a-detail/q-a-coronaviruses",
+		"Reference": "https://www.who.int/news-room/q-a-detail/q-a-coronaviruses",
+		"Image_URL": "https://www.yourmoney.com/wp-content/uploads/sites/3/2018/12/shutterstock_380086414.jpg",
+		"Response_Type": "Card",
+		"Audio_Link": "",
+		"Suggestions": ["What is the right way of disinfecting my house"]
+	},
+	{
+		"Intent": "is_it_safe_to_do",
+		"Entities": {
+			"daily_actions": "run"
+		},
+		"Sample_Question": "Is it safe to go for a run outside?",
+		"Answer_Title": "Excercising outside",
+		"Answer": "Yes! Getting exercise outside is a great alternative to going to the gym, where touching high-contact equipment can pose a risk (if your gym is even still open). A study last year found infectious germs on about a third of the surfaces at 16 different fitness facilities. Exercise boosts our immune systems, and even a single workout can improve our ability to fight off germs, according to the latest research. Even if you just hang out in a park, rather than go for a jog or a walk, getting some fresh air, and hopefully sunshine, is a good idea.",
+		"Source": "https://www.nytimes.com/interactive/2020/world/coronavirus-tips-advice.html",
+		"Reference": "https://www.nytimes.com/2020/03/04/well/move/exercise-immunity-infection-coronavirus.html",
+		"Image_URL": "https://www.goalcast.com/wp-content/uploads/2018/04/shutterstock_520017307.jpg",
+		"Response_Type": "Card",
+		"Audio_Link": "",
+		"Suggestions": ["How to stay physically fit while working at home"]
+	},
+	{
+		"Intent": "is_it_safe_to_do",
+		"Entities": {
+			"daily_actions": "travel by train"
+		},
+		"Sample_Question": "Is it alright to travel by train?",
+		"Answer_Title": "Traveling by train",
+		"Answer": "Your risk of exposure to respiratory viruses like coronavirus may increase in crowded settings, particularly closed-in settings with little air circulation. This may include settings such as conferences, public events (like concerts and sporting events), religious gatherings, public spaces (like movie theatres and shopping malls), and public transportation (like buses, metro, trains).",
+		"Source": "https://www.cdc.gov/coronavirus/2019-ncov/travelers/travel-in-the-us.html",
+		"Reference": "https://youtu.be/0KBvReECRrI",
+		"Image_URL": "https://img.etimg.com/thumb/width-640,height-480,imgsize-341053,resizemode-1,msid-62554726/plan-early-to-get-discounts-on-train-travel-railway-panel.jpg",
+		"Response_Type": "Card",
+		"Audio_Link": "",
+		"Suggestions": ["Is it safe to travel by air"]
+	},
+	{
+		"Intent": "is_it_safe_to_do",
+		"Entities": {
+			"daily_actions": "travel to market"
+		},
+		"Sample_Question": "Is it safe to visit the market?",
+		"Answer_Title": "Visiting Markets",
+		"Answer": "It's a huge rist to visit public places during an pandemic,and doing so has a significant risk of exposure to COVID19.You can prefer to order things online following proper measures to be safe from the Virus.",
+		"Source": "https://www.cdc.gov/coronavirus/2019-ncov/travelers/travel-in-the-us.html",
+		"Reference": "https://youtu.be/0KBvReECRrI",
+		"Image_URL": "https://lp-cms-production.imgix.net/features/2017/11/carmel-market-tel-aviv-4752499928b4.jpg?w=1200&sharp=10&vib=20",
+		"Response_Type": "Card",
+		"Audio_Link": "",
+		"Suggestions": ["How do I prepare for prolonged quarantine?"]
+	},
+	{
+		"Intent": "is_it_safe_to_do",
+		"Entities": {
+			"daily_actions": "walk"
+		},
+		"Sample_Question": "Is it okay to go for a walk outside?",
+		"Answer_Title": "Excercising outside",
+		"Answer": "Yes! Getting exercise outside is a great alternative to going to the gym, where touching high-contact equipment can pose a risk (if your gym is even still open). A study last year found infectious germs on about a third of the surfaces at 16 different fitness facilities. Exercise boosts our immune systems, and even a single workout can improve our ability to fight off germs, according to the latest research. Even if you just hang out in a park, rather than go for a jog or a walk, getting some fresh air, and hopefully sunshine, is a good idea.",
+		"Source": "https://www.nytimes.com/interactive/2020/world/coronavirus-tips-advice.html",
+		"Reference": "https://www.nytimes.com/2020/03/04/well/move/exercise-immunity-infection-coronavirus.html",
+		"Image_URL": "https://www.evidentlycochrane.net/wp-content/uploads/2013/09/autumn-walk22.jpg",
+		"Response_Type": "Card",
+		"Audio_Link": "",
+		"Suggestions": ["How to stay physically fit while working at home"]
+	},
+	{
+		"Intent": "is_it_safe_to_do",
+		"Entities": {
+			"daily_actions": "travel to office"
+		},
+		"Sample_Question": "Is it okay to travel to office?",
+		"Answer_Title": "Traveling",
+		"Answer": "It's not a good idea to travel during a pandemic,taking personal vehical is a safe choice.But one should avoid using public transports or places where the chances of exposure to the virus become significantly high.",
+		"Source": "https://www.cdc.gov/coronavirus/2019-ncov/travelers/travel-in-the-us.html",
+		"Reference": "https://youtu.be/0KBvReECRrI",
+		"Image_URL": "https://www.jagranimages.com/images/2020/mar/coronavirus-71584775043492.jpg",
+		"Response_Type": "Card",
+		"Audio_Link": "",
+		"Suggestions": ["Is it safe to visit the market?"]
+	},
+	{
+		"Intent": "how-to-disinfect",
+		"Entities": {
+			"my_things": "phone"
+		},
+		"Sample_Question": "How to get rid of viruses on my phone",
+		"Answer_Title": "Disinfecting Gadgets",
+		"Answer": "COVID-19, meanwhile, can survive on surfaces for anywhere from a few hours to over a week, depending on conditions. If you’re in the mood to kill those germs, some alcohol can’t hurt. At least, it can’t hurt now. “Using a 70% isopropyl alcohol wipe or Clorox Disinfecting Wipes, you may gently wipe the exterior surfaces of your phone,” Apple says on its updated support page. “Don’t use bleach. Avoid getting moisture in any openings, and don’t submerge your Phone in any cleaning agents. Tap on learn more to see a video.",
+		"Source": "https://time.com/5804610/phone-clean-wipes/",
+		"Reference": "https://www.youtube.com/watch?v=Ul-RjZ0uDdk",
+		"Image_URL": "https://cdn.thewirecutter.com/wp-content/uploads/2020/03/cleanphone-lowres-2x1-1136190117-1024x512.jpg",
+		"Response_Type": "Card",
+		"Audio_Link": "",
+		"Suggestions": ["Is it okay to order food online"]
+	},
+	{
+		"Intent": "how-to-disinfect",
+		"Entities": {
+			"my_things": "gadgets"
+		},
+		"Sample_Question": "Can you show me a video about disinfecting my gadgets",
+		"Answer_Title": "Disinfecting Gadgets",
+		"Answer": "COVID-19, meanwhile, can survive on surfaces for anywhere from a few hours to over a week, depending on conditions. If you’re in the mood to kill those germs, some alcohol can’t hurt. At least, it can’t hurt now. “Using a 70% isopropyl alcohol wipe or Clorox Disinfecting Wipes, you may gently wipe the exterior surfaces of your phone,” Apple says on its updated support page. “Don’t use bleach. Avoid getting moisture in any openings, and don’t submerge your Phone in any cleaning agents. Tap on learn more to see a video.",
+		"Source": "https://www.insidehook.com/article/gadgets/clean-sterilize-phone-laptop-coronavirus",
+		"Reference": "https://www.youtube.com/watch?v=Ul-RjZ0uDdk",
+		"Image_URL": "https://cnet1.cbsistatic.com/img/YtFYiFItY8cjUJLgdiJjHXW-B2c=/2019/04/23/47baa81d-e0ef-4b0d-b77f-ea9ca25459c6/phone-screen.jpg",
+		"Response_Type": "Card",
+		"Audio_Link": "",
+		"Suggestions": ["Is it okay to shop for items online"]
+	},
+	{
+		"Intent": "how-to-disinfect",
+		"Entities": {
+			"my_things": "house"
+		},
+		"Sample_Question": "What is the right way of disinfecting my house",
+		"Answer_Title": "Disinfecting House",
+		"Answer": "Keeping your home clean and disinfected will prevent the spread of coronavirus, and any other virus for that matter. But if no one in your household is showing symptoms or has been diagnosed, then the chances of the virus living on a surface in your home are less likely.  The most important surfaces to clean regularly are the ones you touch most often. This will reduce the likelihood of the virus transferring from a surface to your hands.",
+		"Source": "https://patient.info/news-and-features/covid-19-do-you-need-to-disinfect-your-home",
+		"Reference": "https://patient.info/news-and-features/covid-19-do-you-need-to-disinfect-your-home",
+		"Image_URL": "https://facilityexecutive.com/wp-content/uploads/2018/06/FEJune18-HealthcareBNS-Feature.jpg",
+		"Response_Type": "Card",
+		"Audio_Link": "",
+		"Suggestions": ["Can you show me a video about disinfecting my gadgets"]
+	},
+	{
+		"Intent": "how-to-disinfect",
+		"Entities": {
+			"my_things": "phone"
+		},
+		"Sample_Question": "What is the correct procedure for disinfecting my phone",
+		"Answer_Title": "Disinfecting Gadgets",
+		"Answer": "COVID-19, meanwhile, can survive on surfaces for anywhere from a few hours to over a week, depending on conditions. If you’re in the mood to kill those germs, some alcohol can’t hurt. At least, it can’t hurt now. “Using a 70% isopropyl alcohol wipe or Clorox Disinfecting Wipes, you may gently wipe the exterior surfaces of your phone,” Apple says on its updated support page. “Don’t use bleach. Avoid getting moisture in any openings, and don’t submerge your Phone in any cleaning agents. Tap on learn more to see a video.",
+		"Source": "https://time.com/5804610/phone-clean-wipes/",
+		"Reference": "https://www.youtube.com/watch?v=Ul-RjZ0uDdk",
+		"Image_URL": "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/man-cleaning-phone-screen-to-apply-protective-glass-royalty-free-image-1583354059.jpg",
+		"Response_Type": "Card",
+		"Audio_Link": "",
+		"Suggestions": ["How do I prepare for prolonged quarantine?"]
+	},
+	{
+		"Intent": "how-to-disinfect",
+		"Entities": {
+			"my_things": "car"
+		},
+		"Sample_Question": "What is the recommended way to disinfect my car?",
+		"Answer_Title": "Disinfecting Car",
+		"Answer": "- Use disinfectant wipes or regular soapy water to clean hard surfaces throughout the cabin. - Make sure to clean high-touch areas throughout the cabin. - When cleaning your car, don’t overlook soft surfaces, such as the carpet, seats, and the headliner.  - If you have kids, pay attention to surfaces that your children handle regularly. - Keep yourself healthy and your car clean by carrying hand sanitizer and disinfecting wipes. - Disposable gloves can protect your hands against harsh cleaning chemicals, but when disinfecting your car, they can help prevent the spread of viruses",
+		"Source": "https://thenewswheel.com/tips-for-sanitizing-your-car-against-covid-19/",
+		"Reference": "https://www.volvoofdayton.com/disinfecting-vehicle-interior-prevent-covid.htm",
+		"Image_URL": "https://pictures.dealer.com/v/volvoofdaytonvcna/0850/53ada742351361923c624c957ccce072x.jpg",
+		"Response_Type": "Card",
+		"Audio_Link": "",
+		"Suggestions": ["Is it okay to travel to office?"]
+	},
+	{
+		"Intent": "how-to-disinfect",
+		"Entities": {
+			"my_things": "office"
+		},
+		"Sample_Question": "How can I disinfect my office cabin?",
+		"Answer_Title": "Disinfecting Office",
+		"Answer": "Here are five tips on disinfecting an office: Use a one-way wipe down, Practice color-coded cleaning, Know what chemicals can do, Tech disinfect, Heavily promote handwashing.",
+		"Source": "https://www.cleanlink.com/news/article/Tips-To-Disinfecting-An-Office--25245",
+		"Reference": "https://www.cleanlink.com/news/article/Tips-To-Disinfecting-An-Office--25245",
+		"Image_URL": "https://www.cleanlink.com/resources/editorial/2020/cleaning-desk-25245.jpg",
+		"Response_Type": "Card",
+		"Audio_Link": "",
+		"Suggestions": ["What is the right way of disinfecting my house"]
+	},
+	{
+		"Intent": "how-to-disinfect",
+		"Entities": {
+			"my_things": "clothing"
+		},
+		"Sample_Question": "What is the right way to disinfect my clothing?",
+		"Answer_Title": "Disinfecting clothes",
+		"Answer": "A recent study found that the COVID-19 coronavirus can survive up to 8 hours on clothes. The researchers also found that this virus can hang out as droplets in the air for up to three hours before they fall. But most often they will fall more quickly. There's a lot we still don't know, such as how different conditions, such as exposure to sunlight,heat,or cold,can affect these survival times.",
+		"Source": "https://www.mayoclinic.org/diseases-conditions/flu/expert-answers/infectious-disease/faq-20057907",
+		"Reference": "https://www.thespruce.com/disinfect-laundry-for-bacterial-viral-infections-2146333",
+		"Image_URL": "https://www.thespruce.com/thmb/39k5Szd2RdEknM4Ypu3H1uH5-Xc=/960x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/disinfect-laundry-for-bacterial-viral-infections-2146333_0977-ec58f232f3144b1db171e65f0e7a084c.jpg",
+		"Response_Type": "Card",
+		"Audio_Link": "",
+		"Suggestions": ["What is the correct procedure for disinfecting my phone"]
+	},
+	{
+		"Intent": "how-to-prepare-for-self-imposed-measures",
+		"Entities": {
+			"self_imposed_measures": "working from home"
+		},
+		"Sample_Question": "How do I work from home effectively?",
+		"Answer_Title": "Work from home effectively",
+		"Answer": "- Make a schedule and stick to it  - Focus on what you’ve accomplished at the end of each day to keep yourself motivated  - Create a dedicated workspace and let your family know that you are unavailable during work hours",
+		"Source": "https://hbr.org/2014/10/5-ways-to-work-from-home-more-effectively",
+		"Reference": "https://hbr.org/2014/10/5-ways-to-work-from-home-more-effectively",
+		"Image_URL": "https://www.primoprint.com/blog/wp-content/uploads/2019/05/tips-work-from-home-1370x795.jpg",
+		"Response_Type": "Card",
+		"Audio_Link": "",
+		"Suggestions": ["How to stay physically fit while working at home"]
+	},
+	{
+		"Intent": "how-to-prepare-for-self-imposed-measures",
+		"Entities": {
+			"self_imposed_measures": "mentally fit"
+		},
+		"Sample_Question": "What should I do to stay mentally fit while at home",
+		"Answer_Title": "Mental Help",
+		"Answer": "Take breaks from watching, reading, or listening to news stories, including social media. Hearing about the pandemic repeatedly can be upsetting. Take care of your body. Take deep breaths, stretch, or meditate. Try to eat healthy, well-balanced meals, exercise regularly, get plenty of sleep, and avoid alcohol and drugs. Make time to unwind. Try to do some other activities you enjoy. Connect with others. Talk with people you trust about your concerns and how you are feeling.",
+		"Source": "https://www.cdc.gov/coronavirus/2019-ncov/prepare/managing-stress-anxiety.html",
+		"Reference": "https://www.cdc.gov/coronavirus/2019-ncov/prepare/managing-stress-anxiety.html",
+		"Image_URL": "https://www.fsb.org.uk/static/80e48948-0c66-4b0f-bcbc8225edece8b4/1170x350_highestperformance_/Mental-Health-Blog-Image.jpg",
+		"Response_Type": "Card",
+		"Audio_Link": "",
+		"Suggestions": ["What should I do to boost my immunity"]
+	},
+	{
+		"Intent": "how-to-prepare-for-self-imposed-measures",
+		"Entities": {
+			"self_imposed_measures": ["working from home", "mentally fit"]
+		},
+		"Sample_Question": "How to ensure mental fitness while working at home",
+		"Answer_Title": "Mental Help",
+		"Answer": "While working from your home, follow these steps : Take breaks from watching, reading, or listening to news stories, including social media. Hearing about the pandemic repeatedly can be upsetting. Take care of your body. Take deep breaths, stretch, or meditate. Try to eat healthy, well-balanced meals, exercise regularly, get plenty of sleep, and avoid alcohol and drugs. Make time to unwind. Try to do some other activities you enjoy. Connect with others. Talk with people you trust about your concerns and how you are feeling.",
+		"Source": "https://www.cdc.gov/coronavirus/2019-ncov/prepare/managing-stress-anxiety.html",
+		"Reference": "https://www.cdc.gov/coronavirus/2019-ncov/prepare/managing-stress-anxiety.html",
+		"Image_URL": "https://www.fsb.org.uk/static/80e48948-0c66-4b0f-bcbc8225edece8b4/1170x350_highestperformance_/Mental-Health-Blog-Image.jpg",
+		"Response_Type": "Card",
+		"Audio_Link": "",
+		"Suggestions": ["How do I work from home effectively?"]
+	},
+	{
+		"Intent": "how-to-prepare-for-self-imposed-measures",
+		"Entities": {
+			"self_imposed_measures": ["working from home", "physically fit"]
+		},
+		"Sample_Question": "How to stay physically fit while working at home",
+		"Answer_Title": "Staying healthy",
+		"Answer": "Getting exercise outside is a great alternative to going to the gym, where touching high-contact equipment can pose a risk (if your gym is even still open). A study last year found infectious germs on about a third of the surfaces at 16 different fitness facilities. Exercise boosts our immune systems, and even a single workout can improve our ability to fight off germs, according to the latest research.",
+		"Source": "https://www.nytimes.com/interactive/2020/world/coronavirus-tips-advice.html",
+		"Reference": "https://www.nytimes.com/2020/03/04/well/move/exercise-immunity-infection-coronavirus.html",
+		"Image_URL": "https://adiahealth.com/wp-content/uploads/what-is-a-healthy-lifestyle.png",
+		"Response_Type": "Card",
+		"Audio_Link": "",
+		"Suggestions": ["What should I do to stay mentally fit while at home"]
+	},
+	{
+		"Intent": "how-to-prepare-for-self-imposed-measures",
+		"Entities": {
+			"self_imposed_measures": "quarantine"
+		},
+		"Sample_Question": "How do I prepare for prolonged quarantine?",
+		"Answer_Title": "Quarantine Preparation",
+		"Answer": "Preparing yourself for quarantine becomes necessary, and requires several preparations like: Managing medical and health supplies -prescription medications -prescribed medical supplies such as glucose and blood-pressure monitoring equipment -fever and pain medicine, such as acetaminophen or ibuprofen -cough and cold medicines -antidiarrheal medication -thermometer -fluids with electrolytes -soap and alcohol-based hand sanitizer -tissues, toilet paper, disposable diapers, tampons, sanitary napkins -garbage bags",
+		"Source": " https://www.health.harvard.edu/diseases-and-conditions/coronavirus-resource-center#Prepare ",
+		"Reference": " https://www.health.harvard.edu/diseases-and-conditions/coronavirus-resource-center#Prepare ",
+		"Image_URL": "https://www.orangemart.in/wp-content/uploads/2015/11/showImage.jpg",
+		"Response_Type": "Card",
+		"Audio_Link": "",
+		"Suggestions": ["How to ensure mental fitness while working at home"]
+	},
+	{
+		"Intent": "how-to-do-precautionary-action",
+		"Entities": {
+			"precautionary_actions": "improve my immune system"
+		},
+		"Sample_Question": "What should I do to boost my immunity",
+		"Answer_Title": "Boosting Immunity",
+		"Answer": "First, eat a health and nutritious diet, which helps your immune system to function properly. Second, limit your alcohol consumption, and avoid sugary drinks. Third, do not smoke, he said, as smoking damages your lungs and can increase your risk of developing severe disease if you become infected with Covid-19. Fourth, exercise. WHO recommends 30 minutes of physical activity a day for adults, and one hour a day for children.",
+		"Source": "https://www.straitstimes.com/singapore/health/coronavirus-who-gives-advice-on-how-to-boost-your-health-to-fight-covid-19",
+		"Reference": "https://www.straitstimes.com/singapore/health/coronavirus-who-gives-advice-on-how-to-boost-your-health-to-fight-covid-19",
+		"Image_URL": "https://www.straitstimes.com/sites/default/files/styles/article_pictrure_780x520_/public/articles/2020/03/21/hzhealthy0321.jpg?itok=6cVSlncb&timestamp=1584800953",
+		"Response_Type": "Card",
+		"Audio_Link": "",
+		"Suggestions": ["How to stay physically fit while working at home"]
+	},
+	{
+		"Intent": "how-to-do-precautionary-action",
+		"Entities": {
+			"precautionary_actions": "wash hands"
+		},
+		"Sample_Question": "What is the correct procedure for washing my hands",
+		"Answer_Title": "Washing Hands",
+		"Answer": "Follow Five Steps to Wash Your Hands the Right Way    Washing your hands is easy, and it’s one of the most effective ways to prevent the spread of germs. Clean hands can stop germs from spreading from one person to another and throughout an entire community—from your home and workplace to childcare facilities and hospitals.    Follow these five steps every time.    -Wet your hands with clean, running water (warm or cold), turn off the tap, and apply soap.  -Lather your hands by rubbing them together with the soap. Lather the backs of your hands, between your fingers, and under your nails.  -Scrub your hands for at least 20 seconds. Need a timer? Hum the “Happy Birthday” song from beginning to end twice.  -Rinse your hands well under clean, running water.  -Dry your hands using a clean towel or air dry them.",
+		"Source": "https://www.cdc.gov/handwashing/when-how-handwashing.html",
+		"Reference": "https://www.youtube.com/watch?v=IisgnbMfKvI",
+		"Image_URL": "https://photos.prnewswire.com/prnfull/20161013/428691",
+		"Response_Type": "Card",
+		"Audio_Link": "",
+		"Suggestions": ["How to get rid of viruses on my phone"]
+	},
+	{
+		"Intent": "how-to-do-precautionary-action",
+		"Entities": {
+			"precautionary_actions": "put a mask"
+		},
+		"Sample_Question": "How do I wear a mask",
+		"Answer_Title": "Wearning Mask",
+		"Answer": "-Before putting on a mask, clean hands with alcohol-based hand rub or soap and water. -Cover mouth and nose with mask and make sure there are no gaps between your face and the mask. -Avoid touching the mask while using it; if you do, clean your hands with alcohol-based hand rub or soap and water. -Replace the mask with a new one as soon as it is damp and do not reuse single-use masks.",
+		"Source": "https://www.who.int/emergencies/diseases/novel-coronavirus-2019/advice-for-public/when-and-how-to-use-masks",
+		"Reference": "https://www.youtube.com/watch?v=lrvFrH_npQI&feature=emb_logo",
+		"Image_URL": "https://i.insider.com/5e583363fee23d3fd10eac33?width=1100&format=jpeg&auto=webp",
+		"Response_Type": "Card",
+		"Audio_Link": "",
+		"Suggestions": ["How to wear gloves?", "What is the right way of removing my mask"]
+	},
+	{
+		"Intent": "how-to-do-precautionary-action",
+		"Entities": {
+			"precautionary_actions": "dispose a mask"
+		},
+		"Sample_Question": "Can you show me the correct way of disposing a mask ?",
+		"Answer_Title": "Disposing Mask",
+		"Answer": "One should always wash their hands before taking off the mask, as touching one’s face with unwashed hands heightens the risk of illnesses. After that, one should take off the mask, and fold it in half inwards, such that the droplets from the mouth and nose are not exposed. Then, fold the mask into another half, and then another half, until the mask looks like a roll. The mask can also be wrapped with its ear loops so that it will not unravel.",
+		"Source": "https://www.scmp.com/week-asia/explained/article/3051429/wearing-face-mask-how-dispose-them-safely-and-can-they-be",
+		"Reference": "https://www.mohfw.gov.in/DraftUseofmaskbypublic.pdf",
+		"Image_URL": "https://www.todayonline.com/sites/default/files/styles/new_app_article_detail/public/photos/43_images/mask_on_the_ground.jpg?itok=R73xm0Pg",
+		"Response_Type": "Card",
+		"Audio_Link": "",
+		"Suggestions": ["What is the correct way to wear gloves?", "What is the right way of removing my mask"]
+	},
+	{
+		"Intent": "how-to-do-precautionary-action",
+		"Entities": {
+			"precautionary_actions": "removing my mask"
+		},
+		"Sample_Question": "What is the right way of removing my mask",
+		"Answer_Title": "Removing Mask",
+		"Answer": "To remove the mask: remove it from behind (do not touch the front of mask); discard immediately in a closed bin; clean hands with alcohol-based hand rub or soap and water.",
+		"Source": "https://www.who.int/emergencies/diseases/novel-coronavirus-2019/advice-for-public/when-and-how-to-use-masks",
+		"Reference": "https://www.youtube.com/watch?v=lrvFrH_npQI&feature=emb_logo",
+		"Image_URL": "https://goodyfeed.com/wp-content/uploads/2020/01/how-to-wear-surgical-masks-5-768x1024.jpg",
+		"Response_Type": "Card",
+		"Audio_Link": "",
+		"Suggestions": ["What is the correct way to wear gloves?", "Can you show me the correct way of disposing a mask ?"]
+	},
+	{
+		"Intent": "how-to-do-precautionary-action",
+		"Entities": {
+			"precautionary_actions": "wearing a glove"
+		},
+		"Sample_Question": "What is the correct way to wear gloves?",
+		"Answer_Title": "Wearning Gloves",
+		"Answer": "-Remove the outer packaging of the sterile gloves. Open the inner packaging as directed. Do not touch anything inside of the package. Step 1 in the picture shows how the gloves look in the package. -Wash your hands with soap and water. Dry them well. See “Do you know… Clean hands.” -Using your non-dominant hand (the one you do not write with), pick up the glove for your other hand by the cuff. Step 2 in the picture shows how this looks.This glov is for your dominant hand (the one you write with). Be careful to touch just the inside of the cuff and glove. This part will touch your skin when the glove is on your hand. -Let the glove hang with the fingers pointing downward. Then slide your dominant hand into the glove with your palm facing up and your fingers open. Step 3 in the picture shows how this looks. Be careful not to touch the package as you put on the gloves. -If the glove does not go on straight, wait to adjust it until you put on the other glove. Keep your hands above your waist to make sure they stay sterile. -Use the hand with the glove to slide your fingers under the cuff of the second glove. Step 4 in the picture shows how this looks. Only touch the outside of this glove. This part will not be against your skin when the glove is on your hand. -Let the glove hang with the fingers pointing downward. Slide your hand into the glove with the palm up and the fingers open. Step 5 in the picture shows how this looks. -Adjust both gloves until they fit properly. Only touch sterile gloved areas.",
+		"Source": "https://www.stjude.org/treatment/patient-resources/caregiver-resources/patient-family-education-sheets/tracheostomy-care/how-to-put-on-sterile-gloves.html",
+		"Reference": "https://www.youtube.com/watch?v=cl7u3kJHYHY",
+		"Image_URL": "https://www.stjude.org/content/sites/www/en_US/home/treatment/patient-resources/caregiver-resources/patient-family-education-sheets/tracheostomy-care/how-to-put-on-sterile-gloves/jcr:content/par-1/cnt_embedcolumn/par-1/cnt_image.img.1000.high.jpg/1494341345427.jpg",
+		"Response_Type": "Card",
+		"Audio_Link": "",
+		"Suggestions": ["How to remove gloves", "How to wear mask?"]
+	},
+	{
+		"Intent": "how-to-do-precautionary-action",
+		"Entities": {
+			"precautionary_actions": "removing a glove"
+		},
+		"Sample_Question": "How do I remove my gloves?",
+		"Answer_Title": "Removing Gloves",
+		"Answer": "Pinch and hold the outside of the glove near the wrist area. Peel downwards, away from the wrist, turning the glove inside out. Pull the glove away until it is removed from the hand and hold the inside-out glove with the gloved hand. With your un-gloved hand, slide your finger/s under the wrist of the remaining glove, taking care not to touch the outside of the glove. Again, peel downwards, away from the wrist, turning the glove inside out. Continue to pull the glove down and over the inside-out glove being held in your gloved hand. This will ensure that both gloves are inside out, one glove enveloped inside the other, with no contaminant on the bare hands.",
+		"Source": "https://www.globus.co.uk/how-to-safely-remove-disposable-gloves",
+		"Reference": "https://youtu.be/3I_kKVNrEMo",
+		"Image_URL": "https://www.globus.co.uk/img/disposable-glove-donning.jpg",
+		"Response_Type": "Card",
+		"Audio_Link": "",
+		"Suggestions": ["How to wear gloves?", "How to wear mask?"]
+	},
+	{
+		"Intent": "how-to-do-precautionary-action",
+		"Entities": {
+			"precautionary_actions": "disposing a glove"
+		},
+		"Sample_Question": "What is the correct way of disposing of gloves?",
+		"Answer_Title": "Disposing Gloves",
+		"Answer": "Pinch and hold the outside of the glove near the wrist area. Peel downwards, away from the wrist, turning the glove inside out. Pull the glove away until it is removed from the hand and hold the inside-out glove with the gloved hand. With your un-gloved hand, slide your finger/s under the wrist of the remaining glove, taking care not to touch the outside of the glove. Again, peel downwards, away from the wrist, turning the glove inside out. Continue to pull the glove down and over the inside-out glove being held in your gloved hand. This will ensure that both gloves are inside out, one glove enveloped inside the other, with no contaminant on the bare hands.",
+		"Source": "https://www.globus.co.uk/how-to-safely-remove-disposable-gloves",
+		"Reference": "https://youtu.be/3I_kKVNrEMo",
+		"Image_URL": "https://www.globus.co.uk/img/disposable-glove-donning.jpg",
+		"Response_Type": "Card",
+		"Audio_Link": "",
+		"Suggestions": ["How to wear gloves?"]
+	},
+	{
+		"Intent": "how-to-do-precautionary-action",
+		"Entities": {
+			"precautionary_actions": "stay calm"
+		},
+		"Sample_Question": "How do I stay calm?",
+		"Answer_Title": "Staying Calm",
+		"Answer": "Regular meditation is very calming. Many apps teach simple forms of meditation, such as Headspace or Calm.  Not a yoga person? No need to start now unless you'd like to try it.Sometimes trying new things and discovering new activities you can benefit from and enjoy can be a welcome, healthy distraction.Yoga Studio and Pocket Yoga are good apps to consider.",
+		"Source": "https://www.theweek.in/news/world/2020/03/16/harvard-medical-school-recommends-yoga-to-deal-with-covid-19-anxiety.html",
+		"Reference": "https://economictimes.indiatimes.com/magazines/panache/dont-let-coronavirus-anxiety-take-over-harvard-medical-school-recommends-yoga-meditation-to-relax/articleshow/74653730.cms",
+		"Image_URL": "https://cdn.mindful.org/how-to-meditate.jpg?q=80&fm=jpg&fit=crop&w=1920&h=1080",
+		"Response_Type": "Card",
+		"Audio_Link": "",
+		"Suggestions": ["How to ensure mental fitness while working at home"]
+	}
 ]
