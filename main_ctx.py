@@ -54,14 +54,14 @@ def unlist(var):
     return var
 
 def read_entry(entities, context, field):
-  entities_index = {'country': 'geo-country', 'state': 'geo-state', 'case_type': 'case_types', 'chart_type': 'plot_type', 'aggregation_type': 'aggregation_type'}
-  default_values = {'country': 'World', 'state': 'Total', 'case_type': 'Confirmed', 'chart_type': 'barplot', 'aggregation_type': 'total'}
-  context_index = {'country': 'ctx_country', 'state': 'ctx_state', 'case_type': 'ctx_case_type', 'chart_type': 'ctx_chart_type', 'aggregation_type': 'ctx_aggregation_type'}
+  entities_index = {'country': 'geo-country', 'state': 'geo-state', 'case_type': 'case_types', 'chart_type': 'plot_type', 'aggregation_type': 'aggregation_type', 'date': 'date-time'}
+  default_values = {'country': 'World', 'state': 'Total', 'case_type': 'Confirmed', 'chart_type': 'barplot', 'aggregation_type': 'total', 'date': ''}
+  context_index = {'country': 'ctx_geo-country', 'state': 'ctx_geo-state', 'case_type': 'ctx_case_types', 'chart_type': 'ctx_plot_type', 'aggregation_type': 'ctx_aggregation_type', 'date': 'ctx_date-time'}
 
   entry = None
   if entities_index[field] in entities and len(entities[entities_index[field]]) > 0:
     entry = entities[entities_index[field]]
-  elif context_index[field] in context:
+  elif context_index[field] in context  and len(context[context_index[field]]) > 0:
     entry = context[context_index[field]]
   else:
     entry = default_values[field]
@@ -74,11 +74,10 @@ def get_stats_cases(intent, entities, context):
 
   warning_txt = ''
 
-  country, state, case_type = read_entry_arr(entities, context, ['country', 'state', 'case_type'])
+  country, state, case_type, date = read_entry_arr(entities, context, ['country', 'state', 'case_type', 'date'])
 
   yesterday = datetime.datetime.today() - datetime.timedelta(days=1)
 
-  date = entities['date-time']
   if type(date) == str:
     if len(date) == 0: # if no date is specified assume that the total is being asked
       start_date = read_date('2020-01-20')
@@ -146,7 +145,7 @@ def get_stats_where(intent, entities, context):
   # parse values
 
   country, state, case_type = read_entry_arr(entities, context, ['country', 'state', 'case_type'])
-
+  
   location_type = entities['location_type'] if len(entities['location_type']) > 0 else 'state' if country != 'World' else 'country'
   # sel_criterion can be highest or lowest
   sel_criterion = entities['sel_criterion'] if len(entities['sel_criterion']) > 0 else 'highest'
@@ -327,12 +326,11 @@ def get_stats_plot(intent, entities, context):
   }
   return response
 
-
 def get_stats(intent, entities, context):
 
-  if intent == "stats-case_types-in-location-date":
+  if intent.startswith("stats-case_types-in-location-date"):
     return get_stats_cases(intent, entities, context)
-  elif intent == "stats-where-sel_criterion-case_types-when":
+  elif intent.startswith("stats-where-sel_criterion-case_types-when"):
     return get_stats_where(intent, entities, context)
   elif intent == "stats-plot":
     return get_stats_plot(intent, entities, context)
@@ -367,16 +365,26 @@ def find_answer(intent, entities, context):
 
   return data_match.iloc[0]
 
+def get_updated_context(params, context):
+
+  # TODO: Construct a list of history instead of replacing with new? Set expiry?
+  for param in params:
+    if params[param]:
+      context['ctx_' + param] = params[param]
+
+  return context
+
+
 def results():
 
   req = request.get_json(force=True)
 
-  context_prefix = req["session"] + "/contexts/my_custom_cntxt"
-  # print(' ---------- ', context_prefix)
+  context_id = req["session"] + "/contexts/global_context"
+  print(' ---------- ', context_id)
 
   context = {}
   for item in req["queryResult"]["outputContexts"]:
-    if item['name'] == context_prefix:
+    if item['name'] == context_id:
       context = item["parameters"]
 
   # find intent
@@ -390,27 +398,16 @@ def results():
   print(req["queryResult"]["outputContexts"])
 
   result = find_answer(intent, params, context)
-
+  reply = {}
 
   if "Error" in result["Response_Type"] or "Text" in result["Response_Type"]:
-    reply = {}
     reply['fulfillment_text'] = result["Answer"]
-    return reply
 
-  if "Plot:" in result["Response_Type"]:
+  elif "Plot:" in result["Response_Type"]:
     imageURL = result["URL"]
     reply = get_plot_payload(imageURL)
-    reply["outputContexts"] = [
-        {
-          "name": context_prefix,
-          "lifespanCount": 5,
-          "parameters": {
-            "query-type": "test"
-          }
-        }
-      ]
 
-  if result["Response_Type"] == "Card":
+  elif result["Response_Type"] == "Card":
     textTitle = result["Answer_Title"] if result["Answer_Title"] else ""
     textAnswer = result["Answer"] if result["Answer"] else ""
     imageURL = result["Image_URL"] if len(result["Image_URL"]) > 0 else ""
@@ -423,16 +420,14 @@ def results():
     response = textAnswer # + " Entities: " + ",".join(entities)+" Intent: " + intent
 
     reply = get_card_payload(textTitle, response, imageURL, sourceURL, referenceURL, suggestions)
-    reply["outputContexts"] = [
+    
+  reply["outputContexts"] = [
         {
-          "name": context_prefix,
+          "name": context_id,
           "lifespanCount": 5,
-          "parameters": {
-            "query-type": "test"
-          }
+          "parameters": get_updated_context(params, context)
         }
       ]
-
   return reply
 
 @app.route('/webhook', methods=['GET', 'POST'])
