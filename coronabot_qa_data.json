@@ -1274,59 +1274,8 @@
             "How to you differentiate between novel coronavirus and SARS ?"
         ]
     },
-    {
-        "Intent":"what_is_phase_of_disease",
-        "Entities":{
-            "phases_of_disease":"treatment"
-        },
-        "Sample_Question":"What treatments can I expect?",
-        "Answer_Title":"Treatments",
-        "Answer":"Not all diseases that follow a SARS-CoV-2 infection take a serious course and require treatment. Even in most of the cases reported from China, disease progression was mild.  Treatment of the infection depends on the severity of the disease presentation (e.g administering oxygen, maintaining fluid balance, if necessary administering antibiotics to combat bacterial co-infections) and also includes the treatment of relevant underlying chronic illnesses. A specific treatment, in other words, one that is directed at the new coronavirus itself, is currently not yet available.",
-        "Source":"https://www.bundesgesundheitsministerium.de/en/press/2020/coronavirus.html",
-        "Reference":"https://www.bundesgesundheitsministerium.de/en/press/2020/coronavirus.html",
-        "Image_URL":"https://www.aljazeera.com/mritems/imagecache/mbdxxlarge/mritems/Images/2020/3/2/602a9359493248638608c4c7382eca0a_18.jpg",
-        "Response_Type":"Card",
-        "Audio_Link":"",
-        "Suggestions":[
-            "How to decide between self isolation and quarantine ?"
-        ]
-    },
-    {
-        "Intent":"what_is_phase_of_disease",
-        "Entities":{
-            "phases_of_disease":"showing symptoms",
-            "disease":"Coronavirus"
-        },
-        "Sample_Question":"What are the clinical manifestations of coronavirus?",
-        "Answer_Title":"Symptoms",
-        "Answer":"The onset of COVID-19 is mainly manifested as fever, but some early patients may not have fever, with only chills and respiratory symptoms, which can occur together with mild dry cough, fatigue, poor breathing, diarrhea etc. However, runny nose, sputum and other symptoms are rare. Patients may gradually develop dyspnea. In severe cases, the disease can progress rapidly, causing acute respiratory distress syndrome, septic shock, irreversible metabolic acidosis, and coagulation disorders in just a matter of days. Some patients start out with mild symptoms without fever. The majority of patients have a good prognosis, while a few become critically and sometimes fatally ill.",
-        "Source":"https://www.amazon.com/Coronavirus-Prevention-Handbook-Science-Based-Could-ebook/dp/B085DKMXGY",
-        "Reference":"https://www.cdc.gov/coronavirus/2019-ncov/symptoms-testing/symptoms.html",
-        "Image_URL":"https://wpcdn.us-east-1.vip.tn-cloud.net/www.abc6.com/content/uploads/2020/03/coronavirus.png",
-        "Response_Type":"Card",
-        "Audio_Link":"",
-        "Suggestions":[
-            "What treatments can I expect ?"
-        ]
-    },
-    {
-        "Intent":"what_is_phase_of_disease",
-        "Entities":{
-            "medical_procedure":"tested",
-            "disease":"Coronavirus"
-        },
-        "Sample_Question":"How to confirm COVID-19 cases?",
-        "Answer_Title":"COVID-19",
-        "Answer":"Once a case is identified as a suspected case, a positive result for 2019-nCoV nucleic acid on rRT-PCR testing of specimens (sputum, throat swabs, lower respiratory tract secretions etc.) or highly homologous sequences to the known novel coronavirus found after gene sequencing of the virus from a patient can confirm the diagnosis.",
-        "Source":"https://www.amazon.com/Coronavirus-Prevention-Handbook-Science-Based-Could-ebook/dp/B085DKMXGY",
-        "Reference":"https://www.cdc.gov/coronavirus/2019-ncov/symptoms-testing/testing.html",
-        "Image_URL":"https://wpcdn.us-east-1.vip.tn-cloud.net/www.abc6.com/content/uploads/2020/03/coronavirus.png",
-        "Response_Type":"Card",
-        "Audio_Link":"",
-        "Suggestions":[
-            "What treatments can I expect ?"
-        ]
-    },
+    
+ 
     {
         "Intent":"difference-between-scientific_term_1-and-scientific_term_2",
         "Entities":{
@@ -1419,27 +1368,7 @@
             "What treatments can I expect ?"
         ]
     },
-    {
-        "Intent":"what_is_phase_of_disease",
-        "Entities":{
-            "disease":"flu",
-            "scientific_term":[
-                "virus",
-                "pandemic"
-            ]
-        },
-        "Sample_Question":"Why does flu caused by viruses become pandemic?",
-        "Answer_Title":"Pandemic Stage",
-        "Answer":"Influenza is mainly transmitted through respiratory droplets and contact from infected to susceptible people, or through contact with contaminated items. In general, its incidence peaks in autumn and winter. Human influenza is mainly caused by influenza A virus and influenza B virus. Influenza A viruses often undergo antigen mutations and can be further classified into subtypes such as H1N1, H3N2, H5N1, and H7N9. When new influenza virus subtypes appear, they easily become a pandemic because the population generally lacks immunity against them.",
-        "Source":"https://www.amazon.com/Coronavirus-Prevention-Handbook-Science-Based-Could-ebook/dp/B085DKMXGY",
-        "Reference":"https://www.amazon.com/Coronavirus-Prevention-Handbook-Science-Based-Could-ebook/dp/B085DKMXGY",
-        "Image_URL":"https://wpcdn.us-east-1.vip.tn-cloud.net/www.abc6.com/content/uploads/2020/03/coronavirus.png",
-        "Response_Type":"Card",
-        "Audio_Link":"",
-        "Suggestions":[
-            "What distinguishes SARS from coronavirus ?"
-        ]
-    },
+   
     {
         "Intent":"how-can-I-help-others",
         "Entities":{
