@@ -4,6 +4,7 @@ import random
 import datetime
 import json
 import numpy as np
+from df_payload import get_card_payload, get_plot_payload
 
 app = Flask(__name__)
 
@@ -13,9 +14,9 @@ def entity_stringify(entities):
   for key in sorted(entities.keys()) :
     if len(entities[key]) > 0:
       str_ += key + ":["
-      if type(entities[key] == str):
+      if type(entities[key]) == str:
         str_ += entities[key]
-      elif type(entities[key] == list):
+      elif type(entities[key]) == list:
         str_ += ','.join(entities[key])
       str_ += "],"
   return str_
@@ -39,23 +40,32 @@ def index():
   return 'Hello World!'
 
 def read_date(date):
+  if date[0:4] == '2021':
+    date = '2020' + date[4:]
   return datetime.datetime.strptime(date[0:10], '%Y-%m-%d')
 
 def write_date(date):
   return date.strftime("%B %d")
 
-def read_entry(entities, context, field):
-  entities_index = {'chart_type': 'plot_type', 'country': 'geo-country', 'state': 'geo-state', 'case_type': 'case_types', 'chart_type': 'plot_type', 'aggregation_type': 'aggregation_type'}
-  default_values = {'chart_type': 'barplot', 'country': 'World', 'state': 'Total', 'case_type': 'Confirmed', 'chart_type': 'barplot', 'aggregation_type': 'total'}
-  context_index = {'chart_type': 'ctx_plot_type', 'country': 'ctx_country', 'state': 'ctx_state', 'case_type': 'ctx_case_type', 'chart_type': 'ctx_chart_type', 'aggregation_type': 'ctx_aggregation_type'}
-
-  if entities_index[field] in entities:
-    if len(entities[entities_index[field]]) > 0:
-      return entities[entities_index[field]]
-  elif context_index[field] in context:
-    return context[context_index[field]]
+def unlist(var):
+  if type(var) == list:
+    return var[0]
   else:
-    return default_values[field]
+    return var
+
+def read_entry(entities, context, field):
+  entities_index = {'country': 'geo-country', 'state': 'geo-state', 'case_type': 'case_types', 'chart_type': 'plot_type', 'aggregation_type': 'aggregation_type'}
+  default_values = {'country': 'World', 'state': 'Total', 'case_type': 'Confirmed', 'chart_type': 'barplot', 'aggregation_type': 'total'}
+  context_index = {'country': 'ctx_country', 'state': 'ctx_state', 'case_type': 'ctx_case_type', 'chart_type': 'ctx_chart_type', 'aggregation_type': 'ctx_aggregation_type'}
+
+  entry = None
+  if entities_index[field] in entities and len(entities[entities_index[field]]) > 0:
+    entry = entities[entities_index[field]]
+  elif context_index[field] in context:
+    entry = context[context_index[field]]
+  else:
+    entry = default_values[field]
+  return unlist(entry)
 
 def read_entry_arr(entities, context, fields):
   return [read_entry(entities, context, x) for x in fields]
@@ -129,8 +139,6 @@ def get_stats_cases(intent, entities, context):
       "Answer": warning_txt + 'In ' + str_location + ', there were ' + ret_val + ' ' + str_case_type + date_str
   }
   return response
-
-
 
 ####
 def get_stats_where(intent, entities, context):
@@ -363,8 +371,8 @@ def results():
 
   req = request.get_json(force=True)
 
-  context_prefix = req["session"] + "/contexts/default"
-  print(' ---------- ', context_prefix)
+  context_prefix = req["session"] + "/contexts/my_custom_cntxt"
+  # print(' ---------- ', context_prefix)
 
   context = {}
   for item in req["queryResult"]["outputContexts"]:
@@ -376,7 +384,10 @@ def results():
   # find entities
   params = req["queryResult"]["parameters"]
 
-  print(intent, params, context,req["queryResult"]["outputContexts"])
+  print(intent)
+  print(params)
+  print(context)
+  print(req["queryResult"]["outputContexts"])
 
   result = find_answer(intent, params, context)
 
@@ -388,54 +399,16 @@ def results():
 
   if "Plot:" in result["Response_Type"]:
     imageURL = result["URL"]
-    reply = {}
-    reply = {
-      "fulfillmentText": "",
-      "fulfillmentMessages": [
-        {
-        }
-      ],
-      "payload": {
-        "google": 
-        {
-          "expectUserResponse": True,
-          "richResponse": 
-          {
-            "items": [
-            {
-              "basicCard": 
-              {
-                "title": "",
-                "formattedText": "",
-                "image": 
-                {
-                  "url": imageURL,
-                },
-                "buttons": [
-                  {
-                    "title": "See large image",
-                    "openUrlAction": 
-                    {
-                        "url": imageURL
-                    }
-                  }, 
-                ]
-              },
-            }
-            ],
-          }
-        }
-      },
-      "outputContexts": [
+    reply = get_plot_payload(imageURL)
+    reply["outputContexts"] = [
         {
           "name": context_prefix,
           "lifespanCount": 5,
           "parameters": {
-            "query-type": "Plot"
+            "query-type": "test"
           }
         }
       ]
-    }
 
   if result["Response_Type"] == "Card":
     textTitle = result["Answer_Title"] if result["Answer_Title"] else ""
@@ -449,55 +422,16 @@ def results():
 
     response = textAnswer # + " Entities: " + ",".join(entities)+" Intent: " + intent
 
-    reply = {}
-    reply = {
-      "fulfillmentText": "",
-      "fulfillmentMessages": [
+    reply = get_card_payload(textTitle, response, imageURL, sourceURL, referenceURL, suggestions)
+    reply["outputContexts"] = [
         {
-        }
-      ],
-      "source": "example.com",
-      "payload": {
-        "google": 
-        {
-          "expectUserResponse": True,
-          "richResponse": 
-          {
-            "items": [
-            {
-              "basicCard": 
-              {
-                "title": textTitle,
-                "formattedText": response,
-                "image": 
-                {
-                  "url": imageURL,
-                },
-                "buttons": [
-                {
-                  "title": "Source",
-                  "openUrlAction": 
-                  {
-                      "url": sourceURL
-                  }
-                }, 
-                {
-                  "title": "Learn more",
-                  "openUrlAction": 
-                  {
-                    "url": referenceURL
-                  }
-                }
-                ],
-                "imageDisplayOptions": "CROPPED"
-              },
-            }
-            ],
-            "suggestions": suggestions
+          "name": context_prefix,
+          "lifespanCount": 5,
+          "parameters": {
+            "query-type": "test"
           }
         }
-      }
-    }
+      ]
 
   return reply
 

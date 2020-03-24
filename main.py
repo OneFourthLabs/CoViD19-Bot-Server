@@ -4,6 +4,7 @@ import random
 import datetime
 import json
 import numpy as np
+from df_payload import get_card_payload, get_plot_payload
 
 app = Flask(__name__)
 
@@ -13,12 +14,9 @@ def entity_stringify(entities):
   for key in sorted(entities.keys()) :
     if len(entities[key]) > 0:
       str_ += key + ":["
-      if type(entities[key] == str):
-        try:
-            str_ += entities[key]
-        except TypeError:
-            str_ += ','.join(entities[key])
-      elif type(entities[key] == list):
+      if type(entities[key]) == str:
+        str_ += entities[key]
+      elif type(entities[key]) == list:
         str_ += ','.join(entities[key])
       str_ += "],"
   return str_
@@ -62,6 +60,7 @@ def get_stats_cases(intent, entities):
   country = unlist(entities['geo-country'] if len(entities['geo-country']) > 0 else 'World')
   state = unlist(entities['geo-state'] if len(entities['geo-state']) > 0 else 'Total')
   case_type = unlist(entities['case_types'] if len(entities['case_types']) > 0 else 'Confirmed')
+  print(country, state, case_type)
   yesterday = datetime.datetime.today() - datetime.timedelta(days=1)
 
   date = entities['date-time']
@@ -125,8 +124,6 @@ def get_stats_cases(intent, entities):
       "Answer": warning_txt + 'In ' + str_location + ', there were ' + ret_val + ' ' + str_case_type + date_str
   }
   return response
-
-
 
 ####
 def get_stats_where(intent, entities):
@@ -248,8 +245,6 @@ def get_stats_where(intent, entities):
     }
     return response
 
-
-
 def get_stats_plot(intent, entities):
   # parse values
   country = entities['geo-country'] if len(entities['geo-country']) > 0 else 'World'
@@ -326,7 +321,6 @@ def get_stats_plot(intent, entities):
   }
   return response
 
-
 def get_stats(intent, entities):
 
   if intent == "stats-case_types-in-location-date":
@@ -335,7 +329,6 @@ def get_stats(intent, entities):
     return get_stats_where(intent, entities)
   elif intent == "stats-plot":
     return get_stats_plot(intent, entities)
-
 
 ####
 def find_answer(intent, entities):
@@ -370,6 +363,7 @@ def find_answer(intent, entities):
 def results():
 
   req = request.get_json(force=True)
+  print(req['queryResult'])
 
   # find intent
   intent = req["queryResult"]["intent"]["displayName"]
@@ -385,45 +379,7 @@ def results():
 
   if "Plot:" in result["Response_Type"]:
     imageURL = result["URL"]
-    reply = {}
-    reply = {
-      "fulfillmentText": "",
-      "fulfillmentMessages": [
-        {
-        }
-      ],
-      "payload": {
-        "google": 
-        {
-          "expectUserResponse": True,
-          "richResponse": 
-          {
-            "items": [
-            {
-              "basicCard": 
-              {
-                "title": "",
-                "formattedText": "",
-                "image": 
-                {
-                  "url": imageURL,
-                },
-                "buttons": [
-                  {
-                    "title": "See large image",
-                    "openUrlAction": 
-                    {
-                        "url": imageURL
-                    }
-                  }, 
-                ]
-              },
-            }
-            ],
-          }
-        }
-      }
-    }
+    reply = get_plot_payload(imageURL)
 
   if result["Response_Type"] == "Card":
     textTitle = result["Answer_Title"] if result["Answer_Title"] else ""
@@ -434,58 +390,10 @@ def results():
     suggestions = []
     for item in result["Suggestions"]:
       suggestions.append({"title": item})
-
+    
     response = textAnswer # + " Entities: " + ",".join(entities)+" Intent: " + intent
 
-    reply = {}
-    reply = {
-      "fulfillmentText": "",
-      "fulfillmentMessages": [
-        {
-        }
-      ],
-      "source": "example.com",
-      "payload": {
-        "google": 
-        {
-          "expectUserResponse": True,
-          "richResponse": 
-          {
-            "items": [
-            {
-              "basicCard": 
-              {
-                "title": textTitle,
-                "formattedText": response,
-                "image": 
-                {
-                  "url": imageURL,
-                },
-                "buttons": [
-                {
-                  "title": "Source",
-                  "openUrlAction": 
-                  {
-                      "url": sourceURL
-                  }
-                }, 
-                {
-                  "title": "Learn more",
-                  "openUrlAction": 
-                  {
-                    "url": referenceURL
-                  }
-                }
-                ],
-                "imageDisplayOptions": "CROPPED"
-              },
-            }
-            ],
-            "suggestions": suggestions
-          }
-        }
-      }
-    }
+    reply = get_card_payload(textTitle, response, imageURL, sourceURL, referenceURL, suggestions)
 
   return reply
 
