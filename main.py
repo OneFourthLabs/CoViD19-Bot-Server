@@ -5,25 +5,13 @@ import datetime
 import json
 import numpy as np
 from df_payload import get_card_payload, get_plot_payload
+from utils import read_date, write_date, unlist, dict_stringify
 
 app = Flask(__name__)
 
-
-def entity_stringify(entities):
-  str_ = ""
-  for key in sorted(entities.keys()) :
-    if len(entities[key]) > 0:
-      str_ += key + ":["
-      if type(entities[key]) == str:
-        str_ += entities[key]
-      elif type(entities[key]) == list:
-        str_ += ','.join(entities[key])
-      str_ += "],"
-  return str_
-
 CORONA_JSON = 'coronabot_qa_data.json'
 corona_data = pd.read_json(CORONA_JSON)
-corona_data['EntitiesStr'] = corona_data['Entities'].apply(entity_stringify)
+corona_data['EntitiesStr'] = corona_data['Entities'].apply(dict_stringify)
 
 STATS_CSV = 'coronabot_stats_data.csv'
 stats_data = pd.read_csv(STATS_CSV)
@@ -34,24 +22,6 @@ max_date = stats_data['Date'].max()
 failure_messages = ["Sorry I could not understand you", "I am sorry, I did not follow", "Can you please rephrase that"]
 
 stats_error_messages = ["I could not find the numbers for that query"]
-
-@app.route('/') 
-def index():
-  return 'The server is running... Yaayy!!!'
-
-def read_date(date):
-  if date[0:4] == '2021':
-    date = '2020' + date[4:]
-  return datetime.datetime.strptime(date[0:10], '%Y-%m-%d')
-
-def write_date(date):
-  return date.strftime("%B %d")
-
-def unlist(var):
-  if type(var) == list:
-    return var[0]
-  else:
-    return var
 
 def read_entry(entities, context, field):
   entities_index = {'country': 'geo-country', 'state': 'geo-state', 'case_type': 'case_types', 'chart_type': 'plot_type', 'aggregation_type': 'aggregation_type', 'date': 'date-time'}
@@ -312,13 +282,11 @@ def get_stats_plot(intent, entities, context):
   chart_payload['data']['datasets'].append({})
   chart_payload['data']['datasets'][0]['label'] = case_type + " - " + loc_str
   chart_payload['data']['datasets'][0]['data'] = values
+  chart_payload['data']['datasets'][0]['backgroundColor'] = 'pink'
+  chart_payload['data']['datasets'][0]['borderColor'] = 'red'
   if chart_type == 'lineplot':
-    chart_payload['data']['datasets'][0]['backgroundColor'] = 'pink'
-    chart_payload['data']['datasets'][0]['borderColor'] = 'red'
     chart_payload['data']['datasets'][0]['fill'] = 'boundary'
   elif chart_type == 'barplot':
-    chart_payload['data']['datasets'][0]['backgroundColor'] = 'pink'
-    chart_payload['data']['datasets'][0]['borderColor'] = 'red'
     chart_payload['data']['datasets'][0]['borderWidth'] = 1
   response = {
     "Response_Type": "Plot:Worked",
@@ -341,7 +309,7 @@ def find_answer(intent, entities, context):
   if intent[0:5] == 'stats':
     return get_stats(intent, entities, context)
 
-  entities = entity_stringify(entities)
+  entities = dict_stringify(entities)
 
   data_match_intent = corona_data[corona_data["Intent"] == intent]
 
@@ -380,7 +348,7 @@ def results():
   req = request.get_json(force=True)
 
   context_id = req["session"] + "/contexts/global_context"
-  print(' ---------- ', context_id)
+  # print(' ---------- ', context_id)
 
   context = {}
   for item in req["queryResult"]["outputContexts"]:
@@ -442,6 +410,9 @@ def test(query):
   response = find_answer(intent, entities, {}).to_json(indent=4)
   return make_response(response)
 
+@app.route('/') 
+def index():
+  return 'The server is running... Yaayy!!!'
 
 if __name__ == '__main__':
   app.run(port=8000, debug=True)
