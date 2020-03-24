@@ -35,7 +35,7 @@ def download_and_process_data():
     send_email_amazon_ses(email="everyone@onefourthlabs.com",message=error_message)
   
 scheduler = BackgroundScheduler()
-scheduler.add_job(func=download_and_process_data, trigger="interval", minutes=1)
+scheduler.add_job(func=download_and_process_data, trigger="interval", hours=1)
 scheduler.start()
 
 def read_entry(entities, context, field):
