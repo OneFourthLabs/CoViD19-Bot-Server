@@ -1300,7 +1300,7 @@
         "Intent":"what_to_do",
         "Entities":{
             "disease":"Coronavirus",
-            "healthcare":"treatment centres"
+            "medical_centres":"medical institution"
         },
         "Sample_Question":"How to choose a medical institution for treatment of coronavirus ?",
         "Answer_Title":"Actions",
@@ -1336,7 +1336,7 @@
         "Intent":"what-is-scientific_term-or-disease",
         "Entities":{
             "disease":"Coronavirus",
-            "healthcare":"vaccine"
+            "scientific_term":"vaccine"
         },
         "Sample_Question":"Are there any drugs or vaccines against COVID-19?",
         "Answer_Title":"Treatments",
