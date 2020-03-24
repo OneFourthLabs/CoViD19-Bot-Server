@@ -435,7 +435,7 @@ def results():
     for item in result["Suggestions"]:
       suggestions.append({"title": item})
 
-    response = textAnswer  + " Entities: " + ",".join(entities)+" Intent: " + intent
+    response = textAnswer  #+ " Entities: " + ",".join(entities)+" Intent: " + intent
 
     reply = {}
     reply = {
