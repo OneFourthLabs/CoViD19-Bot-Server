@@ -390,8 +390,8 @@ def results():
     suggestions = []
     for item in result["Suggestions"]:
       suggestions.append({"title": item})
-    
-    response = textAnswer # + " Entities: " + ",".join(entities)+" Intent: " + intent
+
+    response = textAnswer  #+ " Entities: " + ",".join(entities)+" Intent: " + intent
 
     reply = get_card_payload(textTitle, response, imageURL, sourceURL, referenceURL, suggestions)
 
