@@ -62,7 +62,7 @@
 		"Response_Type": "Card",
 		"Audio_Link": "",
 		"Suggestions": [
-			"What is Coronavirus?"
+			"What is Coronavirus ?"
 		]
 	}, {
 		"Intent": "what-is-scientific_term-or-disease",
