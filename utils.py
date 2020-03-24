@@ -24,6 +24,6 @@ def dict_stringify(entities):
       if type(entities[key]) == str:
         str_ += entities[key]
       elif type(entities[key]) == list:
-        str_ += ','.join(entities[key])
+        str_ += ','.join(sorted(entities[key]))
       str_ += "],"
   return str_

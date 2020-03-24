@@ -360,10 +360,12 @@ def results():
   # find entities
   params = req["queryResult"]["parameters"]
 
-  print(intent)
-  print(params)
-  print(context)
-  print(req["queryResult"]["outputContexts"])
+  # print('---->>>>')
+  # print(intent)
+  # print(params)
+
+  # print(context)
+  # print(req["queryResult"]["outputContexts"])
 
   result = find_answer(intent, params, context)
   reply = {}
