@@ -250,7 +250,8 @@
     {
         "Intent":"what-is-scientific_term-or-disease",
         "Entities":{
-            "scientific_term":"symptoms"
+            "scientific_term":"symptoms",
+            "disease": "Coronavirus"
         },
         "Sample_Question":"What are the symptoms of COVID-19?",
         "Answer_Title":"Symptoms of COVID-19",

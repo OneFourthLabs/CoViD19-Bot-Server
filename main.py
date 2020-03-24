@@ -17,8 +17,8 @@ def entity_stringify(entities):
       if type(entities[key]) == str:
         str_ += entities[key]
       elif type(entities[key]) == list:
-        str_ += ','.join(entities[key])
-      str_ += "],"
+        str_ += ','.join(sorted(entities[key]))
+      str_ += "]," 
   return str_
 
 CORONA_JSON = 'coronabot_qa_data.json'
@@ -380,7 +380,7 @@ def results():
   req = request.get_json(force=True)
 
   context_id = req["session"] + "/contexts/global_context"
-  print(' ---------- ', context_id)
+  # print(' ---------- ', context_id)
 
   context = {}
   for item in req["queryResult"]["outputContexts"]:
@@ -392,10 +392,14 @@ def results():
   # find entities
   params = req["queryResult"]["parameters"]
 
-  print(intent)
-  print(params)
-  print(context)
-  print(req["queryResult"]["outputContexts"])
+  # print('---->>>>')
+  # print(intent)
+  # print(params)
+
+  # print(intent)
+  # print(params)
+  # print(context)
+  # print(req["queryResult"]["outputContexts"])
 
   result = find_answer(intent, params, context)
   reply = {}
