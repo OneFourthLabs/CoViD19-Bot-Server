@@ -14,7 +14,10 @@ def entity_stringify(entities):
     if len(entities[key]) > 0:
       str_ += key + ":["
       if type(entities[key] == str):
-        str_ += entities[key]
+        try:
+            str_ += entities[key]
+        except TypeError:
+            str_ += ','.join(entities[key])
       elif type(entities[key] == list):
         str_ += ','.join(entities[key])
       str_ += "],"
