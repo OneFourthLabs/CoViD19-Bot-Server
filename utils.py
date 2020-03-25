@@ -42,3 +42,4 @@ def send_email_amazon_ses(email,message):
         server.starttls(context=context)
         server.login(username, password)
         server.sendmail(sender_email, receiver_email, message)
+

@@ -13,7 +13,6 @@ import os
 import json
 import numpy as np
 
-
 def process_df(label):
     
     # replace some names used in the file so that they confirm to ISO standards 
@@ -148,3 +147,14 @@ def process_and_save_files():
         #     json.write('\n\t}\n}\n}')
     except Exception as e:
         return(False,str(e))
+
+# Cron job function to run this script regularly
+from utils import send_email_amazon_ses
+def update_stats_csv_job():
+  (status, message) = process_and_save_files()
+  if not status:
+    error_message = "Subject: Problem in Corona Bot data loading\n\n"+message+"\n\nRegards,\nOFL Team"
+    send_email_amazon_ses(email="prem@onefourthlabs.com", message=error_message)
+
+if __name__ == '__main__':
+    process_and_save_files()
