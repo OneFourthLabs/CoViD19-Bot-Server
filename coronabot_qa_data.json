@@ -3189,5 +3189,1288 @@
 		"Response_Type": "Card",
 		"Audio_Link": "",
 		"Suggestions": ["How to ensure mental fitness while working at home"]
+	},{
+		"Intent": "what_to_do",
+		"Entities": {
+			"disease": "Coronavirus",
+			"medical_centres": "medical institution"
+		},
+		"Sample_Question": "What can private hospitals do to help me for COVID19?",
+		"Answer_Title": "Private Hospitals",
+		"Answer": "The government has sought the help of private players in treating patients as part of efforts to increase resources on tap.  Private labs have been asked to collect samples from doorstep to avoid risk of infection. Besides, appropriate biosafety and biosecurity precautions are to be ensured while collecting samples. Though Private hospitals will also help you out if you caught the symptoms, the first priority is to call at the Govt of India helpline number : +91-11-2397 8046 ",
+		"Source": "https://economictimes.indiatimes.com/industry/healthcare/biotech/healthcare/cautious-govt-involves-private-sector/articleshow/74681205.cms",
+		"Reference": "https://timesofindia.indiatimes.com/india/centre-asks-private-hospitals-to-reserve-beds-for-isolation/articleshow/74681875.cms",
+		"Image_URL": "https://thepolicytimes.com/wp-content/uploads/2018/02/How-much-profit-these-Private-Hospitals-earn-on-Drugs-Consumables-and-Diagnostics1.jpg",
+		"Response_Type": "Card",
+		"Audio_Link": "",
+		"Suggestions": ["What can a testing centre do to detect COVID-19?"]
+	},
+	{
+		"Intent": "what_to_do",
+		"Entities": {
+			"disease": "Coronavirus",
+			"medical_centres": "government hospital"
+		},
+		"Sample_Question": "What can a government hospital do to treat COVID-19?",
+		"Answer_Title": "Government Hospitals",
+		"Answer": "Chloroquine and hydroxychloroquine have been approved by the U.S. Food and Drug Administration for the treatment of malaria, lupus and rheumatoid arthritis, but preliminary research in human and primate cells suggests that the drugs could effectively treat COVID-19. Doctors in China, South Korea, France and the U.S. are now giving the drug to some patients with COVID-19 with promising, albeit anecdotal, results so far.",
+		"Source": "https://www.livescience.com/coronavirus-covid-19-treatments.html",
+		"Reference": "https://www.cdc.gov/coronavirus/2019-ncov/hcp/therapeutic-options.html",
+		"Image_URL": "https://cdn4.newsnation.in/resize/930_-/images/2019/06/11/AIIMS4286027966-763001858.jpg",
+		"Response_Type": "Card",
+		"Audio_Link": "",
+		"Suggestions": ["What can private hospitals do to help me for COVID19?"]
+	},
+	{
+		"Intent": "what_to_do",
+		"Entities": {
+			"disease": "Coronavirus",
+			"medical_centres": "testing centres"
+		},
+		"Sample_Question": "What can a testing centre do to detect COVID-19?",
+		"Answer_Title": "Testing Centre",
+		"Answer": "Using real time reverse transcription polymerase chain reaction (rRT-PCR) for testing of COVID-19 can be done on respiratory samples obtained by various methods, including nasopharyngeal swab or sputum sample. Results are generally available within a few hours to 2 days. Molecular methods leverage polymerase chain reaction (PCR) along with nucleic acid tests, and other advanced analytical techniques, to detect the genetic material of the virus using real-time reverse transcription polymerase chain reaction for diagnostic purposes.",
+		"Source": "https://en.wikipedia.org/wiki/COVID-19_testing",
+		"Reference": "https://www.cdc.gov/coronavirus/2019-ncov/lab/testing-laboratories.html",
+		"Image_URL": "https://static.politico.com/dims4/default/68dddf7/2147483647/resize/1160x%3E/quality/90/?url=https%3A%2F%2Fstatic.politico.com%2F6a%2F74%2F305154fc4894b2d55d350295465a%2F20200303-coronavirus-piece-ap-773.jpg",
+		"Response_Type": "Card",
+		"Audio_Link": "",
+		"Suggestions": ["What can a government hospital do to treat COVID-19?"]
+	},
+	{
+		"Intent": "what_to_do",
+		"Entities": {
+			"medical_centres": ["private hospital", "government hospital"]
+		},
+		"Sample_Question": "Should I choose a private hospital or a government hospital for treatment?",
+		"Answer_Title": "Comparison",
+		"Answer": "As per some sources of information, Private hospitals have no guidelines to admit a COVID-19 patient.  Private hospitals would gear up for secondary and tertiary care –– an area the government hospitals would not be able to handle if stage-3 (community transmission) of Covid-19 sets in. In such a scenario, patients who need critical care or more attention would be transferred from government hospitals to private hospitals.",
+		"Source": "https://economictimes.indiatimes.com/news/politics-and-nation/set-up-dedicated-wings-for-covid-19-patients-centre-to-private-hospitals/articleshow/74766350.cms?from=mdr",
+		"Reference": "https://economictimes.indiatimes.com/news/politics-and-nation/set-up-dedicated-wings-for-covid-19-patients-centre-to-private-hospitals/articleshow/74766350.cms?from=mdr",
+		"Image_URL": "https://cdn4.newsnation.in/resize/930_-/images/2019/06/11/AIIMS4286027966-763001858.jpg",
+		"Response_Type": "Card",
+		"Audio_Link": "",
+		"Suggestions": ["What can a government hospital do to treat COVID-19?"]
+	},
+	{
+		"Intent": "what_to_do",
+		"Entities": {
+			"medical_centres": ["private hospital", "testing centres"],
+			"disease": "Coronavirus"
+		},
+		"Sample_Question": "Do private hospitals have testing centres for COVID-19?",
+		"Answer_Title": "Private testing labs",
+		"Answer": "As per government orders, there are plenty of labs opening testing facility for COVID19. Our recent updates show more than a dozen labs have started to operate all over the nation.",
+		"Source": "https://www.indiatoday.in/india/story/coronavirus-in-india-12-private-labs-authorised-to-conduct-covid-19-tests-have-15-000-collection-centres-1658796-2020-03-23",
+		"Reference": "https://www.forbes.com/sites/anuraghunathan/2020/03/23/covid-19-testing-expanded-to-private-labs-amid-proposed-lockdowns-in-75-districts-across-india/#1b3f31ef7a18",
+		"Image_URL": "https://www.gannett-cdn.com/presto/2020/03/06/PPHX/18caf3b1-f792-4012-a570-f503bd38c77d-20200305_124459.jpg?crop=4031,2268,x0,y373&width=3200&height=1680&fit=bounds",
+		"Response_Type": "Card",
+		"Audio_Link": "",
+		"Suggestions": ["Do government hospitals have testing centres for COVID-19?"]
+	},
+	{
+		"Intent": "what_to_do",
+		"Entities": {
+			"medical_centres": ["government hospital", "testing centres"],
+			"disease": "Coronavirus"
+		},
+		"Sample_Question": "Do government hospitals have testing centres for COVID-19?",
+		"Answer_Title": "Government Testing Labs",
+		"Answer": "As of March 22, 116 government labs have been approved for testing and they charge Rs. 1,500 ($20) for an initial screening and Rs. 3,000 ($40) for an additional confirmatory test. A total of 89 labs are operational, and 27 are being readied for testing.",
+		"Source": "https://www.forbes.com/sites/anuraghunathan/2020/03/23/covid-19-testing-expanded-to-private-labs-amid-proposed-lockdowns-in-75-districts-across-india/#1b3f31ef7a18",
+		"Reference": "https://www.news18.com/news/india/govt-opens-doors-for-private-laboratories-to-test-for-covid-19-caps-cost-at-rs-4500-2545991.html",
+		"Image_URL": "https://cdn4.newsnation.in/resize/930_-/images/2019/06/11/AIIMS4286027966-763001858.jpg",
+		"Response_Type": "Card",
+		"Audio_Link": "",
+		"Suggestions": ["Do private hospitals have testing centres for COVID-19?"]
+	},
+	{
+		"Intent": "what_to_do",
+		"Entities": {
+			"medical_centres": ["testing centres", "private hospital", "government hospital"]
+		},
+		"Sample_Question": "Should I choose a laboratory in a private hospital or a government hospital",
+		"Answer_Title": "Comparison",
+		"Answer": "As per price comparison, testing in government hospitals are free of cost, whereas on the other hand, Private hospitals can charge you upto Rs. 4500 for a COVID19 test. ",
+		"Source": "https://economictimes.indiatimes.com/news/politics-and-nation/covid-19-test-should-not-cost-more-than-rs-4500-government-to-private-labs/articleshow/74753826.cms?from=mdr",
+		"Reference": "https://www.news18.com/news/india/govt-opens-doors-for-private-laboratories-to-test-for-covid-19-caps-cost-at-rs-4500-2545991.html",
+		"Image_URL": "https://www.gannett-cdn.com/presto/2020/03/06/USAT/20bfb925-cd0c-491d-89dc-86c9dcf711d5-AFP_AFP_1PN9U6.JPG?crop=5936,3339,x0,y0&width=3200&height=1800&format=pjpg&auto=webp",
+		"Response_Type": "Card",
+		"Audio_Link": "",
+		"Suggestions": ["Should I choose a private hospital or a government hospital for treatment?"]
+	},
+	{
+		"Intent": "what_to_do",
+		"Entities": {
+			"medical_centres": "testing centres"
+		},
+		"Sample_Question": "What to do at a testing centre?",
+		"Answer_Title": "Testing Procedure",
+		"Answer": "A specialized test must be done to confirm that a person has been infected with the virus that causes COVID-19. Most often a clinician takes a swab of your nose (or both your nose and throat). The sample is delivered to labs that have been approved to perform the test. The number of tests and testing sites available are rapidly increasing. Still, it will take weeks before the test is available to everyone who may be infected. Meanwhile, clinicians will primarily test those with respiratory symptoms who have recently traveled to certain countries, live in a community with many infected people, or likely have been exposed to someone known to have COVID-19. Call the State Helpline Number or Ministry of Health & Family Welfare, Government of Indias 24x7 helpline 011-2397 8046. If one qualifies as a case for testing as per the protocol, they would be tested at a Government approved lab only.",
+		"Source": "https://www.mohfw.gov.in/",
+		"Reference": "https://www.icmr.nic.in/node/39071",
+		"Image_URL": "https://d3i6fh83elv35t.cloudfront.net/static/2020/03/GettyImages-1211693320-1024x681.jpg",
+		"Response_Type": "Card",
+		"Audio_Link": "",
+		"Suggestions": ["What can a testing centre do to detect COVID-19?"]
+	},
+	{
+		"Intent": "what_to_do",
+		"Entities": {
+			"medical_centres": ["private hospital", "govrnment hospital"],
+			"disease": "Coronavirus"
+		},
+		"Sample_Question": "Should I choose a private hospital or a government hospital for treatment of COVID-19?",
+		"Answer_Title": "Comparison",
+		"Answer": "As per some sources of information, Private hospitals have no guidelines to admit a COVID-19 patient.  Private hospitals would gear up for secondary and tertiary care –– an area the government hospitals would not be able to handle if stage-3 (community transmission) of Covid-19 sets in. In such a scenario, patients who need critical care or more attention would be transferred from government hospitals to private hospitals.",
+		"Source": "https://economictimes.indiatimes.com/news/politics-and-nation/set-up-dedicated-wings-for-covid-19-patients-centre-to-private-hospitals/articleshow/74766350.cms?from=mdr",
+		"Reference": "https://economictimes.indiatimes.com/news/politics-and-nation/set-up-dedicated-wings-for-covid-19-patients-centre-to-private-hospitals/articleshow/74766350.cms?from=mdr",
+		"Image_URL": "https://cdn4.newsnation.in/resize/930_-/images/2019/06/11/AIIMS4286027966-763001858.jpg",
+		"Response_Type": "Card",
+		"Audio_Link": "",
+		"Suggestions": ["Should I choose a private hospital or a government hospital for treatment?"]
+	},
+	{
+		"Intent": "what_to_do",
+		"Entities": {
+			"medical_centres": ["private hospital", "testing centres"]
+		},
+		"Sample_Question": "Do private hospitals have testing centres?",
+		"Answer_Title": "Private testing labs",
+		"Answer": "As per government orders, there are plenty of labs opening as testing facility for COVID19. Our recent updates show more than a dozen labs have started to operate all over the nation.",
+		"Source": "https://www.indiatoday.in/india/story/coronavirus-in-india-12-private-labs-authorised-to-conduct-covid-19-tests-have-15-000-collection-centres-1658796-2020-03-23",
+		"Reference": "https://www.forbes.com/sites/anuraghunathan/2020/03/23/covid-19-testing-expanded-to-private-labs-amid-proposed-lockdowns-in-75-districts-across-india/#1b3f31ef7a18",
+		"Image_URL": "https://www.gannett-cdn.com/presto/2020/03/06/PPHX/18caf3b1-f792-4012-a570-f503bd38c77d-20200305_124459.jpg?crop=4031,2268,x0,y373&width=3200&height=1680&fit=bounds",
+		"Response_Type": "Card",
+		"Audio_Link": "",
+		"Suggestions": ["What to do at a testing centre?"]
+	},
+	{
+		"Intent": "what_to_do",
+		"Entities": {
+			"medical_centres": ["government hospital", "testing centres"]
+		},
+		"Sample_Question": "Do government hospitals have testing centres?",
+		"Answer_Title": "Testing Centre",
+		"Answer": "As of March 22, 116 government labs have been approved for testing and they charge Rs. 1,500 ($20) for an initial screening and Rs. 3,000 ($40) for an additional confirmatory test. A total of 89 labs are operational, and 27 are being readied for testing.",
+		"Source": "https://www.forbes.com/sites/anuraghunathan/2020/03/23/covid-19-testing-expanded-to-private-labs-amid-proposed-lockdowns-in-75-districts-across-india/#1b3f31ef7a18",
+		"Reference": "https://www.news18.com/news/india/govt-opens-doors-for-private-laboratories-to-test-for-covid-19-caps-cost-at-rs-4500-2545991.html",
+		"Image_URL": "https://cdn4.newsnation.in/resize/930_-/images/2019/06/11/AIIMS4286027966-763001858.jpg",
+		"Response_Type": "Card",
+		"Audio_Link": "",
+		"Suggestions": ["Do private hospitals have testing centres?"]
+	},
+	{
+		"Intent": "what_is_phase_of_disease",
+		"Entities": {
+			"phases_of_disease": "treatment",
+			"disease": "Coronavirus"
+		},
+		"Sample_Question": "What is the treatment procedure for coronavirus?",
+		"Answer_Title": "Treatment Procedure",
+		"Answer": "There are no US Food and Drug Administration (FDA)-approved drugs specifically for the treatment of patients with COVID-19.  At present clinical management includes infection prevention and control measures and supportive care, including supplementary oxygen and mechanical ventilatory support when indicated.  An array of drugs approved for other indications as well as several investigational drugs are being studied in several hundred clinical trials that are underway across the globe.",
+		"Source": "https://www.cdc.gov/coronavirus/2019-ncov/hcp/therapeutic-options.html",
+		"Reference": "https://www.sciencemag.org/news/2020/03/who-launches-global-megatrial-four-most-promising-coronavirus-treatments",
+		"Image_URL": "https://images.fastcompany.net/image/upload/w_1280,f_auto,q_auto,fl_lossy/wp-cms/uploads/2020/03/p-1-90480204-see-the-progress-of-covid-19-treatments-and-vaccines-with-this-tracker.png",
+		"Response_Type": "Card",
+		"Audio_Link": "",
+		"Suggestions": ["What can a government hospital do to treat COVID-19?"]
+	},
+	{
+		"Intent": "what_is_phase_of_disease",
+		"Entities": {
+			"phases_of_disease": "contagious"
+		},
+		"Sample_Question": "What does it mean to be contagious?",
+		"Answer_Title": "Contagious Disease",
+		"Answer": "Contagious means suffering from a contagious disease, i.e a communicable disease that can spread rapidly from person to person through direct contact (touching a person who has the infection), indirect contact (touching a contaminated object), or droplet contact (inhaling droplets made when a person who has the infection coughs, sneezes, or talks).",
+		"Source": "https://aidsinfo.nih.gov/understanding-hiv-aids/glossary/168/contagious-disease",
+		"Reference": "https://economictimes.indiatimes.com/news/politics-and-nation/how-contagious-is-the-coronavirus-heres-what-icmr-math-suggests/articleshow/74787472.cms",
+		"Image_URL": "https://1.bp.blogspot.com/-wK8ty0_9bTQ/Vm6FUzQ4ClI/AAAAAAAACIQ/vqgUdfaAr7A/s1600/multi-level%2Bmarketing.jpg",
+		"Response_Type": "Card",
+		"Audio_Link": "",
+		"Suggestions": ["Why is coronavirus called a contagious disease?"]
+	},
+	{
+		"Intent": "what_is_phase_of_disease",
+		"Entities": {
+			"phases_of_disease": "contagious",
+			"disease": "Coronavirus"
+		},
+		"Sample_Question": "Why is coronavirus called a contagious disease?",
+		"Answer_Title": "Contagious Disease",
+		"Answer": "Contagious means suffering from a contagious disease, i.e a communicable disease that can spread rapidly from person to person through direct contact (touching a person who has the infection), indirect contact (touching a contaminated object), or droplet contact (inhaling droplets made when a person who has the infection coughs, sneezes, or talks).",
+		"Source": "https://aidsinfo.nih.gov/understanding-hiv-aids/glossary/168/contagious-disease",
+		"Reference": "https://economictimes.indiatimes.com/news/politics-and-nation/how-contagious-is-the-coronavirus-heres-what-icmr-math-suggests/articleshow/74787472.cms",
+		"Image_URL": "https://1.bp.blogspot.com/-wK8ty0_9bTQ/Vm6FUzQ4ClI/AAAAAAAACIQ/vqgUdfaAr7A/s1600/multi-level%2Bmarketing.jpg",
+		"Response_Type": "Card",
+		"Audio_Link": "",
+		"Suggestions": ["What is the incubation period?"]
+	},
+	{
+		"Intent": "what_is_phase_of_disease",
+		"Entities": {
+			"phases_of_disease": "incubation"
+		},
+		"Sample_Question": "What is the incubation period?",
+		"Answer_Title": "Incubation Period",
+		"Answer": "Incubation period is the time elapsed between exposure to a pathogenic organism, a chemical, or radiation, and when symptoms and signs are first apparent.As per a research, median incubation period for COVID-19 of approximately 5 days, whereas 97.5% of those who develop symptoms will do so within 11.5 days.",
+		"Source": "https://annals.org/aim/fullarticle/2762808/incubation-period-coronavirus-disease-2019-covid-19-from-publicly-reported",
+		"Reference": "https://www.orissapost.com/covid-19-incubation-period-5-5-days-study/",
+		"Image_URL": "https://cdn.the-scientist.com/assets/articleNo/67045/aImg/35755/coronavirus-incubation-l.jpg",
+		"Response_Type": "Card",
+		"Audio_Link": "",
+		"Suggestions": ["What is the incubation period for coronavirus ?"]
+	},
+	{
+		"Intent": "what_is_phase_of_disease",
+		"Entities": {
+			"phases_of_disease": "incubation",
+			"disease": "Coronavirus"
+		},
+		"Sample_Question": "What is the incubation period for coronavirus",
+		"Answer_Title": "Incubation Period",
+		"Answer": "Incubation period is the time elapsed between exposure to a pathogenic organism, a chemical, or radiation, and when symptoms and signs are first apparent.As per a research, median incubation period for COVID-19 of approximately 5 days, whereas 97.5% of those who develop symptoms will do so within 11.5 days.",
+		"Source": "https://annals.org/aim/fullarticle/2762808/incubation-period-coronavirus-disease-2019-covid-19-from-publicly-reported",
+		"Reference": "https://www.orissapost.com/covid-19-incubation-period-5-5-days-study/",
+		"Image_URL": "https://cdn.the-scientist.com/assets/articleNo/67045/aImg/35755/coronavirus-incubation-l.jpg",
+		"Response_Type": "Card",
+		"Audio_Link": "",
+		"Suggestions": ["What is the incubation period ?"]
+	},
+	{
+		"Intent": "what_is_phase_of_disease",
+		"Entities": {
+			"phases_of_disease": "fully recovered"
+		},
+		"Sample_Question": "What does it mean to be fully recovered?",
+		"Answer_Title": "Recovery",
+		"Answer": "Getting recovered from COVID-19, one starts to feel good. Energy levels start to rise up again, and you will be able to get back to daily routine activities. Though there is some timeline that you must stay in self isolation after getting recovered. This is followed by routine checkups to your doctor. WHO says those that experience mild symptoms typically recover from the illness in about two weeks, while those who experience more severe illness could take up to six weeks to recover.",
+		"Source": "https://thehill.com/changing-america/well-being/prevention-cures/488997-more-than-100000-people-have-recovered-from-the",
+		"Reference": "https://www.npr.org/sections/goatsandsoda/2020/03/20/819038431/do-you-get-immunity-after-recovering-from-a-case-of-coronavirus",
+		"Image_URL": "https://nucleus-production.s3.amazonaws.com/uploads/E0wvYJzBevnDvQJ4LteGaZKUTi3YoDLMwphbu547.jpeg",
+		"Response_Type": "Card",
+		"Audio_Link": "",
+		"Suggestions": ["How can I say I am fully recovered from coronavirus ?"]
+	},
+	{
+		"Intent": "what_is_phase_of_disease",
+		"Entities": {
+			"phases_of_disease": "fully recovered",
+			"disease": "Coronavirus"
+		},
+		"Sample_Question": "How can I say I am fully recovered from coronavirus?",
+		"Answer_Title": "Recovery",
+		"Answer": "Getting recovered from COVID-19, one starts to feel good. Energy levels start to rise up again, and you will be able to get back to daily routine activities. Though there is some timeline that you must stay in self isolation after getting recovered. This is followed by routine checkups to your doctor. WHO says those that experience mild symptoms typically recover from the illness in about two weeks, while those who experience more severe illness could take up to six weeks to recover.",
+		"Source": "https://thehill.com/changing-america/well-being/prevention-cures/488997-more-than-100000-people-have-recovered-from-the",
+		"Reference": "https://www.npr.org/sections/goatsandsoda/2020/03/20/819038431/do-you-get-immunity-after-recovering-from-a-case-of-coronavirus",
+		"Image_URL": "https://nucleus-production.s3.amazonaws.com/uploads/E0wvYJzBevnDvQJ4LteGaZKUTi3YoDLMwphbu547.jpeg",
+		"Response_Type": "Card",
+		"Audio_Link": "",
+		"Suggestions": ["What does it mean to be fully recovered ?"]
+	},
+	{
+		"Intent": "what_is_phase_of_disease",
+		"Entities": {
+			"phases_of_disease": "show_symptoms"
+		},
+		"Sample_Question": "What does it mean to show symptoms?",
+		"Answer_Title": "Symptoms",
+		"Answer": "The most common symptoms of COVID-19 are fever, tiredness, difficulty in breathing and dry cough.  Some patients may also have aches and pains, nasal congestion, runny nose, sore throat or diarrhea. These symptoms are usually mild and begin gradually. Some people become infected but don’t develop any symptoms and dont feel unwell. Most people (about 80%) recover from the disease without needing special treatment. Around 1 out of every 6 people who gets COVID-19 becomes seriously ill and develops difficulty breathing. Older people, and those with underlying medical problems like high blood pressure, heart problems or diabetes, are more likely to develop serious illness. People with fever, cough and difficulty breathing should seek medical attention.",
+		"Source": "https://www.who.int/news-room/q-a-detail/q-a-coronaviruses",
+		"Reference": "https://www.youtube.com/watch?v=oGruT7Fd54E",
+		"Image_URL": "https://www.abc.net.au/cm/lb/12081830/data/coronavirus-symptoms-data.png",
+		"Response_Type": "Card",
+		"Audio_Link": "",
+		"Suggestions": ["How does one show symptoms of coronavirus ?"]
+	},
+	{
+		"Intent": "what_is_phase_of_disease",
+		"Entities": {
+			"phases_of_disease": "show_symptoms",
+			"disease": "Coronavirus"
+		},
+		"Sample_Question": "How does one show symptoms of coronavirus?",
+		"Answer_Title": "Symptoms",
+		"Answer": "The most common symptoms of COVID-19 are fever, tiredness, difficulty in breathing and dry cough.  Some patients may also have aches and pains, nasal congestion, runny nose, sore throat or diarrhea. These symptoms are usually mild and begin gradually. Some people become infected but don’t develop any symptoms and dont feel unwell. Most people (about 80%) recover from the disease without needing special treatment. Around 1 out of every 6 people who gets COVID-19 becomes seriously ill and develops difficulty breathing. Older people, and those with underlying medical problems like high blood pressure, heart problems or diabetes, are more likely to develop serious illness. People with fever, cough and difficulty breathing should seek medical attention.",
+		"Source": "https://www.who.int/news-room/q-a-detail/q-a-coronaviruses",
+		"Reference": "https://www.youtube.com/watch?v=oGruT7Fd54E",
+		"Image_URL": "https://www.abc.net.au/cm/lb/12081830/data/coronavirus-symptoms-data.png",
+		"Response_Type": "Card",
+		"Audio_Link": "",
+		"Suggestions": ["How does one show symptoms of coronavirus ?"]
+	},
+	{
+		"Intent": "how-can-I-help-others",
+		"Entities": {
+			"people_who_need_help": "parents",
+			"my_things": "office"
+		},
+		"Sample_Question": "How can I help my parents from the office?",
+		"Answer_Title": "Helping Parents",
+		"Answer": "Your parents might not take your concerns seriously simply because you’re their child — don’t take it personally. These conversations can be strained because “your parents are going to feel that they are still capable of taking care of themselves, But other sources, such as their friends, communities or even favorite news outlets, might resonate more. “Trusted messengers matter when conveying public health messaging.",
+		"Source": "https://www.cnbc.com/2020/03/13/how-to-talk-to-older-adults-who-arent-taking-coronavirus-seriously.html",
+		"Reference": "https://www.cnbc.com/2020/03/13/how-to-talk-to-older-adults-who-arent-taking-coronavirus-seriously.html",
+		"Image_URL": "https://hca-staging.objects.frb.io/wp-content/uploads/2016/11/bigstock-Happy-Family-Gathering-134401148-1024x683.jpg",
+		"Response_Type": "Card",
+		"Audio_Link": "",
+		"Suggestions": ["How can I help anxious people at home ?"]
+	},
+	{
+		"Intent": "how-can-I-help-others",
+		"Entities": {
+			"people_who_need_help": "anxious",
+			"my_things": "home"
+		},
+		"Sample_Question": "How can I help anxious people at home ?",
+		"Answer_Title": "Mental Help",
+		"Answer": "Ask others to : Take breaks from watching, reading, or listening to news stories, including social media. Hearing about the pandemic repeatedly can be upsetting. Take care of your body. Take deep breaths, stretch, or meditate. Try to eat healthy, well-balanced meals, exercise regularly, get plenty of sleep, and avoid alcohol and drugs. Make time to unwind. Try to do some other activities you enjoy. Connect with others. Talk with people you trust about your concerns and how you are feeling.",
+		"Source": "https://www.cdc.gov/coronavirus/2019-ncov/prepare/managing-stress-anxiety.html",
+		"Reference": "https://www.cdc.gov/coronavirus/2019-ncov/prepare/managing-stress-anxiety.html",
+		"Image_URL": "https://labblog.uofmhealth.org/sites/lab/files/2018-06/michigan-med-l-bright-nights.jpg",
+		"Response_Type": "Card",
+		"Audio_Link": "",
+		"Suggestions": ["How can I help my parents from the office ?"]
+	},
+	{
+		"Intent": "how-can-I-help-others",
+		"Entities": {
+			"people_who_need_help": "stressed",
+			"my_things": "home"
+		},
+		"Sample_Question": "How can I help stressed people at home",
+		"Answer_Title": "Mental Help",
+		"Answer": "Responding to COVID-19 can take an emotional toll on you. There are things you can do to reduce secondary traumatic stress (STS) reactions: Acknowledge that STS can impact anyone helping families after a traumatic event. Learn the symptoms including physical (fatigue, illness) and mental (fear, withdrawal, guilt). Allow time for you and your family to recover from responding to the pandemic. Create a menu of personal self-care activities that you enjoy, such as spending time with friends and family, exercising, or reading a book. Take a break from media coverage of COVID-19. Ask for help if you feel overwhelmed or concerned that COVID-19 is affecting your ability to care for your family and patients as you did before the outbreak.",
+		"Source": "https://www.cdc.gov/coronavirus/2019-ncov/prepare/managing-stress-anxiety.html",
+		"Reference": "https://www.cdc.gov/coronavirus/2019-ncov/prepare/managing-stress-anxiety.html",
+		"Image_URL": "https://si.wsj.net/public/resources/images/BN-XC483_BONDS0_P_20180122073010.jpg",
+		"Response_Type": "Card",
+		"Audio_Link": "",
+		"Suggestions": ["How can I help my parents from the office ?"]
+	},
+	{
+		"Intent": "how-can-I-help-others",
+		"Entities": {
+			"people_who_need_help": "anxious",
+			"my_things": "office"
+		},
+		"Sample_Question": "How can I help anxious people at the office",
+		"Answer_Title": "Mental Help",
+		"Answer": "Ask others to : Take breaks from watching, reading, or listening to news stories, including social media. Hearing about the pandemic repeatedly can be upsetting. Take care of your body. Take deep breaths, stretch, or meditate. Try to eat healthy, well-balanced meals, exercise regularly, get plenty of sleep, and avoid alcohol and drugs. Make time to unwind. Try to do some other activities you enjoy. Connect with others. Talk with people you trust about your concerns and how you are feeling.",
+		"Source": "https://www.cdc.gov/coronavirus/2019-ncov/prepare/managing-stress-anxiety.html",
+		"Reference": "https://www.cdc.gov/coronavirus/2019-ncov/prepare/managing-stress-anxiety.html",
+		"Image_URL": "https://labblog.uofmhealth.org/sites/lab/files/2018-06/michigan-med-l-bright-nights.jpg",
+		"Response_Type": "Card",
+		"Audio_Link": "",
+		"Suggestions": ["How can I help coworkers while at home ?"]
+	},
+	{
+		"Intent": "how-can-I-help-others",
+		"Entities": {
+			"people_who_need_help": "stressed",
+			"my_things": "office"
+		},
+		"Sample_Question": "How can I help stressed people at the office",
+		"Answer_Title": "Mental Help",
+		"Answer": "Responding to COVID-19 can take an emotional toll on you. There are things you can do to reduce secondary traumatic stress (STS) reactions: Acknowledge that STS can impact anyone helping families after a traumatic event. Learn the symptoms including physical (fatigue, illness) and mental (fear, withdrawal, guilt). Allow time for you and your family to recover from responding to the pandemic. Create a menu of personal self-care activities that you enjoy, such as spending time with friends and family, exercising, or reading a book. Take a break from media coverage of COVID-19. Ask for help if you feel overwhelmed or concerned that COVID-19 is affecting your ability to care for your family and patients as you did before the outbreak.",
+		"Source": "https://www.cdc.gov/coronavirus/2019-ncov/prepare/managing-stress-anxiety.html",
+		"Reference": "https://www.cdc.gov/coronavirus/2019-ncov/prepare/managing-stress-anxiety.html",
+		"Image_URL": "https://si.wsj.net/public/resources/images/BN-XC483_BONDS0_P_20180122073010.jpg",
+		"Response_Type": "Card",
+		"Audio_Link": "",
+		"Suggestions": ["How can I help anxious people at the office ?"]
+	},
+	{
+		"Intent": "how-can-I-help-others",
+		"Entities": {
+			"people_who_need_help": "coworkers",
+			"my_things": "home"
+		},
+		"Sample_Question": "How can I help coworkers while at home?",
+		"Answer_Title": "Helping Coworkers",
+		"Answer": "If you’re close to any coworker who are displaying symptoms of being ill, it’s possible you could approach them yourself and suggest they head home until they feel better. But if that’s not an option, it’s perfectly acceptable to express your concerns to your supervisor or HR team. You could simply say, “I know John is working hard, but it seems like he’s not feeling very well. Is it possible to ask him to work from home until he’s no longer running a fever or coughing? I’m concerned about him infecting others in the office.”  These can feel like awkward conversations to have. But it’s the job of leadership and HR teams to provide a safe work environment to all employees—and they’re trained to address thorny issues like these.",
+		"Source": "https://www.themuse.com/advice/coronavirus-and-work",
+		"Reference": "https://www.cnbc.com/2020/03/13/how-to-talk-to-older-adults-who-arent-taking-coronavirus-seriously.html",
+		"Image_URL": "https://pilbox.themuse.com/image.png?filter=antialias&h=343&opt=1&pos=top-left&prog=1&q=keep&url=https%3A%2F%2Fcms-assets.themuse.com%2Fmedia%2Flead%2Fa9f961af-8ffe-4d6a-a6c2-bb15249bc7a9.png&w=700",
+		"Response_Type": "Card",
+		"Audio_Link": "",
+		"Suggestions": ["How can I help stressed people at home ?"]
+	},
+	{
+		"Intent": "how-to-prepare-for-self-imposed-measures",
+		"Entities": {
+			"self_imposed_measures": ["physically fit", "quarantine"]
+		},
+		"Sample_Question": "How do I keep physically fit during quarantine?",
+		"Answer_Title": "Staying healthy",
+		"Answer": "Getting exercise outside is a great alternative to going to the gym, where touching high-contact equipment can pose a risk (if your gym is even still open). A study last year found infectious germs on about a third of the surfaces at 16 different fitness facilities. Exercise boosts our immune systems, and even a single workout can improve our ability to fight off germs, according to the latest research.",
+		"Source": "https://www.nytimes.com/interactive/2020/world/coronavirus-tips-advice.html",
+		"Reference": "https://www.nytimes.com/2020/03/04/well/move/exercise-immunity-infection-coronavirus.html",
+		"Image_URL": "https://adiahealth.com/wp-content/uploads/what-is-a-healthy-lifestyle.png",
+		"Response_Type": "Card",
+		"Audio_Link": "",
+		"Suggestions": ["How do I keep mentally fit during quarantine ?"]
+	},
+	{
+		"Intent": "how-to-prepare-for-self-imposed-measures",
+		"Entities": {
+			"self_imposed_measures": ["mentally fit", "quarantine"]
+		},
+		"Sample_Question": "How do I keep mentally fit during quarantine?",
+		"Answer_Title": "Mental Help",
+		"Answer": "Take breaks from watching, reading, or listening to news stories, including social media. Hearing about the pandemic repeatedly can be upsetting. Take care of your body. Take deep breaths, stretch, or meditate. Try to eat healthy, well-balanced meals, exercise regularly, get plenty of sleep, and avoid alcohol and drugs. Make time to unwind. Try to do some other activities you enjoy. Connect with others. Talk with people you trust about your concerns and how you are feeling.",
+		"Source": "https://www.cdc.gov/coronavirus/2019-ncov/prepare/managing-stress-anxiety.html",
+		"Reference": "https://www.cdc.gov/coronavirus/2019-ncov/prepare/managing-stress-anxiety.html",
+		"Image_URL": "https://www.fsb.org.uk/static/80e48948-0c66-4b0f-bcbc8225edece8b4/1170x350_highestperformance_/Mental-Health-Blog-Image.jpg",
+		"Response_Type": "Card",
+		"Audio_Link": "",
+		"Suggestions": ["How do I keep physically fit during quarantine ?"]
+	}, {
+		"Intent": "how-to-prepare-for-self-imposed-measures",
+		"Entities": {
+			"self_imposed_measures": ["working from home", "quarantine"]
+		},
+		"Sample_Question": "How do I work from home during the quarantine?",
+		"Answer_Title": "Work from home",
+		"Answer": "- Make a schedule and stick to it  - Focus on what you’ve accomplished at the end of each day to keep yourself motivated  - Create a dedicated workspace and let your family know that you are unavailable during work hours",
+		"Source": "https://hbr.org/2014/10/5-ways-to-work-from-home-more-effectively",
+		"Reference": "https://hbr.org/2014/10/5-ways-to-work-from-home-more-effectively",
+		"Image_URL": "https://www.primoprint.com/blog/wp-content/uploads/2019/05/tips-work-from-home-1370x795.jpg",
+		"Response_Type": "Card",
+		"Audio_Link": "",
+		"Suggestions": ["How do I keep mentally fit during quarantine ?"]
+	},
+	{
+		"Intent": "how-to-disinfect",
+		"Entities": {
+			"protective_items_or_actions": "disinfectant"
+		},
+		"Sample_Question": "What are the recommended disinfectants to use?",
+		"Answer_Title": "Disinfectants",
+		"Answer": "For disinfection, diluted household bleach solutions, alcohol solutions with at least 70 percent alcohol, and most common EPA-registered household disinfectants should be effective.",
+		"Source": "https://www.healthleadersmedia.com/nursing/covid-19-epa-releases-list-registered-disinfectants",
+		"Reference": "https://www.healthleadersmedia.com/nursing/covid-19-epa-releases-list-registered-disinfectants",
+		"Image_URL": "https://d2w7ym3ux0871n.cloudfront.net/wp-content/uploads/Disinfectants_DECON_Layers_2019.jpg",
+		"Response_Type": "Card",
+		"Audio_Link": "",
+		"Suggestions": ["How to disinfect glass surfaces ?"]
+	},
+	{
+		"Intent": "how-to-disinfect",
+		"Entities": {
+			"transmission_surface": "glass"
+		},
+		"Sample_Question": "How to disinfect glass surfaces?",
+		"Answer_Title": "Disinfecting Glass Surfaces",
+		"Answer": "COVID-19, meanwhile, can survive on surfaces for anywhere from a few hours to over a week, depending on conditions. If you’re in the mood to kill those germs, some alcohol can’t hurt. At least, it can’t hurt now. “Using a 70% isopropyl alcohol wipe or Clorox Disinfecting Wipes, you may gently wipe the exterior surfaces of your phone,” Apple says on its updated support page. “Don’t use bleach. Avoid getting moisture in any openings, and don’t submerge your Phone in any cleaning agents. Tap on learn more to see a video.",
+		"Source": "https://time.com/5804610/phone-clean-wipes/",
+		"Reference": "https://www.youtube.com/watch?v=Ul-RjZ0uDdk",
+		"Image_URL": "https://cdn.thewirecutter.com/wp-content/uploads/2020/03/cleanphone-lowres-2x1-1136190117-1024x512.jpg",
+		"Response_Type": "Card",
+		"Audio_Link": "",
+		"Suggestions": ["What are the recommended disinfectants to use ?"]
+	},
+	{
+		"Intent": "how-to-disinfect",
+		"Entities": {
+			"transmission_surface": "paper"
+		},
+		"Sample_Question": "How to disinfect paper?",
+		"Answer_Title": "Disinfecting Paper",
+		"Answer": "One website suggested that if it’s too much hassle to launder your documents, you might try quarantining it for a couple of weeks before handling it again. And whatever you do, don’t touch your face after collecting money from the ATM machine. Wash your hands well.",
+		"Source": "https://www.boulderweekly.com/opinion/danish-plan/dirty-money-and-the-coronavirus/",
+		"Reference": "https://www.boulderweekly.com/opinion/danish-plan/dirty-money-and-the-coronavirus/",
+		"Image_URL": "https://www.rd.com/wp-content/uploads/2020/03/us-mail-bag-overflowing-760x506.jpg",
+		"Response_Type": "Card",
+		"Audio_Link": "",
+		"Suggestions": ["How to disinfect plastics ?"]
+	},
+	{
+		"Intent": "how-to-disinfect",
+		"Entities": {
+			"transmission_surface": "metal"
+		},
+		"Sample_Question": "How to disinfect metal surfaces?",
+		"Answer_Title": "Disinfecting Metal",
+		"Answer": "-Wear disposable gloves when cleaning and disinfecting surfaces. Gloves should be discarded after each cleaning. If reusable gloves are used, those gloves should be dedicated for cleaning and disinfection of surfaces for COVID-19 and should not be used for other purposes. Consult the manufacturer’s instructions for cleaning and disinfection products used. Clean hands immediately after gloves are removed. -If surfaces are dirty, they should be cleaned using a detergent or soap and water prior to disinfection. -For disinfection, diluted household bleach solutions, alcohol solutions with at least 70% alcohol, and most common EPA-registered household disinfectants should be effective. -Diluted household bleach solutions can be used if appropriate for the surface. Follow manufacturer’s instructions for application and proper ventilation. Check to ensure the product is not past its expiration date. --Never mix household bleach with ammonia or any other cleanser. Unexpired household bleach will be effective against coronaviruses when properly diluted. -Prepare a bleach solution by mixing: -5 tablespoons (1/3rd cup) bleach per gallon of water or -4 teaspoons bleach per quart of water -Products with EPA-approved emerging viral pathogens claimspdf iconexternal icon are expected to be effective against COVID-19 based on data for harder to kill viruses. Follow the manufacturer’s instructions for all cleaning and disinfection products (e.g., concentration, application method and contact time, etc.). -For soft (porous) surfaces such as carpeted floor, rugs, and drapes, remove visible contamination if present and clean with appropriate cleaners indicated for use on these surfaces. After cleaning: -Launder items as appropriate in accordance with the manufacturer’s instructions. If possible, launder items using the warmest appropriate water setting for the items and dry items completely, or -Use products with the EPA-approved emerging viral pathogens claims that are suitable for porous surfaces.",
+		"Source": "https://www.cdc.gov/coronavirus/2019-ncov/prepare/cleaning-disinfection.html",
+		"Reference": "https://www.youtube.com/watch?v=DjZ6b20LSoc",
+		"Image_URL": "https://static.diffen.com/uploadz/1/15/Sterilize-1.jpg",
+		"Response_Type": "Card",
+		"Audio_Link": "",
+		"Suggestions": ["How to disinfect steel surfaces ?"]
+	},
+	{
+		"Intent": "how-to-disinfect",
+		"Entities": {
+			"transmission_surface": "steel"
+		},
+		"Sample_Question": "How to disinfect steel surfaces?",
+		"Answer_Title": "Disinfecting Steel",
+		"Answer": "-Wear disposable gloves when cleaning and disinfecting surfaces. Gloves should be discarded after each cleaning. If reusable gloves are used, those gloves should be dedicated for cleaning and disinfection of surfaces for COVID-19 and should not be used for other purposes. Consult the manufacturer’s instructions for cleaning and disinfection products used. Clean hands immediately after gloves are removed. -If surfaces are dirty, they should be cleaned using a detergent or soap and water prior to disinfection. -For disinfection, diluted household bleach solutions, alcohol solutions with at least 70% alcohol, and most common EPA-registered household disinfectants should be effective. -Diluted household bleach solutions can be used if appropriate for the surface. Follow manufacturer’s instructions for application and proper ventilation. Check to ensure the product is not past its expiration date. --Never mix household bleach with ammonia or any other cleanser. Unexpired household bleach will be effective against coronaviruses when properly diluted. -Prepare a bleach solution by mixing: -5 tablespoons (1/3rd cup) bleach per gallon of water or -4 teaspoons bleach per quart of water -Products with EPA-approved emerging viral pathogens claimspdf iconexternal icon are expected to be effective against COVID-19 based on data for harder to kill viruses. Follow the manufacturer’s instructions for all cleaning and disinfection products (e.g., concentration, application method and contact time, etc.). -For soft (porous) surfaces such as carpeted floor, rugs, and drapes, remove visible contamination if present and clean with appropriate cleaners indicated for use on these surfaces. After cleaning: -Launder items as appropriate in accordance with the manufacturer’s instructions. If possible, launder items using the warmest appropriate water setting for the items and dry items completely, or -Use products with the EPA-approved emerging viral pathogens claims that are suitable for porous surfaces.",
+		"Source": "https://www.cdc.gov/coronavirus/2019-ncov/prepare/cleaning-disinfection.html",
+		"Reference": "https://www.youtube.com/watch?v=JCRSUS4YYIg",
+		"Image_URL": "https://housewifehowtos.com/wp-content/uploads/2020/03/Daily-Kitchen-Sink-Disinfecting-Spray.jpg",
+		"Response_Type": "Card",
+		"Audio_Link": "",
+		"Suggestions": ["How to disinfect metal surfaces?"]
+	},
+	{
+		"Intent": "how-to-disinfect",
+		"Entities": {
+			"transmission_surface": "plastic"
+		},
+		"Sample_Question": "How to disinfect plastics?",
+		"Answer_Title": "Disinfecting Plastics",
+		"Answer": "-Wear disposable gloves when cleaning and disinfecting surfaces. Gloves should be discarded after each cleaning. If reusable gloves are used, those gloves should be dedicated for cleaning and disinfection of surfaces for COVID-19 and should not be used for other purposes. Consult the manufacturer’s instructions for cleaning and disinfection products used. Clean hands immediately after gloves are removed. -If surfaces are dirty, they should be cleaned using a detergent or soap and water prior to disinfection. -For disinfection, diluted household bleach solutions, alcohol solutions with at least 70% alcohol, and most common EPA-registered household disinfectants should be effective. -Diluted household bleach solutions can be used if appropriate for the surface. Follow manufacturer’s instructions for application and proper ventilation. Check to ensure the product is not past its expiration date. --Never mix household bleach with ammonia or any other cleanser. Unexpired household bleach will be effective against coronaviruses when properly diluted. -Prepare a bleach solution by mixing: -5 tablespoons (1/3rd cup) bleach per gallon of water or -4 teaspoons bleach per quart of water -Products with EPA-approved emerging viral pathogens claimspdf iconexternal icon are expected to be effective against COVID-19 based on data for harder to kill viruses. Follow the manufacturer’s instructions for all cleaning and disinfection products (e.g., concentration, application method and contact time, etc.). -For soft (porous) surfaces such as carpeted floor, rugs, and drapes, remove visible contamination if present and clean with appropriate cleaners indicated for use on these surfaces. After cleaning: -Launder items as appropriate in accordance with the manufacturer’s instructions. If possible, launder items using the warmest appropriate water setting for the items and dry items completely, or -Use products with the EPA-approved emerging viral pathogens claims that are suitable for porous surfaces.",
+		"Source": "https://www.cdc.gov/coronavirus/2019-ncov/prepare/cleaning-disinfection.html",
+		"Reference": "https://www.cdc.gov/coronavirus/2019-ncov/prepare/cleaning-disinfection.html",
+		"Image_URL": "https://www.msschippers.com/INTERSHOP/static/WFS/Schippers-EX-Site/-/Schippers/en_US/images/products/25/2503700/750x750.jpg",
+		"Response_Type": "Card",
+		"Audio_Link": "",
+		"Suggestions": ["How to disinfect paper ?"]
+	},
+	{
+		"Intent": "how-to-disinfect",
+		"Entities": {
+			"transmission_surface": "plastic"
+		},
+		"Sample_Question": "How long does it survive plastic surfaces?",
+		"Answer_Title": "Coronavirus on Plastic surfaces",
+		"Answer": "The Covid-19 virus, according to a new study, sticks around on plastic surfaces for up to three days",
+		"Source": "https://www.statnews.com/2020/03/19/coronavirus-survives-on-surfaces-how-to-protect-yourself/",
+		"Reference": "https://bangordailynews.com/2020/03/05/news/state/have-questions-about-coronavirus-here-are-the-answers/",
+		"Image_URL": "https://www.msschippers.com/INTERSHOP/static/WFS/Schippers-EX-Site/-/Schippers/en_US/images/products/25/2503700/750x750.jpg",
+		"Response_Type": "Card",
+		"Audio_Link": "",
+		"Suggestions": ["How to disinfect steel surfaces ?"]
+	},
+	{
+		"Intent": "how-long-does-virus-survive-on-medium",
+		"Entities": {
+			"transmission_mediums": "air"
+		},
+		"Sample_Question": "How long does it survive in the air?",
+		"Answer_Title": "Coronavirus in air",
+		"Answer": "A recent study found that the COVID-19 coronavirus can survive up to four hours on copper, up to 24 hours on cardboard, and up to two to three days on plastic and stainless steel. The researchers also found that this virus can hang out as droplets in the air for up to three hours before they fall. But most often they will fall more quickly. The results provide key information about the stability of SARS-CoV-2, which causes COVID-19 disease, and suggests that people may acquire the virus through the air and after touching contaminated objects.",
+		"Source": "https://www.health.harvard.edu/diseases-and-conditions/coronavirus-resource-center",
+		"Reference": "https://www.health.harvard.edu/diseases-and-conditions/coronavirus-resource-center",
+		"Image_URL": "https://cndarcdn.scdn3.secure.raxcdn.com/m/0/breathe-droplets-woman.jpg",
+		"Response_Type": "Card",
+		"Audio_Link": "",
+		"Suggestions": ["How long does coronavirus survive in the air ?"]
+	},
+	{
+		"Intent": "how-long-does-virus-survive-on-medium",
+		"Entities": {
+			"transmission_mediums": "air",
+			"disease": "Coronavirus"
+		},
+		"Sample_Question": "How long does coronavirus survive in the air?",
+		"Answer_Title": "Coronavirus in air",
+		"Answer": "A recent study found that the COVID-19 coronavirus can survive up to four hours on copper, up to 24 hours on cardboard, and up to two to three days on plastic and stainless steel. The researchers also found that this virus can hang out as droplets in the air for up to three hours before they fall. But most often they will fall more quickly. The results provide key information about the stability of SARS-CoV-2, which causes COVID-19 disease, and suggests that people may acquire the virus through the air and after touching contaminated objects.",
+		"Source": "https://www.health.harvard.edu/diseases-and-conditions/coronavirus-resource-center",
+		"Reference": "https://www.health.harvard.edu/diseases-and-conditions/coronavirus-resource-center",
+		"Image_URL": "https://cndarcdn.scdn3.secure.raxcdn.com/m/0/breathe-droplets-woman.jpg",
+		"Response_Type": "Card",
+		"Audio_Link": "",
+		"Suggestions": ["How long does coronavirus survive in the soil ?"]
+	},
+	{
+		"Intent": "how-long-does-virus-survive-on-medium",
+		"Entities": {
+			"transmission_mediums": "air",
+			"disease": "virus"
+		},
+		"Sample_Question": "How long does the virus survive in the air?",
+		"Answer_Title": "Coronavirus in air",
+		"Answer": "A recent study found that the COVID-19 coronavirus can survive up to four hours on copper, up to 24 hours on cardboard, and up to two to three days on plastic and stainless steel. The researchers also found that this virus can hang out as droplets in the air for up to three hours before they fall. But most often they will fall more quickly. The results provide key information about the stability of SARS-CoV-2, which causes COVID-19 disease, and suggests that people may acquire the virus through the air and after touching contaminated objects.",
+		"Source": "https://www.health.harvard.edu/diseases-and-conditions/coronavirus-resource-center",
+		"Reference": "https://www.health.harvard.edu/diseases-and-conditions/coronavirus-resource-center",
+		"Image_URL": "https://upload.wikimedia.org/wikipedia/commons/7/77/Sneeze.JPG",
+		"Response_Type": "Card",
+		"Audio_Link": "",
+		"Suggestions": ["How long does it survive in the water ?"]
+	},
+	{
+		"Intent": "how-long-does-virus-survive-on-medium",
+		"Entities": {
+			"transmission_mediums": "soil"
+		},
+		"Sample_Question": "How long does it survive in the soil?",
+		"Answer_Title": "Coronavirus on soil",
+		"Answer": "Some viruses are extremely stable under soil conditions. In general, virus survival in soils depends mostly on temperature and virion adsorption to soil (sand and clay colloids). Other influential factors include soil moisture content, presence of aerobic microorganisms, levels of resin-extractable phosphorous, exchangeable aluminum, organic matter, and soil pH. TMV (Virgaviridae), for instance, remains infectious in soil for several years in living or dead plant debris.",
+		"Source": "https://www.sciencedirect.com/topics/medicine-and-dentistry/virus-survival",
+		"Reference": "https://www.sciencedirect.com/topics/medicine-and-dentistry/virus-survival",
+		"Image_URL": "https://sa.kapamilya.com/absnews/abscbnnews/media/2020/life/03/11/travelers-find-bright-spot-in-tourism-4.jpg",
+		"Response_Type": "Card",
+		"Audio_Link": "",
+		"Suggestions": ["How long does coronavirus survive in the water ?"]
+	},
+	{
+		"Intent": "how-long-does-virus-survive-on-medium",
+		"Entities": {
+			"transmission_mediums": "soil",
+			"disease": "Coronavirus"
+		},
+		"Sample_Question": "How long does coronavirus survive in the soil?",
+		"Answer_Title": "Coronavirus on soil",
+		"Answer": "Some viruses are extremely stable under soil conditions. In general, virus survival in soils depends mostly on temperature and virion adsorption to soil (sand and clay colloids). Other influential factors include soil moisture content, presence of aerobic microorganisms, levels of resin-extractable phosphorous, exchangeable aluminum, organic matter, and soil pH. TMV (Virgaviridae), for instance, remains infectious in soil for several years in living or dead plant debris.",
+		"Source": "https://www.sciencedirect.com/topics/medicine-and-dentistry/virus-survival",
+		"Reference": "https://www.sciencedirect.com/topics/medicine-and-dentistry/virus-survival",
+		"Image_URL": "https://s3.reutersmedia.net/resources/r/?m=02&d=20200320&t=2&i=1505962622&r=LYNXMPEG2J1V7&w=1280",
+		"Response_Type": "Card",
+		"Audio_Link": "",
+		"Suggestions": ["How long does coronavirus survive in the air ?"]
+	},
+	{
+		"Intent": "how-long-does-virus-survive-on-medium",
+		"Entities": {
+			"transmission_mediums": "soil",
+			"disease": "virus"
+		},
+		"Sample_Question": "How long does the virus survive in the soil?",
+		"Answer_Title": "Coronavirus on soil",
+		"Answer": "Some viruses are extremely stable under soil conditions. In general, virus survival in soils depends mostly on temperature and virion adsorption to soil (sand and clay colloids). Other influential factors include soil moisture content, presence of aerobic microorganisms, levels of resin-extractable phosphorous, exchangeable aluminum, organic matter, and soil pH. TMV (Virgaviridae), for instance, remains infectious in soil for several years in living or dead plant debris.",
+		"Source": "https://www.sciencedirect.com/topics/medicine-and-dentistry/virus-survival",
+		"Reference": "https://www.sciencedirect.com/topics/medicine-and-dentistry/virus-survival",
+		"Image_URL": "https://s3.reutersmedia.net/resources/r/?m=02&d=20200320&t=2&i=1505962622&r=LYNXMPEG2J1V7&w=1280",
+		"Response_Type": "Card",
+		"Audio_Link": "",
+		"Suggestions": ["What are the recommended disinfectants to use ?"]
+	},
+	{
+		"Intent": "how-long-does-virus-survive-on-medium",
+		"Entities": {
+			"transmission_mediums": "water"
+		},
+		"Sample_Question": "How long does it survive in the water?",
+		"Answer_Title": "Coronavirus in water",
+		"Answer": "The research for novel Coronavirus is going on, but we have facts saying that coronaviruses can remain infectious for long periods in water and pasteurized settled sewage, suggesting contaminated water is a potential vehicle for human exposure if aerosols are generated.",
+		"Source": "https://www.sciencedirect.com/science/article/pii/S0043135409000785",
+		"Reference": "https://www.sciencedirect.com/science/article/pii/S0043135409000785",
+		"Image_URL": "",
+		"Response_Type": "Card",
+		"Audio_Link": "",
+		"Suggestions": ["How long does the virus survive in the food ?"]
+	},
+	{
+		"Intent": "how-long-does-virus-survive-on-medium",
+		"Entities": {
+			"transmission_mediums": "water",
+			"disease": "Coronavirus"
+		},
+		"Sample_Question": "How long does coronavirus survive in the water?",
+		"Answer_Title": "Coronavirus in water",
+		"Answer": "The research for novel Coronavirus is going on, but we have facts saying that coronaviruses can remain infectious for long periods in water and pasteurized settled sewage, suggesting contaminated water is a potential vehicle for human exposure if aerosols are generated.",
+		"Source": "https://www.sciencedirect.com/science/article/pii/S0043135409000785",
+		"Reference": "https://www.sciencedirect.com/science/article/pii/S0043135409000785",
+		"Image_URL": "https://www.sciencenews.org/wp-content/uploads/2018/03/032618_CG-wilke-nanobot_main.jpg",
+		"Response_Type": "Card",
+		"Audio_Link": "",
+		"Suggestions": ["Can cow urine help against coronavirus ?"]
+	},
+	{
+		"Intent": "how-long-does-virus-survive-on-medium",
+		"Entities": {
+			"transmission_mediums": "water",
+			"disease": "virus"
+		},
+		"Sample_Question": "How long does the virus survive in the water?",
+		"Answer_Title": "Coronavirus in water",
+		"Answer": "The research for novel Coronavirus is going on, but we have facts saying that coronaviruses can remain infectious for long periods in water and pasteurized settled sewage, suggesting contaminated water is a potential vehicle for human exposure if aerosols are generated.",
+		"Source": "https://www.sciencedirect.com/science/article/pii/S0043135409000785",
+		"Reference": "https://www.sciencedirect.com/science/article/pii/S0043135409000785",
+		"Image_URL": "https://www.sciencenews.org/wp-content/uploads/2018/03/032618_CG-wilke-nanobot_main.jpg",
+		"Response_Type": "Card",
+		"Audio_Link": "",
+		"Suggestions": ["Can cow urine help against coronavirus ?"]
+	},
+	{
+		"Intent": "how-long-does-virus-survive-on-medium",
+		"Entities": {
+			"transmission_mediums": "food"
+		},
+		"Sample_Question": "How long does it survive in the food?",
+		"Answer_Title": "Coronavirus in food",
+		"Answer": "EFSA is closely monitoring the situation regarding the outbreak of coronavirus disease (COVID-19) that is affecting a large number of countries across the globe. There is currently no evidence that food is a likely source or route of transmission of the virus.",
+		"Source": "https://www.efsa.europa.eu/en/news/coronavirus-no-evidence-food-source-or-transmission-route",
+		"Reference": "https://www.efsa.europa.eu/en/news/coronavirus-no-evidence-food-source-or-transmission-route",
+		"Image_URL": "https://previews.123rf.com/images/lightwise/lightwise1110/lightwise111000431/10945965-food-safety-and-inspection-symbol-represented-by-a-magnifying-glass-looking-closely-at-a-virus-bacte.jpg",
+		"Response_Type": "Card",
+		"Audio_Link": "",
+		"Suggestions": ["How long does coronavirus survive in the soil ?"]
+	},
+	{
+		"Intent": "how-long-does-virus-survive-on-medium",
+		"Entities": {
+			"transmission_mediums": "food",
+			"disease": "Coronavirus"
+		},
+		"Sample_Question": "How long does coronavirus survive in the food?",
+		"Answer_Title": "Coronavirus in food",
+		"Answer": "EFSA is closely monitoring the situation regarding the outbreak of coronavirus disease (COVID-19) that is affecting a large number of countries across the globe. There is currently no evidence that food is a likely source or route of transmission of the virus.",
+		"Source": "https://www.efsa.europa.eu/en/news/coronavirus-no-evidence-food-source-or-transmission-route",
+		"Reference": "https://www.efsa.europa.eu/en/news/coronavirus-no-evidence-food-source-or-transmission-route",
+		"Image_URL": "https://previews.123rf.com/images/lightwise/lightwise1110/lightwise111000431/10945965-food-safety-and-inspection-symbol-represented-by-a-magnifying-glass-looking-closely-at-a-virus-bacte.jpg",
+		"Response_Type": "Card",
+		"Audio_Link": "",
+		"Suggestions": ["Will taking tulsi help prevent coronavirus ?"]
+	},
+	{
+		"Intent": "how-long-does-virus-survive-on-medium",
+		"Entities": {
+			"transmission_mediums": "food",
+			"disease": "virus"
+		},
+		"Sample_Question": "How long does the virus survive in the food",
+		"Answer_Title": "Coronavirus in food",
+		"Answer": "EFSA is closely monitoring the situation regarding the outbreak of coronavirus disease (COVID-19) that is affecting a large number of countries across the globe. There is currently no evidence that food is a likely source or route of transmission of the virus.",
+		"Source": "https://www.efsa.europa.eu/en/news/coronavirus-no-evidence-food-source-or-transmission-route",
+		"Reference": "https://www.efsa.europa.eu/en/news/coronavirus-no-evidence-food-source-or-transmission-route",
+		"Image_URL": "https://previews.123rf.com/images/lightwise/lightwise1110/lightwise111000431/10945965-food-safety-and-inspection-symbol-represented-by-a-magnifying-glass-looking-closely-at-a-virus-bacte.jpg",
+		"Response_Type": "Card",
+		"Audio_Link": "",
+		"Suggestions": ["Is neem helpful ?"]
+	},
+	{
+		"Intent": "should_I_take_or_consume",
+		"Entities": {
+			"medicinal_items": "tulsi"
+		},
+		"Sample_Question": "Will taking tulsi help prevent coronavirus?",
+		"Answer_Title": "Taking Tulsi",
+		"Answer": "As we know Immunity is important to fight against any infection or viral action. Tulsi is a good source to boost your immunity, but boosting immunity is a preventive measure, not a cure. ",
+		"Source": "https://timesofindia.indiatimes.com/life-style/food-news/immunity-boosting-ways-to-use-tulsi-to-stay-safe-from-viruses-and-flu/photostory/73914126.cms",
+		"Reference": "https://timesofindia.indiatimes.com/life-style/food-news/immunity-boosting-ways-to-use-tulsi-to-stay-safe-from-viruses-and-flu/photostory/73914126.cms",
+		"Image_URL": "https://resize.indiatvnews.com/en/resize/newbucket/1200_-/2019/08/tulsi-plant-1564795386-1564896914.jpg",
+		"Response_Type": "Card",
+		"Audio_Link": "",
+		"Suggestions": ["Is amla helpful against coronavirus ?"]
+	},
+	{
+		"Intent": "should_I_take_or_consume",
+		"Entities": {
+			"medicinal_items": "cow urine"
+		},
+		"Sample_Question": "Can cow urine help against coronavirus?",
+		"Answer_Title": "Taking cow urine",
+		"Answer": "Scientifically there is no basis to this particular myth. It hasnt been proven or determined yet that cow urine or cow dung used in any form either as a surface applicant or administered orally, kills the virus.",
+		"Source": " https://www.edexlive.com/news/2020/mar/18/can-cow-urine-cure-coronavirus-four-of-the-most-ridiculous-myths-about-covid-19-busted-10747.html",
+		"Reference": " https://www.edexlive.com/news/2020/mar/18/can-cow-urine-cure-coronavirus-four-of-the-most-ridiculous-myths-about-covid-19-busted-10747.html",
+		"Image_URL": "https://kj1bcdn.b-cdn.net/media/13716/cow-urine.jpeg?format=webp",
+		"Response_Type": "Card",
+		"Audio_Link": "",
+		"Suggestions": ["Is amla helpful against coronavirus ?"]
+	},
+	{
+		"Intent": "should_I_take_or_consume",
+		"Entities": {
+			"medicinal_items": "neem"
+		},
+		"Sample_Question": "Is neem helpful?",
+		"Answer_Title": "Taking Neem",
+		"Answer": "Though Consuming Neem oil, and cold pressed oils is going to lift your healthy immune system, and may act as a preventive care, but there are no proven facts that one can get cured from Neem.",
+		"Source": "https://www.standardcoldpressedoil.com/hub/neem-oil-to-prevent-coronavirus/",
+		"Reference": "https://www.businesstoday.in/opinion/columns/coronavirus-in-india-make-your-business-travel-covid-19-proof-infection-news-corporates/story/398603.html",
+		"Image_URL": "https://cdn.shopify.com/s/files/1/0130/1797/2795/products/NIMBA-4_2048x.jpg?v=1554637928",
+		"Response_Type": "Card",
+		"Audio_Link": "",
+		"Suggestions": ["Can eating chyavanprash help against coronavirus ?"]
+	},
+	{
+		"Intent": "should_I_take_or_consume",
+		"Entities": {
+			"medicinal_items": "chyavanprash"
+		},
+		"Sample_Question": "Can eating chyavanprash help against coronavirus?",
+		"Answer_Title": "Taking Chyawanprash",
+		"Answer": "As we know Immunity is important to fight against any infection or viral action. Chyawanprash is a good source to boost your immunity, but boosting immunity is a preventive measure, not a cure. Thus, a healthy person can consume chyawanprash daily for a good health.",
+		"Source": "https://www.businesstoday.in/opinion/columns/coronavirus-in-india-make-your-business-travel-covid-19-proof-infection-news-corporates/story/398603.html",
+		"Reference": "https://www.businesstoday.in/opinion/columns/coronavirus-in-india-make-your-business-travel-covid-19-proof-infection-news-corporates/story/398603.html",
+		"Image_URL": "https://previews.123rf.com/images/espies/espies1706/espies170600175/80628055-flat-lay-of-a-bowl-of-chyawanprash-and-all-its-ingredients-on-a-green-background-.jpg",
+		"Response_Type": "Card",
+		"Audio_Link": "",
+		"Suggestions": ["Can cow urine help against coronavirus ?"]
+	},
+	{
+		"Intent": "should_I_take_or_consume",
+		"Entities": {
+			"medicinal_items": "amla"
+		},
+		"Sample_Question": "Is amla helpful against coronavirus?",
+		"Answer_Title": "Taking Amla",
+		"Answer": "At some extent for preventive care, amla is helpful for boosting immune system, but it is not a cure. One needs to keep in mind that Ayurveda is a lifestyle-a preventive measure, not a cure. Good things take time, we know. One must regularly consume herbs which are gifts of Nature, namely Amla, Neem, Giloy, Tulsi, etc., to strengthen his/her immunity system.",
+		"Source": "https://www.businesstoday.in/opinion/columns/coronavirus-in-india-make-your-business-travel-covid-19-proof-infection-news-corporates/story/398603.html",
+		"Reference": "https://www.businesstoday.in/opinion/columns/coronavirus-in-india-make-your-business-travel-covid-19-proof-infection-news-corporates/story/398603.html",
+		"Image_URL": "https://www.gaiagoodhealth.com/blog/wp-content/uploads/2019/05/Amla-Benefit.png",
+		"Response_Type": "Card",
+		"Audio_Link": "",
+		"Suggestions": ["How long must I observe quarantine ?"]
+	},
+	{
+		"Intent": "how-long-does-phase_of_disease-last",
+		"Entities": {
+			"phases_of_disease": "quarantine"
+		},
+		"Sample_Question": "How long must I observe quarantine?",
+		"Answer_Title": "Quarantine Period",
+		"Answer": "For COVID-19, the period of quarantine is 14 days from the last date of exposure, because 14 days is the longest incubation period seen for similar coronaviruses. Someone who has been released from COVID-19 quarantine is not considered a risk for spreading the virus to others because they have not developed illness during the incubation period. ",
+		"Source": "https://www.cdc.gov/coronavirus/2019-ncov/faq.html",
+		"Reference": "https://www.youtube.com/watch?v=AQxpQ94Euic",
+		"Image_URL": "https://media.graytvinc.com/images/810*607/coronavirus14.jpg",
+		"Response_Type": "Card",
+		"Audio_Link": "",
+		"Suggestions": ["How long will treatment last for ?"]
+	},
+	{
+		"Intent": "how-long-does-phase_of_disease-last",
+		"Entities": {
+			"phases_of_disease": "treatment"
+		},
+		"Sample_Question": "How long will treatment last for?",
+		"Answer_Title": "Recovery",
+		"Answer": "Patients can be discharged if the following conditions are met (1) The condition of the patient is stable and fever has subsided. (2) Lung imaging shows a significant improvement with no sign of organ dysfunction. (3) The patient has had stable breathing, clear consciousness, unimpaired speech, normal diet and body temperature for more than 3 days. Respiratory symptoms have improved significantly, and two consecutive tests for respiratory pathogenic nucleic acid have been negative (at least one day in- between tests).",
+		"Source": "https://www.amazon.com/Coronavirus-Prevention-Handbook-Science-Based-Could-ebook/dp/B085DKMXGY",
+		"Reference": "https://www.dictionary.com/e/quarantine-vs-isolation/",
+		"Image_URL": "https://wpcdn.us-east-1.vip.tn-cloud.net/www.abc6.com/content/uploads/2020/03/coronavirus.png",
+		"Response_Type": "Card",
+		"Audio_Link": "",
+		"Suggestions": ["What is the difference between virus and bacteria"]
+	},
+	{
+		"Intent": "how-long-does-phase_of_disease-last",
+		"Entities": {
+			"phases_of_disease": "contagious"
+		},
+		"Sample_Question": "How long is the contagious phase of coronavirus?",
+		"Answer_Title": "Contagious",
+		"Answer": "People are thought to be most contagious early in the course of their illness, when they are beginning to experience symptoms. Researchers have detected viral genetic material in patients several weeks after theyve recovered from COVID-19. Though the significance of these findings is not fully understood, it suggests the possibility that people may continue to be contagious for weeks after they are feeling better.",
+		"Source": "https://www.health.harvard.edu/diseases-and-conditions/coronavirus-resource-center#Prepare",
+		"Reference": "https://www.health.harvard.edu/diseases-and-conditions/coronavirus-resource-center#Prepare",
+		"Image_URL": "https://image.shutterstock.com/image-illustration/contagious-diseases-spread-hygiene-concept-260nw-1668244993.jpg",
+		"Response_Type": "Card",
+		"Audio_Link": "",
+		"Suggestions": ["What is a super spreader?"]
+	},
+	{
+		"Intent": "how-long-does-phase_of_disease-last",
+		"Entities": {
+			"phases_of_disease": "show symptoms"
+		},
+		"Sample_Question": "How long to show symptoms for coronavirus?",
+		"Answer_Title": "Symptoms",
+		"Answer": "Because this coronavirus has just been discovered, the time from exposure to symptom onset (known as the incubation period) for most people has yet to be determined. Based on current information, symptoms could appear as soon as three days after exposure to as long as 13 days later. Recently published research found that on average, the incubation period is about five days. ",
+		"Source": "https://www.health.harvard.edu/diseases-and-conditions/coronavirus-resource-center",
+		"Reference": "https://www.cdc.gov/coronavirus/2019-ncov/symptoms-testing/symptoms.html",
+		"Image_URL": "",
+		"Response_Type": "Card",
+		"Audio_Link": "",
+		"Suggestions": ["How long must I observe quarantine ?"]
+	},
+	{
+		"Intent": "how-to-do-precautionary-action",
+		"Entities": {
+			"protective_items_or_actions": "hand sanitiser"
+		},
+		"Sample_Question": "How to use hand sanitiser correctly?",
+		"Answer_Title": "Using Hand Sanitizers",
+		"Answer": "To use hand sanitizer correctly: -Place the recommended amount in the palm of one hand. (Read the manufacturers directions.) -your hands together, covering your entire hand, including between your fingers. -Stop rubbing in the sanitizer only once your skin is dry.",
+		"Source": "https://www.verywellhealth.com/should-you-use-hand-sanitizer-770727",
+		"Reference": "https://www.youtube.com/watch?v=4xC-_7ZiQoY",
+		"Image_URL": "https://parade.com/wp-content/uploads/2020/03/how-to-make-hand-sanitizer.jpg",
+		"Response_Type": "Card",
+		"Audio_Link": "",
+		"Suggestions": ["How to wash hands with soap ?"]
+	},
+	{
+		"Intent": "how-to-do-precautionary-action",
+		"Entities": {
+			"protective_items_or_actions": "alcohol"
+		},
+		"Sample_Question": "How to use alcohol to clean surfaces?",
+		"Answer_Title": "Disinfecting Surfaces",
+		"Answer": "Don’t mix rubbing alcohol with bleach Don’t use rubbing alcohol near flames or smoking Don’t use rubbing alcohol in an unventilated area Don’t clean certain surfaces with rubbing alcohol Don’t use rubbing alcohol on certain wounds or skin conditions",
+		"Source": "https://www.rd.com/home/improvement/12-ways-to-use-rubbing-alcohol/",
+		"Reference": "https://www.youtube.com/watch?v=mkHKXOIUV5w",
+		"Image_URL": "https://www.fabhow.com/wp-content/uploads/2017/05/intro-how-to-use-rubbing-alcohol-for-cleaning.jpg",
+		"Response_Type": "Card",
+		"Audio_Link": "",
+		"Suggestions": ["How to disinfect steel surfaces ?"]
+	},
+	{
+		"Intent": "how-to-do-precautionary-action",
+		"Entities": {
+			"protective_items_or_actions": "soap",
+			"precautionary_actions": "wash hands"
+		},
+		"Sample_Question": "How to wash hands with soap?",
+		"Answer_Title": "Washing Hands",
+		"Answer": "Washing your hands is easy, and it’s one of the most effective ways to prevent the spread of germs. Clean hands can stop germs from spreading from one person to another and throughout an entire community—from your home and workplace to childcare facilities and hospitals.  Follow these five steps every time.  Wet your hands with clean, running water (warm or cold), turn off the tap, and apply soap. Lather your hands by rubbing them together with the soap. Lather the backs of your hands, between your fingers, and under your nails. Scrub your hands for at least 20 seconds. Need a timer? Hum the “Happy Birthday” song from beginning to end twice. Rinse your hands well under clean, running water. Dry your hands using a clean towel or air dry them.",
+		"Source": "https://www.cdc.gov/handwashing/when-how-handwashing.html",
+		"Reference": "https://www.youtube.com/watch?v=IisgnbMfKvI",
+		"Image_URL": "https://media1.s-nbcnews.com/j/newscms/2019_51/3151621/191217-hand-washing-stock-cs-906a_f4b26951f71188739ce7617acf4cb093.fit-760w.jpg",
+		"Response_Type": "Card",
+		"Audio_Link": "",
+		"Suggestions": ["How to use hand dryers safely ?"]
+	},
+	{
+		"Intent": "how-to-do-precautionary-action",
+		"Entities": {
+			"protective_items_or_actions": "spray chlorine"
+		},
+		"Sample_Question": "How to use chlorine to prevent infections?",
+		"Answer_Title": "Chlorine as disinfectant",
+		"Answer": "Chlorine solutions should be prepared fresh daily, as they are light sensitive. Most chlorine products require the removal of organic soil prior to their use (removing bulk spill matter, cleaning prior to disinfecting). Disinfection requires a wet contact time (amount of time the disinfectant is required to be left on the surface to be effective). Chlorine odor does not necessarily indicate appropriate solution strength, since chlorine odor can be detected even at extremely low concentrations. Chlorine solutions are corrosive and can pit metal and damage skin.",
+		"Source": "https://www.cdc.gov/vhf/ebola/clinicians/non-us-healthcare-settings/chlorine-use.html",
+		"Reference": "https://www.cdc.gov/vhf/ebola/clinicians/non-us-healthcare-settings/chlorine-use.html",
+		"Image_URL": "",
+		"Response_Type": "Card",
+		"Audio_Link": "",
+		"Suggestions": ["How to use hand sanitiser correctly ?"]
+	},
+	{
+		"Intent": "how-to-do-precautionary-action",
+		"Entities": {
+			"protective_items_or_actions": "rinse mouth"
+		},
+		"Sample_Question": "How to rinse my mouth properly?",
+		"Answer_Title": "Rinsing mouth",
+		"Answer": "Rinsing face helps as much as washing your hands do. Do take some water in your mouth and rinse properly.",
+		"Source": "https://www.indiatoday.in/fact-check/story/fact-check-no-gargling-with-warm-salt-water-can-t-save-you-from-coronavirus-1656600-2020-03-17",
+		"Reference": "https://www.indiatoday.in/fact-check/story/fact-check-no-gargling-with-warm-salt-water-can-t-save-you-from-coronavirus-1656600-2020-03-17",
+		"Image_URL": "https://www.docmac.com/wp-content/uploads/2019/11/Post-Tooth-Extraction-Care.jpg",
+		"Response_Type": "Card",
+		"Audio_Link": "",
+		"Suggestions": ["How to use chlorine to prevent infections ?"]
+	},
+	{
+		"Intent": "how-to-do-precautionary-action",
+		"Entities": {
+			"protective_items_or_actions": "rinse nose"
+		},
+		"Sample_Question": "What is the correct procedure for rinsing your nose?",
+		"Answer_Title": "Rinsing nose",
+		"Answer": "Stand with your head over a sink or in the shower and tilt your head to one side. Using a squeeze bottle, bulb syringe, or neti pot, pour or squeeze the saline solution slowly into the upper nostril. Allow the solution to pour out your other nostril and into the drain. Breathe through your mouth, not your nose, at this time. Repeat on the opposite side. Try not to let the water go down the back of your throat. You may need to adjust your head position until you find the correct angle. Gently blow your nose into a tissue when you’re done to clear out any mucus.",
+		"Source": "https://www.healthline.com/health/sinus-flush#how-to",
+		"Reference": "https://www.youtube.com/watch?v=TgsRmkBxWCc",
+		"Image_URL": "https://img.webmd.com/dtmcms/live/webmd/consumer_assets/site_images/articles/health_tools/nasal_irrigation_slideshow/webmd_photo_of_woman_blowing_solution_out_nose.jpg",
+		"Response_Type": "Card",
+		"Audio_Link": "",
+		"Suggestions": ["How to rinse my mouth properly ?"]
+	},
+	{
+		"Intent": "how-to-do-precautionary-action",
+		"Entities": {
+			"protective_items_or_actions": "hand dryers"
+		},
+		"Sample_Question": "How to use hand dryers safely?",
+		"Answer_Title": "Using Hand dryers",
+		"Answer": "The heat from a hand dryer alone is not enough to kill the new coronavirus. However, in combination with washing your hands with soap and water for at least 20 seconds, this method is very effective. You can also dry your hands after using paper towels, or instead use an alcohol-based hand sanitizer.",
+		"Source": "https://www.wwlp.com/weather/weather-news/cold-weather-kills-coronavirus-and-13-other-covid-19-myths-you-may-be-falling-for/",
+		"Reference": "https://www.wwlp.com/weather/weather-news/cold-weather-kills-coronavirus-and-13-other-covid-19-myths-you-may-be-falling-for/",
+		"Image_URL": "https://images-na.ssl-images-amazon.com/images/I/619ZeQ4TmML._SL1500_.jpg",
+		"Response_Type": "Card",
+		"Audio_Link": "",
+		"Suggestions": ["How to use hand sanitiser correctly ?"]
+	},
+	{
+		"Intent": "difference-between-scientific_term_1-and-scientific_term_2",
+		"Entities": {
+			"scientific_term": ["notifiable", "quarantine"]
+		},
+		"Sample_Question": "What is the difference between notifiable and quarantinable disease?",
+		"Answer_Title": "Comparison",
+		"Answer": "Notifiable contagious disease refers to any of various communicable health conditions that upon detection are required to be reported to local public health authorities in a timely manner. For these diseases, mandatory disease reporting plays a critical role in helping the authority to prevent and control the spread of disease in populations.  Quarantinable contagious diseases refer to contagious diseases that are highly contagious and have a high fatality rate, such as plague, cholera, and yellow fever.",
+		"Source": "https://www.amazon.com/Coronavirus-Prevention-Handbook-Science-Based-Could-ebook/dp/B085DKMXGY",
+		"Reference": "https://www.amazon.com/Coronavirus-Prevention-Handbook-Science-Based-Could-ebook/dp/B085DKMXGY",
+		"Image_URL": "https://cdn.vox-cdn.com/thumbor/S5XGRRW3kB6fn7eLUCLIc_9Z7cE=/0x0:4946x3298/1820x1024/filters:focal(2078x1254:2868x2044):format(webp)/cdn.vox-cdn.com/uploads/chorus_image/image/66508937/GettyImages_1212275642.0.jpg",
+		"Response_Type": "Card",
+		"Audio_Link": "",
+		"Suggestions": ["How long must I observe quarantine ?"]
+	}, {
+		"Intent": "difference-between-scientific_term_1-and-scientific_term_3",
+		"Entities": {
+			"scientific_term": ["isolation", "social distancing"]
+		},
+		"Sample_Question": "What is the difference between isolation and social distancing?",
+		"Answer_Title": "Comparision",
+		"Answer": "Isolation is used to separate ill persons who have a communicable disease from those who are healthy. Isolation restricts the movement of ill persons to help stop the spread of certain diseases. For example, hospitals use isolation for patients with infectious tuberculosis. Social distancing is a non-pharmaceutical infection prevention and control intervention implemented to avoid/decrease contact between those who are infected with a disease causing pathogen and those who are not, so as to stop or slow down the rate and extent of disease transmission in a community. This eventually leads to decrease in spread, morbidity and mortality due to the disease.",
+		"Source": "https://www.hhs.gov/answers/public-health-and-safety/what-is-the-difference-between-isolation-and-quarantine/index.html",
+		"Reference": "https://www.dictionary.com/e/quarantine-vs-isolation/",
+		"Image_URL": "https://www.ft.com/__origami/service/image/v2/images/raw/http://prod-upp-image-read.ft.com/4e45d53a-5f1b-11ea-ac5e-df00963c20e6?source=next&fit=scale-down&quality=highest&width=1067",
+		"Response_Type": "Card",
+		"Audio_Link": "",
+		"Suggestions": ["How to use hand sanitiser correctly ?"]
+	},
+	{
+		"Intent": "difference-between-scientific_term_1-and-scientific_term_4",
+		"Entities": {
+			"disease": ["Coronavirus", "MERS"]
+		},
+		"Sample_Question": "What is the difference between coronavirus and MERS?",
+		"Answer_Title": "COVID19 vs MERS",
+		"Answer": "COVID-19 that was originated from Wuhan and the current the rate of mortality from this infection is about 2%. CoVs can use different receptors and pathways when entering the cell. SARS-CoV usually infects young people, MERS-CoV people aged above 50 years and COVID-19 infects middle age and above. ",
+		"Source": "https://www.health.harvard.edu/diseases-and-conditions/coronavirus-resource-center#Prepare",
+		"Reference": "https://www.dailymotion.com/video/x7samry",
+		"Image_URL": "https://s1.dmcdn.net/v/S3wdE1UL_VB8Cj8XA/x1080",
+		"Response_Type": "Card",
+		"Audio_Link": "",
+		"Suggestions": ["What is the difference between notifiable and quarantinable disease ?"]
+	},
+	{
+		"Intent": "difference-between-scientific_term_1-and-scientific_term_5",
+		"Entities": {
+			"disease": ["Coronavirus", "common cold"]
+		},
+		"Sample_Question": "What is the difference between coronavirus and common cold?",
+		"Answer_Title": "COVID19 vs Common cold",
+		"Answer": "COVID-19 often causes symptoms similar to those a person with a bad cold or the flu would experience. And like the flu, the symptoms can progress and become life-threatening. Your doctor is more likely to suspect coronavirus if: you have respiratory symptoms and you recently traveled to countries with ongoing community spread of the COVID-19 virus, including China, Iran, Italy, Japan, South Korea, or you have been exposed to someone suspected of having COVID-19, or there has been community spread of the virus that causes COVID-19 in your area ",
+		"Source": "https://www.abc.net.au/news/health/2020-03-23/coronavirus-covid-19-symptoms-and-testing/12081586",
+		"Reference": "https://www.abc.net.au/news/health/2020-03-23/coronavirus-covid-19-symptoms-and-testing/12081586",
+		"Image_URL": "",
+		"Response_Type": "Card",
+		"Audio_Link": "",
+		"Suggestions": ["What is the difference between coronavirus and MERS ?"]
+	},
+	{
+		"Intent": "difference-between-scientific_term_1-and-scientific_term_6",
+		"Entities": {
+			"disease": ["Coronavirus", "viral infection"]
+		},
+		"Sample_Question": "How is coronavirus different from a normal viral fever?",
+		"Answer_Title": "COVID19 vs Viral fever ",
+		"Answer": "People who have the flu will typically experience symptoms within 1–4 days. The symptoms for COVID-19 can develop between 1–14 days. However, according to 2020 research, the median incubation period for COVID-19 is 5.1 days. As a point of comparison, the incubation period for a cold is 1–3 days. The symptoms of COVID-19 are similar in both children and adults. However, according to the Centers for Disease Control and Prevention (CDC), children typically present with fever and mild, cold-like symptoms, such as a runny nose and a cough.",
+		"Source": "https://www.medicalnewstoday.com/articles/coronavirus-vs-flu#symptoms",
+		"Reference": "https://www.medicalnewstoday.com/articles/coronavirus-vs-flu#symptoms",
+		"Image_URL": "",
+		"Response_Type": "Card",
+		"Audio_Link": "",
+		"Suggestions": ["How is coronavirus different from swine flu ?"]
+	},
+	{
+		"Intent": "difference-between-scientific_term_1-and-scientific_term_7",
+		"Entities": {
+			"disease": ["Coronavirus", "H1N1"]
+		},
+		"Sample_Question": "How is coronavirus different from swine flu?",
+		"Answer_Title": "COVID19 vs Swine Flu",
+		"Answer": "The coronavirus appears to spread more easily than H1N1. What that means is that each person who is infected will likely infect more people than a patient who had H1N1.  And who is affected by the coronavirus is also different from the patients most susceptible to death from H1N1. Deaths from COVID-19 have been concentrated in those over age 65. By comparison, H1N1 struck children and young and middle-aged adults the hardest.",
+		"Source": "https://www.propublica.org/article/no-president-trump-the-coronavirus-is-nothing-like-h1n1-swine-flu-either",
+		"Reference": "https://www.propublica.org/article/no-president-trump-the-coronavirus-is-nothing-like-h1n1-swine-flu-either",
+		"Image_URL": "https://cdn.mos.cms.futurecdn.net/6u5vVepaitefgKnzAaX2G7-650-80.jpg",
+		"Response_Type": "Card",
+		"Audio_Link": "",
+		"Suggestions": ["What is the difference between a mask and a respirator ?"]
+	},
+	{
+		"Intent": "difference-between-scientific_term_1-and-scientific_term_8",
+		"Entities": {
+			"scientific_term": ["virus", "bacteria"]
+		},
+		"Sample_Question": "What is the difference between virus and bacteria",
+		"Answer_Title": "Virus vs Bacteria",
+		"Answer": "Bacteria are single-celled microorganisms that thrive in many different types of environments. Some varieties live in extremes of cold or heat. Others make their home in peoples intestines, where they help digest food. Most bacteria cause no harm to people, but there are exceptions. Infections caused by bacteria include: Strep throat Tuberculosis Urinary tract infections Inappropriate use of antibiotics has helped create bacterial diseases that are resistant to treatment with different types of antibiotic medications.  Viruses are even smaller than bacteria and require living hosts — such as people, plants or animals — to multiply. Otherwise, they cant survive. When a virus enters your body, it invades some of your cells and takes over the cell machinery, redirecting it to produce the virus. Diseases caused by viruses include: Chickenpox AIDS Common colds In some cases, it may be difficult to determine whether a bacterium or a virus is causing your symptoms. Many ailments — such as pneumonia, meningitis and diarrhea — can be caused by either bacteria or viruses. ",
+		"Source": "https://www.mayoclinic.org/diseases-conditions/infectious-diseases/expert-answers/infectious-disease/faq-20058098",
+		"Reference": "https://www.cdc.gov/antibiotic-use/community/pdfs/Viruses-or-Bacteria-Factsheet-Eng.pdf",
+		"Image_URL": "https://www.sciencenews.org/wp-content/uploads/2015/12/12225_ls_virus-bacteria_free.jpg",
+		"Response_Type": "Card",
+		"Audio_Link": "",
+		"Suggestions": ["How is coronavirus different from a normal viral fever ? "]
+	},
+	{
+		"Intent": "difference-between-scientific_term_1-and-scientific_term_9",
+		"Entities": {
+			"protective_items_or_actions": ["mask", "respirator"]
+		},
+		"Sample_Question": "What is the difference between a mask and a respirator?",
+		"Answer_Title": "Comparison",
+		"Answer": "-A face mask is a loose fitting mask that covers the nose and mouth area. They have 2 ear loops that stretch around the ears to hold the mask in place. Face mask are designed to be used as ONE-WAY PROTECTION ONLY, only capturing large particles or droplets exiting from the wearer and preventing them from being spread to the environment. Typically used to prevent the spread of common colds and flus. Contrary to belief, face mask DO NOT protect the wearer at all. Typically most face mask do not have any protection factor assigned to them and are not NIOSH (National Institute of Occupational Safety and Health) approved apparatus. They are only recommended as a precautionary measure to protect the people around you.  -A respirator is a tight fitting mask that creates a FACIAL SEAL. Each respirator when used properly will create a facial seal which will provide TWO-WAY PROTECTION, filtering the air entering and exiting the wearer at a level of efficiency designated by the respirator or filter/cartridge (Half Face and Full Face). Respirators come in 3 distinct categories:  Disposable (typically N95 and healthcare uses) Half Face  Full Face",
+		"Source": "https://www.linkedin.com/pulse/difference-between-face-mask-respirator-why-workers-kapil-gupta/",
+		"Reference": "https://multimedia.3m.com/mws/media/956213O/differences-between-respirators-and-masks.pdf?fn=Respirator%20vs%20Surgical%20Mask%20flye",
+		"Image_URL": "https://fastlifehacks.com/wp-content/uploads/2020/02/mask-vs-respirator.jpg",
+		"Response_Type": "Card",
+		"Audio_Link": "",
+		"Suggestions": ["What is the difference between coronavirus and common cold ?"]
+	},
+	{
+		"Intent": "is_it_safe_to_do",
+		"Entities": {
+			"daily_actions": "gym"
+		},
+		"Sample_Question": "Is it safe to go to the gym",
+		"Answer_Title": "Gym during Pandemic",
+		"Answer": "If the new coronavirus is spreading in your community, be cautious about all possible exposures, including at the gym or fitness center. The virus isn’t spread through perspiration (sweat), but items touched by many people (barbells, etc.) could pose a risk. Take your own wipes with at least 60% alcohol content, and wipe down any machine, mat or equipment you use.",
+		"Source": "https://www.hopkinsmedicine.org/health/conditions-and-diseases/coronavirus/coronavirus-frequently-asked-questions",
+		"Reference": "https://www.hopkinsmedicine.org/health/conditions-and-diseases/coronavirus/coronavirus-frequently-asked-questions",
+		"Image_URL": "https://cdn-ami-drupal.heartyhosting.com/sites/muscleandfitness.com/files/styles/full_node_image_1090x614/public/media/dumbbell-press-bench-man-workout-1109.jpg?itok=PRfcHJcb",
+		"Response_Type": "Card",
+		"Audio_Link": "",
+		"Suggestions": ["What is the difference between a mask and a respirator ?"]
+	},
+	{
+		"Intent": "is_it_safe_to_do",
+		"Entities": {
+			"daily_actions": "travel by car"
+		},
+		"Sample_Question": "Is it safe to travel by car?",
+		"Answer_Title": "Travel ",
+		"Answer": "Its not a good idea to travel during a pandemic, taking personal vehical is a safe choice. But one should avoid using public transports or places where the chances of exposure to the virus become significantly high.",
+		"Source": "https://www.cdc.gov/coronavirus/2019-ncov/travelers/travel-in-the-us.html",
+		"Reference": "https://youtu.be/0KBvReECRrI",
+		"Image_URL": "https://www.jagranimages.com/images/2020/mar/coronavirus-71584775043492.jpg",
+		"Response_Type": "Card",
+		"Audio_Link": "",
+		"Suggestions": ["Is it safe to go to the gym ?"]
+	},
+	{
+		"Intent": "is_it_safe_to_do",
+		"Entities": {
+			"daily_actions": "gym"
+		},
+		"Sample_Question": "Is it safe to play a sport?",
+		"Answer_Title": "Playing outdoors",
+		"Answer": "Yes! Getting exercise outside is a great alternative to going to the gym, where touching high-contact equipment can pose a risk (if your gym is even still open). A study last year found infectious germs on about a third of the surfaces at 16 different fitness facilities. Exercise boosts our immune systems, and even a single workout can improve our ability to fight off germs, according to the latest research. Even if you just hang out in a park, rather than go for a jog or a walk, getting some fresh air, and hopefully sunshine, is a good idea.",
+		"Source": "https://www.nytimes.com/interactive/2020/world/coronavirus-tips-advice.html",
+		"Reference": "https://www.nytimes.com/2020/03/04/well/move/exercise-immunity-infection-coronavirus.html",
+		"Image_URL": "https://www.evidentlycochrane.net/wp-content/uploads/2013/09/autumn-walk22.jpg",
+		"Response_Type": "Card",
+		"Audio_Link": "",
+		"Suggestions": ["How to stay physically fit while working at home"]
+	},
+	{
+		"Intent": "is_it_safe_to_do",
+		"Entities": {
+			"daily_actions": "exercise"
+		},
+		"Sample_Question": "Can I exercise?",
+		"Answer_Title": "Exercise",
+		"Answer": "A large study showed that mild to moderate exercise — performed about three times a week — reduced the risk of dying during the Hong Kong flu outbreak in 1998. The Hong Kong study was performed on 24,656 Chinese adults who died during this outbreak. This study showed that people who did no exercise at all or too much exercise — over five days of exercise per week — were at greatest risk of dying compared with people who exercised moderately.",
+		"Source": "https://www.marketwatch.com/story/how-much-exercise-is-ok-during-the-coronavirus-pandemic-whats-too-risky-2020-03-23",
+		"Reference": "https://www.nytimes.com/2020/03/19/well/move/coronavirus-covid-exercise-outdoors-infection-fitness.html",
+		"Image_URL": "https://cdn2.iconfinder.com/data/icons/health-colored/160/39-512.png",
+		"Response_Type": "Card",
+		"Audio_Link": "",
+		"Suggestions": ["Is it safe to go to the gym ?"]
+	},
+	{
+		"Intent": "what-is-scientific_term-or-disease",
+		"Entities": {
+			"scientific_term": "super spreader"
+		},
+		"Sample_Question": "What is a super spreader?",
+		"Answer_Title": "Super Spreader",
+		"Answer": "A “super spreader” is a generic term that means someone will disproportionately infect a large number of people with a virus, Amesh Adalja, senior scholar at the Johns Hopkins University Center for Health Security and member of the Infectious Disease Society of America, tells CNBC Make It. In other words, super spreaders spread a virus more efficiently than the average person.",
+		"Source": "https://www.cnbc.com/2020/02/11/what-is-a-coronavirus-covid-19-super-spreader-infections-explained.html",
+		"Reference": "https://en.wikipedia.org/wiki/Super-spreader",
+		"Image_URL": "https://i2.wp.com/seniorstoday.in/wp-content/uploads/2020/03/Main-1-2.jpg?fit=1000%2C626&ssl=1",
+		"Response_Type": "Card",
+		"Audio_Link": "",
+		"Suggestions": ["What is a face mask made of ?"]
+	},
+	{
+		"Intent": "what-is-scientific_term-or-disease",
+		"Entities": {
+			"scientific_term": "notifiable"
+		},
+		"Sample_Question": "What is a notifiable disease ?",
+		"Answer_Title": "Disease",
+		"Answer": "A notifiable disease is any disease that is required by law to be reported to government authorities. The collation of information allows the authorities to monitor the disease, and provides early warning of possible outbreaks. In the case of livestock diseases, there may also be the legal requirement to destroy the infected livestock upon notification. Many governments have enacted regulations for reporting of both human and animal (generally livestock) diseases.",
+		"Source": "https://en.wikipedia.org/wiki/Notifiable_disease",
+		"Reference": "https://www.cdc.gov/healthywater/statistics/surveillance/notifiable.html",
+		"Image_URL": "https://i.ytimg.com/vi/B9IMSQkSgRM/maxresdefault.jpg",
+		"Response_Type": "Card",
+		"Audio_Link": "",
+		"Suggestions": ["What is a respirator ?"]
+	},
+	{
+		"Intent": "what-is-scientific_term-or-disease",
+		"Entities": {
+			"protective_items_or_actions": "respirator"
+		},
+		"Sample_Question": "What is a respirator?",
+		"Answer_Title": "Respirator",
+		"Answer": "A respirator is a masklike device, usually of gauze, worn over the mouth, or nose and mouth, to prevent the inhalation of noxious substances or the like. Health professionals wear respirators to filter out virus particles as they breathe in so they don’t get infected with COVID-19 while helping people and patients.  The CDC specifically recommends health professionals using what are called N95 respirators. This type of respirator fits more tightly around the nose and mouth than regular medical or surgical masks. Another type of respirator is known as PAPR, short for powered air-purifying respirators, which covers the whole head and uses a blower to filter air.",
+		"Source": "https://www.dictionary.com/e/respirator-vs-ventilator/",
+		"Reference": "http://www.cfsph.iastate.edu/Emergency-Response/Just-in-Time/04-PPE-Respirator-Usage-Safety_PPT-6slide-HANDOUT.pdf",
+		"Image_URL": "https://pacconsafety.com/wp-content/uploads/2019/10/9322-respirator.jpg",
+		"Response_Type": "Card",
+		"Audio_Link": "",
+		"Suggestions": ["Is it safe to play a sport ?"]
+	},
+	{
+		"Intent": "what-is-scientific_term-or-disease",
+		"Entities": {
+			"protective_items_or_actions": "hand sanitiser"
+		},
+		"Sample_Question": "What is a hand sanitizer?",
+		"Answer_Title": "Sanitizer",
+		"Answer": "Hand sanitizer is a liquid or gel generally used to decrease infectious agents on the hands. Formulations of the alcohol-based type are preferable to hand washing with soap and water in most situations in the healthcare setting. It is generally more effective at killing microorganisms and better tolerated than soap and water. Hand washing should still be carried out if contamination can be seen or following the use of the toilet.The general use of non-alcohol based versions has no recommendations. Outside the health care setting, hand washing is generally preferred.[8][9][10] They are also less effective for microorganisms norovirus, and Clostridium difficile. They are available as liquids, gels, and foams.",
+		"Source": "https://en.wikipedia.org/wiki/Hand_sanitizer",
+		"Reference": "https://www.cdc.gov/handwashing/show-me-the-science-hand-sanitizer.html",
+		"Image_URL": "https://cdn.mos.cms.futurecdn.net/AdwSYv5dCu5vv4kJqecMga-320-80.jpg",
+		"Response_Type": "Card",
+		"Audio_Link": "",
+		"Suggestions": ["What is a notifiable disease ?"]
+	},
+	{
+		"Intent": "what-is-scientific_term-or-disease",
+		"Entities": {
+			"protective_items_or_actions": "mask"
+		},
+		"Sample_Question": "What is a face mask made of?",
+		"Answer_Title": "Face Mask",
+		"Answer": "A surgical mask, also known as a procedure mask, medical mask or simply as a face mask, is intended to be worn by health professionals during surgery and during nursing to catch the bacteria shed in liquid droplets and aerosols from the wearers mouth and nose. Modern face masks are made from paper or other non-woven material and should be discarded after each use.",
+		"Source": "https://en.wikipedia.org/wiki/Surgical_mask",
+		"Reference": "https://www.thomasnet.com/articles/other/how-surgical-masks-are-made/",
+		"Image_URL": "https://cdn.boundtree.com/btm/products/1031-21102_original_1200Wx1200H_8911484157982",
+		"Response_Type": "Card",
+		"Audio_Link": "",
+		"Suggestions": ["What is a respirator ?"]
+	},
+	{
+		"Intent": "what-is-scientific_term-or-disease",
+		"Entities": {
+			"scientific_term": "social-distancing"
+		},
+		"Sample_Question": "What is social distancing?",
+		"Answer_Title": "Social Distancing",
+		"Answer": "Social distancing is a non-pharmaceutical infection prevention and control intervention implemented to avoid/decrease contact between those who are infected with a disease causing pathogen and those who are not, so as to stop or slow down the rate and extent of disease transmission in a community. This eventually leads to decrease in spread, morbidity and mortality due to the disease. ",
+		"Source": "https://www.mohfw.gov.in/SocialDistancingAdvisorybyMOHFW.pdf",
+		"Reference": "http://www.cidrap.umn.edu/sites/default/files/public/php/185/185_factsheet_social_distancing.pdf",
+		"Image_URL": "https://www.ft.com/__origami/service/image/v2/images/raw/http://prod-upp-image-read.ft.com/4e45d53a-5f1b-11ea-ac5e-df00963c20e6?source=next&fit=scale-down&quality=highest&width=1067",
+		"Response_Type": "Card",
+		"Audio_Link": "",
+		"Suggestions": ["What is a respirator ?"]
+	},
+	{
+		"Intent": "what-is-scientific_term-or-disease",
+		"Entities": {
+			"scientific_term": "flattening the curve"
+		},
+		"Sample_Question": "What do we mean by flattening the curve?",
+		"Answer_Title": "Flattening the Curve",
+		"Answer": "The WHO has repeatedly underlined the importance of “flattening the curve” in order to tackle the coronavirus outbreak, calling on countries around the world to impose sweeping public health measures. In epidemiology, the curve refers to the projected number of new cases over a period of time. In contrast to a steep rise of coronavirus infections, a more gradual uptick of cases will see the same number of people get infected, but without overburdening the health-care system at any one time. The idea of flattening the curve is to stagger the number of new cases over a longer period, so that people have better access to care.",
+		"Source": "https://www.cnbc.com/2020/03/19/coronavirus-what-does-flattening-the-curve-mean-and-why-it-matters.html",
+		"Reference": "https://thehill.com/changing-america/well-being/prevention-cures/487818-what-does-it-mean-to-flatten-the-curve-and-does",
+		"Image_URL": "https://www.gannett-cdn.com/experiments/usatoday/hospital-beds/flattening-the-curve.png",
+		"Response_Type": "Card",
+		"Audio_Link": "",
+		"Suggestions": ["What is social distancing ?"]
+	},
+	{
+		"Intent": "what-is-scientific_term-or-disease",
+		"Entities": {
+			"scientific_term": "vaccine"
+		},
+		"Sample_Question": "What is a vaccine?",
+		"Answer_Title": "Vaccine",
+		"Answer": "Vaccines contain the same germs that cause disease. (For example, measles vaccine contains measles virus, and Hib vaccine contains Hib bacteria.) But they have been either killed or weakened to the point that they don’t make you sick. Some vaccines contain only a part of the disease germ. A vaccine stimulates your immune system to produce antibodies, exactly like it would if you were exposed to the disease. After getting vaccinated, you develop immunity to that disease, without having to get the disease first. This is what makes vaccines such powerful medicine. Unlike most medicines, which treat or cure diseases, vaccines prevent them.",
+		"Source": "https://www.cdc.gov/vaccines/vpd/vpd-vac-basics.html",
+		"Reference": "https://vk.ovg.ox.ac.uk/vk/how-do-vaccines-work",
+		"Image_URL": "https://images.tweaktown.com/news/7/1/71213_01_coronavirus-vaccine-poised-to-begin-human-trials.jpg",
+		"Response_Type": "Card",
+		"Audio_Link": "",
+		"Suggestions": ["What do we mean by flattening the curve ?"]
 	}
 ]
