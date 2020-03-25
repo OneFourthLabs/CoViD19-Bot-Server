@@ -374,7 +374,7 @@
 		"Answer": " For COVID-19, the period of quarantine is 14 days from the last date of exposure, because 14 days is the longest incubation period seen for similar coronaviruses. Someone who has been released from COVID-19 quarantine is not considered a risk for spreading the virus to others because they have not developed illness during the incubation period.",
 		"Source": "https://www.cdc.gov/coronavirus/2019-ncov/faq.html",
 		"Reference": "https://www.youtube.com/watch?v=AQxpQ94Euic",
-		"Image_URL": "",
+		"Image_URL": "https://dph.georgia.gov/sites/dph.georgia.gov/files/styles/three_two_702x468/public/2020-03/covid_header_dph_3.5.png?h=7baa948d&itok=Kc_-uBKX",
 		"Response_Type": "Card",
 		"Audio_Link": "",
 		"Suggestions": [
@@ -1006,7 +1006,7 @@
 		"Answer": "To date there has been no information nor evidence to suggest that the new coronavirus could be transmitted by mosquitoes. The new coronavirus is a respiratory virus which spreads primarily through droplets generated when an infected person coughs or sneezes, or through droplets of saliva or discharge from the nose. To protect yourself, clean your hands frequently with an alcohol-based hand rub or wash them with soap and water. Also, avoid close contact with anyone who is coughing and sneezing.",
 		"Source": "https://www.who.int/emergencies/diseases/novel-coronavirus-2019/advice-for-public/myth-busters",
 		"Reference": "https://www.who.int/emergencies/diseases/novel-coronavirus-2019/advice-for-public/myth-busters",
-		"Image_URL": "",
+		"Image_URL": "https://entomology.tamu.edu/wp-content/uploads/2020/03/Social-media-awareness_Mosquito-768x768-1.jpg",
 		"Response_Type": "Card",
 		"Audio_Link": "",
 		"Suggestions": [
@@ -3849,7 +3849,7 @@
 		"Answer": "The research for novel Coronavirus is going on, but we have facts saying that coronaviruses can remain infectious for long periods in water and pasteurized settled sewage, suggesting contaminated water is a potential vehicle for human exposure if aerosols are generated.",
 		"Source": "https://www.sciencedirect.com/science/article/pii/S0043135409000785",
 		"Reference": "https://www.sciencedirect.com/science/article/pii/S0043135409000785",
-		"Image_URL": "",
+		"Image_URL": "https://images.loksatta.com/2020/03/6-38.jpg",
 		"Response_Type": "Card",
 		"Audio_Link": "",
 		"Suggestions": ["How long does the virus survive in the food ?"]
@@ -4051,7 +4051,7 @@
 		"Image_URL": "https://image.shutterstock.com/image-illustration/contagious-diseases-spread-hygiene-concept-260nw-1668244993.jpg",
 		"Response_Type": "Card",
 		"Audio_Link": "",
-		"Suggestions": ["What is a super spreader?"]
+		"Suggestions": ["What is a super spreader?","Coronavirus in air"]
 	},
 	{
 		"Intent": "how-long-does-phase_of_disease-last",
@@ -4063,7 +4063,7 @@
 		"Answer": "Because this coronavirus has just been discovered, the time from exposure to symptom onset (known as the incubation period) for most people has yet to be determined. Based on current information, symptoms could appear as soon as three days after exposure to as long as 13 days later. Recently published research found that on average, the incubation period is about five days. ",
 		"Source": "https://www.health.harvard.edu/diseases-and-conditions/coronavirus-resource-center",
 		"Reference": "https://www.cdc.gov/coronavirus/2019-ncov/symptoms-testing/symptoms.html",
-		"Image_URL": "",
+		"Image_URL": "https://ichef.bbci.co.uk/news/640/cpsprodpb/55B6/production/_111224912_coronavirus_key_symptoms_uk_640-nc.png",
 		"Response_Type": "Card",
 		"Audio_Link": "",
 		"Suggestions": ["How long must I observe quarantine ?"]
@@ -4124,7 +4124,7 @@
 		"Answer": "Chlorine solutions should be prepared fresh daily, as they are light sensitive. Most chlorine products require the removal of organic soil prior to their use (removing bulk spill matter, cleaning prior to disinfecting). Disinfection requires a wet contact time (amount of time the disinfectant is required to be left on the surface to be effective). Chlorine odor does not necessarily indicate appropriate solution strength, since chlorine odor can be detected even at extremely low concentrations. Chlorine solutions are corrosive and can pit metal and damage skin.",
 		"Source": "https://www.cdc.gov/vhf/ebola/clinicians/non-us-healthcare-settings/chlorine-use.html",
 		"Reference": "https://www.cdc.gov/vhf/ebola/clinicians/non-us-healthcare-settings/chlorine-use.html",
-		"Image_URL": "",
+		"Image_URL": "https://healthcare-in-europe.com/media/story_section_text/16275/image-01-myth-alcohol_hires.jpg",
 		"Response_Type": "Card",
 		"Audio_Link": "",
 		"Suggestions": ["How to use hand sanitiser correctly ?"]
@@ -4228,7 +4228,7 @@
 		"Answer": "COVID-19 often causes symptoms similar to those a person with a bad cold or the flu would experience. And like the flu, the symptoms can progress and become life-threatening. Your doctor is more likely to suspect coronavirus if: you have respiratory symptoms and you recently traveled to countries with ongoing community spread of the COVID-19 virus, including China, Iran, Italy, Japan, South Korea, or you have been exposed to someone suspected of having COVID-19, or there has been community spread of the virus that causes COVID-19 in your area ",
 		"Source": "https://www.abc.net.au/news/health/2020-03-23/coronavirus-covid-19-symptoms-and-testing/12081586",
 		"Reference": "https://www.abc.net.au/news/health/2020-03-23/coronavirus-covid-19-symptoms-and-testing/12081586",
-		"Image_URL": "",
+		"Image_URL": "https://news12.images.worldnow.com/images/19259721_G.jpg",
 		"Response_Type": "Card",
 		"Audio_Link": "",
 		"Suggestions": ["What is the difference between coronavirus and MERS ?"]
@@ -4243,7 +4243,7 @@
 		"Answer": "People who have the flu will typically experience symptoms within 1–4 days. The symptoms for COVID-19 can develop between 1–14 days. However, according to 2020 research, the median incubation period for COVID-19 is 5.1 days. As a point of comparison, the incubation period for a cold is 1–3 days. The symptoms of COVID-19 are similar in both children and adults. However, according to the Centers for Disease Control and Prevention (CDC), children typically present with fever and mild, cold-like symptoms, such as a runny nose and a cough.",
 		"Source": "https://www.medicalnewstoday.com/articles/coronavirus-vs-flu#symptoms",
 		"Reference": "https://www.medicalnewstoday.com/articles/coronavirus-vs-flu#symptoms",
-		"Image_URL": "",
+		"Image_URL": "https://www.nfid.org/wp-content/uploads/2020/02/Symptoms-When.png",
 		"Response_Type": "Card",
 		"Audio_Link": "",
 		"Suggestions": ["How is coronavirus different from swine flu ?"]
