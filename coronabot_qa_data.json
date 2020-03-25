@@ -554,7 +554,7 @@
 	}, {
 		"Intent": "how-long-does-virus-survive-on-medium",
 		"Entities": {
-			"transmission_surface": "plastic",
+			"transmission_surface": "metal",
 			"scientific_term": "virus"
 		},
 		"Sample_Question": "How long can the virus last of metal surfaces",
