@@ -12,7 +12,7 @@ from apscheduler.schedulers.background import BackgroundScheduler
 from get_data import update_stats_csv_job
 
 app = Flask(__name__)
-DEBUG_MODE = False
+DEBUG_MODE = True
 
 CORONA_JSON = 'coronabot_qa_data.json'
 corona_data = pd.read_json(CORONA_JSON)

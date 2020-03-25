@@ -22,7 +22,7 @@ def process_df(label):
         'Korea, South': 'South Korea'
     }
     ## read the file corresponding to one: recovered, deaths, new cases
-    df = pd.read_csv('time_series_19-covid-' + label + '.csv'+"dsdasdd")
+    df = pd.read_csv('time_series_19-covid-' + label + '.csv')
     ## replace any non-standard ways of referencing countries / states
     for key in replacement_dict:
         df.replace(key, replacement_dict[key], inplace=True)
@@ -154,7 +154,7 @@ def update_stats_csv_job():
   (status, message) = process_and_save_files()
   if not status:
     error_message = "Subject: Problem in Corona Bot data loading\n\n"+message+"\n\nRegards,\nOFL Team"
-    send_email_amazon_ses(email="prem@onefourthlabs.com", message=error_message)
+    send_email_amazon_ses(email="pratyush@onefourthlabs.com", message=error_message)
 
 if __name__ == '__main__':
     process_and_save_files()
