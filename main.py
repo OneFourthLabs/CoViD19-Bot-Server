@@ -48,7 +48,7 @@ def read_entry_arr(entities, context, fields):
 def read_stats_entries(entities, context, fields):
 
   if entities[entities_index['country']]: # If country is specified in current question...
-    if context[context_index['state']]: # If state is there only in context
+    if context_index['state'] in context and context[context_index['state']]: # If state is there in context
       context[context_index['state']] = default_values['state'] # Reset state in context
       ## TODO: Better check if state and country correspond or not
   
