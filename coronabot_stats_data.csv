@@ -8947,19 +8947,23 @@ India,Andhra Pradesh,2020-03-20,1.0,0.0,0.0
 India,Andhra Pradesh,2020-03-21,0.0,0.0,0.0
 India,Andhra Pradesh,2020-03-22,2.0,0.0,0.0
 India,Andhra Pradesh,2020-03-23,2.0,0.0,0.0
-India,Andhra Pradesh,2020-03-24,0.0,0.0,0.0
+India,Andhra Pradesh,2020-03-24,1.0,0.0,0.0
+India,Andhra Pradesh,2020-03-25,1.0,0.0,0.0
 India,Bihar,2020-03-23,0.0,0.0,0.0
-India,Bihar,2020-03-24,0.0,0.0,0.0
+India,Bihar,2020-03-24,1.0,0.0,0.0
+India,Bihar,2020-03-25,0.0,0.0,0.0
 India,Chandigarh,2020-03-20,0.0,0.0,0.0
 India,Chandigarh,2020-03-21,0.0,0.0,0.0
 India,Chandigarh,2020-03-22,4.0,0.0,0.0
 India,Chandigarh,2020-03-23,1.0,0.0,0.0
-India,Chandigarh,2020-03-24,0.0,0.0,0.0
+India,Chandigarh,2020-03-24,1.0,0.0,0.0
+India,Chandigarh,2020-03-25,0.0,0.0,0.0
 India,Chhattisgarh,2020-03-20,0.0,0.0,0.0
 India,Chhattisgarh,2020-03-21,0.0,0.0,0.0
 India,Chhattisgarh,2020-03-22,0.0,0.0,0.0
 India,Chhattisgarh,2020-03-23,0.0,0.0,0.0
 India,Chhattisgarh,2020-03-24,0.0,0.0,0.0
+India,Chhattisgarh,2020-03-25,0.0,0.0,0.0
 India,Delhi,2020-03-10,3.0,0.0,0.0
 India,Delhi,2020-03-11,1.0,0.0,0.0
 India,Delhi,2020-03-12,1.0,0.0,0.0
@@ -8974,11 +8978,12 @@ India,Delhi,2020-03-20,5.0,2.0,0.0
 India,Delhi,2020-03-21,9.0,0.0,0.0
 India,Delhi,2020-03-22,3.0,0.0,0.0
 India,Delhi,2020-03-23,0.0,0.0,0.0
-India,Delhi,2020-03-24,2.0,1.0,0.0
+India,Delhi,2020-03-24,1.0,1.0,1.0
 India,Gujarat,2020-03-21,2.0,0.0,0.0
 India,Gujarat,2020-03-22,11.0,0.0,1.0
 India,Gujarat,2020-03-23,11.0,0.0,0.0
-India,Gujarat,2020-03-24,0.0,0.0,0.0
+India,Gujarat,2020-03-24,4.0,0.0,0.0
+India,Gujarat,2020-03-25,0.0,0.0,0.0
 India,Haryana,2020-03-11,0.0,0.0,0.0
 India,Haryana,2020-03-12,0.0,0.0,0.0
 India,Haryana,2020-03-13,0.0,0.0,0.0
@@ -8992,10 +8997,12 @@ India,Haryana,2020-03-20,0.0,0.0,0.0
 India,Haryana,2020-03-21,0.0,0.0,0.0
 India,Haryana,2020-03-22,4.0,0.0,0.0
 India,Haryana,2020-03-23,5.0,11.0,0.0
-India,Haryana,2020-03-24,0.0,0.0,0.0
+India,Haryana,2020-03-24,2.0,0.0,0.0
+India,Haryana,2020-03-25,0.0,0.0,0.0
 India,Himachal Pradesh,2020-03-22,0.0,0.0,0.0
 India,Himachal Pradesh,2020-03-23,0.0,0.0,0.0
 India,Himachal Pradesh,2020-03-24,1.0,0.0,1.0
+India,Himachal Pradesh,2020-03-25,0.0,0.0,0.0
 India,Jammu and Kashmir,2020-03-11,0.0,0.0,0.0
 India,Jammu and Kashmir,2020-03-12,0.0,0.0,0.0
 India,Jammu and Kashmir,2020-03-13,0.0,0.0,0.0
@@ -9010,6 +9017,7 @@ India,Jammu and Kashmir,2020-03-21,0.0,0.0,0.0
 India,Jammu and Kashmir,2020-03-22,0.0,0.0,0.0
 India,Jammu and Kashmir,2020-03-23,0.0,0.0,0.0
 India,Jammu and Kashmir,2020-03-24,0.0,0.0,0.0
+India,Jammu and Kashmir,2020-03-25,3.0,1.0,0.0
 India,Karnataka,2020-03-11,3.0,0.0,0.0
 India,Karnataka,2020-03-12,0.0,0.0,0.0
 India,Karnataka,2020-03-13,2.0,0.0,1.0
@@ -9023,7 +9031,8 @@ India,Karnataka,2020-03-20,1.0,1.0,0.0
 India,Karnataka,2020-03-21,0.0,0.0,0.0
 India,Karnataka,2020-03-22,11.0,1.0,0.0
 India,Karnataka,2020-03-23,7.0,0.0,0.0
-India,Karnataka,2020-03-24,4.0,0.0,0.0
+India,Karnataka,2020-03-24,4.0,1.0,0.0
+India,Karnataka,2020-03-25,4.0,0.0,0.0
 India,Kerala,2020-03-11,8.0,0.0,0.0
 India,Kerala,2020-03-12,0.0,0.0,0.0
 India,Kerala,2020-03-13,2.0,3.0,0.0
@@ -9038,6 +9047,7 @@ India,Kerala,2020-03-21,12.0,0.0,0.0
 India,Kerala,2020-03-22,12.0,0.0,0.0
 India,Kerala,2020-03-23,15.0,0.0,0.0
 India,Kerala,2020-03-24,28.0,1.0,0.0
+India,Kerala,2020-03-25,14.0,0.0,0.0
 India,Ladakh,2020-03-11,0.0,0.0,0.0
 India,Ladakh,2020-03-12,1.0,0.0,0.0
 India,Ladakh,2020-03-13,0.0,0.0,0.0
@@ -9052,9 +9062,11 @@ India,Ladakh,2020-03-21,3.0,0.0,0.0
 India,Ladakh,2020-03-22,0.0,0.0,0.0
 India,Ladakh,2020-03-23,0.0,0.0,0.0
 India,Ladakh,2020-03-24,0.0,0.0,0.0
+India,Ladakh,2020-03-25,0.0,0.0,0.0
 India,Madhya Pradesh,2020-03-22,0.0,0.0,0.0
 India,Madhya Pradesh,2020-03-23,2.0,0.0,0.0
 India,Madhya Pradesh,2020-03-24,1.0,0.0,0.0
+India,Madhya Pradesh,2020-03-25,2.0,0.0,0.0
 India,Maharashtra,2020-03-11,0.0,0.0,0.0
 India,Maharashtra,2020-03-12,9.0,0.0,0.0
 India,Maharashtra,2020-03-13,3.0,0.0,0.0
@@ -9068,7 +9080,11 @@ India,Maharashtra,2020-03-20,5.0,0.0,0.0
 India,Maharashtra,2020-03-21,11.0,0.0,0.0
 India,Maharashtra,2020-03-22,4.0,0.0,1.0
 India,Maharashtra,2020-03-23,7.0,0.0,0.0
-India,Maharashtra,2020-03-24,13.0,0.0,0.0
+India,Maharashtra,2020-03-24,15.0,0.0,0.0
+India,Maharashtra,2020-03-25,12.0,0.0,0.0
+India,Manipur,2020-03-25,0.0,0.0,0.0
+India,Mizoram,2020-03-25,0.0,0.0,0.0
+India,Odisha,2020-03-16,0.0,0.0,0.0
 India,Odisha,2020-03-17,0.0,0.0,0.0
 India,Odisha,2020-03-18,0.0,0.0,0.0
 India,Odisha,2020-03-19,0.0,0.0,0.0
@@ -9077,12 +9093,14 @@ India,Odisha,2020-03-21,0.0,0.0,0.0
 India,Odisha,2020-03-22,0.0,0.0,0.0
 India,Odisha,2020-03-23,0.0,0.0,0.0
 India,Odisha,2020-03-24,0.0,0.0,0.0
+India,Odisha,2020-03-25,0.0,0.0,0.0
 India,Puducherry,2020-03-19,0.0,0.0,0.0
 India,Puducherry,2020-03-20,0.0,0.0,0.0
 India,Puducherry,2020-03-21,0.0,0.0,0.0
 India,Puducherry,2020-03-22,0.0,0.0,0.0
 India,Puducherry,2020-03-23,0.0,0.0,0.0
 India,Puducherry,2020-03-24,0.0,0.0,0.0
+India,Puducherry,2020-03-25,0.0,0.0,0.0
 India,Punjab,2020-03-10,0.0,0.0,0.0
 India,Punjab,2020-03-11,0.0,0.0,0.0
 India,Punjab,2020-03-12,0.0,0.0,0.0
@@ -9097,7 +9115,8 @@ India,Punjab,2020-03-20,0.0,0.0,0.0
 India,Punjab,2020-03-21,11.0,0.0,0.0
 India,Punjab,2020-03-22,8.0,0.0,0.0
 India,Punjab,2020-03-23,0.0,0.0,0.0
-India,Punjab,2020-03-24,0.0,0.0,0.0
+India,Punjab,2020-03-24,8.0,0.0,0.0
+India,Punjab,2020-03-25,0.0,0.0,0.0
 India,Rajasthan,2020-03-11,1.0,0.0,0.0
 India,Rajasthan,2020-03-12,0.0,0.0,0.0
 India,Rajasthan,2020-03-13,0.0,1.0,0.0
@@ -9111,7 +9130,8 @@ India,Rajasthan,2020-03-20,10.0,0.0,0.0
 India,Rajasthan,2020-03-21,0.0,0.0,0.0
 India,Rajasthan,2020-03-22,7.0,0.0,0.0
 India,Rajasthan,2020-03-23,4.0,0.0,0.0
-India,Rajasthan,2020-03-24,5.0,0.0,0.0
+India,Rajasthan,2020-03-24,4.0,0.0,0.0
+India,Rajasthan,2020-03-25,0.0,0.0,0.0
 India,Tamil Nadu,2020-03-11,0.0,0.0,0.0
 India,Tamil Nadu,2020-03-12,0.0,0.0,0.0
 India,Tamil Nadu,2020-03-13,0.0,0.0,0.0
@@ -9125,7 +9145,8 @@ India,Tamil Nadu,2020-03-20,1.0,0.0,0.0
 India,Tamil Nadu,2020-03-21,0.0,0.0,0.0
 India,Tamil Nadu,2020-03-22,4.0,0.0,0.0
 India,Tamil Nadu,2020-03-23,2.0,0.0,0.0
-India,Tamil Nadu,2020-03-24,3.0,0.0,0.0
+India,Tamil Nadu,2020-03-24,6.0,0.0,0.0
+India,Tamil Nadu,2020-03-25,3.0,0.0,0.0
 India,Telengana,2020-03-11,0.0,0.0,0.0
 India,Telengana,2020-03-12,0.0,0.0,0.0
 India,Telengana,2020-03-13,0.0,0.0,0.0
@@ -9139,7 +9160,8 @@ India,Telengana,2020-03-20,11.0,0.0,0.0
 India,Telengana,2020-03-21,4.0,0.0,0.0
 India,Telengana,2020-03-22,1.0,0.0,0.0
 India,Telengana,2020-03-23,10.0,0.0,0.0
-India,Telengana,2020-03-24,0.0,0.0,0.0
+India,Telengana,2020-03-24,3.0,0.0,0.0
+India,Telengana,2020-03-25,0.0,0.0,0.0
 India,Total,2020-01-23,0.0,0.0,0.0
 India,Total,2020-01-24,0.0,0.0,0.0
 India,Total,2020-01-25,0.0,0.0,0.0
@@ -9212,7 +9234,8 @@ India,Uttar Pradesh,2020-03-20,4.0,0.0,0.0
 India,Uttar Pradesh,2020-03-21,1.0,0.0,0.0
 India,Uttar Pradesh,2020-03-22,3.0,0.0,0.0
 India,Uttar Pradesh,2020-03-23,4.0,0.0,0.0
-India,Uttar Pradesh,2020-03-24,2.0,0.0,0.0
+India,Uttar Pradesh,2020-03-24,2.0,2.0,0.0
+India,Uttar Pradesh,2020-03-25,2.0,0.0,0.0
 India,Uttarakhand,2020-03-16,0.0,0.0,0.0
 India,Uttarakhand,2020-03-17,0.0,0.0,0.0
 India,Uttarakhand,2020-03-18,0.0,0.0,0.0
@@ -9221,13 +9244,15 @@ India,Uttarakhand,2020-03-20,2.0,0.0,0.0
 India,Uttarakhand,2020-03-21,0.0,0.0,0.0
 India,Uttarakhand,2020-03-22,0.0,0.0,0.0
 India,Uttarakhand,2020-03-23,0.0,0.0,0.0
-India,Uttarakhand,2020-03-24,0.0,0.0,0.0
+India,Uttarakhand,2020-03-24,1.0,0.0,0.0
+India,Uttarakhand,2020-03-25,0.0,0.0,0.0
 India,West Bengal,2020-03-19,0.0,0.0,0.0
 India,West Bengal,2020-03-20,1.0,0.0,0.0
 India,West Bengal,2020-03-21,1.0,0.0,0.0
 India,West Bengal,2020-03-22,1.0,0.0,0.0
 India,West Bengal,2020-03-23,3.0,0.0,1.0
-India,West Bengal,2020-03-24,0.0,0.0,0.0
+India,West Bengal,2020-03-24,2.0,0.0,0.0
+India,West Bengal,2020-03-25,0.0,0.0,0.0
 Indonesia,Total,2020-01-23,0.0,0.0,0.0
 Indonesia,Total,2020-01-24,0.0,0.0,0.0
 Indonesia,Total,2020-01-25,0.0,0.0,0.0

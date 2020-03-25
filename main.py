@@ -27,10 +27,21 @@ max_date = stats_data['Date'].max()
 failure_messages = ["Sorry I could not understand you", "I am sorry, I did not follow", "Can you please rephrase that"]
 
 stats_error_messages = ["I could not find the numbers for that query"]
+INDIA_PLOT_URLS = {
+  'patients': 'https://ai4bharat.org/covid19-indian-patients-tracking',
+  'map': 'https://ai4bharat.org/covid19-map',
+  'state_wise': 'https://ai4bharat.org/covid19-table'
+}
 
-entities_index = {'country': 'geo-country', 'state': 'geo-state', 'case_type': 'case_types', 'chart_type': 'plot_type', 'aggregation_type': 'aggregation_type', 'date': 'date-time'}
-default_values = {'country': 'World', 'state': 'Total', 'case_type': 'Confirmed', 'chart_type': 'barplot', 'aggregation_type': 'total', 'date': ''}
-context_index = {'country': 'ctx_geo-country', 'state': 'ctx_geo-state', 'case_type': 'ctx_case_types', 'chart_type': 'ctx_plot_type', 'aggregation_type': 'ctx_aggregation_type', 'date': 'ctx_date-time'}
+entities_index = {'country': 'geo-country', 'state': 'geo-state', 'case_type': 'case_types', 'location_type': 'location_type', 'chart_type': 'plot_type', 'aggregation_type': 'aggregation_type', 'date': 'date-time'}
+default_values = {'country': 'World', 'state': 'Total', 'case_type': 'Confirmed', 'location_type': 'country', 'chart_type': 'barplot', 'aggregation_type': 'total', 'date': ''}
+context_index = {'country': 'ctx_geo-country', 'state': 'ctx_geo-state', 'case_type': 'ctx_case_types', 'location_type': 'ctx_location_type', 'chart_type': 'ctx_plot_type', 'aggregation_type': 'ctx_aggregation_type', 'date': 'ctx_date-time'}
+
+def clear_from_context(context, fields):
+  for field in fields:
+    if context_index[field] in context:
+      context[context_index[field]] = ''
+  return context
 
 def read_entry(entities, context, field):
   entry = None
@@ -48,7 +59,7 @@ def read_entry_arr(entities, context, fields):
 def read_stats_entries(entities, context, fields):
 
   if entities[entities_index['country']]: # If country is specified in current question...
-    if context[context_index['state']]: # If state is there only in context
+    if context_index['state'] in context and context[context_index['state']]: # If state is there in context
       context[context_index['state']] = default_values['state'] # Reset state in context
       ## TODO: Better check if state and country correspond or not
   
@@ -308,14 +319,47 @@ def get_stats_plot(intent, entities, context):
   }
   return response
 
+def get_map(intent, entities, context):
+  # Hack: Sometimes context seems to mess with our flow; remove the culprit ones
+  clear_from_context(context, ['location_type', 'case_type'])
+  
+  country, state, case_type, location_type = read_stats_entries(entities, context, ['country', 'state', 'case_type', 'location_type'])
+  result = { # Default Response
+    'Answer': 'I am unable to retrieve the details for the given query',
+    'Response_Type': 'Error:OnlyIndiaSupported'
+    }
+  
+  if country == 'India' or country == default_values['country']:
+    result = {
+      'Answer_Title': 'Cases in India',
+      'Answer': 'Please click on the below link to view the interactive map',
+      'Response_Type': 'Card',
+      'SourceTitle': 'Click here',
+      'Image_URL': 'https://i.pinimg.com/originals/41/55/52/415552d055f73f03ff308cb2a527f2d7.jpg'
+    }
+    
+    if case_type == 'total':
+      result['Answer_Title'] = 'Track Indian patients by location'
+      result['Source'] = INDIA_PLOT_URLS['patients']
+    elif location_type == 'state':
+      result['Answer_Title'] = 'State-wise Information for India'
+      result['Source'] = INDIA_PLOT_URLS['state_wise']
+    else:
+      result['Answer_Title'] = 'State-wise Spread in India'
+      result['Source'] = INDIA_PLOT_URLS['map']
+  
+  return result
+
 def get_stats(intent, entities, context):
 
   if intent.startswith("stats-case_types-in-location-date"):
     return get_stats_cases(intent, entities, context)
   elif intent.startswith("stats-where-sel_criterion-case_types-when"):
     return get_stats_where(intent, entities, context)
-  elif intent == "stats-plot":
+  elif intent.startswith("stats-plot"):
     return get_stats_plot(intent, entities, context)
+  elif intent.startswith("stats-show-map"):
+    return get_map(intent, entities, context)
 
 ####
 def find_answer(intent, entities, context):
@@ -396,14 +440,15 @@ def results():
     textAnswer = result["Answer"] if result["Answer"] else ""
     imageURL = result["Image_URL"] if len(result["Image_URL"]) > 0 else ""
     sourceURL = result["Source"] if result["Source"] else ""
-    referenceURL = result["Reference"]
+    sourceURLTitle = result["SourceTitle"] if "SourceTitle" in result and result["SourceTitle"] else "Source"
+    referenceURL = result["Reference"] if "Reference" in result else ""
     suggestions = []
-    for item in result["Suggestions"]:
-      suggestions.append({"title": item})
+    if "Suggestions" in result:
+      suggestions = [{"title": item} for item in result["Suggestions"]]
 
     response = textAnswer # + " Entities: " + ",".join(entities)+" Intent: " + intent
 
-    reply = get_card_payload(textTitle, response, imageURL, sourceURL, referenceURL, suggestions)
+    reply = get_card_payload(textTitle, response, imageURL, sourceURL, sourceURLTitle, referenceURL, suggestions)
     
   reply["outputContexts"] = [
         {

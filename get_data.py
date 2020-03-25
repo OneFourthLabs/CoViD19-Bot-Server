@@ -153,8 +153,8 @@ from utils import send_email_amazon_ses
 def update_stats_csv_job():
   (status, message) = process_and_save_files()
   if not status:
-    error_message = "Subject: Problem in Corona Bot data loading\n\n"+message+"\n\nRegards,\nOFL Team"
-    send_email_amazon_ses(email="pratyush@onefourthlabs.com", message=error_message)
+    error_message = "Subject: Problem in CoViD19 Bot data loading\n\n"+message+"\n\nRegards,\nOFL Bot"
+    send_email_amazon_ses(email="covid19@onefourthlabs.com", message=error_message)
 
 if __name__ == '__main__':
     process_and_save_files()

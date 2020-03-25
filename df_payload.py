@@ -44,7 +44,8 @@ def get_plot_payload(imageURL):
 
 
 def get_card_payload(textTitle, textAnswer, imageURL="",
-                     sourceURL="", referenceURL="", suggestions=[]):
+                     sourceURL="", sourceURLTitle="Link",
+                     referenceURL="", suggestions=[]):
     reply = {
         "fulfillmentText": "",
         "fulfillmentMessages": [
@@ -70,7 +71,7 @@ def get_card_payload(textTitle, textAnswer, imageURL="",
                                 },
                                 "buttons": [
                                     {
-                                        "title": "Source",
+                                        "title": sourceURLTitle,
                                         "openUrlAction":
                                         {
                                             "url": sourceURL
@@ -93,4 +94,9 @@ def get_card_payload(textTitle, textAnswer, imageURL="",
             }
         }
     }
+    if not referenceURL:
+        # Temporary hack to remove the 2nd button
+        # TODO: Handle it properly
+        del reply["payload"]["google"]["richResponse"]["items"][0]["basicCard"]["buttons"][1]
+    
     return reply
