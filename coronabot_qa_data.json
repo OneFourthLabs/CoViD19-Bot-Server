@@ -4472,5 +4472,365 @@
 		"Response_Type": "Card",
 		"Audio_Link": "",
 		"Suggestions": ["What do we mean by flattening the curve ?"]
+	},
+ 	{
+		"Intent": "do_I_need_or_should_I_do_X",
+		"Entities": {
+			"protective_items_or_actions": "wear a mask"
+		},
+		"Sample_Question": "Should I wear masks?",
+		"Answer_Title": "Wearing Mask",
+		"Answer": "Instead of wearing masks, people need to -\nWash their hands frequently using soap and water for 20 seconds or an alcohol-based hand rub.\nAvoid touching their eyes, nose and mouth.\nPractice cough etiquette. Cough into a flexed elbow or tissue, discard the tissue in the trash, and wash hands.\nStay home from school, work and public places if feeling unwell.",
+		"Source": "https://newsnetwork.mayoclinic.org/discussion/covid-19-when-should-you-wear-a-face-mask/",
+		"Reference": "https://youtu.be/aYFTq_xkKg0",
+		"Image_URL": "https://cdn.prod-carehubs.net/n1/802899ec472ea3d8/uploads/2020/03/a-young-white-man-wearing-glasses-and-carrying-a-backpack-on-a-subway-train-looking-sick-or-ill-and-wearing-a-face-mask-to-limit-transfer-of-germs-and-infectious-diseases-16x9-2-1536x864.jpg",
+		"Response_Type": "Card",
+		"Audio_Link": "",
+		"Suggestions": ["What is the incubation period?"]
+	},
+	{
+		"Intent": "do_I_need_or_should_I_do_X",
+		"Entities": {
+			"protective_items_or_actions": "stock groceries"
+		},
+		"Sample_Question": "Should I stock up on groceries?",
+		"Answer_Title": "Groceries",
+		"Answer": "There is no need to bulk-buy products at supermarkets including toilet paper, paracetamol and canned food.\nHowever, It is prudent for households to have a small stock of non-perishable groceries to cover the event that in the coming months the household has been asked to self-isolate for 21 days. \nSome items suggested Medical and health supplies to have - \n-prescription medications\n-prescribed medical supplies such as glucose and blood-pressure monitoring equipment\n-fever and pain medicine, such as acetaminophen or ibuprofen\n-cough and cold medicines\n-antidiarrheal medication\n-thermometer\n-fluids with electrolytes\n-soap and alcohol-based hand sanitizer\n-tissues, toilet paper, disposable diapers, tampons, sanitary napkins\n-garbage bags",
+		"Source": "\nhttps://www.health.nsw.gov.au/Infectious/alerts/Pages/coronavirus-faqs.aspx#6-1\n",
+		"Reference": "\nhttps://www.health.harvard.edu/diseases-and-conditions/coronavirus-resource-center#Prepare\n",
+		"Image_URL": "https://thumbs.dreamstime.com/b/young-girl-holds-full-paper-bag-groceries-white-wooden-background-above-top-view-flat-lay-young-girl-holds-full-paper-117080551.jpg",
+		"Response_Type": "Card",
+		"Audio_Link": "",
+		"Suggestions": ["Is it okay to shop for grocery online"]
+	},
+	{
+		"Intent": "do_I_need_or_should_I_do_X",
+		"Entities": {
+			"protective_items_or_actions": "rinse nose"
+		},
+		"Sample_Question": "Should I rinse my nose with saline?",
+		"Answer_Title": "Rinsing Nose",
+		"Answer": "No. There is no evidence that regularly rinsing the nose with saline has protected people from infection with the new coronavirus. \n \nThere is some limited evidence that regularly rinsing nose with saline can help people recover more quickly from the common cold. However, regularly rinsing the nose has not been shown to prevent respiratory infections.",
+		"Source": "https://www.who.int/emergencies/diseases/novel-coronavirus-2019/advice-for-public/myth-busters",
+		"Reference": "https://www.who.int/emergencies/diseases/novel-coronavirus-2019/advice-for-public/myth-busters",
+		"Image_URL": "https://img.webmd.com/dtmcms/live/webmd/consumer_assets/site_images/articles/health_tools/nasal_irrigation_slideshow/webmd_photo_of_woman_blowing_solution_out_nose.jpg",
+		"Response_Type": "Card",
+		"Audio_Link": "",
+		"Suggestions": ["What is the difference between virus and bacteria"]
+	},
+	{
+		"Intent": "do_I_need_or_should_I_do_X",
+		"Entities": {
+			"protective_items_or_actions": "rinse mouth"
+		},
+		"Sample_Question": "Does rinsing my mouth with saline help?",
+		"Answer_Title": "Rinsing Mouth",
+		"Answer": "As of now, no study says coronavirus can be cured by drinking lots of water or gargling with warm saltwater. Though it is true that warm salt water has long been used as a home remedy to soothe a sore throat, but till now, there is no evidence that it can also ward off the novel coronavirus.",
+		"Source": "https://www.indiatoday.in/fact-check/story/fact-check-no-gargling-with-warm-salt-water-can-t-save-you-from-coronavirus-1656600-2020-03-17",
+		"Reference": "https://metro.co.uk/2020/03/19/gargling-salt-water-vinegar-not-kill-coronavirus-throat-12421597/",
+		"Image_URL": "https://www.docmac.com/wp-content/uploads/2019/11/Post-Tooth-Extraction-Care.jpg",
+		"Response_Type": "Card",
+		"Audio_Link": "",
+		"Suggestions": ["How to rinse my mouth properly?"]
+	},
+	{
+		"Intent": "do_I_need_or_should_I_do_X",
+		"Entities": {
+			"protective_items_or_actions": "spray alcohol"
+		},
+		"Sample_Question": "Does spraying alcohol on my body help?",
+		"Answer_Title": "Spraying Alchohol",
+		"Answer": "No. Spraying alcohol or chlorine all over your body will not kill viruses that have already entered your body. Spraying such substances can be harmful to clothes or mucous membranes (i.e. eyes, mouth). Be aware that both alcohol and chlorine can be useful to disinfect surfaces, but they need to be used under appropriate recommendations.",
+		"Source": "https://www.who.int/emergencies/diseases/novel-coronavirus-2019/advice-for-public/myth-busters",
+		"Reference": "https://www.who.int/emergencies/diseases/novel-coronavirus-2019/advice-for-public/myth-busters",
+		"Image_URL": "https://upload.wikimedia.org/wikipedia/commons/a/a8/Common_alcoholic_beverages.jpg",
+		"Response_Type": "Card",
+		"Audio_Link": "",
+		"Suggestions": ["Should I take a hot bath to prevent Coronavirus?"]
+	},
+	{
+		"Intent": "do_I_need_or_should_I_do_X",
+		"Entities": {
+			"protective_items_or_actions": "hand sanitiser"
+		},
+		"Sample_Question": "Should I use hand sanitizer?",
+		"Answer_Title": "Using Hand Sanitizers",
+		"Answer": "Yes, using a sanitizer reinforces the important role of hand hygiene for preventing the transmission of pathogens in healthcare settings for a wide range of pathogens. Hand washing mechanically removes pathogens, while laboratory data demonstrate that 60% ethanol and 70% isopropanol, the active ingredients in CDC-recommended alcohol-based hand sanitizers, inactivates viruses that are genetically related to, and with similar physical properties as, the 2019-nCoV.",
+		"Source": "https://www.cdc.gov/coronavirus/2019-ncov/infection-control/hcp-hand-sanitizer.html",
+		"Reference": "https://www.cdc.gov/coronavirus/2019-ncov/infection-control/hcp-hand-sanitizer.html",
+		"Image_URL": "https://miro.medium.com/max/6704/1*EeqCLuI5TtVB2zfHVxvekA.jpeg",
+		"Response_Type": "Card",
+		"Audio_Link": "",
+		"Suggestions": ["Can I exercise?"]
+	},
+	{
+		"Intent": "do_I_need_or_should_I_do_X",
+		"Entities": {
+			"protective_items_or_actions": "hot bath"
+		},
+		"Sample_Question": "Should I take a hot bath to prevent Coronavirus?",
+		"Answer_Title": "Hot Bath and COVID19",
+		"Answer": "This myth has been stemming from the false idea that cold and hot temperatures can kill the virus. Just like the cold weather and hot and humid climate myths, this is not true. Your body temperature stays relatively stable even when you take an extremely hot bath. This just leaves you with a risk of a burn. Still, the best way to prevent getting COVID-19 is to wash your hands often. This prevents viruses on your hands from infecting you when you touch your face.",
+		"Source": "https://www.wwlp.com/weather/weather-news/cold-weather-kills-coronavirus-and-13-other-covid-19-myths-you-may-be-falling-for/",
+		"Reference": "https://www.wwlp.com/weather/weather-news/cold-weather-kills-coronavirus-and-13-other-covid-19-myths-you-may-be-falling-for/",
+		"Image_URL": "https://yourbathexpert.com/wp-content/uploads/2019/09/Man-taking-hot-bath-1024x683.jpg",
+		"Response_Type": "Card",
+		"Audio_Link": "",
+		"Suggestions": ["Should I use a hand dryer?"]
+	},
+	{
+		"Intent": "do_I_need_or_should_I_do_X",
+		"Entities": {
+			"protective_items_or_actions": "hand dryers"
+		},
+		"Sample_Question": "Should I use a hand dryer?",
+		"Answer_Title": "Using Hand Dryers",
+		"Answer": "The heat from a hand dryer alone is not enough to kill the new coronavirus. However, in combination with washing your hands with soap and water for at least 20 seconds, this method is very effective. You can also dry your hands after using paper towels, or instead use an alcohol-based hand sanitizer.",
+		"Source": "https://www.wwlp.com/weather/weather-news/cold-weather-kills-coronavirus-and-13-other-covid-19-myths-you-may-be-falling-for/",
+		"Reference": "https://www.wwlp.com/weather/weather-news/cold-weather-kills-coronavirus-and-13-other-covid-19-myths-you-may-be-falling-for/",
+		"Image_URL": "https://www.mgistore.eu/wp-content/uploads/2018/09/Hand-dryer-1500W-240x210x265H-mm-1024x1024.jpeg",
+		"Response_Type": "Card",
+		"Audio_Link": "",
+		"Suggestions": ["Can eating chyavanprash help against coronavirus?"]
+	},
+	{
+		"Intent": "do_I_need_or_should_I_do_X",
+		"Entities": {
+			"protective_items_or_actions": "spray chlorine"
+		},
+		"Sample_Question": "Should I use cholorine to clean my home?",
+		"Answer_Title": "Chlorine as disinfectant",
+		"Answer": "Keeping your home clean and disinfected will prevent the spread of coronavirus, and any other virus for that matter. But if no one in your household is showing symptoms or has been diagnosed, then the chances of the virus living on a surface in your home are less likely.\nThe most important surfaces to clean regularly are the ones you touch most often, Fozzard explains. This will reduce the likelihood of the virus transferring from a surface to your hands.\nLiquid chlorine and bleach are pretty much the same thing: Sodium Hypochlorite. Store bought bleach might contain some additives, but you can use any of them.\n",
+		"Source": "https://patient.info/news-and-features/covid-19-do-you-need-to-disinfect-your-home",
+		"Reference": "https://patient.info/news-and-features/covid-19-do-you-need-to-disinfect-your-home",
+		"Image_URL": "https://www.techexplorist.com/wp-content/uploads/2020/01/chlorine.jpg",
+		"Response_Type": "Card",
+		"Audio_Link": "",
+		"Suggestions": ["What is the right way of disinfecting my house"]
+	},
+	{
+		"Intent": "do_I_need_or_should_I_do_X",
+		"Entities": {
+			"protective_items_or_actions": "buy mask"
+		},
+		"Sample_Question": "Should I buy a mask?",
+		"Answer_Title": "Buying Masks",
+		"Answer": "Instead of wearing masks, people need to -\nWash their hands frequently using soap and water for 20 seconds or an alcohol-based hand rub.\nAvoid touching their eyes, nose and mouth.\nPractice cough etiquette. Cough into a flexed elbow or tissue, discard the tissue in the trash, and wash hands.\nStay home from school, work and public places if feeling unwell.",
+		"Source": "https://newsnetwork.mayoclinic.org/discussion/covid-19-when-should-you-wear-a-face-mask/",
+		"Reference": "https://youtu.be/aYFTq_xkKg0",
+		"Image_URL": "https://cdn.prod-carehubs.net/n1/802899ec472ea3d8/uploads/2020/03/a-young-white-man-wearing-glasses-and-carrying-a-backpack-on-a-subway-train-looking-sick-or-ill-and-wearing-a-face-mask-to-limit-transfer-of-germs-and-infectious-diseases-16x9-2-1536x864.jpg",
+		"Response_Type": "Card",
+		"Audio_Link": "",
+		"Suggestions": ["Is it safe to play a sport?"]
+	},
+	{
+		"Intent": "how-to-prepare-for-self-imposed-measures",
+		"Entities": {
+			"self_imposed_measures": "protect myself"
+		},
+		"Sample_Question": "How can I protect myself?",
+		"Answer_Title": "Protection from COVID19",
+		"Answer": "Follow this advice as strictly as possible and encourage others to follow this advice too.\n\n Wash your hands properly and often \n\n Cover your mouth and nose with a tissue or your sleeve when you cough and sneeze. \n\n Put used tissues into a bin and wash your hands. \n\n Clean and disinfect frequently touched objects and surfaces. \n\n Avoid close contact with people - keep a distance of 2 metres (6.5 feet) between you and others. \n\n Avoid crowded places, especially indoors. \n\n Avoid non-essential travel overseas and follow the DFA's travel advice. \n\n Stay at home if you are sick to help stop the spread of whatever infection you may have.\n\n Do not touch your eyes, nose or mouth if your hands are not clean. \n\n Do not share objects that touch your mouth– for example, bottles, cups. \n\n Do not shake hands.",
+		"Source": "https://www2.hse.ie/conditions/coronavirus/protect-yourself.html",
+		"Reference": "https://www.cdc.gov/coronavirus/2019-ncov/prepare/prevention.html",
+		"Image_URL": "https://www.cdc.gov/coronavirus/2019-ncov/images/sneezingwoman.png",
+		"Response_Type": "Card",
+		"Audio_Link": "",
+		"Suggestions": ["Is it safe to play a sport?"]
+	},
+	{
+		"Intent": "what-is-about-lockdown",
+		"Entities": {
+			"trial_lockdown_entities": "advantages of lockdown"
+		},
+		"Sample_Question": "What are the advantages of lockdown?",
+		"Answer_Title": "Advantages of Lockdown",
+		"Answer": "Researchers are well on their way to discovering vaccines and treatments for the virus, but even in a best-case scenario, these are likely to be 12-18 months away.\nUntil then, extreme social distancing is pretty much the only intervention available to help individuals stay healthy, and to break the chain of transmission - giving more vulnerable populations a fighting chance of surviving this pandemic.\n",
+		"Source": "https://www.weforum.org/agenda/2020/03/why-lockdowns-work-epidemics-coronavirus-covid19/",
+		"Reference": "https://news.abplive.com/tv-show/ghanti-bajao/abp-news-answers-all-your-questions-over-lock-down-in-india-ghanti-bajao-24032020-1181764",
+		"Image_URL": "https://m.economictimes.com/thumb/msid-74804165,width-1200,height-900,resizemode-4,imgsize-93445/lock-down-1-shutter.jpg",
+		"Response_Type": "Card",
+		"Audio_Link": "",
+		"Suggestions": ["What is the difference between lockdown and quarantine?"]
+	},
+	{
+		"Intent": "what-is-about-lockdown",
+		"Entities": {
+			"trial_lockdown_entities": "duration of the lockdown"
+		},
+		"Sample_Question": "What is the duration of the lockdown?",
+		"Answer_Title": "Duration of Lockdown",
+		"Answer": "On Tuesday night, Prime Minister Narendra Modi announced a total ban on Indians leaving their homes for 21 days, set to come into force at midnight local time, abruptly putting one fifth of the world’s population under lockdown to combat COVID-19. ",
+		"Source": "https://time.com/5808348/india-coronavirus-lockdown/",
+		"Reference": "https://time.com/5808348/india-coronavirus-lockdown/",
+		"Image_URL": "https://m.economictimes.com/thumb/msid-74804165,width-1200,height-900,resizemode-4,imgsize-93445/lock-down-1-shutter.jpg",
+		"Response_Type": "Card",
+		"Audio_Link": "",
+		"Suggestions": ["How can I help my parents from a remote location"]
+	},
+	{
+		"Intent": "what-is-about-lockdown",
+		"Entities": {
+			"trial_lockdown_entities": "consequences of the lockdown"
+		},
+		"Sample_Question": "What are the consequences of the lockdown?",
+		"Answer_Title": "Consequences of Lockdown",
+		"Answer": "Any impact on the nation’s economy if the government imposes a lockdown in view of the Covid-19 spread will depend on how extensive it is and the period concerned.\nThough we understand the impact on social order and the economy (this would entail) but if it blows out, we will be dealing with a worse outcome.",
+		"Source": "https://www.nst.com.my/news/nation/2020/03/575049/economist-weighs-economic-impact-lockdown",
+		"Reference": "https://www.npr.org/2020/03/22/819891936/how-coronavirus-lockdown-will-affect-california-s-economy",
+		"Image_URL": "https://m.economictimes.com/thumb/msid-74804165,width-1200,height-900,resizemode-4,imgsize-93445/lock-down-1-shutter.jpg",
+		"Response_Type": "Card",
+		"Audio_Link": "",
+		"Suggestions": ["What will happen if I violate the lockdown?"]
+	},
+	{
+		"Intent": "what-is-about-lockdown",
+		"Entities": {
+			"trial_lockdown_entities": "violate the lockdown"
+		},
+		"Sample_Question": "What will happen if I violate the lockdown?",
+		"Answer_Title": "Violations",
+		"Answer": "If you obstruct any authorised individual in the dispensation of their duty you will be liable to be punished for imprisonment for a term which may extend to one year or fine or both. If the obstruction leads to loss of lives or danger, the imprisonment may extend to 2 years.\nIf you make a false claim to violate the lockdown you may be imprisoned for upto 2 years and fined.\nIf you hoard money or relief material shall be punished with a 2-year jail term and a fine.\nIf you create false panic you may be jailed for one year or fined",
+		"Source": "https://www.indiatoday.in/india/story/national-lockdown-to-fight-coronavirus-what-it-means-1659283-2020-03-24",
+		"Reference": "https://www.indiatoday.in/india/story/national-lockdown-to-fight-coronavirus-what-it-means-1659283-2020-03-24",
+		"Image_URL": "https://static-news.moneycontrol.com/static-mcnews/2020/03/Lockdown-435x435.jpg",
+		"Response_Type": "Card",
+		"Audio_Link": "",
+		"Suggestions": ["What is meant by lockdown?"]
+	},
+	{
+		"Intent": "what-is-about-lockdown",
+		"Entities": {
+			"trial_lockdown_entities": "reasons for lockdown"
+		},
+		"Sample_Question": "Can you explain the reason for the lockdown?",
+		"Answer_Title": "Why Lockdown",
+		"Answer": "The purpose of a lockdown is to reduce reproduction – in other words, to reduce the number of people each confirmed case infects.\n\nThe goal is to keep reproduction, or “R,” below one (R<1) – with each case infecting fewer than one other person, on average..\nChinese government locked down Hubei Province, including Wuhan, the city of 11 million where the outbreak started.\nThis unprecedented lockdown of tens of millions of people was considered a vast experiment – but it has worked. ",
+		"Source": "https://www.weforum.org/agenda/2020/03/why-lockdowns-work-epidemics-coronavirus-covid19/",
+		"Reference": "https://www.weforum.org/agenda/2020/03/why-lockdowns-work-epidemics-coronavirus-covid19/",
+		"Image_URL": "https://www.thesun.co.uk/wp-content/uploads/2020/03/LOCKDOWN5-1.jpg?strip=all&quality=100&w=1200&h=800&crop=1",
+		"Response_Type": "Card",
+		"Audio_Link": "",
+		"Suggestions": ["What are the restrictions during lockdown?"]
+	},
+	{
+		"Intent": "what-is-about-lockdown",
+		"Entities": {
+			"trial_lockdown_entities": "after the lockdown"
+		},
+		"Sample_Question": "What will happen after 21 days of the lockdown?",
+		"Answer_Title": "Post Lockdown",
+		"Answer": "Taking reference from action of Chinese government, According to official statistics, China has defeated the coronavirus.\nBut as the country returns to work, residents and analysts doubt the near-zero community transmission rate, worrying that leaders have prioritised restarting the economy over decisively containing the virus. While public health experts, as well as citizens, say the situation in China has improved dramatically – the result of aggressive testing, quarantines and social distancing – many doubt the numbers are as good as officials have reported.\n",
+		"Source": "https://www.theguardian.com/world/2020/mar/23/life-after-lockdown-has-china-really-beaten-coronavirus",
+		"Reference": "https://www.theguardian.com/world/2020/mar/23/life-after-lockdown-has-china-really-beaten-coronavirus",
+		"Image_URL": "https://cdn.vox-cdn.com/thumbor/G99R3_CTxYOc06XE6Z0v2t1YDiw=/0x0:7887x5258/1200x675/filters:focal(3506x2105:4766x3365)/cdn.vox-cdn.com/uploads/chorus_image/image/66549177/GettyImages_1208074931.0.jpg",
+		"Response_Type": "Card",
+		"Audio_Link": "",
+		"Suggestions": ["Is it safe to go to the gym ?"]
+	},
+	{
+		"Intent": "what-is-about-lockdown",
+		"Entities": {
+			"trial_lockdown_entities": "rules of the lockdown"
+		},
+		"Sample_Question": "What are the rules of the lockdown?",
+		"Answer_Title": "Rules",
+		"Answer": "The following services/offices will remain working during the lockdown.\n\nGovernment offices of certain departments will remain open. These include defence, central armed police forces, treasury, public utilities (including petroleum, CNG, LPG and PNG), disaster management, power generation and transmission, post offices.\nState government offices of certain departments. These include police, home guards, civil defence, fire and emergency services, disaster management, prisons, district admin and treasury, electricity, water and sanitation.\nHospitals and all related medical establishments -- both public and private. This includes dispensaries, chemists, equipment shops, labs, clinics and nursing home. Transportation for all medical personnel will be permitted.\nShops dealing with food, groceries, fruits and vegetables, dairy and milk booths, meat and fish, animal fodder.\nBanks, insurance offices and ATMs.\nPrint and electronic media.\nTelecommunication, internet, broadcasting and cable services.\nDelivery of all essential goods including food, medicines and medical equipment through e-commerce.\nPetrol pumps, LPG and related outlets.\nUnits involved in electricity generation and distribution.\nCapital and debt market services as notified by SEBI.\nCold storage and warehousing services.\nPrivate security services.\nManufacturing units of essential commodities.\nProduction units, which require a continuous process after obtaining required permission from the state government.\nTransportation only for essential goods and emergency services.\nHotels, homestays, lodges and motels which are accommodating tourists and those stranded due to lockdown or providing quarantine facilities.\nNo more than 20 people will be allowed for funeral processions.\n\nWith a lockdown, here is all that is shut down.\n\nAll commercial and private establishments shall be closed.\nAll establishments, except those exempted, will work from home only.\nIndustrial establishments will remain closed.\nAll transport services -- air, rail, roadways will remain suspended.\nHospitality services to remain suspended.\nAll educational institutions will remain closed.\nAll places of worship are closed. No religious congregations will be permitted.\nAll social, political, sports, entertainment, academic, cultural and religious functions will be banned.",
+		"Source": "https://www.indiatoday.in/india/story/national-lockdown-to-fight-coronavirus-what-it-means-1659283-2020-03-24",
+		"Reference": "https://timesofindia.indiatimes.com/life-style/health-fitness/health-news/most-commonly-asked-questions-about-coronavirus-and-lockdown/articleshow/74791761.cms",
+		"Image_URL": "https://static-news.moneycontrol.com/static-mcnews/2020/03/Lockdown-435x435.jpg",
+		"Response_Type": "Card",
+		"Audio_Link": "",
+		"Suggestions": ["What is the difference between lockdown and quarantine?"]
+	},
+	{
+		"Intent": "what-is-about-lockdown",
+		"Entities": {
+			"trial_lockdown_entities": "restrictions during lockdown"
+		},
+		"Sample_Question": "What are the restrictions during lockdown?",
+		"Answer_Title": "Restrictions",
+		"Answer": "With a lockdown, here is all that is shut down.\n\nAll commercial and private establishments shall be closed.\nAll establishments, except those exempted, will work from home only.\nIndustrial establishments will remain closed.\nAll transport services -- air, rail, roadways will remain suspended.\nHospitality services to remain suspended.\nAll educational institutions will remain closed.\nAll places of worship are closed. No religious congregations will be permitted.\nAll social, political, sports, entertainment, academic, cultural and religious functions will be banned.",
+		"Source": "https://www.indiatoday.in/india/story/national-lockdown-to-fight-coronavirus-what-it-means-1659283-2020-03-24",
+		"Reference": "https://www.indiatoday.in/india/story/national-lockdown-to-fight-coronavirus-what-it-means-1659283-2020-03-24",
+		"Image_URL": "https://static-news.moneycontrol.com/static-mcnews/2020/03/Lockdown-435x435.jpg",
+		"Response_Type": "Card",
+		"Audio_Link": "",
+		"Suggestions": ["Are there any drugs or vaccines against COVID-19?", "What treatments can I expect?"]
+	},
+	{
+		"Intent": "how-long-does-phase_of_disease-last",
+		"Entities": {
+			"phases_of_disease": "lockdown"
+		},
+		"Sample_Question": "How long does the lockdown last for?",
+		"Answer_Title": "Duration of Lockdown",
+		"Answer": "On Tuesday night, Prime Minister Narendra Modi announced a total ban on Indians leaving their homes for 21 days, set to come into force at midnight local time, abruptly putting one fifth of the world’s population under lockdown to combat COVID-19. ",
+		"Source": "https://time.com/5808348/india-coronavirus-lockdown/",
+		"Reference": "https://time.com/5808348/india-coronavirus-lockdown/",
+		"Image_URL": "https://static-news.moneycontrol.com/static-mcnews/2020/03/lockdown-2-434x435.jpg",
+		"Response_Type": "Card",
+		"Audio_Link": "",
+		"Suggestions": ["Can eating chyavanprash help against coronavirus?"]
+	},
+	{
+		"Intent": "what-is-scientific_term-or-disease",
+		"Entities": {
+			"scientific_term": "lockdown"
+		},
+		"Sample_Question": "What is meant by lockdown?",
+		"Answer_Title": "Lockdown",
+		"Answer": "A lockdown can be defined as an emergency protocol implemented by the authorities that prevents people from leaving a given area. A full lockdown will mean that the people in the given area must stay where they are and must not exit or enter a building or given area.",
+		"Source": "https://www.businessinsider.in/india/news/what-is-lockdown-and-what-to-expect-from-the-lockdown/articleshow/74759615.cms",
+		"Reference": "https://www.businessinsider.in/india/news/what-is-lockdown-and-what-to-expect-from-the-lockdown/articleshow/74759615.cms",
+		"Image_URL": "https://image.shutterstock.com/image-vector/coronavirus-lockdown-symbol-pandemic-puts-260nw-1680582124.jpg",
+		"Response_Type": "Card",
+		"Audio_Link": "",
+		"Suggestions": ["How long does coronavirus survive in the soil ?"]
+	},
+	{
+		"Intent": "difference-between-scientific_term_1-and-scientific_term_2",
+		"Entities": {
+			"scientific_term": ["lockdown", "social distancing"]
+		},
+		"Sample_Question": "What is the difference between lockdown and social distancing?",
+		"Answer_Title": "Difference",
+		"Answer": "A lockdown stops the movement of people and cuts down on the Covid-19 spread. This doesn’t happen by the choice of the people. It is usually a government enforcement to slow down the constant flow of people.\nSocial distancing is a practice of lessening physical interaction with other people. Health advisories direct to maintain at least a gap of 6 feet between people.\nFor more differences, please tap on learn more.",
+		"Source": "https://www.indiatoday.in/education-today/grammar-vocabulary/story/difference-between-quarantine-isolation-lockdown-and-social-distancing-1658804-2020-03-23",
+		"Reference": "https://www.indiatoday.in/education-today/grammar-vocabulary/story/difference-between-quarantine-isolation-lockdown-and-social-distancing-1658804-2020-03-23",
+		"Image_URL": "https://mk0analyticsindf35n9.kinstacdn.com/wp-content/uploads/2020/03/IT-Captives-Witnessing-Project-Delays-Due-To-COVID-19-Lockdown.jpeg",
+		"Response_Type": "Card",
+		"Audio_Link": "",
+		"Suggestions": ["How long does coronavirus survive in the soil ?"]
+	},
+	{
+		"Intent": "difference-between-scientific_term_1-and-scientific_term_3",
+		"Entities": {
+			"scientific_term": ["lockdown", "isolation"]
+		},
+		"Sample_Question": "What is the difference between lockdown and isolation?",
+		"Answer_Title": "Difference",
+		"Answer": "A lockdown stops the movement of people and cuts down on the Covid-19 spread. This doesn’t happen by the choice of the people. It is usually a government enforcement to slow down the constant flow of people.\nIsolation is usually advised for those who have been diagnosed positively for Coronavirus Covid-19. It is the most extreme degree of separation. The only contact for people in this case would be medical personnel who would be wearing protective gear. If someone is in isolation, it usually means he/she is in a medical centre or hospital unless it has been cleared that the person doesn’t have Coronavirus.\nFor more differences, please tap on learn more.",
+		"Source": "https://www.indiatoday.in/education-today/grammar-vocabulary/story/difference-between-quarantine-isolation-lockdown-and-social-distancing-1658804-2020-03-23",
+		"Reference": "https://www.indiatoday.in/education-today/grammar-vocabulary/story/difference-between-quarantine-isolation-lockdown-and-social-distancing-1658804-2020-03-23",
+		"Image_URL": "https://mk0analyticsindf35n9.kinstacdn.com/wp-content/uploads/2020/03/IT-Captives-Witnessing-Project-Delays-Due-To-COVID-19-Lockdown.jpeg",
+		"Response_Type": "Card",
+		"Audio_Link": "",
+		"Suggestions": ["how is quarantining done"]
+	},
+	{
+		"Intent": "difference-between-scientific_term_1-and-scientific_term_4",
+		"Entities": {
+			"scientific_term": ["lockdown", "quarantine"]
+		},
+		"Sample_Question": "What is the difference between lockdown and quarantine?",
+		"Answer_Title": "Difference",
+		"Answer": "A lockdown stops the movement of people and cuts down on the Covid-19 spread. This doesn’t happen by the choice of the people. It is usually a government enforcement to slow down the constant flow of people.\nQuarantine is much serious than social-distancing. Quarantine is for people who tested positive for Covid-19 and they need to be kept strictly away from other people. Health advisories state that people who are suspected of Coronavirus exposure should quarantine themselves for 14 days to check if symptoms are starting to show.\nFor more differences, please tap on learn more.",
+		"Source": "https://www.indiatoday.in/education-today/grammar-vocabulary/story/difference-between-quarantine-isolation-lockdown-and-social-distancing-1658804-2020-03-23",
+		"Reference": "https://www.indiatoday.in/education-today/grammar-vocabulary/story/difference-between-quarantine-isolation-lockdown-and-social-distancing-1658804-2020-03-23",
+		"Image_URL": "https://mk0analyticsindf35n9.kinstacdn.com/wp-content/uploads/2020/03/IT-Captives-Witnessing-Project-Delays-Due-To-COVID-19-Lockdown.jpeg",
+		"Response_Type": "Card",
+		"Audio_Link": "",
+		"Suggestions": ["What is a super spreader?"]
 	}
 ]
