@@ -28,11 +28,11 @@ failure_messages = ["Sorry I could not understand you", "I am sorry, I did not f
 
 stats_error_messages = ["I could not find the numbers for that query"]
 
-def read_entry(entities, context, field):
-  entities_index = {'country': 'geo-country', 'state': 'geo-state', 'case_type': 'case_types', 'chart_type': 'plot_type', 'aggregation_type': 'aggregation_type', 'date': 'date-time'}
-  default_values = {'country': 'World', 'state': 'Total', 'case_type': 'Confirmed', 'chart_type': 'barplot', 'aggregation_type': 'total', 'date': ''}
-  context_index = {'country': 'ctx_geo-country', 'state': 'ctx_geo-state', 'case_type': 'ctx_case_types', 'chart_type': 'ctx_plot_type', 'aggregation_type': 'ctx_aggregation_type', 'date': 'ctx_date-time'}
+entities_index = {'country': 'geo-country', 'state': 'geo-state', 'case_type': 'case_types', 'chart_type': 'plot_type', 'aggregation_type': 'aggregation_type', 'date': 'date-time'}
+default_values = {'country': 'World', 'state': 'Total', 'case_type': 'Confirmed', 'chart_type': 'barplot', 'aggregation_type': 'total', 'date': ''}
+context_index = {'country': 'ctx_geo-country', 'state': 'ctx_geo-state', 'case_type': 'ctx_case_types', 'chart_type': 'ctx_plot_type', 'aggregation_type': 'ctx_aggregation_type', 'date': 'ctx_date-time'}
 
+def read_entry(entities, context, field):
   entry = None
   if entities_index[field] in entities and len(entities[entities_index[field]]) > 0:
     entry = entities[entities_index[field]]
@@ -45,11 +45,20 @@ def read_entry(entities, context, field):
 def read_entry_arr(entities, context, fields):
   return [read_entry(entities, context, x) for x in fields]
 
+def read_stats_entries(entities, context, fields):
+
+  if entities[entities_index['country']]: # If country is specified in current question...
+    if context[context_index['state']]: # If state is there only in context
+      context[context_index['state']] = default_values['state'] # Reset state in context
+      ## TODO: Better check if state and country correspond or not
+  
+  return read_entry_arr(entities, context, fields)
+
 def get_stats_cases(intent, entities, context):
 
   warning_txt = ''
 
-  country, state, case_type, date = read_entry_arr(entities, context, ['country', 'state', 'case_type', 'date'])
+  country, state, case_type, date = read_stats_entries(entities, context, ['country', 'state', 'case_type', 'date'])
 
   yesterday = datetime.datetime.today() - datetime.timedelta(days=1)
 
@@ -119,7 +128,7 @@ def get_stats_where(intent, entities, context):
 
   # parse values
 
-  country, state, case_type = read_entry_arr(entities, context, ['country', 'state', 'case_type'])
+  country, state, case_type = read_stats_entries(entities, context, ['country', 'state', 'case_type'])
   
   location_type = entities['location_type'] if len(entities['location_type']) > 0 else 'state' if country != 'World' else 'country'
   # sel_criterion can be highest or lowest
@@ -231,7 +240,7 @@ def get_stats_where(intent, entities, context):
 def get_stats_plot(intent, entities, context):
   # parse values
 
-  country, state, case_type, chart_type, aggregation_type = read_entry_arr(entities, context, ['country', 'state', 'case_type', 'chart_type', 'aggregation_type'])
+  country, state, case_type, chart_type, aggregation_type = read_stats_entries(entities, context, ['country', 'state', 'case_type', 'chart_type', 'aggregation_type'])
   
   yesterday = datetime.datetime.today() - datetime.timedelta(days=1)
   date = entities['date-period']
