@@ -4879,5 +4879,590 @@
 		"Response_Type": "Card",
 		"Audio_Link": "",
 		"Suggestions": ["What is a super spreader?"]
+	},
+ 	{
+		"Intent": "what-is-preparedness",
+		"Entities": {
+			"body": "CDC"
+		},
+		"Sample_Question": "What are the latest instructions from the CDC",
+		"Answer_Title": "Centers for Disease Control and Prevention",
+		"Answer": "For Infromation on COVID-19 from the CDC, check out their official website by clicking on the source button.",
+		"Source": "https://www.cdc.gov/coronavirus/2019-ncov/index.html",
+		"Reference": "",
+		"Image_URL": "https://upload.wikimedia.org/wikipedia/commons/7/71/US_CDC_logo.svg",
+		"Response_Type": "Card",
+		"Audio_Link": "",
+		"Suggestions": ["How to stay physically fit while working at home"]
+	},
+	{
+		"Intent": "what-is-preparedness",
+		"Entities": {
+			"body": "CDC"
+		},
+		"Sample_Question": "What are the latest instructions from the WHO",
+		"Answer_Title": "World Health Organisation",
+		"Answer": "For Infromation on COVID-19 from the World Health Organization, check out their official website by clicking on the source button.",
+		"Source": "https://www.who.int/health-topics/coronavirus",
+		"Reference": "",
+		"Image_URL": "https://www.un.org/youthenvoy/wp-content/uploads/2014/09/WHO.jpg",
+		"Response_Type": "Card",
+		"Audio_Link": "",
+		"Suggestions": ["Is it safe to go to the gym ?"]
+	},
+	{
+		"Intent": "what-is-preparedness",
+		"Entities": {
+			"body": "CDC"
+		},
+		"Sample_Question": "What are the latest instructions from the ICMR",
+		"Answer_Title": "Indian Council of Medical Research",
+		"Answer": "For Infromation on COVID-19 from the Indian Council of Medial Research, check out their official website by clicking on the source button.",
+		"Source": "https://icmr.nic.in/content/covid-19",
+		"Reference": "",
+		"Image_URL": "https://upload.wikimedia.org/wikipedia/en/8/8e/Indian_Council_of_Medical_Research_Logo.png",
+		"Response_Type": "Card",
+		"Audio_Link": "",
+		"Suggestions": ["What is a face mask made of ?"]
+	},
+	{
+		"Intent": "what-is-preparedness",
+		"Entities": {
+			"geo-state": "Tamil Nadu"
+		},
+		"Sample_Question": "What are the measures being taken by the Tamil Nadu government?",
+		"Answer_Title": "Tamil Nadu",
+		"Answer": "Check out this website by clicking the source button for information on government measures taken by Tamil Nadu. \n\n\nFor Information on Nationwide coronavirus statistics, click the learn more button.",
+		"Source": "http://stopcoronatn.in/",
+		"Reference": "https://www.mohfw.gov.in/",
+		"Image_URL": "https://freegovtjobalert.in/wp-content/uploads/2019/08/tamil-nadu-government-portal-300x300.jpg",
+		"Response_Type": "Card",
+		"Audio_Link": "",
+		"Suggestions": ["How can I disinfect my office cabin?"]
+	},
+	{
+		"Intent": "what-is-preparedness",
+		"Entities": {
+			"geo-state": "Kerala"
+		},
+		"Sample_Question": "What are the measures being taken by the Kerala government?",
+		"Answer_Title": "Kerala",
+		"Answer": "Check out this website by clicking the source button for information on government measures taken by Kerala. \n\n\nFor Information on Nationwide coronavirus statistics, click the learn more button.",
+		"Source": "http://dhs.kerala.gov.in/",
+		"Reference": "https://www.mohfw.gov.in/",
+		"Image_URL": "http://dhs.kerala.gov.in/wp-content/uploads/2019/10/logo1-new.png",
+		"Response_Type": "Card",
+		"Audio_Link": "",
+		"Suggestions": ["Is it safe to visit the market?"]
+	},
+	{
+		"Intent": "what-is-preparedness",
+		"Entities": {
+			"geo-state": "Karnataka"
+		},
+		"Sample_Question": "What are the measures being taken by the Karnataka government?",
+		"Answer_Title": "Karnataka",
+		"Answer": "Check out this website by clicking the source button for information on government measures taken by Karnataka. \n\n\nFor Information on Nationwide coronavirus statistics, click the learn more button.",
+		"Source": "https://karunadu.karnataka.gov.in/a/kannada/Pages/covid-19.aspx",
+		"Reference": "https://www.mohfw.gov.in/",
+		"Image_URL": "https://bangalore.tie.org/wp-content/uploads/2018/01/GOK-up-1.png",
+		"Response_Type": "Card",
+		"Audio_Link": "",
+		"Suggestions": ["What is the right way of disinfecting my house"]
+	},
+	{
+		"Intent": "what-is-preparedness",
+		"Entities": {
+			"geo-state": "Andhra Pradesh"
+		},
+		"Sample_Question": "What are the measures being taken by the Andhra Pradesh government?",
+		"Answer_Title": "Andhra Pradesh",
+		"Answer": "Check out this website by clicking the source button for information on government measures taken by Andhra Pradesh. \n\n\nFor Information on Nationwide coronavirus statistics, click the learn more button.",
+		"Source": "http://hmfw.ap.gov.in/",
+		"Reference": "https://www.mohfw.gov.in/",
+		"Image_URL": "https://s3.ap-southeast-1.amazonaws.com/images.deccanchronicle.com/dc-Cover-hpr6c0bi0bd960upkun4314127-20181002024230.Medi.jpeg",
+		"Response_Type": "Card",
+		"Audio_Link": "",
+		"Suggestions": ["How to stay physically fit while working at home"]
+	},
+	{
+		"Intent": "what-is-preparedness",
+		"Entities": {
+			"geo-state": "Telangana"
+		},
+		"Sample_Question": "What are the measures being taken by the Telangana government?",
+		"Answer_Title": "Telangana",
+		"Answer": "Check out this website by clicking the source button for information on government measures taken by Telangana. \n\n\nFor Information on Nationwide coronavirus statistics, click the learn more button.",
+		"Source": "https://chfw.telangana.gov.in/homeCorona.do",
+		"Reference": "https://www.mohfw.gov.in/",
+		"Image_URL": "https://akm-img-a-in.tosshub.com/sites/btmt/images/stories/telangana-govt_660_053114102100.jpg",
+		"Response_Type": "Card",
+		"Audio_Link": "",
+		"Suggestions": ["Is it safe to travel by air"]
+	},
+	{
+		"Intent": "what-is-preparedness",
+		"Entities": {
+			"geo-state": "Puducherry"
+		},
+		"Sample_Question": "What are the measures being taken by the Puducherry government?",
+		"Answer_Title": "Puducherry",
+		"Answer": "Check out this website by clicking the source button for information on government measures taken by Puducherry. \n\n\nFor Information on Nationwide coronavirus statistics, click the learn more button.",
+		"Source": "https://health.py.gov.in/",
+		"Reference": "https://www.mohfw.gov.in/",
+		"Image_URL": "https://www.medianews4u.com/wp-content/uploads/2014/09/0f18514092300971a1d9467fe5706101-1-3.jpg",
+		"Response_Type": "Card",
+		"Audio_Link": "",
+		"Suggestions": ["How do I prepare for prolonged quarantine?"]
+	},
+	{
+		"Intent": "what-is-preparedness",
+		"Entities": {
+			"geo-state": "Maharashtra"
+		},
+		"Sample_Question": "What are the measures being taken by the Maharashtra government?",
+		"Answer_Title": "Maharashtra",
+		"Answer": "Check out this website by clicking the source button for information on government measures taken by Maharashtra. \n\n\nFor Information on Nationwide coronavirus statistics, click the learn more button.",
+		"Source": "https://arogya.maharashtra.gov.in/1175/Novel--Corona-Virus",
+		"Reference": "https://www.mohfw.gov.in/",
+		"Image_URL": "https://upload.wikimedia.org/wikipedia/commons/2/26/Seal_of_Maharashtra.png",
+		"Response_Type": "Card",
+		"Audio_Link": "",
+		"Suggestions": ["What do we mean by flattening the curve ?"]
+	},
+	{
+		"Intent": "what-is-preparedness",
+		"Entities": {
+			"geo-state": "Odisha"
+		},
+		"Sample_Question": "What are the measures being taken by the Odisha government?",
+		"Answer_Title": "Odisha",
+		"Answer": "Check out this website by clicking the source button for information on government measures taken by Odisha. \n\n\nFor Information on Nationwide coronavirus statistics, click the learn more button.",
+		"Source": "http://www.nrhmorissa.gov.in/corona.aspx",
+		"Reference": "https://www.mohfw.gov.in/",
+		"Image_URL": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Seal_of_Odisha.png",
+		"Response_Type": "Card",
+		"Audio_Link": "",
+		"Suggestions": ["What is the incubation period?"]
+	},
+	{
+		"Intent": "what-is-preparedness",
+		"Entities": {
+			"geo-state": "Chhattisgarh"
+		},
+		"Sample_Question": "What are the measures being taken by the Chhattisgarh government?",
+		"Answer_Title": "Chhattisgarh",
+		"Answer": "Check out this website by clicking the source button for information on government measures taken by Chhattisgarh. \n\n\nFor Information on Nationwide coronavirus statistics, click the learn more button.",
+		"Source": "http://www.cghealth.nic.in/cghealth17/",
+		"Reference": "https://www.mohfw.gov.in/",
+		"Image_URL": "https://rozgarpatrika.com/wp-content/uploads/2019/06/chhattisgarh-government-logo.png",
+		"Response_Type": "Card",
+		"Audio_Link": "",
+		"Suggestions": ["Is it okay to shop for grocery online"]
+	},
+	{
+		"Intent": "what-is-preparedness",
+		"Entities": {
+			"geo-state": "Madhya Pradesh"
+		},
+		"Sample_Question": "What are the measures being taken by the Madhya Pradesh government?",
+		"Answer_Title": "Madhya Pradesh",
+		"Answer": "Check out this website by clicking the source button for information on government measures taken by Madhya Pradesh. \n\n\nFor Information on Nationwide coronavirus statistics, click the learn more button.",
+		"Source": "http://mphealthresponse.nhmmp.gov.in/covid/",
+		"Reference": "https://www.mohfw.gov.in/",
+		"Image_URL": "https://upload.wikimedia.org/wikipedia/commons/b/be/..Madhya_Pradesh_Flag%28INDIA%29.png",
+		"Response_Type": "Card",
+		"Audio_Link": "",
+		"Suggestions": ["What is the difference between virus and bacteria"]
+	},
+	{
+		"Intent": "what-is-preparedness",
+		"Entities": {
+			"geo-state": "Gujarat"
+		},
+		"Sample_Question": "What are the measures being taken by the Gujarat government?",
+		"Answer_Title": "Gujarat",
+		"Answer": "Check out this website by clicking the source button for information on government measures taken by Gujarat. \n\n\nFor Information on Nationwide coronavirus statistics, click the learn more button.",
+		"Source": "https://gujhealth.gujarat.gov.in/corona-virus-guidline.htm",
+		"Reference": "https://www.mohfw.gov.in/",
+		"Image_URL": "https://www.hubert-herald.nl/BhaGujarat1_bestanden/image001.jpg",
+		"Response_Type": "Card",
+		"Audio_Link": "",
+		"Suggestions": ["How to rinse my mouth properly?"]
+	},
+	{
+		"Intent": "what-is-preparedness",
+		"Entities": {
+			"geo-state": "West Bengal"
+		},
+		"Sample_Question": "What are the measures being taken by the West Bengal government?",
+		"Answer_Title": "West Bengal",
+		"Answer": "Check out this website by clicking the source button for information on government measures taken by West Bengal. \n\n\nFor Information on Nationwide coronavirus statistics, click the learn more button.",
+		"Source": "https://www.wbhealth.gov.in/",
+		"Reference": "https://www.mohfw.gov.in/",
+		"Image_URL": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Emblem_of_West_Bengal.svg/1200px-Emblem_of_West_Bengal.svg.png",
+		"Response_Type": "Card",
+		"Audio_Link": "",
+		"Suggestions": ["Should I take a hot bath to prevent Coronavirus?"]
+	},
+	{
+		"Intent": "what-is-preparedness",
+		"Entities": {
+			"geo-state": "Jharkhand"
+		},
+		"Sample_Question": "What are the measures being taken by the Jharkhand government?",
+		"Answer_Title": "Jharkhand",
+		"Answer": "Check out this website by clicking the source button for information on government measures taken by Jharkhand. \n\n\nFor Information on Nationwide coronavirus statistics, click the learn more button.",
+		"Source": "http://www.jharkhand.gov.in/PDepartment?department=d5e4effc166af7f050089416e7e53b57",
+		"Reference": "https://www.mohfw.gov.in/",
+		"Image_URL": "https://img.favpng.com/19/15/0/government-of-jharkhand-government-of-india-state-government-png-favpng-N5GTYTu96chuWxHJFx6ZF6NRx.jpg",
+		"Response_Type": "Card",
+		"Audio_Link": "",
+		"Suggestions": ["Can I exercise?"]
+	},
+	{
+		"Intent": "what-is-preparedness",
+		"Entities": {
+			"geo-state": "Bihar"
+		},
+		"Sample_Question": "What are the measures being taken by the Bihar government?",
+		"Answer_Title": "Bihar",
+		"Answer": "Check out this website by clicking the source button for information on government measures taken by Bihar. \n\n\nFor Information on Nationwide coronavirus statistics, click the learn more button.",
+		"Source": "http://health.bih.nic.in/",
+		"Reference": "https://www.mohfw.gov.in/",
+		"Image_URL": "https://www.kindpng.com/picc/m/219-2196137_bihar-government-logo-bihar-government-logo-png-transparent.png",
+		"Response_Type": "Card",
+		"Audio_Link": "",
+		"Suggestions": ["Should I use a hand dryer?"]
+	},
+	{
+		"Intent": "what-is-preparedness",
+		"Entities": {
+			"geo-state": "Uttar Pradesh"
+		},
+		"Sample_Question": "What are the measures being taken by the Uttar Pradesh government?",
+		"Answer_Title": "Uttar Pradesh",
+		"Answer": "Check out this website by clicking the source button for information on government measures taken by Uttar Pradesh. \n\n\nFor Information on Nationwide coronavirus statistics, click the learn more button.",
+		"Source": "http://up-health.in/en/index.html",
+		"Reference": "https://www.mohfw.gov.in/",
+		"Image_URL": "https://pbs.twimg.com/profile_images/762605287207342080/S6dpdHM8_400x400.jpg",
+		"Response_Type": "Card",
+		"Audio_Link": "",
+		"Suggestions": ["Can eating chyavanprash help against coronavirus?"]
+	},
+	{
+		"Intent": "what-is-preparedness",
+		"Entities": {
+			"geo-state": "Delhi"
+		},
+		"Sample_Question": "What are the measures being taken by the Delhi government?",
+		"Answer_Title": "Delhi",
+		"Answer": "Check out this website by clicking the source button for information on government measures taken by Delhi. \n\n\nFor Information on Nationwide coronavirus statistics, click the learn more button.",
+		"Source": "https://delhi.gov.in/",
+		"Reference": "https://www.mohfw.gov.in/",
+		"Image_URL": "https://rozgarpatrika.com/wp-content/uploads/2019/06/delhi-government-logo.png",
+		"Response_Type": "Card",
+		"Audio_Link": "",
+		"Suggestions": ["What is the right way of disinfecting my house"]
+	},
+	{
+		"Intent": "what-is-preparedness",
+		"Entities": {
+			"geo-state": "Haryana"
+		},
+		"Sample_Question": "What are the measures being taken by the Haryana government?",
+		"Answer_Title": "Haryana",
+		"Answer": "Check out this website by clicking the source button for information on government measures taken by Haryana. \n\n\nFor Information on Nationwide coronavirus statistics, click the learn more button.",
+		"Source": "http://haryanahealth.gov.in/",
+		"Reference": "https://www.mohfw.gov.in/",
+		"Image_URL": "https://cdn.s3waas.gov.in/s36e7b33fdea3adc80ebd648fffb665bb8/uploads/2018/08/2018081644.jpg",
+		"Response_Type": "Card",
+		"Audio_Link": "",
+		"Suggestions": ["Is it safe to play a sport?"]
+	},
+	{
+		"Intent": "what-is-preparedness",
+		"Entities": {
+			"geo-state": "Rajasthan"
+		},
+		"Sample_Question": "What are the measures being taken by the Rajasthan government?",
+		"Answer_Title": "Rajasthan",
+		"Answer": "Check out this website by clicking the source button for information on government measures taken by Rajasthan. \n\n\nFor Information on Nationwide coronavirus statistics, click the learn more button.",
+		"Source": "http://www.rajswasthya.nic.in/Corona%20Virus.htm",
+		"Reference": "https://www.mohfw.gov.in/",
+		"Image_URL": "https://w0.pngwave.com/png/564/459/government-of-rajasthan-government-of-india-organization-rajasthan-png-clip-art.png",
+		"Response_Type": "Card",
+		"Audio_Link": "",
+		"Suggestions": ["Should I get a flu shot?"]
+	},
+	{
+		"Intent": "what-is-preparedness",
+		"Entities": {
+			"geo-state": "Punjab"
+		},
+		"Sample_Question": "What are the measures being taken by the Punjab government?",
+		"Answer_Title": "Punjab",
+		"Answer": "Check out this website by clicking the source button for information on government measures taken by Punjab. \n\n\nFor Information on Nationwide coronavirus statistics, click the learn more button.",
+		"Source": "http://www.pbhealth.gov.in/",
+		"Reference": "https://www.mohfw.gov.in/",
+		"Image_URL": "https://www.pngkey.com/png/detail/249-2496927_govt-of-punjab-logo.png",
+		"Response_Type": "Card",
+		"Audio_Link": "",
+		"Suggestions": ["How can I help people who are becoming anxious due to the pandemic"]
+	},
+	{
+		"Intent": "what-is-preparedness",
+		"Entities": {
+			"geo-state": "Uttarakhand"
+		},
+		"Sample_Question": "What are the measures being taken by the Uttarakhand government?",
+		"Answer_Title": "Uttarakhand",
+		"Answer": "Check out this website by clicking the source button for information on government measures taken by Uttarakhand. \n\n\nFor Information on Nationwide coronavirus statistics, click the learn more button.",
+		"Source": "http://ukhfws.org/details.php?pgID=tp_37",
+		"Reference": "https://www.mohfw.gov.in/",
+		"Image_URL": "https://upload.wikimedia.org/wikipedia/en/thumb/9/99/Seal_of_Uttarakhand.svg/1200px-Seal_of_Uttarakhand.svg.png",
+		"Response_Type": "Card",
+		"Audio_Link": "",
+		"Suggestions": ["how is quarantining done"]
+	},
+	{
+		"Intent": "what-is-preparedness",
+		"Entities": {
+			"geo-state": "Chandigarh"
+		},
+		"Sample_Question": "What are the measures being taken by the Chandigarh government?",
+		"Answer_Title": "Chandigarh",
+		"Answer": "Check out this website by clicking the source button for information on government measures taken by Chandigarh. \n\n\nFor Information on Nationwide coronavirus statistics, click the learn more button.",
+		"Source": "http://chandigarh.gov.in/dept_hlt.htm",
+		"Reference": "https://www.mohfw.gov.in/",
+		"Image_URL": "https://cracku.in/latest-govt-jobs/wp-content/uploads/2020/02/Chandigarh-Administration-Logo.jpg",
+		"Response_Type": "Card",
+		"Audio_Link": "",
+		"Suggestions": ["How can I be cured?"]
+	},
+	{
+		"Intent": "what-is-preparedness",
+		"Entities": {
+			"geo-state": "Himachal Pradesh"
+		},
+		"Sample_Question": "What are the measures being taken by the Himachal Pradesh government?",
+		"Answer_Title": "Himachal Pradesh",
+		"Answer": "Check out this website by clicking the source button for information on government measures taken by Himachal Pradesh. \n\n\nFor Information on Nationwide coronavirus statistics, click the learn more button.",
+		"Source": "https://himachal.nic.in/index.php?lang=1&dpt_id=19",
+		"Reference": "https://www.mohfw.gov.in/",
+		"Image_URL": "https://upload.wikimedia.org/wikipedia/commons/1/1a/HPGovt.png",
+		"Response_Type": "Card",
+		"Audio_Link": "",
+		"Suggestions": ["Can Cow urine help against COVID-19?"]
+	},
+	{
+		"Intent": "what-is-preparedness",
+		"Entities": {
+			"geo-state": "Jammu and Kashmir"
+		},
+		"Sample_Question": "What are the measures being taken by the Jammu and Kashmir government?",
+		"Answer_Title": "Jammu and Kashmir",
+		"Answer": "Check out this website by clicking the source button for information on government measures taken by Jammu and Kashmir. \n\n\nFor Information on Nationwide coronavirus statistics, click the learn more button.",
+		"Source": "http://jkhealth.org/new2017/",
+		"Reference": "https://www.mohfw.gov.in/",
+		"Image_URL": "https://upload.wikimedia.org/wikipedia/commons/a/af/Seal_of_Jammu_and_Kashmir_color.png",
+		"Response_Type": "Card",
+		"Audio_Link": "",
+		"Suggestions": ["how is quarantining done"]
+	},
+	{
+		"Intent": "what-is-preparedness",
+		"Entities": {
+			"geo-state": "Ladakh"
+		},
+		"Sample_Question": "What are the measures being taken by the Ladakh government?",
+		"Answer_Title": "Ladakh",
+		"Answer": "Check out this website by clicking the source button for information on government measures taken by Ladakh. \n\n\nFor Information on Nationwide coronavirus statistics, click the learn more button.",
+		"Source": "https://ladakh.nic.in/",
+		"Reference": "https://www.mohfw.gov.in/",
+		"Image_URL": "https://upload.wikimedia.org/wikipedia/commons/6/6d/Ladakh_Government_Banner.png",
+		"Response_Type": "Card",
+		"Audio_Link": "",
+		"Suggestions": ["how is quarantining done"]
+	},
+	{
+		"Intent": "what-is-preparedness",
+		"Entities": {
+			"geo-state": "Goa"
+		},
+		"Sample_Question": "What are the measures being taken by the Goa government?",
+		"Answer_Title": "Goa",
+		"Answer": "Check out this website by clicking the source button for information on government measures taken by Goa. \n\n\nFor Information on Nationwide coronavirus statistics, click the learn more button.",
+		"Source": "http://www.dhsgoa.gov.in/Information%20on%20CORONA%20VIRUS.htm",
+		"Reference": "https://www.mohfw.gov.in/",
+		"Image_URL": "https://upload.wikimedia.org/wikipedia/commons/d/d7/Goa_government_banner.png",
+		"Response_Type": "Card",
+		"Audio_Link": "",
+		"Suggestions": ["Will antibiotics help in curing COVID-19?"]
+	},
+	{
+		"Intent": "what-is-preparedness",
+		"Entities": {
+			"geo-state": "Sikkim"
+		},
+		"Sample_Question": "What are the measures being taken by the Sikkim government?",
+		"Answer_Title": "Sikkim",
+		"Answer": "Check out this website by clicking the source button for information on government measures taken by Sikkim. \n\n\nFor Information on Nationwide coronavirus statistics, click the learn more button.",
+		"Source": "https://sikkim.gov.in/home",
+		"Reference": "https://www.mohfw.gov.in/",
+		"Image_URL": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c0/Seal_of_Sikkim.svg/1200px-Seal_of_Sikkim.svg.png",
+		"Response_Type": "Card",
+		"Audio_Link": "",
+		"Suggestions": ["Will taking turmeric help in preventing or curing COVID-19?"]
+	},
+	{
+		"Intent": "what-is-preparedness",
+		"Entities": {
+			"geo-state": "Assam"
+		},
+		"Sample_Question": "What are the measures being taken by the Assam government?",
+		"Answer_Title": "Assam",
+		"Answer": "Check out this website by clicking the source button for information on government measures taken by Assam. \n\n\nFor Information on Nationwide coronavirus statistics, click the learn more button.",
+		"Source": "https://assam.gov.in/covid-19-advisory",
+		"Reference": "https://www.mohfw.gov.in/",
+		"Image_URL": "https://www.sentinelassam.com/wp-content/uploads/2019/03/assam-Government-1280x720.jpg",
+		"Response_Type": "Card",
+		"Audio_Link": "",
+		"Suggestions": ["What if I am asymptomatic?"]
+	},
+	{
+		"Intent": "what-is-preparedness",
+		"Entities": {
+			"geo-state": "Arunachal Pradesh"
+		},
+		"Sample_Question": "What are the measures being taken by the Arunachal Pradesh government?",
+		"Answer_Title": "Arunachal Pradesh",
+		"Answer": "Check out this website by clicking the source button for information on government measures taken by Arunachal Pradesh. \n\n\nFor Information on Nationwide coronavirus statistics, click the learn more button.",
+		"Source": "http://www.arunachalpradesh.gov.in/",
+		"Reference": "https://www.mohfw.gov.in/",
+		"Image_URL": "https://upload.wikimedia.org/wikipedia/en/thumb/d/d4/Arunachal_Pradesh_Seal.svg/1200px-Arunachal_Pradesh_Seal.svg.png",
+		"Response_Type": "Card",
+		"Audio_Link": "",
+		"Suggestions": ["How can I be cured?"]
+	},
+	{
+		"Intent": "what-is-preparedness",
+		"Entities": {
+			"geo-state": "Manipur"
+		},
+		"Sample_Question": "What are the measures being taken by the Manipur government?",
+		"Answer_Title": "Manipur",
+		"Answer": "Check out this website by clicking the source button for information on government measures taken by Manipur. \n\n\nFor Information on Nationwide coronavirus statistics, click the learn more button.",
+		"Source": "http://nrhmmanipur.org/?page_id=26",
+		"Reference": "https://www.mohfw.gov.in/",
+		"Image_URL": "https://www.sentinelassam.com/wp-content/uploads/2020/01/mani.jpg",
+		"Response_Type": "Card",
+		"Audio_Link": "",
+		"Suggestions": ["Will consuming garlic help in preventing or curing COVID-19?"]
+	},
+	{
+		"Intent": "what-is-preparedness",
+		"Entities": {
+			"geo-state": "Mizoram"
+		},
+		"Sample_Question": "What are the measures being taken by the Mizoram government?",
+		"Answer_Title": "Mizoram",
+		"Answer": "Check out this website by clicking the source button for information on government measures taken by Mizoram. \n\n\nFor Information on Nationwide coronavirus statistics, click the learn more button.",
+		"Source": "https://health.mizoram.gov.in/",
+		"Reference": "https://www.mohfw.gov.in/",
+		"Image_URL": "https://cracku.in/latest-govt-jobs/wp-content/uploads/2020/02/Mizoram-Logo.jpg",
+		"Response_Type": "Card",
+		"Audio_Link": "",
+		"Suggestions": ["Will consuming garlic help in preventing or curing COVID-19?"]
+	},
+	{
+		"Intent": "what-is-preparedness",
+		"Entities": {
+			"geo-state": "Nagaland"
+		},
+		"Sample_Question": "What are the measures being taken by the Nagaland government?",
+		"Answer_Title": "Nagaland",
+		"Answer": "Check out this website by clicking the source button for information on government measures taken by Nagaland. \n\n\nFor Information on Nationwide coronavirus statistics, click the learn more button.",
+		"Source": "https://nagahealth.nagaland.gov.in/",
+		"Reference": "https://www.mohfw.gov.in/",
+		"Image_URL": "https://upload.wikimedia.org/wikipedia/en/thumb/1/1e/Seal_of_Nagaland.svg/1200px-Seal_of_Nagaland.svg.png",
+		"Response_Type": "Card",
+		"Audio_Link": "",
+		"Suggestions": ["Symptoms of COVID19", "How is quarantining done?"]
+	},
+	{
+		"Intent": "what-is-preparedness",
+		"Entities": {
+			"geo-state": "Meghalaya"
+		},
+		"Sample_Question": "What are the measures being taken by the Meghalaya government?",
+		"Answer_Title": "Meghalaya",
+		"Answer": "Check out this website by clicking the source button for information on government measures taken by Meghalaya. \n\n\nFor Information on Nationwide coronavirus statistics, click the learn more button.",
+		"Source": "http://meghealth.gov.in/",
+		"Reference": "https://www.mohfw.gov.in/",
+		"Image_URL": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/Seal_of_Meghalaya.svg/1200px-Seal_of_Meghalaya.svg.png",
+		"Response_Type": "Card",
+		"Audio_Link": "",
+		"Suggestions": ["Can I go to the office"]
+	},
+	{
+		"Intent": "what-is-preparedness",
+		"Entities": {
+			"geo-state": "Andaman and Nicobar Islands"
+		},
+		"Sample_Question": "What are the measures being taken by the Andaman and Nicobar Islands government?",
+		"Answer_Title": "Andaman and Nicobar Islands",
+		"Answer": "Check out this website by clicking the source button for information on government measures taken in India.\n\n\n\nFor Information on Nationwide coronavirus statistics, click the learn more button.",
+		"Source": "https://www.mygov.in/covid-19",
+		"Reference": "https://www.mohfw.gov.in/",
+		"Image_URL": "https://latestjobs.co.in/wp-content/uploads/2016/08/Andaman-and-Nicobar-Education-Department-Recruitment.png",
+		"Response_Type": "Card",
+		"Audio_Link": "",
+		"Suggestions": ["How do I get tested to see if I am infected?"]
+	},
+	{
+		"Intent": "what-is-preparedness",
+		"Entities": {
+			"geo-state": "Dadra and Nagar Haveli"
+		},
+		"Sample_Question": "What are the measures being taken by the Dadra and Nagar Haveli government?",
+		"Answer_Title": "Dadra and Nagar Haveli",
+		"Answer": "Check out this website by clicking the source button for information on government measures taken in India.\n\n\n\nFor Information on Nationwide coronavirus statistics, click the learn more button.",
+		"Source": "https://www.mygov.in/covid-19",
+		"Reference": "https://www.mohfw.gov.in/",
+		"Image_URL": "https://www.jobriya.in/wp-content/uploads/2019/12/Dadra_and_Nagar_Haveli_FlagINDIA-scaled.png",
+		"Response_Type": "Card",
+		"Audio_Link": "",
+		"Suggestions": ["What is the right way of disinfecting my house"]
+	},
+	{
+		"Intent": "what-is-preparedness",
+		"Entities": {
+			"geo-state": "Daman and Diu"
+		},
+		"Sample_Question": "What are the measures being taken by the Daman and Diu government?",
+		"Answer_Title": "Daman and Diu",
+		"Answer": "Check out this website by clicking the source button for information on government measures taken in India.\n\n\n\nFor Information on Nationwide coronavirus statistics, click the learn more button.",
+		"Source": "https://www.mygov.in/covid-19",
+		"Reference": "https://www.mohfw.gov.in/",
+		"Image_URL": "https://1.bp.blogspot.com/-TYgoullWbWY/UKr1gOR4F_I/AAAAAAAABGE/3OURzY2UT5Y/s1600/damao-diu.png",
+		"Response_Type": "Card",
+		"Audio_Link": "",
+		"Suggestions": ["Can I invite my friends for dinner"]
+	},
+	{
+		"Intent": "what-is-preparedness",
+		"Entities": {
+			"geo-state": "Lakshadweep"
+		},
+		"Sample_Question": "What are the measures being taken by the Lakshadweep government?",
+		"Answer_Title": "Lakshadweep",
+		"Answer": "Check out this website by clicking the source button for information on government measures taken in India.\n\n\n\nFor Information on Nationwide coronavirus statistics, click the learn more button.",
+		"Source": "https://www.mygov.in/covid-19",
+		"Reference": "https://www.mohfw.gov.in/",
+		"Image_URL": "https://i.pinimg.com/originals/2f/77/2f/2f772f6b050e042e206dc923f98026b0.png",
+		"Response_Type": "Card",
+		"Audio_Link": "",
+		"Suggestions": ["Is it okay to shop for items online"]
 	}
 ]
