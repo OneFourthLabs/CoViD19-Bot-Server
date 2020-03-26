@@ -3210,7 +3210,7 @@
 		"Intent": "what_to_do",
 		"Entities": {
 			"disease": "Coronavirus",
-			"medical_centres": "medical institution"
+			"medical_centres": "private hospital"
 		},
 		"Sample_Question": "What can private hospitals do to help me for COVID19?",
 		"Answer_Title": "Private Hospitals",
