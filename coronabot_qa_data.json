@@ -1065,7 +1065,7 @@
 		"Response_Type": "Card",
 		"Audio_Link": "",
 		"Suggestions": [
-			"How to you differentiate between novel coronavirus and SARS ?"
+			"How can I help people who are getting stressed"
 		]
 	}, {
 		"Intent": "difference-between-scientific_term_1-and-scientific_term_2",
