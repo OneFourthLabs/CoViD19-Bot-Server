@@ -4144,6 +4144,21 @@
 		"Audio_Link": "",
 		"Suggestions": ["How to use chlorine to prevent infections ?"]
 	},
+ 	{
+		"Intent": "does-disease-spread-through-transmission_medium",
+		"Entities": {
+			"transmission_mediums": "soil"
+		},
+		"Sample_Question": "Can it spread through soil?",
+		"Answer_Title": "Coronavirus on soil",
+		"Answer": "Some viruses are extremely stable under soil conditions. In general, virus survival in soils depends mostly on temperature and virion adsorption to soil (sand and clay colloids). Other influential factors include soil moisture content, presence of aerobic microorganisms, levels of resin-extractable phosphorous, exchangeable aluminum, organic matter, and soil pH. TMV (Virgaviridae), for instance, remains infectious in soil for several years in living or dead plant debris.",
+		"Source": "https://www.sciencedirect.com/topics/medicine-and-dentistry/virus-survival",
+		"Reference": "https://www.sciencedirect.com/topics/medicine-and-dentistry/virus-survival",
+		"Image_URL": "https://sa.kapamilya.com/absnews/abscbnnews/media/2020/life/03/11/travelers-find-bright-spot-in-tourism-4.jpg",
+		"Response_Type": "Card",
+		"Audio_Link": "",
+		"Suggestions": ["How long does coronavirus survive in the water ?"]
+	},
 	{
 		"Intent": "how-to-do-precautionary-action",
 		"Entities": {
