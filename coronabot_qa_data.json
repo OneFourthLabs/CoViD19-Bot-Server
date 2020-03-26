@@ -4445,6 +4445,21 @@
 		"Audio_Link": "",
 		"Suggestions": ["What is a notifiable disease ?"]
 	},
+ 	{
+		"Intent": "does-disease-spread-through-transmission_medium",
+		"Entities": {
+			"transmission_mediums": "water"
+		},
+		"Sample_Question": "can the disease spread from water ?",
+		"Answer_Title": "Coronavirus in water",
+		"Answer": "The research for novel Coronavirus is going on, but we have facts saying that coronaviruses can remain infectious for long periods in water and pasteurized settled sewage, suggesting contaminated water is a potential vehicle for human exposure if aerosols are generated.",
+		"Source": "https://www.sciencedirect.com/science/article/pii/S0043135409000785",
+		"Reference": "https://www.sciencedirect.com/science/article/pii/S0043135409000785",
+		"Image_URL": "https://images.loksatta.com/2020/03/6-38.jpg",
+		"Response_Type": "Card",
+		"Audio_Link": "",
+		"Suggestions": ["How long does the virus survive in the food ?"]
+	},
 	{
 		"Intent": "what-is-scientific_term-or-disease",
 		"Entities": {
