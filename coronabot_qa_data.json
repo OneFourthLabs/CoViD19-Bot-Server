@@ -4357,7 +4357,7 @@
 	{
 		"Intent": "is_it_safe_to_do",
 		"Entities": {
-			"daily_actions": "gym"
+			"daily_actions": "sport"
 		},
 		"Sample_Question": "Is it safe to play a sport?",
 		"Answer_Title": "Playing outdoors",
