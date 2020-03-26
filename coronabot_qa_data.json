@@ -3748,7 +3748,7 @@
 		"Suggestions": ["How to disinfect paper ?"]
 	},
 	{
-		"Intent": "how-to-disinfect",
+		"Intent": "how-long-does-virus-survive-on-medium",
 		"Entities": {
 			"transmission_surface": "plastic"
 		},
