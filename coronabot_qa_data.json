@@ -2868,13 +2868,12 @@
 		"Audio_Link": "",
 		"Suggestions": ["How do I prepare for prolonged quarantine?"]
 	},
- 	{
+	{
 		"Intent": "what_to_do",
 		"Entities": {
 			"medical_procedure": "treatment"
 		},
-		"Sample_Question": "What treatments can i expect
-",
+		"Sample_Question": "What treatments can i expect",
 		"Answer_Title": "Treatment Procedure",
 		"Answer": "There are no US Food and Drug Administration (FDA)-approved drugs specifically for the treatment of patients with COVID-19.  At present clinical management includes infection prevention and control measures and supportive care, including supplementary oxygen and mechanical ventilatory support when indicated.  An array of drugs approved for other indications as well as several investigational drugs are being studied in several hundred clinical trials that are underway across the globe.",
 		"Source": "https://www.cdc.gov/coronavirus/2019-ncov/hcp/therapeutic-options.html",
@@ -2884,7 +2883,7 @@
 		"Audio_Link": "",
 		"Suggestions": ["What can a government hospital do to treat COVID-19?"]
 	},
- 	{
+	{
 		"Intent": "is_it_safe_to_do",
 		"Entities": {
 			"daily_actions": "walk"
@@ -3206,7 +3205,7 @@
 		"Response_Type": "Card",
 		"Audio_Link": "",
 		"Suggestions": ["How to ensure mental fitness while working at home"]
-	},{
+	}, {
 		"Intent": "what_to_do",
 		"Entities": {
 			"disease": "Coronavirus",
@@ -4068,7 +4067,7 @@
 		"Image_URL": "https://image.shutterstock.com/image-illustration/contagious-diseases-spread-hygiene-concept-260nw-1668244993.jpg",
 		"Response_Type": "Card",
 		"Audio_Link": "",
-		"Suggestions": ["What is a super spreader?","Coronavirus in air"]
+		"Suggestions": ["What is a super spreader?", "Coronavirus in air"]
 	},
 	{
 		"Intent": "how-long-does-phase_of_disease-last",
@@ -4161,7 +4160,7 @@
 		"Audio_Link": "",
 		"Suggestions": ["How to use chlorine to prevent infections ?"]
 	},
- 	{
+	{
 		"Intent": "does-disease-spread-through-transmission_medium",
 		"Entities": {
 			"transmission_mediums": "soil"
@@ -4445,7 +4444,7 @@
 		"Audio_Link": "",
 		"Suggestions": ["What is a notifiable disease ?"]
 	},
- 	{
+	{
 		"Intent": "does-disease-spread-through-transmission_medium",
 		"Entities": {
 			"transmission_mediums": "water"
@@ -4520,7 +4519,7 @@
 		"Audio_Link": "",
 		"Suggestions": ["What do we mean by flattening the curve ?"]
 	},
- 	{
+	{
 		"Intent": "do_I_need_or_should_I_do_X",
 		"Entities": {
 			"protective_items_or_actions": "wear a mask"
@@ -4880,7 +4879,7 @@
 		"Audio_Link": "",
 		"Suggestions": ["What is a super spreader?"]
 	},
- 	{
+	{
 		"Intent": "what-is-preparedness",
 		"Entities": {
 			"body": "CDC"
