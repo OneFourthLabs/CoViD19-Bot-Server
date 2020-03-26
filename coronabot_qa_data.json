@@ -4221,7 +4221,7 @@
 		"Audio_Link": "",
 		"Suggestions": ["How long must I observe quarantine ?"]
 	}, {
-		"Intent": "difference-between-scientific_term_1-and-scientific_term_3",
+		"Intent": "difference-between-scientific_term_1-and-scientific_term_2",
 		"Entities": {
 			"scientific_term": ["isolation", "social distancing"]
 		},
@@ -4236,7 +4236,7 @@
 		"Suggestions": ["How to use hand sanitiser correctly ?"]
 	},
 	{
-		"Intent": "difference-between-scientific_term_1-and-scientific_term_4",
+		"Intent": "difference-between-scientific_term_1-and-scientific_term_2",
 		"Entities": {
 			"disease": ["Coronavirus", "MERS"]
 		},
@@ -4251,7 +4251,7 @@
 		"Suggestions": ["What is the difference between notifiable and quarantinable disease ?"]
 	},
 	{
-		"Intent": "difference-between-scientific_term_1-and-scientific_term_5",
+		"Intent": "difference-between-scientific_term_1-and-scientific_term_2",
 		"Entities": {
 			"disease": ["Coronavirus", "common cold"]
 		},
@@ -4266,7 +4266,7 @@
 		"Suggestions": ["What is the difference between coronavirus and MERS ?"]
 	},
 	{
-		"Intent": "difference-between-scientific_term_1-and-scientific_term_6",
+		"Intent": "difference-between-scientific_term_1-and-scientific_term_2",
 		"Entities": {
 			"disease": ["Coronavirus", "viral infection"]
 		},
@@ -4281,7 +4281,7 @@
 		"Suggestions": ["How is coronavirus different from swine flu ?"]
 	},
 	{
-		"Intent": "difference-between-scientific_term_1-and-scientific_term_7",
+		"Intent": "difference-between-scientific_term_1-and-scientific_term_2",
 		"Entities": {
 			"disease": ["Coronavirus", "H1N1"]
 		},
@@ -4296,7 +4296,7 @@
 		"Suggestions": ["What is the difference between a mask and a respirator ?"]
 	},
 	{
-		"Intent": "difference-between-scientific_term_1-and-scientific_term_8",
+		"Intent": "difference-between-scientific_term_1-and-scientific_term_2",
 		"Entities": {
 			"scientific_term": ["virus", "bacteria"]
 		},
@@ -4311,7 +4311,7 @@
 		"Suggestions": ["How is coronavirus different from a normal viral fever ? "]
 	},
 	{
-		"Intent": "difference-between-scientific_term_1-and-scientific_term_9",
+		"Intent": "difference-between-scientific_term_1-and-scientific_term_2",
 		"Entities": {
 			"protective_items_or_actions": ["mask", "respirator"]
 		},
