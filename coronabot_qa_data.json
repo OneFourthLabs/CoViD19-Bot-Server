@@ -4477,7 +4477,7 @@
 	{
 		"Intent": "what-is-scientific_term-or-disease",
 		"Entities": {
-			"scientific_term": "social-distancing"
+			"scientific_term": "social distancing"
 		},
 		"Sample_Question": "What is social distancing?",
 		"Answer_Title": "Social Distancing",
