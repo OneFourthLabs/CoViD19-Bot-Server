@@ -3937,9 +3937,9 @@
 		"Intent": "how-long-does-virus-survive-on-medium",
 		"Entities": {
 			"transmission_mediums": "food",
-			"disease": "virus"
+			"scientific_term": "virus"
 		},
-		"Sample_Question": "How long does the virus survive in the food",
+		"Sample_Question": "How long does the virus survive on the food",
 		"Answer_Title": "Coronavirus in food",
 		"Answer": "EFSA is closely monitoring the situation regarding the outbreak of coronavirus disease (COVID-19) that is affecting a large number of countries across the globe. There is currently no evidence that food is a likely source or route of transmission of the virus.",
 		"Source": "https://www.efsa.europa.eu/en/news/coronavirus-no-evidence-food-source-or-transmission-route",
