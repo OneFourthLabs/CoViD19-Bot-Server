@@ -6,6 +6,8 @@ import json
 import numpy as np
 import os, sys
 import atexit
+import requests
+
 from df_payload import get_card_payload, get_plot_payload
 from utils import read_date, write_date, unlist, dict_stringify
 from apscheduler.schedulers.background import BackgroundScheduler
@@ -361,8 +363,31 @@ def get_stats(intent, entities, context):
   elif intent.startswith("stats-show-map"):
     return get_map(intent, entities, context)
 
-def get_risk_status(intent, entities, context) :
-  answer = {'risk-type':'ok'}
+GET_DIAGNOSIS_URL = 'https://db-server-dot-corona-bot-gbakse.appspot.com/get_diagnosis_by_token'
+def get_risk_status(intent, entities, context, question):
+  # Question example:
+  # I have submitted by diagnostic enquiry form with id #xxxx#. Please let me know the details
+  try:
+    token = question.split('#')[1]
+  except:
+    return {
+      "Response_Type": "Error:BadQuestionFormatting",
+      "Answer": random.choice(failure_messages)
+    }
+  
+  try:
+    db_response = requests.post(GET_DIAGNOSIS_URL, json={'token': token}, timeout=5)
+    record = json.loads(db_response.text)['record']
+  except:
+    return {
+      "Response_Type": "Error:RecordRetrievalFailed",
+      "Answer": "Unable to fetch your record"
+    }
+  
+  response = {
+      "Response_Type": "Text",
+      "Answer": "We have your record, we will let you know soon. \n(%s)" % db_response.text
+    }
 
   #write code to get age
 
@@ -384,16 +409,16 @@ def get_risk_status(intent, entities, context) :
   #if (some other conditions) :
   #    return {'risk-type':'ok'}# we will this as the 'entities' associated with the intent and pass it to the json
 
-  return answer
+  return response
 
 ####
-def find_answer(intent, entities, context):
+def find_answer(intent, entities, context, question=''):
 
   if intent[0:5] == 'stats':
     return get_stats(intent, entities, context)
 
   if intent == 'risk-assessment':
-    entities = get_risk_status(intent, entities, context)
+    return get_risk_status(intent, entities, context, question)
 
   entities = dict_stringify(entities)
 
@@ -445,6 +470,8 @@ def results():
   intent = req["queryResult"]["intent"]["displayName"]
   # find entities
   params = req["queryResult"]["parameters"]
+  # find the question that user asked
+  question = req["queryResult"]["queryText"]
 
   # print('---->>>>')
   # print(intent)
@@ -453,7 +480,7 @@ def results():
   # print(context)
   # print(req["queryResult"]["outputContexts"])
 
-  result = find_answer(intent, params, context)
+  result = find_answer(intent, params, context, question)
   reply = {}
 
   if "Error" in result["Response_Type"] or "Text" in result["Response_Type"]:
