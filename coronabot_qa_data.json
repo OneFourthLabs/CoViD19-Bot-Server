@@ -2505,7 +2505,7 @@
 		"Image_URL": "https://www.who.int/images/default-source/health-topics/coronavirus/myth-busters/19.tmb-1920v.png?sfvrsn=52adfc93_3",
 		"Response_Type": "Card",
 		"Audio_Link": "",
-		"Suggestions": ["Are there any drugs or vaccines against COVID-19?", "What treatments can I expect?"]
+		"Suggestions": ["Will taking tulsi help prevent coronavirus ?", "What treatments can I expect?"]
 	}, {
 		"Intent": "how-is-medical-procedure-done",
 		"Entities": {
@@ -3344,7 +3344,7 @@
 		"Image_URL": "https://cdn4.newsnation.in/resize/930_-/images/2019/06/11/AIIMS4286027966-763001858.jpg",
 		"Response_Type": "Card",
 		"Audio_Link": "",
-		"Suggestions": ["Should I choose a private hospital or a government hospital for treatment?"]
+		"Suggestions": ["Why is coronavirus called a contagious disease?"]
 	},
 	{
 		"Intent": "what_to_do",
@@ -3467,7 +3467,7 @@
 		"Image_URL": "https://nucleus-production.s3.amazonaws.com/uploads/E0wvYJzBevnDvQJ4LteGaZKUTi3YoDLMwphbu547.jpeg",
 		"Response_Type": "Card",
 		"Audio_Link": "",
-		"Suggestions": ["How can I say I am fully recovered from coronavirus ?"]
+		"Suggestions": ["Why is coronavirus called a contagious disease?"]
 	},
 	{
 		"Intent": "what_is_phase_of_disease",
@@ -3699,7 +3699,7 @@
 		"Image_URL": "https://www.rd.com/wp-content/uploads/2020/03/us-mail-bag-overflowing-760x506.jpg",
 		"Response_Type": "Card",
 		"Audio_Link": "",
-		"Suggestions": ["How to disinfect plastics ?"]
+		"Suggestions": ["How to disinfect plastics ?", "For how much duration does the virus survive on coins?"]
 	},
 	{
 		"Intent": "how-to-disinfect",
@@ -3744,7 +3744,7 @@
 		"Image_URL": "https://www.msschippers.com/INTERSHOP/static/WFS/Schippers-EX-Site/-/Schippers/en_US/images/products/25/2503700/750x750.jpg",
 		"Response_Type": "Card",
 		"Audio_Link": "",
-		"Suggestions": ["How to disinfect paper ?"]
+		"Suggestions": ["How to disinfect paper ?", "For how much duration does the virus survive on coins?"]
 	},
 	{
 		"Intent": "how-long-does-virus-survive-on-medium",
@@ -4577,7 +4577,7 @@
 		"Image_URL": "https://www.docmac.com/wp-content/uploads/2019/11/Post-Tooth-Extraction-Care.jpg",
 		"Response_Type": "Card",
 		"Audio_Link": "",
-		"Suggestions": ["How to rinse my mouth properly?"]
+		"Suggestions": ["How to rinse my mouth properly?", "How do I prepare for prolonged quarantine?"]
 	},
 	{
 		"Intent": "do_I_need_or_should_I_do_X",
@@ -4832,7 +4832,7 @@
 		"Image_URL": "https://image.shutterstock.com/image-vector/coronavirus-lockdown-symbol-pandemic-puts-260nw-1680582124.jpg",
 		"Response_Type": "Card",
 		"Audio_Link": "",
-		"Suggestions": ["How long does coronavirus survive in the soil ?"]
+		"Suggestions": ["Will taking tulsi help prevent coronavirus ?"]
 	},
 	{
 		"Intent": "difference-between-scientific_term_1-and-scientific_term_2",
@@ -5372,7 +5372,7 @@
 		"Image_URL": "https://cracku.in/latest-govt-jobs/wp-content/uploads/2020/02/Mizoram-Logo.jpg",
 		"Response_Type": "Card",
 		"Audio_Link": "",
-		"Suggestions": ["Will consuming garlic help in preventing or curing COVID-19?"]
+		"Suggestions": ["Will consuming garlic help in preventing or curing COVID-19?",  "How is quarantining done?"]
 	},
 	{
 		"Intent": "what-is-preparedness",
