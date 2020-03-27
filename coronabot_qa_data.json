@@ -1122,7 +1122,7 @@
 		"Response_Type": "Card",
 		"Audio_Link": "",
 		"Suggestions": [
-			"How can I help people who are getting stressed"
+			"Will antibiotics help in curing COVID-19?"
 		]
 	}, {
 		"Intent": "difference-between-scientific_term_1-and-scientific_term_2",
@@ -1329,7 +1329,7 @@
 		"Audio_Link": "",
 		"Suggestions": [
 			"How can I help people who are becoming anxious due to the pandemic",
-			"How can I help people who are getting stressed"
+			"Are there any drugs or vaccines against COVID-19?"
 		]
 	}, {
 		"Intent": "how-can-I-help-others",
