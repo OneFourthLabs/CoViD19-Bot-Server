@@ -361,11 +361,39 @@ def get_stats(intent, entities, context):
   elif intent.startswith("stats-show-map"):
     return get_map(intent, entities, context)
 
+def get_risk_status(intent, entities, context) :
+  answer = {'risk-type':'ok'}
+
+  #write code to get age
+
+  #write code to get gender
+
+  #write code to get symptoms 
+
+  #write code to get existing medical conditions
+
+  #write code to get travel history
+
+  #now write the logic for deciding severity
+  #if (some conditions) :
+  #    return {'risk-type':'severe'}# we will this as the 'entities' associated with the intent and pass it to the json
+
+  #if (some other conditions) :
+  #    return {'risk-type':'moderate'}# we will this as the 'entities' associated with the intent and pass it to the json
+
+  #if (some other conditions) :
+  #    return {'risk-type':'ok'}# we will this as the 'entities' associated with the intent and pass it to the json
+
+  return answer
+
 ####
 def find_answer(intent, entities, context):
 
   if intent[0:5] == 'stats':
     return get_stats(intent, entities, context)
+
+  if intent == 'risk-assessment':
+    entities = get_risk_status(intent, entities, context)
 
   entities = dict_stringify(entities)
 
