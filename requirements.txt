@@ -3,3 +3,5 @@ numpy
 pandas
 tqdm
 apscheduler
+requests
+
