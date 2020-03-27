@@ -386,7 +386,7 @@ def get_risk_status(intent, entities, context, question):
   
   response = {
       "Response_Type": "Text",
-      "Answer": "We have your record, we will let you know soon. \n(%s)" % db_response.text
+      "Answer": "We have your record, we will let you know soon. \n\n(%s)" % db_response.text
     }
 
   #write code to get age
@@ -464,7 +464,7 @@ def results():
   context = {}
   for item in req["queryResult"]["outputContexts"]:
     if item['name'] == context_id:
-      context = item["parameters"]
+      context = item["parameters"] if "parameters" in item else {}
 
   # find intent
   intent = req["queryResult"]["intent"]["displayName"]
