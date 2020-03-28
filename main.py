@@ -11,7 +11,7 @@ import requests
 from df_payload import get_card_payload, get_plot_payload
 from utils import read_date, write_date, unlist, dict_stringify
 from apscheduler.schedulers.background import BackgroundScheduler
-from get_data import update_stats_csv_job
+from get_data import get_stats_data,process_and_save_files
 
 app = Flask(__name__)
 DEBUG_MODE = True
@@ -20,11 +20,7 @@ CORONA_JSON = 'coronabot_qa_data.json'
 corona_data = pd.read_json(CORONA_JSON)
 corona_data['EntitiesStr'] = corona_data['Entities'].apply(dict_stringify)
 
-STATS_CSV = 'coronabot_stats_data.csv'
-stats_data = pd.read_csv(STATS_CSV)
-stats_data['Date'] = stats_data['Date'].apply(lambda x: x[0:10])
-stats_data['Date'] = pd.to_datetime(stats_data['Date'], infer_datetime_format=True)  
-max_date = stats_data['Date'].max()
+stats_data,max_date = get_stats_data()
 
 failure_messages = ["Sorry I could not understand you", "I am sorry, I did not follow", "Can you please rephrase that"]
 
@@ -530,6 +526,16 @@ def test(query):
 def index():
   return 'The server is running... Yaayy!!!'
 
+# Cron job function to run this script regularly
+from utils import send_email_amazon_ses
+def update_stats_csv_job():
+  (status, message) = process_and_save_files()
+  global stats_data, max_date
+  stats_data, max_date = get_stats_data()
+  if not status:
+    error_message = "Subject: Problem in CoViD19 Bot data loading\n\n"+message+"\n\nRegards,\nOFL Bot"
+    send_email_amazon_ses(email="covid19@onefourthlabs.com", message=error_message)
+      
 if __name__ == '__main__':
   
   # Run job to periodically collect stats

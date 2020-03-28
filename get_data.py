@@ -22,7 +22,7 @@ def process_df(label):
         'Korea, South': 'South Korea'
     }
     ## read the file corresponding to one: recovered, deaths, new cases
-    df = pd.read_csv('time_series_19-covid-' + label + '.csv')
+    df = pd.read_csv('time_series_covid19_' + label + '_global.csv')
     ## replace any non-standard ways of referencing countries / states
     for key in replacement_dict:
         df.replace(key, replacement_dict[key], inplace=True)
@@ -52,14 +52,14 @@ def process_df(label):
 def process_and_save_files():
     #get the three files
     #os.system("rm *.csv")
-    os.system("curl -O https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_time_series/time_series_19-covid-Confirmed.csv")
-    os.system("curl -O https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_time_series/time_series_19-covid-Deaths.csv")
-    os.system("curl -O https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_time_series/time_series_19-covid-Recovered.csv")
+    os.system("curl -O https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_time_series/time_series_covid19_confirmed_global.csv")
+    os.system("curl -O https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_time_series/time_series_covid19_deaths_global.csv")
+    os.system("curl -O https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_time_series/time_series_covid19_recovered_global.csv")
     try:
         ## process the three files
-        df_confirmed = process_df('Confirmed')
-        df_recovered = process_df('Recovered')
-        df_deaths = process_df('Deaths')
+        df_confirmed = process_df('confirmed')
+        df_recovered = process_df('recovered')
+        df_deaths = process_df('deaths')
         ## merge the three files into one
         df = df_confirmed.merge(df_recovered, on=['Country', 'State', 'Date']).merge(df_deaths, on=['Country', 'State', 'Date'])
 
@@ -148,13 +148,16 @@ def process_and_save_files():
     except Exception as e:
         return(False,str(e))
 
-# Cron job function to run this script regularly
-from utils import send_email_amazon_ses
-def update_stats_csv_job():
-  (status, message) = process_and_save_files()
-  if not status:
-    error_message = "Subject: Problem in CoViD19 Bot data loading\n\n"+message+"\n\nRegards,\nOFL Bot"
-    send_email_amazon_ses(email="covid19@onefourthlabs.com", message=error_message)
+
+
+def get_stats_data():
+    STATS_CSV = 'coronabot_stats_data.csv'
+    stats_data = pd.read_csv(STATS_CSV)
+    stats_data['Date'] = stats_data['Date'].apply(lambda x: x[0:10])
+    stats_data['Date'] = pd.to_datetime(stats_data['Date'], infer_datetime_format=True)  
+    max_date = stats_data['Date'].max()
+    return stats_data,max_date
+    
 
 if __name__ == '__main__':
-    process_and_save_files()
+    (msg, exceptions)=process_and_save_files()
