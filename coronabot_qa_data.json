@@ -3483,7 +3483,7 @@
 		"Image_URL": "https://nucleus-production.s3.amazonaws.com/uploads/E0wvYJzBevnDvQJ4LteGaZKUTi3YoDLMwphbu547.jpeg",
 		"Response_Type": "Card",
 		"Audio_Link": "",
-		"Suggestions": ["What does it mean to be fully recovered ?"]
+		"Suggestions": ["Why is coronavirus called a contagious disease?"]
 	},
 	{
 		"Intent": "what_is_phase_of_disease",
