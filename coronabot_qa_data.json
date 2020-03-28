@@ -3452,7 +3452,7 @@
 		"Image_URL": "https://cdn.the-scientist.com/assets/articleNo/67045/aImg/35755/coronavirus-incubation-l.jpg",
 		"Response_Type": "Card",
 		"Audio_Link": "",
-		"Suggestions": ["What is the incubation period ?"]
+		"Suggestions": ["I want to understand what quarantine means ?"]
 	},
 	{
 		"Intent": "what_is_phase_of_disease",
