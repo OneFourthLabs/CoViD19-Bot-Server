@@ -78,7 +78,8 @@
 		"Response_Type": "Card",
 		"Audio_Link": "",
 		"Suggestions": [
-			"What is the incubation period?"
+			"What is the incubation period?",
+			"What are the advantages of lockdown?"
 		]
 	}, {
 		"Intent": "what-is-scientific_term-or-disease",
@@ -196,7 +197,7 @@
 		"Audio_Link": "",
 		"Suggestions": [
 			"What is airborne transmission?",
-			"What is droplet transmission?"
+			"What is the difference between a mask and a respirator?"
 		]
 	}, {
 		"Intent": "what-is-scientific_term-or-disease",
@@ -1292,7 +1293,7 @@
 		"Response_Type": "Card",
 		"Audio_Link": "",
 		"Suggestions": [
-			"What treatments can I expect ?"
+			"What treatments can I expect ?", "How long must I observe quarantine ?"
 		]
 	}, {
 		"Intent": "how-is-medical-procedure-done",
@@ -2653,7 +2654,7 @@
 		"Image_URL": "https://cdn.powerofpositivity.com/wp-content/uploads/2019/12/Science-Explains-5-Reasons-People-Have-Shortness-of-Breath-And-How-to-Fix-It-1-1-1600x900.jpg",
 		"Response_Type": "Card",
 		"Audio_Link": "",
-		"Suggestions": ["What if I am asymptomatic?"]
+		"Suggestions": ["What if I am asymptomatic?", "How long must I observe quarantine ?"]
 	}, {
 		"Intent": "how-is-medical-procedure-done",
 		"Entities": {
@@ -3219,7 +3220,7 @@
 		"Image_URL": "https://thepolicytimes.com/wp-content/uploads/2018/02/How-much-profit-these-Private-Hospitals-earn-on-Drugs-Consumables-and-Diagnostics1.jpg",
 		"Response_Type": "Card",
 		"Audio_Link": "",
-		"Suggestions": ["What can a testing centre do to detect COVID-19?"]
+		"Suggestions": ["How to ensure mental fitness while working at home"]
 	},
 	{
 		"Intent": "what_to_do",
@@ -3488,7 +3489,7 @@
 	{
 		"Intent": "what_is_phase_of_disease",
 		"Entities": {
-			"phases_of_disease": "show_symptoms"
+			"phases_of_disease": "showing symptoms"
 		},
 		"Sample_Question": "What does it mean to show symptoms?",
 		"Answer_Title": "Symptoms",
@@ -3503,7 +3504,7 @@
 	{
 		"Intent": "what_is_phase_of_disease",
 		"Entities": {
-			"phases_of_disease": "show_symptoms",
+			"phases_of_disease": "showing symptoms",
 			"disease": "Coronavirus"
 		},
 		"Sample_Question": "How does one show symptoms of coronavirus?",
@@ -4218,7 +4219,7 @@
 		"Image_URL": "https://cdn.vox-cdn.com/thumbor/S5XGRRW3kB6fn7eLUCLIc_9Z7cE=/0x0:4946x3298/1820x1024/filters:focal(2078x1254:2868x2044):format(webp)/cdn.vox-cdn.com/uploads/chorus_image/image/66508937/GettyImages_1212275642.0.jpg",
 		"Response_Type": "Card",
 		"Audio_Link": "",
-		"Suggestions": ["How long must I observe quarantine ?"]
+		"Suggestions": ["How long must I observe quarantine ?", "How to wash hands with soap ?"]
 	}, {
 		"Intent": "difference-between-scientific_term_1-and-scientific_term_2",
 		"Entities": {
