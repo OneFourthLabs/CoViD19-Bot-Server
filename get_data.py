@@ -83,17 +83,18 @@ def process_and_save_files():
                     'Country': 'India',
                     'State': reg_item['loc'],
                     'Date': day,
-                    'Confirmed': reg_item['confirmedCasesIndian'] + reg_item['confirmedCasesForeign'],
-                    'Recovered': reg_item['discharged'],
-                    'Deaths': reg_item['deaths']
+                    'confirmed': reg_item['confirmedCasesIndian'] + reg_item['confirmedCasesForeign'],
+                    'recovered': reg_item['discharged'],
+                    'deaths': reg_item['deaths']
                 }, ignore_index=True)
 
 
         ## convert the date string to datetime format
         df['Date'] = pd.to_datetime(df['Date'])
         df.sort_values(by=['Country', 'State', 'Date'], inplace=True)
-        df[['Confirmed','Recovered','Deaths']] = df[['Confirmed','Recovered','Deaths']].fillna(0)
-
+        df[['confirmed','recovered','deaths']] = df[['confirmed','recovered','deaths']].fillna(0)
+        
+        df = df.rename(columns={'confirmed': 'Confirmed', 'recovered': 'Recovered', 'deaths':'Deaths'})
         for index, row in df.iterrows(): 
             if (type(row['Confirmed']) == str) or (type(row['Recovered']) == str) or (type(row['Deaths']) == str):
                 print(row)
