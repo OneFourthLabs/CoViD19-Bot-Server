@@ -11,7 +11,7 @@ import requests
 from df_payload import get_card_payload, get_plot_payload
 from utils import read_date, write_date, unlist, dict_stringify
 from apscheduler.schedulers.background import BackgroundScheduler
-from get_data import get_stats_data,process_and_save_files
+from get_data import process_and_get_files
 
 app = Flask(__name__)
 DEBUG_MODE = True
@@ -20,7 +20,7 @@ CORONA_JSON = 'coronabot_qa_data.json'
 corona_data = pd.read_json(CORONA_JSON)
 corona_data['EntitiesStr'] = corona_data['Entities'].apply(dict_stringify)
 
-stats_data,max_date = get_stats_data()
+(_ , _ , stats_data, max_date) = process_and_get_files()
 
 failure_messages = ["Sorry I could not understand you", "I am sorry, I did not follow", "Can you please rephrase that"]
 
@@ -529,18 +529,20 @@ def index():
 # Cron job function to run this script regularly
 from utils import send_email_amazon_ses
 def update_stats_csv_job():
-  (status, message) = process_and_save_files()
-  global stats_data, max_date
-  stats_data, max_date = get_stats_data()
+  (status, message, new_stats_data, new_max_date) = process_and_get_files()
   if not status:
     error_message = "Subject: Problem in CoViD19 Bot data loading\n\n"+message+"\n\nRegards,\nOFL Bot"
     send_email_amazon_ses(email="covid19@onefourthlabs.com", message=error_message)
-      
+  else:
+    global stats_data, max_date
+    stats_data = new_stats_data
+    max_date = new_max_date
+    
 if __name__ == '__main__':
   
   # Run job to periodically collect stats
   scheduler = BackgroundScheduler()
-  scheduler.add_job(func=update_stats_csv_job, trigger="interval", hours=1)
+  scheduler.add_job(func=update_stats_csv_job, trigger="interval", hours=3)
   scheduler.start()
   atexit.register(lambda: scheduler.shutdown())
 

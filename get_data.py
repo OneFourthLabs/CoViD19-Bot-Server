@@ -12,8 +12,9 @@ import datetime
 import os 
 import json
 import numpy as np
+from urllib.request import urlopen
 
-def process_df(label):
+def process_df(url,label):
     
     # replace some names used in the file so that they confirm to ISO standards 
     # (which is what DialogFlow will give as system intents)    
@@ -22,7 +23,7 @@ def process_df(label):
         'Korea, South': 'South Korea'
     }
     ## read the file corresponding to one: recovered, deaths, new cases
-    df = pd.read_csv('time_series_covid19_' + label + '_global.csv')
+    df = pd.read_csv(url)
     ## replace any non-standard ways of referencing countries / states
     for key in replacement_dict:
         df.replace(key, replacement_dict[key], inplace=True)
@@ -42,6 +43,8 @@ def process_df(label):
     df.fillna('', inplace=True)
     ## remove any duplicate rows - eg. country like India which has no state-wise info
     df.drop_duplicates(inplace=True)
+    ## remove duplicate total rows in case of mismatch in total count across states
+    df.drop_duplicates(subset=["Country","State"], keep='last', inplace=True)
     ## convert from wide form to narrow/long form
     df = pd.melt(df, id_vars = ['Country', 'State'] , var_name = 'Date', value_name=label)
     df.drop_duplicates(inplace=True)
@@ -49,23 +52,23 @@ def process_df(label):
     df.dropna(subset=[label], inplace=True)
     return df
 
-def process_and_save_files():
-    #get the three files
-    #os.system("rm *.csv")
-    os.system("curl -O https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_time_series/time_series_covid19_confirmed_global.csv")
-    os.system("curl -O https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_time_series/time_series_covid19_deaths_global.csv")
-    os.system("curl -O https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_time_series/time_series_covid19_recovered_global.csv")
+def process_and_get_files():
+    
+    GLOBAL_CONFIRMED_URL = "https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_time_series/time_series_covid19_confirmed_global.csv"
+    GLOBAL_DEATHS_URL = "https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_time_series/time_series_covid19_deaths_global.csv"
+    GLOBAL_RECOVERED_URL = "https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_time_series/time_series_covid19_recovered_global.csv"
+
     try:
         ## process the three files
-        df_confirmed = process_df('confirmed')
-        df_recovered = process_df('recovered')
-        df_deaths = process_df('deaths')
+        df_confirmed = process_df(GLOBAL_CONFIRMED_URL,'confirmed')
+        df_recovered = process_df(GLOBAL_RECOVERED_URL,'recovered')
+        df_deaths = process_df(GLOBAL_DEATHS_URL,'deaths')
         ## merge the three files into one
         df = df_confirmed.merge(df_recovered, on=['Country', 'State', 'Date']).merge(df_deaths, on=['Country', 'State', 'Date'])
 
         #load India data
-        os.system("curl -O https://api.rootnet.in/covid19-in/stats/daily")
-        with open('daily') as f:
+        # os.system("curl -O https://api.rootnet.in/covid19-in/stats/daily")
+        with urlopen("https://api.rootnet.in/covid19-in/stats/daily") as f:
             data = json.load(f)
         for item in data['data']:
             day = item['day']
@@ -115,9 +118,12 @@ def process_and_save_files():
         df_total = df_total[['Country', 'State', 'Date', 'Confirmed', 'Recovered', 'Deaths']]
         df = df.append(df_total, ignore_index = True)
 
-        df.to_csv('coronabot_stats_data.csv', index=False)
-        
-        return (True,"Success")
+        # df.to_csv('coronabot_stats_data.csv', index=False)
+        df['Date'] = df['Date'].astype(str)
+        df['Date'] = df['Date'].apply(lambda x: x[0:10])
+        df['Date'] = pd.to_datetime(df['Date'], infer_datetime_format=True)  
+        max_date = df['Date'].max()
+        return (True, "Success", df, max_date)
         # # writes output to json file which is optimised for query
         # # queries can be on country, then optionally state, and optionally date
         # with open('coronabot_stats_data.json', 'w') as json:
@@ -146,19 +152,10 @@ def process_and_save_files():
         #         prev_country = country
         #         prev_state = state
         #     json.write('\n\t}\n}\n}')
-    except Exception as e:
-        return(False,str(e))
+    except Exception as ex:
+        return(False, str(ex), None, None)
 
-
-
-def get_stats_data():
-    STATS_CSV = 'coronabot_stats_data.csv'
-    stats_data = pd.read_csv(STATS_CSV)
-    stats_data['Date'] = stats_data['Date'].apply(lambda x: x[0:10])
-    stats_data['Date'] = pd.to_datetime(stats_data['Date'], infer_datetime_format=True)  
-    max_date = stats_data['Date'].max()
-    return stats_data,max_date
     
 
 if __name__ == '__main__':
-    (msg, exceptions)=process_and_save_files()
+    (msg, exceptions, _, _) = process_and_get_files()
