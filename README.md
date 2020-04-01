@@ -2,6 +2,8 @@
 This repo contains the source code and data for the `CoViD-19 Bot` backend.  
 This includes the chatbot WebHook, data retrieving/processing scripts and daily data.
 
+The public chatbot can be found here: https://covid19.ai4bharat.org/
+
 ## Hosting on GCP  
 
 #### Optional: Setting up `virtualenv`
