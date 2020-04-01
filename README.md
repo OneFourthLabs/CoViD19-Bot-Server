@@ -1,8 +1,9 @@
 # CoViD-19 Bot Server
 This repo contains the source code and data for the `CoViD-19 Bot` backend.  
-This includes the chatbot WebHook, data retrieving/processing scripts and daily data.
+This includes the chatbot Dialogflow WebHook, data retrieving/processing scripts and daily data.
 
-The public chatbot can be found here: https://covid19.ai4bharat.org/
+- The public chatbot can be found here: [CoViD19 Bot - AI4Bharat](https://covid19.ai4bharat.org/)
+- The chatbot data (intents, entities) can be found here: [CoViD19-Bot-Dialogflow-Data](https://github.com/OneFourthLabs/CoViD19-Bot-Dialogflow-Data)
 
 ## Hosting on GCP  
 
