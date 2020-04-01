@@ -510,41 +510,41 @@ def results():
       ]
   return reply
 
-@app.route('/webhook', methods=['GET', 'POST'])
-def webhook():
-  return make_response(jsonify(results()))
-
-# Example: https://webhook-dot-covid-bot.appspot.com/test/what-is/COVID-19,OK
-@app.route('/test/<path:query>', methods=['GET', 'POST'])
-def test(query):
-  intent, entities = query.split('/')
-  entities = entities.split(',')
-  response = find_answer(intent, entities, {}).to_json(indent=4)
-  return make_response(response)
-
-@app.route('/') 
-def index():
-  return 'The server is running... Yaayy!!!'
-
 # Cron job function to run this script regularly
 from utils import send_email_amazon_ses
 def update_stats_csv_job():
+  print("Starting update_stats_csv_job", file=sys.stderr)
   (status, message, new_stats_data, new_max_date) = process_and_get_files()
   if not status:
     error_message = "Subject: Problem in CoViD19 Bot data loading\n\n"+message+"\n\nRegards,\nOFL Bot"
     send_email_amazon_ses(email="covid19@onefourthlabs.com", message=error_message)
+    print("Error: "+message, file=sys.stderr)
   else:
     global stats_data, max_date
     stats_data = new_stats_data
     max_date = new_max_date
-    
-if __name__ == '__main__':
-  
+  print("Ending update_stats_csv_job", file=sys.stderr)
+  return
+
+scheduler = BackgroundScheduler()
+
+@app.before_first_request
+def init_server():
+  print("Running Flask.before_first_request ...", file=sys.stderr)
   # Run job to periodically collect stats
-  scheduler = BackgroundScheduler()
   scheduler.add_job(func=update_stats_csv_job, trigger="interval", hours=3)
   scheduler.start()
-  atexit.register(lambda: scheduler.shutdown())
+  #atexit.register(lambda: scheduler.shutdown())
+  return
 
+@app.route('/webhook', methods=['GET', 'POST'])
+def webhook():
+  return make_response(jsonify(results()))
+
+@app.route('/')
+def index():
+  return 'The server is running... Yaayy!!!'
+
+if __name__ == '__main__':
   # Run Flask server
   app.run(port=8000, debug=DEBUG_MODE, use_reloader=not DEBUG_MODE)
