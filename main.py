@@ -359,62 +359,11 @@ def get_stats(intent, entities, context):
   elif intent.startswith("stats-show-map"):
     return get_map(intent, entities, context)
 
-GET_DIAGNOSIS_URL = 'https://db-server-dot-corona-bot-gbakse.appspot.com/get_diagnosis_by_token'
-def get_risk_status(intent, entities, context, question):
-  # Question example:
-  # I have submitted by diagnostic enquiry form with id #xxxx#. Please let me know the details
-  try:
-    token = question.split('#')[1]
-  except:
-    return {
-      "Response_Type": "Error:BadQuestionFormatting",
-      "Answer": random.choice(failure_messages)
-    }
-  
-  try:
-    db_response = requests.post(GET_DIAGNOSIS_URL, json={'token': token}, timeout=5)
-    record = json.loads(db_response.text)['record']
-  except:
-    return {
-      "Response_Type": "Error:RecordRetrievalFailed",
-      "Answer": "Unable to fetch your record"
-    }
-  
-  response = {
-      "Response_Type": "Text",
-      "Answer": "We have your record, we will let you know soon. \n\n(%s)" % db_response.text
-    }
-
-  #write code to get age
-
-  #write code to get gender
-
-  #write code to get symptoms 
-
-  #write code to get existing medical conditions
-
-  #write code to get travel history
-
-  #now write the logic for deciding severity
-  #if (some conditions) :
-  #    return {'risk-type':'severe'}# we will this as the 'entities' associated with the intent and pass it to the json
-
-  #if (some other conditions) :
-  #    return {'risk-type':'moderate'}# we will this as the 'entities' associated with the intent and pass it to the json
-
-  #if (some other conditions) :
-  #    return {'risk-type':'ok'}# we will this as the 'entities' associated with the intent and pass it to the json
-
-  return response
-
 ####
 def find_answer(intent, entities, context, question=''):
 
   if intent[0:5] == 'stats':
     return get_stats(intent, entities, context)
-
-  if intent == 'risk-assessment':
-    return get_risk_status(intent, entities, context, question)
 
   entities = dict_stringify(entities)
 
