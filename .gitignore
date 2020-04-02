@@ -1,3 +1,2 @@
 *.pyc
-daily
-time_series*.csv
+mailer.py
