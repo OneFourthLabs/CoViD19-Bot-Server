@@ -1,5 +1,4 @@
 import datetime
-import smtplib, ssl
 from constants import *
 
 def read_date(date):
@@ -67,18 +66,3 @@ def read_entry(entities, context, field):
 
 def read_entry_arr(entities, context, fields):
   return [read_entry(entities, context, x) for x in fields]
-
-def send_email_amazon_ses(email,message):
-    port = 587  # For TLS
-    smtp_server = "email-smtp.ap-south-1.amazonaws.com"
-    sender_email = "padhai@onefourthlabs.com"  # Enter your address
-    username = 'AKIAQUZXTKQUGUPFSUTT'
-    password = 'BISWYdsQVqHUJkJIY2KN4SoR3NZJ7SSp/v+cRsMbspAz'
-    
-    receiver_email = email  # Enter receiver address
-    context = ssl.create_default_context()
-    with smtplib.SMTP(smtp_server, port) as server:
-        server.starttls(context=context)
-        server.login(username, password)
-        server.sendmail(sender_email, receiver_email, message)
-

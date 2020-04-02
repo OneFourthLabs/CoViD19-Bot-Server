@@ -6,6 +6,7 @@ import sys
 from get_data import process_and_get_files
 from constants import *
 from utils import *
+from mailer import send_email_amazon_ses
 
 def read_stats_entries(entities, context, fields):
   if entities[entities_index['country']]: # If country is specified in current question...
