@@ -5,54 +5,21 @@ import datetime
 import json
 import numpy as np
 import os, sys
+from apscheduler.schedulers.background import BackgroundScheduler
 import atexit
-import requests
 
 from df_payload import get_card_payload, get_plot_payload
-from utils import read_date, write_date, unlist, dict_stringify
-from apscheduler.schedulers.background import BackgroundScheduler
+from utils import *
 from get_data import process_and_get_files
+from constants import *
+from covid_qa import CoViD_QnA
 
 app = Flask(__name__)
 DEBUG_MODE = True
 
-CORONA_JSON = 'coronabot_qa_data.json'
-corona_data = pd.read_json(CORONA_JSON)
-corona_data['EntitiesStr'] = corona_data['Entities'].apply(dict_stringify)
+covid_qa_handler = CoViD_QnA()
 
 (_ , _ , stats_data, max_date) = process_and_get_files()
-
-failure_messages = ["Sorry I could not understand you", "I am sorry, I did not follow", "Can you please rephrase that"]
-
-stats_error_messages = ["I could not find the numbers for that query"]
-INDIA_PLOT_URLS = {
-  'patients': 'https://ai4bharat.org/covid19-indian-patients-tracking',
-  'map': 'https://ai4bharat.org/covid19-map',
-  'state_wise': 'https://ai4bharat.org/covid19-table'
-}
-
-entities_index = {'country': 'geo-country', 'state': 'geo-state', 'case_type': 'case_types', 'location_type': 'location_type', 'chart_type': 'plot_type', 'aggregation_type': 'aggregation_type', 'date': 'date-time'}
-default_values = {'country': 'World', 'state': 'Total', 'case_type': 'Confirmed', 'location_type': 'country', 'chart_type': 'barplot', 'aggregation_type': 'total', 'date': ''}
-context_index = {'country': 'ctx_geo-country', 'state': 'ctx_geo-state', 'case_type': 'ctx_case_types', 'location_type': 'ctx_location_type', 'chart_type': 'ctx_plot_type', 'aggregation_type': 'ctx_aggregation_type', 'date': 'ctx_date-time'}
-
-def clear_from_context(context, fields):
-  for field in fields:
-    if context_index[field] in context:
-      context[context_index[field]] = ''
-  return context
-
-def read_entry(entities, context, field):
-  entry = None
-  if entities_index[field] in entities and len(entities[entities_index[field]]) > 0:
-    entry = entities[entities_index[field]]
-  elif context_index[field] in context  and len(context[context_index[field]]) > 0:
-    entry = context[context_index[field]]
-  else:
-    entry = default_values[field]
-  return unlist(entry)
-
-def read_entry_arr(entities, context, fields):
-  return [read_entry(entities, context, x) for x in fields]
 
 def read_stats_entries(entities, context, fields):
 
@@ -365,29 +332,7 @@ def find_answer(intent, entities, context, question=''):
   if intent[0:5] == 'stats':
     return get_stats(intent, entities, context)
 
-  entities = dict_stringify(entities)
-
-  data_match_intent = corona_data[corona_data["Intent"] == intent]
-
-  # intent was not found
-  if data_match_intent.empty:
-    response = {
-      "Response_Type": "Error:IntentNotFound",
-      "Answer": random.choice(failure_messages)
-    }
-    return response
-
-  # intent was found
-  data_match = data_match_intent[data_match_intent['EntitiesStr'] == entities]
-
-  if data_match.empty:
-    response = {
-      "Response_Type": "Error:EntitiesNotFound",
-      "Answer": random.choice(failure_messages)
-    }
-    return response
-
-  return data_match.iloc[0]
+  return covid_qa_handler.get_response(intent, entities, context, question)
 
 def get_updated_context(params, context):
 
@@ -397,7 +342,6 @@ def get_updated_context(params, context):
       context['ctx_' + param] = params[param]
 
   return context
-
 
 def results():
 

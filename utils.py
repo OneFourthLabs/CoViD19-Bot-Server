@@ -1,5 +1,6 @@
 import datetime
 import smtplib, ssl
+from constants import *
 
 def read_date(date):
   if date[0:4] == '2021':
@@ -28,6 +29,25 @@ def dict_stringify(entities):
         str_ += ','.join(sorted(entities[key]))
       str_ += "],"
   return str_
+
+def clear_from_context(context, fields):
+  for field in fields:
+    if context_index[field] in context:
+      context[context_index[field]] = ''
+  return context
+
+def read_entry(entities, context, field):
+  entry = None
+  if entities_index[field] in entities and len(entities[entities_index[field]]) > 0:
+    entry = entities[entities_index[field]]
+  elif context_index[field] in context  and len(context[context_index[field]]) > 0:
+    entry = context[context_index[field]]
+  else:
+    entry = default_values[field]
+  return unlist(entry)
+
+def read_entry_arr(entities, context, fields):
+  return [read_entry(entities, context, x) for x in fields]
 
 def send_email_amazon_ses(email,message):
     port = 587  # For TLS
