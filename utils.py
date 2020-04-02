@@ -30,6 +30,25 @@ def dict_stringify(entities):
       str_ += "],"
   return str_
 
+def get_context_from_request(req, context_name):
+  context_id = req["session"] + "/contexts/"+context_name
+
+  context = {}
+  for item in req["queryResult"]["outputContexts"]:
+    if item['name'] == context_id:
+      context = item["parameters"] if "parameters" in item else {}
+  
+  return context_id, context
+
+def get_updated_context(params, context):
+
+  # TODO: Construct a list of history instead of replacing with new? Set expiry?
+  for param in params:
+    if params[param]:
+      context['ctx_' + param] = params[param]
+
+  return context
+
 def clear_from_context(context, fields):
   for field in fields:
     if context_index[field] in context:

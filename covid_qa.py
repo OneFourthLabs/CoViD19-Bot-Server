@@ -13,7 +13,7 @@ class CoViD_QnA:
   def get_response(self, intent, entities, context, question):
     entities = dict_stringify(entities)
 
-    data_match_intent = self.corona_data[corona_data["Intent"] == intent]
+    data_match_intent = self.corona_data[self.corona_data["Intent"] == intent]
 
     # intent was not found
     if data_match_intent.empty:
