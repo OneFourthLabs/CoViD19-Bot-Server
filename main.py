@@ -1,26 +1,27 @@
 from flask import Flask, request, make_response, jsonify
-import sys
+from flask_cors import CORS, cross_origin
+import sys, os
 from apscheduler.schedulers.background import BackgroundScheduler
 import atexit
+import dialogflow
+from google.api_core.exceptions import InvalidArgument
+from google.protobuf.json_format import MessageToDict
+
 from df_payload import get_card_payload, get_plot_payload
 from utils import *
 from constants import *
 from covid_qa import CoViD_QnA
 from covid_stats import CoViD_Stats
-import os
-import dialogflow
-from google.api_core.exceptions import InvalidArgument
-from google.protobuf.json_format import MessageToDict
 
-app = Flask(__name__)
 DEBUG_MODE = True
-
-covid_qa_handler = CoViD_QnA()
-covid_stats_handler = CoViD_Stats()
-
 DIALOGFLOW_PROJECT_ID = 'PROJECT_ID_HERE'
 # os.environ['GOOGLE_APPLICATION_CREDENTIALS'] = "/home/user/Downloads/sa.json"
 
+app = Flask(__name__)
+cors = CORS(app, resources={r"/*": {"origins": "*"}})
+
+covid_qa_handler = CoViD_QnA()
+covid_stats_handler = CoViD_Stats()
 
 def find_answer(intent, entities, context, question=''):
 
