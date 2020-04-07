@@ -14,8 +14,8 @@ from covid_qa import CoViD_QnA
 from covid_stats import CoViD_Stats
 
 DEBUG_MODE = True
-DIALOGFLOW_PROJECT_ID = 'PROJECT_ID_HERE'
-# os.environ['GOOGLE_APPLICATION_CREDENTIALS'] = "/home/user/Downloads/sa.json"
+DIALOGFLOW_PROJECT_ID = os.environ['GOOGLE_CLOUD_PROJECT'] if 'GOOGLE_CLOUD_PROJECT' in os.environ else 'PROJECT_ID_HERE'
+# os.environ['GOOGLE_APPLICATION_CREDENTIALS'] = "/home/user/Downloads/sa.json" #If local machine
 
 app = Flask(__name__)
 cors = CORS(app, resources={r"/*": {"origins": "*"}})
@@ -115,7 +115,7 @@ def get_dialogflow_account_details():
 
 @app.route('/get_response_for_query', methods=['POST'])
 def get_response_for_query():
-    input_ = request.json
+    input_ = request.get_json(force=True)
     session_id = input_["session"]
     text_data = input_["queryInput"]["text"]["text"]
     language_code = input_["queryInput"]["text"]["languageCode"]
