@@ -8,7 +8,6 @@ from constants import *
 from covid_qa import CoViD_QnA
 from covid_stats import CoViD_Stats
 import os
-import uuid
 import dialogflow
 from google.api_core.exceptions import InvalidArgument
 from google.protobuf.json_format import MessageToDict
@@ -20,7 +19,6 @@ covid_qa_handler = CoViD_QnA()
 covid_stats_handler = CoViD_Stats()
 
 DIALOGFLOW_PROJECT_ID = 'PROJECT_ID_HERE'
-DIALOGFLOW_LANGUAGE_CODE = 'en'
 # os.environ['GOOGLE_APPLICATION_CREDENTIALS'] = "/home/user/Downloads/sa.json"
 
 
@@ -106,14 +104,18 @@ def index():
     return 'The server is running... Yaayy!!!'
 
 
-@app.route('/get_response_for_text', methods=['GET', 'POST'])
-def get_response_for_text():
-    text_data = request.args.get('data')
-    SESSION_ID = str(uuid.uuid4())
+@app.route('/get_response_for_query', methods=['POST'])
+def get_response_for_query():
+    input_ = request.json
+    session_id = input_["session"]
+    text_data = input_["queryInput"]["text"]["text"]
+    language_code = input_["queryInput"]["text"]["languageCode"]
+
     session_client = dialogflow.SessionsClient()
-    session = session_client.session_path(DIALOGFLOW_PROJECT_ID, SESSION_ID)
+    session = session_client.session_path(
+        DIALOGFLOW_PROJECT_ID, session_id)
     text_input = dialogflow.types.TextInput(
-        text=text_data, language_code=DIALOGFLOW_LANGUAGE_CODE)
+        text=text_data, language_code=language_code)
     query_input = dialogflow.types.QueryInput(text=text_input)
     try:
         response = session_client.detect_intent(
