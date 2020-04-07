@@ -104,6 +104,14 @@ def index():
     return 'The server is running... Yaayy!!!'
 
 
+@app.route('/get_dialogflow_account_details', methods=['GET'])
+def get_dialogflow_account_details():
+    client = dialogflow.AgentsClient()
+    parent = client.project_path(DIALOGFLOW_PROJECT_ID)
+    details = client.get_agent(parent)
+    return make_response(jsonify(MessageToDict(details)))
+
+
 @app.route('/get_response_for_query', methods=['POST'])
 def get_response_for_query():
     input_ = request.json
