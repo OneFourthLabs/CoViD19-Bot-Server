@@ -2,8 +2,7 @@
 This repo contains the source code and data for the `CoViD-19 Bot` backend.  
 This includes the chatbot Dialogflow WebHook, data retrieving/processing scripts and daily data.
 
-- The public chatbot can be found here: [CoViD19 Bot - AI4Bharat](https://covid19.ai4bharat.org/)
-- The chatbot data (intents, entities) can be found here: [CoViD19-Bot-Dialogflow-Data](https://github.com/OneFourthLabs/CoViD19-Bot-Dialogflow-Data)
+- The public chatbot can be found here: [CoViD19 Bot - AI4Bharat](https://covid19.ai4bharat.org/chatbot.html)
 
 ## Hosting on GCP  
 
@@ -28,8 +27,8 @@ This includes the chatbot Dialogflow WebHook, data retrieving/processing scripts
 2. To run this WebHook server: `python main.py`
 3. Use `{HTTPS_URL_FROM_GROK}/webhook` as Dialogflow webhook URL
 
-## JSON Data Updation
+## Steps to restore Dialogflow backup
 
-1. Export the [data sheet](https://docs.google.com/spreadsheets/d/1Em3NLwATeXTQOmVzbt7O4l4ZzdohrKWhZI9rtgEWlVY) as CSV
-2. Convert CSV to our JSON using [this notebook](https://colab.research.google.com/drive/1vzXlzXLgjg7VpiKAbme5VrFKQlXlcF89)
-3. Put the JSON in this repo root directory with proper name.
+1. The chatbot data (intents, entities) can be found here: [Dialogflow-Data.zip](https://github.com/OneFourthLabs/CoViD19-Bot-Server/releases).
+2. Go to [Dialogflow](https://dialogflow.cloud.google.com/#/editAgent/) -> Project Settings (Gear Icon)
+3. `Export and Import` Tab -> Choose an appropriate option and upload the zip.
